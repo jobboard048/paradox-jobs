@@ -1,0 +1,6 @@
+
+BLOCKED: HTTP 403 on https://jobs.mchire.com/api/get-jobs?radius=15&enable_kilometers=false&page_number=1
+The site's bot protection refuses requests that do not come from a browser.
+No authentication is involved (the API answers in a browser without any login).
+This scraper does not get around it. Options: Paradox's official API, an agreement
+with the employer, or a licensed job-data provider.

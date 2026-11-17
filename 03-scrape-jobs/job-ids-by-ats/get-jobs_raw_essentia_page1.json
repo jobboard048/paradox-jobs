@@ -1,0 +1,1936 @@
+{
+ "request": {
+  "method": "POST",
+  "url": "https://www.essentiacareers.org/api/get-jobs?page_number=1",
+  "body": {
+   "disable_switch_search_mode": false,
+   "site_available_languages": [
+    "en"
+   ]
+  },
+  "referer": "https://www.essentiacareers.org/jobs"
+ },
+ "retrieved": "2026-11-17",
+ "totalJob": 802,
+ "facets": [
+  {
+   "alias": "State",
+   "field": "state",
+   "facet_field_keyvalue": [
+    {
+     "original_value": "Minnesota",
+     "custom_value": "Minnesota",
+     "doc_count": 590
+    },
+    {
+     "original_value": "North Dakota",
+     "custom_value": "North Dakota",
+     "doc_count": 174
+    },
+    {
+     "original_value": "Wisconsin",
+     "custom_value": "Wisconsin",
+     "doc_count": 38
+    }
+   ]
+  },
+  {
+   "alias": "City",
+   "field": "city",
+   "facet_field_keyvalue": [
+    {
+     "original_value": "Ada",
+     "custom_value": "Ada",
+     "doc_count": 13
+    },
+    {
+     "original_value": "Ashland",
+     "custom_value": "Ashland",
+     "doc_count": 10
+    },
+    {
+     "original_value": "Aurora",
+     "custom_value": "Aurora",
+     "doc_count": 9
+    },
+    {
+     "original_value": "Baxter",
+     "custom_value": "Baxter",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Bismarck",
+     "custom_value": "Bismarck",
+     "doc_count": 24
+    },
+    {
+     "original_value": "Brainerd",
+     "custom_value": "Brainerd",
+     "doc_count": 109
+    },
+    {
+     "original_value": "Crosslake",
+     "custom_value": "Crosslake",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Deer River",
+     "custom_value": "Deer River",
+     "doc_count": 15
+    },
+    {
+     "original_value": "Detroit Lakes",
+     "custom_value": "Detroit Lakes",
+     "doc_count": 75
+    },
+    {
+     "original_value": "Duluth",
+     "custom_value": "Duluth",
+     "doc_count": 233
+    },
+    {
+     "original_value": "Ely",
+     "custom_value": "Ely",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Esko",
+     "custom_value": "Esko",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Fargo",
+     "custom_value": "Fargo",
+     "doc_count": 131
+    },
+    {
+     "original_value": "Fosston",
+     "custom_value": "Fosston",
+     "doc_count": 31
+    },
+    {
+     "original_value": "Graceville",
+     "custom_value": "Graceville",
+     "doc_count": 12
+    },
+    {
+     "original_value": "Grand Rapids",
+     "custom_value": "Grand Rapids",
+     "doc_count": 8
+    },
+    {
+     "original_value": "Hayward",
+     "custom_value": "Hayward",
+     "doc_count": 5
+    },
+    {
+     "original_value": "Hermantown",
+     "custom_value": "Hermantown",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Hibbing",
+     "custom_value": "Hibbing",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Hinckley",
+     "custom_value": "Hinckley",
+     "doc_count": 2
+    },
+    {
+     "original_value": "International Falls",
+     "custom_value": "International Falls",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Jamestown",
+     "custom_value": "Jamestown",
+     "doc_count": 7
+    },
+    {
+     "original_value": "Moorhead",
+     "custom_value": "Moorhead",
+     "doc_count": 4
+    },
+    {
+     "original_value": "Moose Lake",
+     "custom_value": "Moose Lake",
+     "doc_count": 8
+    },
+    {
+     "original_value": "Park Rapids",
+     "custom_value": "Park Rapids",
+     "doc_count": 7
+    },
+    {
+     "original_value": "Pierz",
+     "custom_value": "Pierz",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Proctor",
+     "custom_value": "Proctor",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Sandstone",
+     "custom_value": "Sandstone",
+     "doc_count": 6
+    },
+    {
+     "original_value": "Spooner",
+     "custom_value": "Spooner",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Superior",
+     "custom_value": "Superior",
+     "doc_count": 20
+    },
+    {
+     "original_value": "Valley City",
+     "custom_value": "Valley City",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Virginia",
+     "custom_value": "Virginia",
+     "doc_count": 43
+    },
+    {
+     "original_value": "Wahpeton",
+     "custom_value": "Wahpeton",
+     "doc_count": 6
+    },
+    {
+     "original_value": "West Fargo",
+     "custom_value": "West Fargo",
+     "doc_count": 3
+    }
+   ]
+  },
+  {
+   "alias": "Job Family",
+   "field": "facility",
+   "facet_field_keyvalue": [
+    {
+     "original_value": "Acute Nursing",
+     "custom_value": "Acute Nursing",
+     "doc_count": 70
+    },
+    {
+     "original_value": "Administration",
+     "custom_value": "Administration",
+     "doc_count": 7
+    },
+    {
+     "original_value": "All EMS",
+     "custom_value": "All EMS",
+     "doc_count": 8
+    },
+    {
+     "original_value": "Ambulatory Nursing",
+     "custom_value": "Ambulatory Nursing",
+     "doc_count": 7
+    },
+    {
+     "original_value": "Athletic Training",
+     "custom_value": "Athletic Training",
+     "doc_count": 5
+    },
+    {
+     "original_value": "Audiology",
+     "custom_value": "Audiology",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Behavioral Health Technician",
+     "custom_value": "Behavioral Health Technician",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Child Care",
+     "custom_value": "Child Care",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Clinical Assistant",
+     "custom_value": "Clinical Assistant",
+     "doc_count": 46
+    },
+    {
+     "original_value": "Clinical Intern",
+     "custom_value": "Clinical Intern",
+     "doc_count": 3
+    },
+    {
+     "original_value": "CRNA",
+     "custom_value": "CRNA",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Dietitian",
+     "custom_value": "Dietitian",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Environmental Services",
+     "custom_value": "Environmental Services",
+     "doc_count": 20
+    },
+    {
+     "original_value": "Facilities",
+     "custom_value": "Facilities",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Finance Services",
+     "custom_value": "Finance Services",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Fitness",
+     "custom_value": "Fitness",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Health Unit Coordinator",
+     "custom_value": "Health Unit Coordinator",
+     "doc_count": 7
+    },
+    {
+     "original_value": "Human Resources",
+     "custom_value": "Human Resources",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Information Services",
+     "custom_value": "Information Services",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Laboratory Leadership",
+     "custom_value": "Laboratory Leadership",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Laboratory Technician & Technologist",
+     "custom_value": "Laboratory Technician & Technologist",
+     "doc_count": 39
+    },
+    {
+     "original_value": "Licensed Practical Nurse",
+     "custom_value": "Licensed Practical Nurse",
+     "doc_count": 28
+    },
+    {
+     "original_value": "Long Term Care Nursing",
+     "custom_value": "Long Term Care Nursing",
+     "doc_count": 11
+    },
+    {
+     "original_value": "Long Term Care Support",
+     "custom_value": "Long Term Care Support",
+     "doc_count": 4
+    },
+    {
+     "original_value": "Maintenance",
+     "custom_value": "Maintenance",
+     "doc_count": 5
+    },
+    {
+     "original_value": "Nurse Practitioner",
+     "custom_value": "Nurse Practitioner",
+     "doc_count": 37
+    },
+    {
+     "original_value": "Nursing Assistant",
+     "custom_value": "Nursing Assistant",
+     "doc_count": 72
+    },
+    {
+     "original_value": "Nursing Education",
+     "custom_value": "Nursing Education",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Nutrition Services",
+     "custom_value": "Nutrition Services",
+     "doc_count": 25
+    },
+    {
+     "original_value": "Occupational Therapy",
+     "custom_value": "Occupational Therapy",
+     "doc_count": 9
+    },
+    {
+     "original_value": "Patient Care Operations Other",
+     "custom_value": "Patient Care Operations Other",
+     "doc_count": 14
+    },
+    {
+     "original_value": "Patient Care Professional Other",
+     "custom_value": "Patient Care Professional Other",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Patient Care Support Other",
+     "custom_value": "Patient Care Support Other",
+     "doc_count": 7
+    },
+    {
+     "original_value": "Patient Care Technician",
+     "custom_value": "Patient Care Technician",
+     "doc_count": 14
+    },
+    {
+     "original_value": "Patient Care Technologist",
+     "custom_value": "Patient Care Technologist",
+     "doc_count": 11
+    },
+    {
+     "original_value": "Pharmacist",
+     "custom_value": "Pharmacist",
+     "doc_count": 14
+    },
+    {
+     "original_value": "Pharmacy Leadership",
+     "custom_value": "Pharmacy Leadership",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Pharmacy Student",
+     "custom_value": "Pharmacy Student",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Pharmacy Technician",
+     "custom_value": "Pharmacy Technician",
+     "doc_count": 11
+    },
+    {
+     "original_value": "Physical Therapy",
+     "custom_value": "Physical Therapy",
+     "doc_count": 13
+    },
+    {
+     "original_value": "Physician",
+     "custom_value": "Physician",
+     "doc_count": 195
+    },
+    {
+     "original_value": "Physician Assistant",
+     "custom_value": "Physician Assistant",
+     "doc_count": 4
+    },
+    {
+     "original_value": "Physician Services",
+     "custom_value": "Physician Services",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Psychology",
+     "custom_value": "Psychology",
+     "doc_count": 5
+    },
+    {
+     "original_value": "Psychotherapy",
+     "custom_value": "Psychotherapy",
+     "doc_count": 7
+    },
+    {
+     "original_value": "Radiology Technician",
+     "custom_value": "Radiology Technician",
+     "doc_count": 44
+    },
+    {
+     "original_value": "Registered Nursing Leadership",
+     "custom_value": "Registered Nursing Leadership",
+     "doc_count": 9
+    },
+    {
+     "original_value": "Registered Nursing Other",
+     "custom_value": "Registered Nursing Other",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Registration & Scheduling",
+     "custom_value": "Registration & Scheduling",
+     "doc_count": 25
+    },
+    {
+     "original_value": "Rehabilitation Aide",
+     "custom_value": "Rehabilitation Aide",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Respiratory Therapy",
+     "custom_value": "Respiratory Therapy",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Revenue Services",
+     "custom_value": "Revenue Services",
+     "doc_count": 2
+    },
+    {
+     "original_value": "RN Intern",
+     "custom_value": "RN Intern",
+     "doc_count": 5
+    },
+    {
+     "original_value": "Security",
+     "custom_value": "Security",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Social Workers",
+     "custom_value": "Social Workers",
+     "doc_count": 4
+    },
+    {
+     "original_value": "Speech-Language Pathology",
+     "custom_value": "Speech-Language Pathology",
+     "doc_count": 6
+    },
+    {
+     "original_value": "Spiritual Care",
+     "custom_value": "Spiritual Care",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Sterile Processing",
+     "custom_value": "Sterile Processing",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Supply Chain",
+     "custom_value": "Supply Chain",
+     "doc_count": 6
+    }
+   ]
+  },
+  {
+   "alias": "Remote",
+   "field": "is_remote",
+   "facet_field_keyvalue": [
+    {
+     "original_value": "false",
+     "custom_value": "No",
+     "doc_count": 802
+    }
+   ]
+  },
+  {
+   "alias": "Employment Type",
+   "field": "employment_type",
+   "facet_field_keyvalue": [
+    {
+     "original_value": "FULL_TIME",
+     "custom_value": "Full Time",
+     "doc_count": 360
+    },
+    {
+     "original_value": "PART_TIME",
+     "custom_value": "Part Time",
+     "doc_count": 442
+    }
+   ]
+  }
+ ],
+ "jobs": [
+  {
+   "sourceID": "35ba44a16ac8ec8933741b3a57bf9907",
+   "uniqueID": "0A9D0825F498F4AD391A96F0A707FAF6",
+   "requisitionID": "R084998",
+   "reference": "R084998",
+   "title": "2027 Summer Student Nurse Internship Program - Detroit Lakes",
+   "description": "<div class='description'><h3>Job Description:</h3>Spend Summer 2027 at Essentia Health – Detroit Lakes as a Student Nurse Intern.As a Student Nurse Intern, you will work under direct supervision, providing essential support in both routine and technical aspects of nursing care for patients of all ages.</div><div class='requirements'><h3>Education Qualifications:</h3><p><b>Key Responsibilities:</b></p><br /><ul><li>Assist with patient care activities while adhering to best practices and protocols.</li><li>Collaborate with nursing staff to ensure compliance with the Joint Commission and other relevant federal, state, and local regulations.</li><li>Help maintain a safe and healing environment for patients and families.</li></ul><p> </p><p><b>Wage: $22/per Hour</b></p><p><b>Internship Dates: June 7th-August 13th, 2027</b></p><p> </p><p><b>Units Available for Student Nurse Interns:</b></p><ul><li>ICU</li><li>BirthCenter</li><li>Med/Surg</li><li>Emergency</li><li>Surgical Services</li><li>Critical Access Locations<ul><li>Fosston</li><li>Ada</li><li>Graceville</li></ul></li></ul><br /><p>*Unit availability may vary.</p><br /><p><b>Apply Online and Please Attach the Following:</b></p><ul><li>Resume</li><li>Cover Letter outlining your top 3 units of choice</li><li>Unofficial Transcripts</li><li></li></ul><p><b>**Application Deadline December 13th, 2026**</b></p><p> </p><p> </p><p><b>Requirements:</b></p><br /><ul><li>Current enrollment in an accredited nursing program (BSN or ADN)</li><li>Completion of junior year of a Bachelor’s Nursing Program or 2 clinical semesters of an Associates Nursing Program, graduating no later than May 2028 following the internship </li><li>Enrollment and active participation in an approved <b><u>internship co-operative course</u></b> at an accredited nursing school in the state of employment for the summer semester</li><li>Must be able to commit to 30-36 hours/week</li><li>Students with full/part-time summer class loads will have adjusted hour requirements and must be able to commit to 32 hours every two weeks</li></ul></div><div class='extended_description'><h3>Licensure/Certification Qualifications:</h3><br /><ul><li>Basic Cardiac Life Support (BCLS) certification within 1 month of hire  </li><li>BCLS certifications through Red Cross must be renewed through the American Heart Association if continuing as a senior nurse intern  </li><li>This certification must not expire during the internship. </li></ul><br /><p>*<b>Summer Interns could continue their internship during the school in a PRN capacity as Senior Intern (space may be limited)</b>*</p><br /><p><i>**Please also note, this is a temporary status position and is not eligible for benefits**</i></p></div>",
+   "companyID": "scrape-prod-58433",
+   "companyName": "Essentia Health - Career Site Only",
+   "locations": [
+    {
+     "zipCode": "56501",
+     "locationID": "DETLKSHOSP",
+     "locationName": "St Marys Hospital - Detroit Lakes",
+     "streetAddress": "1027 Washington Ave",
+     "city": "Detroit Lakes",
+     "state": "Minnesota",
+     "stateAbbr": "MN",
+     "address1": "",
+     "address2": "",
+     "country": "United States",
+     "countryAbbr": "US",
+     "latitude": 46.8151479,
+     "longitude": -95.8437163,
+     "locationText": "1027 Washington Ave, Detroit Lakes, Minnesota",
+     "locationParsedText": "1027 Washington Ave, Detroit Lakes, MN 56501, United States",
+     "isRemote": false,
+     "postalCode": "",
+     "distance": -1,
+     "sublocality": "",
+     "cityState": "Detroit Lakes, Minnesota",
+     "cityStateAbbr": "Detroit Lakes, MN"
+    }
+   ],
+   "isRemote": false,
+   "employmentType": [
+    "Part Time"
+   ],
+   "employmentStatus": [],
+   "postingType": "1",
+   "isInternal": "false",
+   "applyURL": "https://essentiahealth.wd1.myworkdayjobs.com/Essentia_Health/job/Detroit-Lakes-MN/XMLNAME-2027-Summer-Student-Nurse-Internship-Program---Detroit-Lakes_R084998/apply",
+   "originalURL": "2027-summer-student-nurse-internship-program-detroit-lakes/job/0A9D0825F498F4AD391A96F0A707FAF6",
+   "lang": "en",
+   "availableLanguages": [
+    "en"
+   ],
+   "commuteTimeDuration": 0,
+   "customFields": [
+    {
+     "cfKey": "cf_job_level",
+     "value": "Clinical - 1 (C1)",
+     "key": "Job Level"
+    },
+    {
+     "cfKey": "cf_credential_status",
+     "value": "Non Credentialed",
+     "key": "Credential Status"
+    },
+    {
+     "cfKey": "cf_job_family",
+     "value": "RN Intern",
+     "key": "Job Family"
+    },
+    {
+     "cfKey": "cf_work_shift",
+     "value": "Rotating Shift (United States of America)",
+     "key": "Work Shift"
+    },
+    {
+     "cfKey": "cf_job_family_group",
+     "value": "Student",
+     "key": "Job Family Group"
+    },
+    {
+     "cfKey": "cf_shift_rotation",
+     "value": "Rotating Shift (United States of America)",
+     "key": "Shift Rotation"
+    },
+    {
+     "cfKey": "cf_shift_start",
+     "key": "Shift Start"
+    },
+    {
+     "cfKey": "cf_shift_end",
+     "key": "Shift End"
+    },
+    {
+     "cfKey": "cf_hours_per_pay_period",
+     "key": "Hours Per Pay Period"
+    },
+    {
+     "cfKey": "cf_job_location",
+     "value": "St Marys Hospital - Detroit Lakes",
+     "key": "Job Location"
+    },
+    {
+     "cfKey": "cf_compensation_range",
+     "key": "Compensation Range"
+    },
+    {
+     "cfKey": "cf_union",
+     "key": "Union"
+    },
+    {
+     "cfKey": "cf_FTE",
+     "value": "0",
+     "key": "FTE"
+    },
+    {
+     "cfKey": "cf_weekends",
+     "key": "Weekends"
+    },
+    {
+     "cfKey": "cf_callObligations",
+     "key": "Call Obligations"
+    },
+    {
+     "cfKey": "cf_SignOnBonus",
+     "key": "Sign on Bonus"
+    },
+    {
+     "cfKey": "cf_Benefits",
+     "value": "Employee Benefits at Essentia Health:\nAt Essentia Health, we’re committed to supporting your well-being, growth, and work-life balance. Our comprehensive benefits include medical, dental, vision, life, and disability insurance, along with supplemental options to fit your needs. We offer a 401(k) plan with employer contributions to help you plan for the future, and we invest in your professional development through training, tuition reimbursement, and educational programs. To help you thrive both at work and at home, we provide flexible scheduling, generous time off, and wellness resources focused on your physical, mental, and emotional health. Please note that benefit eligibility may vary. For full details, refer to your benefit summary or contact our HR Service Center at (218) 576-0000.",
+     "key": "Benefits"
+    },
+    {
+     "cfKey": "cf_internal",
+     "value": "No",
+     "key": "Internal"
+    }
+   ],
+   "facilityName": "RN Intern",
+   "jobCardExtraFields": []
+  },
+  {
+   "sourceID": "fefced899846a7569828c7c6d2f35b44",
+   "uniqueID": "143E47301DC21BF189BB0C8830D96230",
+   "requisitionID": "R084433",
+   "reference": "R084433",
+   "title": "Acute Care Clinical Supervisor Patient Flow Center",
+   "description": "<div class='description'><h3>Job Description:</h3>The acute care supervisor will perform responsibilities under the direction of accountable nurse leadership.  Assess, direct, manage and evaluate the delivery of nursing care and patient support services to achieve a specified standard of care and quality metrics for a designated patient population. Ensures streamlined patient care delivery systems, which promote smooth patient transitions across the continuum. Responsible for effective fiscal and operational management and maintains optimum patient care unit systems, including staffing, scheduling, resource allocation, and communication. This position collaborates in the development and achievement of unit goals and performance improvement activities. Works with the accountable manager to ensure staff orientation, education, development and evaluations are completed.</div><div class='requirements'><h3>Education Qualifications:</h3><p>Key Responsibilities:</p><ul><li><span>Oversee and manage day-to-day nursing operations ensuring appropriate staffing </span><span>levels, delegating tasks, and providing guidance to maintain high-quality patient care</span></li><li><span>Ensure that the unit adheres to healthcare regulations, hospital policies, and </span><span>accreditation standards, while promoting best practices for patient safety and care </span><span>quality</span></li><li><span>Overseeing and managing performance and evaluation of registered nurses and </span><span>patient care support staff</span></li><li><span>Act as a liaison between nursing staff, physicians, patients and families, ensuring clear </span><span>communication and collaboration to optimize patient outcomes</span></li></ul><p></p><p>Educational Requirements:</p><p><span>Duluth, Fargo and Brainerd</span><span>:</span></p><ul><li><span>BSN or BAN from an accredited school or college of nursing.</span></li></ul><p></p><p><span>All other locations:</span></p><ul><li><span>BSN or BAN from an accredited school or college of nursing within 3 years of hire.</span> ​</li></ul><p></p><p>Required Qualifications:</p><ul><li>Minimum of 2 years previous RN experience</li></ul></div><div class='extended_description'><h3>Licensure/Certification Qualifications:</h3><p>Certification/Licensure Required:</p><ul><li>Current nursing licensure in state(s) of employment</li><li>Basic cardiac Life Support (BCLS) certification within 1 month</li></ul></div>",
+   "companyID": "scrape-prod-58433",
+   "companyName": "Essentia Health - Career Site Only",
+   "locations": [
+    {
+     "zipCode": "55805",
+     "locationID": "MDMC",
+     "locationName": "Building D - Miller Dwan Medical Center - EH Duluth",
+     "streetAddress": "502 E 2nd St",
+     "city": "Duluth",
+     "state": "Minnesota",
+     "stateAbbr": "MN",
+     "address1": "",
+     "address2": "",
+     "country": "United States",
+     "countryAbbr": "US",
+     "latitude": 46.7926452,
+     "longitude": -92.0937394,
+     "locationText": "502 E 2nd St, Duluth, Minnesota",
+     "locationParsedText": "502 E 2nd St, Duluth, MN 55805, United States",
+     "isRemote": false,
+     "postalCode": "",
+     "distance": -1,
+     "sublocality": "",
+     "cityState": "Duluth, Minnesota",
+     "cityStateAbbr": "Duluth, MN"
+    }
+   ],
+   "isRemote": false,
+   "employmentType": [
+    "Full Time"
+   ],
+   "employmentStatus": [],
+   "postingType": "1",
+   "isInternal": "false",
+   "applyURL": "https://essentiahealth.wd1.myworkdayjobs.com/Essentia_Health/job/Duluth-MN/Acute-Care-Clinical-Supervisor-Patient-Flow-Center_R084433/apply",
+   "originalURL": "acute-care-clinical-supervisor-patient-flow-center/job/143E47301DC21BF189BB0C8830D96230",
+   "lang": "en",
+   "availableLanguages": [
+    "en"
+   ],
+   "commuteTimeDuration": 0,
+   "customFields": [
+    {
+     "cfKey": "cf_job_level",
+     "value": "Leadership - 2 (L2)",
+     "key": "Job Level"
+    },
+    {
+     "cfKey": "cf_credential_status",
+     "value": "Non Credentialed",
+     "key": "Credential Status"
+    },
+    {
+     "cfKey": "cf_job_family",
+     "value": "Registered Nursing Leadership",
+     "key": "Job Family"
+    },
+    {
+     "cfKey": "cf_work_shift",
+     "value": "Day/Eve/Night Rotation (United States of America)",
+     "key": "Work Shift"
+    },
+    {
+     "cfKey": "cf_job_family_group",
+     "value": "Registered Nursing",
+     "key": "Job Family Group"
+    },
+    {
+     "cfKey": "cf_shift_rotation",
+     "value": "Day/Eve/Night Rotation (United States of America)",
+     "key": "Shift Rotation"
+    },
+    {
+     "cfKey": "cf_shift_start",
+     "value": "0800",
+     "key": "Shift Start"
+    },
+    {
+     "cfKey": "cf_shift_end",
+     "value": "1700",
+     "key": "Shift End"
+    },
+    {
+     "cfKey": "cf_hours_per_pay_period",
+     "value": "80",
+     "key": "Hours Per Pay Period"
+    },
+    {
+     "cfKey": "cf_job_location",
+     "value": "Building D - Miller Dwan Medical Center - EH Duluth",
+     "key": "Job Location"
+    },
+    {
+     "cfKey": "cf_compensation_range",
+     "value": "$92227 - $138341 / year",
+     "key": "Compensation Range"
+    },
+    {
+     "cfKey": "cf_union",
+     "key": "Union"
+    },
+    {
+     "cfKey": "cf_FTE",
+     "value": "1",
+     "key": "FTE"
+    },
+    {
+     "cfKey": "cf_weekends",
+     "value": "Occasional weekends",
+     "key": "Weekends"
+    },
+    {
+     "cfKey": "cf_callObligations",
+     "key": "Call Obligations"
+    },
+    {
+     "cfKey": "cf_SignOnBonus",
+     "key": "Sign on Bonus"
+    },
+    {
+     "cfKey": "cf_Benefits",
+     "value": "Employee Benefits at Essentia Health:\nAt Essentia Health, we’re committed to supporting your well-being, growth, and work-life balance. Our comprehensive benefits include medical, dental, vision, life, and disability insurance, along with supplemental options to fit your needs. We offer a 401(k) plan with employer contributions to help you plan for the future, and we invest in your professional development through training, tuition reimbursement, and educational programs. To help you thrive both at work and at home, we provide flexible scheduling, generous time off, and wellness resources focused on your physical, mental, and emotional health. Please note that benefit eligibility may vary. For full details, refer to your benefit summary or contact our HR Service Center at (218) 576-0000.",
+     "key": "Benefits"
+    },
+    {
+     "cfKey": "cf_internal",
+     "value": "No",
+     "key": "Internal"
+    }
+   ],
+   "facilityName": "Registered Nursing Leadership",
+   "jobCardExtraFields": []
+  },
+  {
+   "sourceID": "9f66895aff16737c89ce352da7ea64b6",
+   "uniqueID": "1650A1CCF22C32E36C12C8BB30642B9A",
+   "requisitionID": "R082724",
+   "reference": "R082724",
+   "title": "Applications Analyst III - Workday Extend",
+   "description": "<div class='description'><h3>Job Description:</h3>Provides a variety of services designed to apply computer technology to solve highly complex clinical, financial, and patient data problems of the organization.</div><div class='requirements'><h3>Education Qualifications:</h3><p>Responsibilities include evaluating needs; developing models, specifications and logic diagrams; customizing package programs and developing new applications/programs; implementing/installing new programs/systems; providing support to user departments on a wide variety of systems. May serve as project leader for new/modified system projects. Provides technical advice and training to other system professionals and users.</p><p></p><p><b>Experience with Workday Extend is strongly preferred.</b></p><p></p><p>Bachelors degree in Computer Science, Information Systems, or equivalent field of study plus 5 years’ experience working as a Systems Analyst or in a Computer Programming related field.</p><p>OR</p><p>Associates degree in Computer Science, Information Systems, or equivalent field of study plus 7 years’ experience working as a Systems Analyst or in a Computer Programming related field.</p><p>OR</p><p>9 years of experience working as a Systems Analyst or in a Computer Programming Related Field.</p></div><div class='extended_description'><h3>Licensure/Certification Qualifications:</h3><p>No certification/licensure required.</p></div>",
+   "companyID": "scrape-prod-58433",
+   "companyName": "Essentia Health - Career Site Only",
+   "locations": [
+    {
+     "zipCode": "55805",
+     "locationID": "PEERLESS",
+     "locationName": "Peerless Building",
+     "streetAddress": "532 E 1st St",
+     "city": "Duluth",
+     "state": "Minnesota",
+     "stateAbbr": "MN",
+     "address1": "",
+     "address2": "",
+     "country": "United States",
+     "countryAbbr": "US",
+     "latitude": 46.7929808,
+     "longitude": -92.0915242,
+     "locationText": "532 E 1st St, Duluth, Minnesota",
+     "locationParsedText": "532 E 1st St, Duluth, MN 55805, United States",
+     "isRemote": false,
+     "postalCode": "",
+     "distance": -1,
+     "sublocality": "",
+     "cityState": "Duluth, Minnesota",
+     "cityStateAbbr": "Duluth, MN"
+    }
+   ],
+   "isRemote": false,
+   "employmentType": [
+    "Full Time"
+   ],
+   "employmentStatus": [],
+   "postingType": "1",
+   "isInternal": "false",
+   "applyURL": "https://essentiahealth.wd1.myworkdayjobs.com/Essentia_Health/job/Duluth-MN/Applications-Analyst-II-or-III---Workday-Extend_R082724-1/apply",
+   "originalURL": "applications-analyst-iii-workday-extend/job/1650A1CCF22C32E36C12C8BB30642B9A",
+   "lang": "en",
+   "availableLanguages": [
+    "en"
+   ],
+   "commuteTimeDuration": 0,
+   "customFields": [
+    {
+     "cfKey": "cf_job_level",
+     "value": "Professional - 3 (P3)",
+     "key": "Job Level"
+    },
+    {
+     "cfKey": "cf_credential_status",
+     "value": "Non Credentialed",
+     "key": "Credential Status"
+    },
+    {
+     "cfKey": "cf_job_family",
+     "value": "Information Services",
+     "key": "Job Family"
+    },
+    {
+     "cfKey": "cf_work_shift",
+     "value": "Day Rotation (United States of America)",
+     "key": "Work Shift"
+    },
+    {
+     "cfKey": "cf_job_family_group",
+     "value": "Business Operations",
+     "key": "Job Family Group"
+    },
+    {
+     "cfKey": "cf_shift_rotation",
+     "value": "Day Rotation (United States of America)",
+     "key": "Shift Rotation"
+    },
+    {
+     "cfKey": "cf_shift_start",
+     "value": "8:00 AM",
+     "key": "Shift Start"
+    },
+    {
+     "cfKey": "cf_shift_end",
+     "value": "4:30 PM",
+     "key": "Shift End"
+    },
+    {
+     "cfKey": "cf_hours_per_pay_period",
+     "value": "80",
+     "key": "Hours Per Pay Period"
+    },
+    {
+     "cfKey": "cf_job_location",
+     "value": "Peerless Building",
+     "key": "Job Location"
+    },
+    {
+     "cfKey": "cf_compensation_range",
+     "value": "$74901 - $112362 / year",
+     "key": "Compensation Range"
+    },
+    {
+     "cfKey": "cf_union",
+     "key": "Union"
+    },
+    {
+     "cfKey": "cf_FTE",
+     "value": "1",
+     "key": "FTE"
+    },
+    {
+     "cfKey": "cf_weekends",
+     "key": "Weekends"
+    },
+    {
+     "cfKey": "cf_callObligations",
+     "value": "Yes",
+     "key": "Call Obligations"
+    },
+    {
+     "cfKey": "cf_SignOnBonus",
+     "key": "Sign on Bonus"
+    },
+    {
+     "cfKey": "cf_Benefits",
+     "value": "Employee Benefits at Essentia Health:\nAt Essentia Health, we’re committed to supporting your well-being, growth, and work-life balance. Our comprehensive benefits include medical, dental, vision, life, and disability insurance, along with supplemental options to fit your needs. We offer a 401(k) plan with employer contributions to help you plan for the future, and we invest in your professional development through training, tuition reimbursement, and educational programs. To help you thrive both at work and at home, we provide flexible scheduling, generous time off, and wellness resources focused on your physical, mental, and emotional health. Please note that benefit eligibility may vary. For full details, refer to your benefit summary or contact our HR Service Center at (218) 576-0000.",
+     "key": "Benefits"
+    },
+    {
+     "cfKey": "cf_internal",
+     "value": "No",
+     "key": "Internal"
+    }
+   ],
+   "facilityName": "Information Services",
+   "jobCardExtraFields": []
+  },
+  {
+   "sourceID": "bc0ad66dd37a470c88686b3208fd3652",
+   "uniqueID": "429524E38A4BE83478946E930041FB19",
+   "requisitionID": "R084529",
+   "reference": "R084529",
+   "title": "Athletic Trainer - Ambulatory Care - Orthopedics Specialties Float",
+   "description": "<div class='description'><h3>Job Description:</h3>Essentia Health’s Ambulatory Care Athletic Trainers deliver comprehensive patient care, including evaluation, education, treatment, consultation, and related services, in collaboration with and under the supervision of a physician.</div><div class='requirements'><h3>Education Qualifications:</h3><p>Education Requirements: </p><ul><li><span style=\"color:#000000\"><span style=\"font-size:inherit\">Athletic training program graduate</span></span></li></ul><br /><p><b>Key Responsibilities:</b></p><ul><li><span style=\"color:#242424\">Provides services to patients ranging from adolescents to geriatrics in an ambulatory setting to contribute to meeting the mission and goals of Essentia Health.</span></li><li><span style=\"color:#242424\">Provides patient care activities under the direct supervision of a physician including; evaluation and assessment, education, treatment and consultation services, and related patient care services. Will perform identified procedures for which competencies have been demonstrated.</span></li></ul><p> </p><p>Schedule: Monday - Friday, 8:00am - 4:30pm. Set day off that works best for hire and clinic. </p></div><div class='extended_description'><h3>Licensure/Certification Qualifications:</h3><p>Certification/Licensure Requirements:</p><ul><li>Registered by Board of Medical Practice per state guidelines.</li><li>Certification in CPR.</li><li>NATA board certification (BOC) and the appropriate state licenses.</li><li>Current state registration in appropriate state.</li></ul><br /></div>",
+   "companyID": "scrape-prod-58433",
+   "companyName": "Essentia Health - Career Site Only",
+   "locations": [
+    {
+     "zipCode": "56501",
+     "locationID": "DETROITLKS",
+     "locationName": "St Marys - Detroit Lakes Clinic",
+     "streetAddress": "125 Frazee St E",
+     "city": "Detroit Lakes",
+     "state": "Minnesota",
+     "stateAbbr": "MN",
+     "address1": "",
+     "address2": "",
+     "country": "United States",
+     "countryAbbr": "US",
+     "latitude": 46.8155559,
+     "longitude": -95.8437562,
+     "locationText": "125 Frazee St E, Detroit Lakes, Minnesota",
+     "locationParsedText": "125 Frazee St E, Detroit Lakes, MN 56501, United States",
+     "isRemote": false,
+     "postalCode": "",
+     "distance": -1,
+     "sublocality": "",
+     "cityState": "Detroit Lakes, Minnesota",
+     "cityStateAbbr": "Detroit Lakes, MN"
+    }
+   ],
+   "isRemote": false,
+   "employmentType": [
+    "Part Time"
+   ],
+   "employmentStatus": [],
+   "postingType": "1",
+   "isInternal": "false",
+   "applyURL": "https://essentiahealth.wd1.myworkdayjobs.com/Essentia_Health/job/Detroit-Lakes-MN/Athletic-Trainer---Ambulatory-Care---Orthopedics-Specialties-Float--Full-Time-_R084529-1/apply",
+   "originalURL": "athletic-trainer-ambulatory-care-orthopedics-specialties-float/job/429524E38A4BE83478946E930041FB19",
+   "lang": "en",
+   "availableLanguages": [
+    "en"
+   ],
+   "commuteTimeDuration": 0,
+   "customFields": [
+    {
+     "cfKey": "cf_job_level",
+     "value": "Clinical - 3 (C3)",
+     "key": "Job Level"
+    },
+    {
+     "cfKey": "cf_credential_status",
+     "value": "Non Credentialed",
+     "key": "Credential Status"
+    },
+    {
+     "cfKey": "cf_job_family",
+     "value": "Licensed Practical Nurse|Athletic Training",
+     "key": "Job Family"
+    },
+    {
+     "cfKey": "cf_work_shift",
+     "value": "Day Rotation (United States of America)",
+     "key": "Work Shift"
+    },
+    {
+     "cfKey": "cf_job_family_group",
+     "value": "Rehabilitation",
+     "key": "Job Family Group"
+    },
+    {
+     "cfKey": "cf_shift_rotation",
+     "value": "Day Rotation (United States of America)",
+     "key": "Shift Rotation"
+    },
+    {
+     "cfKey": "cf_shift_start",
+     "value": "8:00am",
+     "key": "Shift Start"
+    },
+    {
+     "cfKey": "cf_shift_end",
+     "value": "4:30pm",
+     "key": "Shift End"
+    },
+    {
+     "cfKey": "cf_hours_per_pay_period",
+     "value": "80",
+     "key": "Hours Per Pay Period"
+    },
+    {
+     "cfKey": "cf_job_location",
+     "value": "St Marys - Detroit Lakes Clinic",
+     "key": "Job Location"
+    },
+    {
+     "cfKey": "cf_compensation_range",
+     "value": "$25.98 - $38.97 / hour",
+     "key": "Compensation Range"
+    },
+    {
+     "cfKey": "cf_union",
+     "key": "Union"
+    },
+    {
+     "cfKey": "cf_FTE",
+     "value": "0.8",
+     "key": "FTE"
+    },
+    {
+     "cfKey": "cf_weekends",
+     "key": "Weekends"
+    },
+    {
+     "cfKey": "cf_callObligations",
+     "key": "Call Obligations"
+    },
+    {
+     "cfKey": "cf_SignOnBonus",
+     "key": "Sign on Bonus"
+    },
+    {
+     "cfKey": "cf_Benefits",
+     "value": "Employee Benefits at Essentia Health:\nAt Essentia Health, we’re committed to supporting your well-being, growth, and work-life balance. Our comprehensive benefits include medical, dental, vision, life, and disability insurance, along with supplemental options to fit your needs. We offer a 401(k) plan with employer contributions to help you plan for the future, and we invest in your professional development through training, tuition reimbursement, and educational programs. To help you thrive both at work and at home, we provide flexible scheduling, generous time off, and wellness resources focused on your physical, mental, and emotional health. Please note that benefit eligibility may vary. For full details, refer to your benefit summary or contact our HR Service Center at (218) 576-0000.",
+     "key": "Benefits"
+    },
+    {
+     "cfKey": "cf_internal",
+     "value": "No",
+     "key": "Internal"
+    }
+   ],
+   "facilityName": "Licensed Practical Nurse",
+   "jobCardExtraFields": []
+  },
+  {
+   "sourceID": "0ee5eb42ac6d9a029290fb5cb1025da9",
+   "uniqueID": "BF8060649D4CC0FA4B34B6C6C37ADD6D",
+   "requisitionID": "R082757",
+   "reference": "R082757",
+   "title": "Athletic Trainer - Sports Medicine (FT)",
+   "description": "<div class='description'><h3>Job Description:</h3>Become part of Essentia's accomplished team where our mission guides us every day: We are called to make a healthy difference in people’s lives. This calling resonates deeply for our caregivers and our colleagues working behind the scenes, who all bring high-quality, compassionate care to the patients we are privileged to serve.</div><div class='requirements'><h3>Education Qualifications:</h3><ul><li>Bachelor's or Master's Degree in Athletic training from an accredited program.</li></ul><p></p><p><b>Key Responsibilities: </b></p><ul><li><p>Provides Athletic Trainer coverage for high school athletic programs, including practices, games, and tournaments</p></li><li><p>Prevent, evaluate, treat, and rehabilitate injuries and medical conditions of student-athletes</p></li><li><p>Collaborate with physicians, coaches, school staff, and parents to ensure the health and safety of student-athletes</p></li><li><p>Maintain accurate and up-to-date medical documentation</p></li><li><p>Develop and implement injury prevention programs, including strength and conditioning guidance and education</p></li><li><p>Provide emergency care and establish appropriate medical referrals as needed</p></li><li><p>Support school health initiatives by assisting with wellness education and community engagement opportunities</p></li><li><p>Deliver athletic training services for select community events (e.g., youth leagues, tournaments, outreach programs) in collaboration with Essentia Health</p></li></ul></div><div class='extended_description'><h3>Licensure/Certification Qualifications:</h3><ul><li><span>NATA board certification (BOC) required upon hire.</span></li><li><span>Registered by Board of Medical Practice per state guidelines. (See new graduate exception below)</span></li><li><span>Basic Cardiac Life Support (BCLS) certification required upon hire</span></li></ul><p></p><p><span>New graduates of Athletic Training program may begin orientation, but they may not perform athletic trainer duties until state licensure is active. For new graduates, state licensure application must be submitted prior to start date and will be required within 90 days of hire.</span></p></div>",
+   "companyID": "scrape-prod-58433",
+   "companyName": "Essentia Health - Career Site Only",
+   "locations": [
+    {
+     "zipCode": "58103",
+     "locationID": "FARGO-32ND",
+     "locationName": "32nd Avenue Building",
+     "streetAddress": "3000 32nd Ave S",
+     "city": "Fargo",
+     "state": "North Dakota",
+     "stateAbbr": "ND",
+     "address1": "",
+     "address2": "",
+     "country": "United States",
+     "countryAbbr": "US",
+     "latitude": 46.831348,
+     "longitude": -96.8275755,
+     "locationText": "3000 32nd Ave S, Fargo, North Dakota",
+     "locationParsedText": "3000 32nd Ave S, Fargo, ND 58103, United States",
+     "isRemote": false,
+     "postalCode": "",
+     "distance": -1,
+     "sublocality": "",
+     "cityState": "Fargo, North Dakota",
+     "cityStateAbbr": "Fargo, ND"
+    }
+   ],
+   "isRemote": false,
+   "employmentType": [
+    "Full Time"
+   ],
+   "employmentStatus": [],
+   "postingType": "1",
+   "isInternal": "false",
+   "applyURL": "https://essentiahealth.wd1.myworkdayjobs.com/Essentia_Health/job/Fargo-ND/Athletic-Trainer---Sports-Medicine--FT-_R082757-1/apply",
+   "originalURL": "athletic-trainer-sports-medicine-ft/job/BF8060649D4CC0FA4B34B6C6C37ADD6D",
+   "lang": "en",
+   "availableLanguages": [
+    "en"
+   ],
+   "commuteTimeDuration": 0,
+   "customFields": [
+    {
+     "cfKey": "cf_job_level",
+     "value": "Clinical - 3 (C3)",
+     "key": "Job Level"
+    },
+    {
+     "cfKey": "cf_credential_status",
+     "value": "Non Credentialed",
+     "key": "Credential Status"
+    },
+    {
+     "cfKey": "cf_job_family",
+     "value": "Athletic Training",
+     "key": "Job Family"
+    },
+    {
+     "cfKey": "cf_work_shift",
+     "value": "Day Rotation (United States of America)",
+     "key": "Work Shift"
+    },
+    {
+     "cfKey": "cf_job_family_group",
+     "value": "Rehabilitation",
+     "key": "Job Family Group"
+    },
+    {
+     "cfKey": "cf_shift_rotation",
+     "value": "Day Rotation (United States of America)",
+     "key": "Shift Rotation"
+    },
+    {
+     "cfKey": "cf_shift_start",
+     "value": "Varies",
+     "key": "Shift Start"
+    },
+    {
+     "cfKey": "cf_shift_end",
+     "value": "Varies",
+     "key": "Shift End"
+    },
+    {
+     "cfKey": "cf_hours_per_pay_period",
+     "value": "80",
+     "key": "Hours Per Pay Period"
+    },
+    {
+     "cfKey": "cf_job_location",
+     "value": "32nd Avenue Building",
+     "key": "Job Location"
+    },
+    {
+     "cfKey": "cf_compensation_range",
+     "value": "$54038 - $81058 / year",
+     "key": "Compensation Range"
+    },
+    {
+     "cfKey": "cf_union",
+     "key": "Union"
+    },
+    {
+     "cfKey": "cf_FTE",
+     "value": "1",
+     "key": "FTE"
+    },
+    {
+     "cfKey": "cf_weekends",
+     "value": "As needed",
+     "key": "Weekends"
+    },
+    {
+     "cfKey": "cf_callObligations",
+     "key": "Call Obligations"
+    },
+    {
+     "cfKey": "cf_SignOnBonus",
+     "key": "Sign on Bonus"
+    },
+    {
+     "cfKey": "cf_Benefits",
+     "value": "Employee Benefits at Essentia Health:\nAt Essentia Health, we’re committed to supporting your well-being, growth, and work-life balance. Our comprehensive benefits include medical, dental, vision, life, and disability insurance, along with supplemental options to fit your needs. We offer a 401(k) plan with employer contributions to help you plan for the future, and we invest in your professional development through training, tuition reimbursement, and educational programs. To help you thrive both at work and at home, we provide flexible scheduling, generous time off, and wellness resources focused on your physical, mental, and emotional health. Please note that benefit eligibility may vary. For full details, refer to your benefit summary or contact our HR Service Center at (218) 576-0000.",
+     "key": "Benefits"
+    },
+    {
+     "cfKey": "cf_internal",
+     "value": "No",
+     "key": "Internal"
+    }
+   ],
+   "facilityName": "Athletic Training",
+   "jobCardExtraFields": []
+  },
+  {
+   "sourceID": "fa66822204dcadd6e6487086f1bf7184",
+   "uniqueID": "8048A921AD5A69CE79DC30E32C17B399",
+   "requisitionID": "R081864",
+   "reference": "R081864",
+   "title": "Athletic Trainer - Surgical Orthopedics",
+   "description": "<div class='description'><h3>Job Description:</h3>Provides Athletic Training services to patients ranging from adolescent to geriatric in a surgical orthopedics clinical environment, including evaluation and assessment, education, treatment and consultation services and related patient care services under the supervision of the orthopedic surgeon.</div><div class='requirements'><h3>Education Qualifications:</h3><ul><li><span>Athletic training program graduate</span></li></ul><p><b>Preferred Experience:</b></p><ul><li><span>Prior surgical practice experience</span></li></ul><p></p><p><b>This is an experienced athletic training position with daily responsibilities to include the following:</b></p><p></p><p><i>Management and Administration of Physician Practice</i></p><ul><li><span>Effectively anticipate needs and preferences of the provider</span></li><li><span>Be the liaison between multi-disciplinary health care team members</span></li><li><span>Proficient use of Epic EMR</span></li><li><span>Schedule patient appointments per provider template</span></li></ul><p></p><p><i>Patient Throughput</i></p><ul><li><span>Patient triage</span></li><li><span>Present pertinent patient information to provider</span></li><li><span>Aid in flow of clinic by communicating with provider, patient, triage, and staff; reviewing patient charts, and patient education.</span></li></ul><p></p><p><i>Patient Care</i></p><ul><li><span>Secure thorough and relevant patient history</span></li><li><span>Perform patient assessment, evaluation, and testing</span></li><li><span>Patient education through plan of care</span></li><li><span>Demonstrate and administer home exercise programs (HEPs)</span></li><li><span>Apply durable medical equipment (DME)</span></li><li><span>Apply casts and splints</span></li><li><span>Prepare injections</span></li></ul><p></p><p>Schedule: Monday - Friday<span>  </span>8:00am - 4:30pm/5:00pm</p></div><div class='extended_description'><h3>Licensure/Certification Qualifications:</h3><ul><li><span>BOC certification required upon hire.</span></li><li><span>CAATE accredited athletic training program graduate with successful completion of BOC certification examination.</span></li><li><span>OTC or BCS-O certification preferred upon hire, or ability to sit for either exam after hire.</span></li><li><span>Registered by Board of Medical Practice per state guidelines*</span></li><li><span>Certification in BLS/CPR</span></li><li><span>Basic computer competency skills are expected for this position</span></li></ul><p></p><p>* <i><span>New graduates of Athletic Training program may begin orientation, but they may not perform athletic trainer duties until state licensure is active. For new graduates, state licensure application must be submitted prior to start date and will be required within 90 days of hire.</span></i></p><p></p><p><b><span>Duluth, MN – Like Nowhere Else!</span></b><br /><span>Making your home in the port city of Duluth allows you to live and work on the shores of the largest freshwater lake in the world. With ships arriving daily and beautiful swimming beaches throughout the area, Lake Superior truly makes Duluth a place like no other. And here your career, too, comes with a view — you can see Lake Superior every day from the windows in your workplace! Life in the Twin Ports area — the metropolitan area created by Duluth and Superior, WI — combines big-city energy and opportunities with our small-town feel. With four distinct seasons, a thriving arts and culture scene, and recreational opportunities such as biking, hiking, swimming, fishing, and sailing — we truly have something for everyone.</span></p><p><b>Making a Healthy Difference in YOUR life</b></p><p>We understand better than most how important your health is. That is why we offer comprehensive benefits packages that meet the unique needs of you and your family. These benefits include:</p><ul><li><b>Health Coverage: </b>Medical, dental, and vision insurance options to ensure employees' well-being.</li><li><b>Retirement Savings Plans:</b> 401(k) with employer contributions to support long-term financial security.</li><li><b>Employee Wellness Programs: </b>Initiatives focused on physical, mental, and emotional health, including fitness memberships, counseling services, and wellness activities.</li></ul><p></p><p><b>Life at Essentia</b></p><p>At Essentia, you are more than just a number; your role is crucial for delivering exceptional patient care! We value each team member's dedication and offer opportunities for growth, development, and a strong sense of belonging. We're excited to invest in you as a valued member of our team through:</p><p></p><ul><li><b>Professional Development: </b>Opportunities for career growth through training, tuition reimbursement, and educational programs.</li><li><b>Work-Life Balance: </b>Flexible scheduling, paid time off, and personal leave to help employees manage their professional and personal lives.</li><li><b>Colleague Resource Groups: </b>Colleague Resource Groups (CRGs) are employee-led networks designed to foster inclusion, belonging, and professional growth within the organization. They offer voluntary spaces for collaboration and socialization, aiming to support members, enhance organizational culture, and engage with the broader community.</li></ul><p></p><p>.</p></div>",
+   "companyID": "scrape-prod-58433",
+   "companyName": "Essentia Health - Career Site Only",
+   "locations": [
+    {
+     "zipCode": "55805",
+     "locationID": "3RDBLDG",
+     "locationName": "Building F - Duluth Clinic - 3rd Street",
+     "streetAddress": "400 E 3rd St",
+     "city": "Duluth",
+     "state": "Minnesota",
+     "stateAbbr": "MN",
+     "address1": "",
+     "address2": "",
+     "country": "United States",
+     "countryAbbr": "US",
+     "latitude": 46.7932732,
+     "longitude": -92.0966385,
+     "locationText": "400 E 3rd St, Duluth, Minnesota",
+     "locationParsedText": "400 E 3rd St, Duluth, MN 55805, United States",
+     "isRemote": false,
+     "postalCode": "",
+     "distance": -1,
+     "sublocality": "",
+     "cityState": "Duluth, Minnesota",
+     "cityStateAbbr": "Duluth, MN"
+    }
+   ],
+   "isRemote": false,
+   "employmentType": [
+    "Full Time"
+   ],
+   "employmentStatus": [],
+   "postingType": "1",
+   "isInternal": "false",
+   "applyURL": "https://essentiahealth.wd1.myworkdayjobs.com/Essentia_Health/job/Duluth-MN/Athletic-Trainer---Surgical-Orthopedics_R081864/apply",
+   "originalURL": "athletic-trainer-surgical-orthopedics/job/8048A921AD5A69CE79DC30E32C17B399",
+   "lang": "en",
+   "availableLanguages": [
+    "en"
+   ],
+   "commuteTimeDuration": 0,
+   "customFields": [
+    {
+     "cfKey": "cf_job_level",
+     "value": "Clinical - 3 (C3)",
+     "key": "Job Level"
+    },
+    {
+     "cfKey": "cf_credential_status",
+     "value": "Non Credentialed",
+     "key": "Credential Status"
+    },
+    {
+     "cfKey": "cf_job_family",
+     "value": "Athletic Training",
+     "key": "Job Family"
+    },
+    {
+     "cfKey": "cf_work_shift",
+     "value": "Day Rotation (United States of America)",
+     "key": "Work Shift"
+    },
+    {
+     "cfKey": "cf_job_family_group",
+     "value": "Rehabilitation",
+     "key": "Job Family Group"
+    },
+    {
+     "cfKey": "cf_shift_rotation",
+     "value": "Day Rotation (United States of America)",
+     "key": "Shift Rotation"
+    },
+    {
+     "cfKey": "cf_shift_start",
+     "value": "8:00am",
+     "key": "Shift Start"
+    },
+    {
+     "cfKey": "cf_shift_end",
+     "value": "4:30 - 5:00pm",
+     "key": "Shift End"
+    },
+    {
+     "cfKey": "cf_hours_per_pay_period",
+     "value": "80",
+     "key": "Hours Per Pay Period"
+    },
+    {
+     "cfKey": "cf_job_location",
+     "value": "Building F - Duluth Clinic - 3rd Street",
+     "key": "Job Location"
+    },
+    {
+     "cfKey": "cf_compensation_range",
+     "value": "$54038 - $81058 / year",
+     "key": "Compensation Range"
+    },
+    {
+     "cfKey": "cf_union",
+     "key": "Union"
+    },
+    {
+     "cfKey": "cf_FTE",
+     "value": "1",
+     "key": "FTE"
+    },
+    {
+     "cfKey": "cf_weekends",
+     "value": "No",
+     "key": "Weekends"
+    },
+    {
+     "cfKey": "cf_callObligations",
+     "key": "Call Obligations"
+    },
+    {
+     "cfKey": "cf_SignOnBonus",
+     "key": "Sign on Bonus"
+    },
+    {
+     "cfKey": "cf_Benefits",
+     "value": "Employee Benefits at Essentia Health:\nAt Essentia Health, we’re committed to supporting your well-being, growth, and work-life balance. Our comprehensive benefits include medical, dental, vision, life, and disability insurance, along with supplemental options to fit your needs. We offer a 401(k) plan with employer contributions to help you plan for the future, and we invest in your professional development through training, tuition reimbursement, and educational programs. To help you thrive both at work and at home, we provide flexible scheduling, generous time off, and wellness resources focused on your physical, mental, and emotional health. Please note that benefit eligibility may vary. For full details, refer to your benefit summary or contact our HR Service Center at (218) 576-0000.",
+     "key": "Benefits"
+    },
+    {
+     "cfKey": "cf_internal",
+     "value": "No",
+     "key": "Internal"
+    }
+   ],
+   "facilityName": "Athletic Training",
+   "jobCardExtraFields": []
+  },
+  {
+   "sourceID": "306a64efd8bd7a94957846cf17a374d8",
+   "uniqueID": "D19E373243D36147B58E180357BE5CFB",
+   "requisitionID": "R073130",
+   "reference": "R073130",
+   "title": "Audiologist (Casual) - Duluth, MN",
+   "description": "<div class='description'><h3>Job Description:</h3>Provides a comprehensive array of professional services related to the identification, assessment, diagnosis, and treatment of persons with auditory and balance disorders and the disabilities associated with them. Audiologists utilize evaluation, assessment, patient education and counseling tools to identify and provide non-medical management of disorders of the auditory, balance, and neural system. Audiologists work independently and in collaboration with physicians and other healthcare professionals.</div><div class='requirements'><h3>Education Qualifications:</h3><p>AuD or PhD in Audiology or an Audiologist practicing with a masters degree in audiology before August 2007.</p><p></p></div><div class='extended_description'><h3>Licensure/Certification Qualifications:</h3><div><h2><span>AUDIOLOGIST - Casual</span></h2><p></p></div><p><b>PRACTICE SPECIFICS</b></p><ul><li>Provide a comprehensive array of diagnostic audiology tests and rehabilitative services to patients of all ages</li><li>Diagnostic testing: audiological, vestibular, and implant assessments, immittance, otoacoustic emissions, evoked potentials</li><li>Rehabilitative services: implant programming, hearing instrument recommendations, selection and fittings, aural rehab and treatment for Benign Paroxysmal Positioning Vertigo</li><li>Majority of position is direct care to outpatients and inpatients</li><li>CASUSAL HOURS</li></ul><h3></h3><h3><b>REQUIREMENTS</b></h3><ul><li><span>AuD or PhD in Audiology or an Audiologist practicing with a Master’s degree in Audiology before August 2007</span></li><li><span>Eligible for licensure as an Audiologist in Wisconsin and Minnesota</span></li></ul><p></p><h3><b>LOCATION</b></h3><ul><li><span>150 miles north of Minneapolis, MN</span></li><li>Located on the westernmost tip of Great Lake Superior</li><li><span>Superior population: 28,000; Duluth/Superior regional population: 130,000</span></li></ul><p></p><p><b>Apply online at </b><a href=\"http://www.essentiahealth.org/careers\" target=\"_blank\"><b>www.essentiahealth.org/careers</b></a><b> </b></p><p>For more information contact:</p><p>Alissa Notenberg, Physician and Advanced Practice Recruiter</p><p>Email: <a href=\"mailto:Alissa.Notenberg@EssentiaHealth.org\" target=\"_blank\">Alissa.Notenberg@EssentiaHealth.org</a></p><p></p><p>Hired candidates may be eligible to receive additional compensation in the form of bonuses, quality incentives or production-based compensation.</p><p></p><p><i>Essentia Health is an Equal Opportunity/Affirmative Action Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, sexual identity, national origin, disability, or protected Veteran Status.</i></p></div>",
+   "companyID": "scrape-prod-58433",
+   "companyName": "Essentia Health - Career Site Only",
+   "locations": [
+    {
+     "zipCode": "55805",
+     "locationID": "3RDBLDG",
+     "locationName": "Building F - Duluth Clinic - 3rd Street",
+     "streetAddress": "400 E 3rd St",
+     "city": "Duluth",
+     "state": "Minnesota",
+     "stateAbbr": "MN",
+     "address1": "",
+     "address2": "",
+     "country": "United States",
+     "countryAbbr": "US",
+     "latitude": 46.7932732,
+     "longitude": -92.0966385,
+     "locationText": "400 E 3rd St, Duluth, Minnesota",
+     "locationParsedText": "400 E 3rd St, Duluth, MN 55805, United States",
+     "isRemote": false,
+     "postalCode": "",
+     "distance": -1,
+     "sublocality": "",
+     "cityState": "Duluth, Minnesota",
+     "cityStateAbbr": "Duluth, MN"
+    }
+   ],
+   "isRemote": false,
+   "employmentType": [
+    "Part Time"
+   ],
+   "employmentStatus": [],
+   "postingType": "1",
+   "isInternal": "false",
+   "applyURL": "https://essentiahealth.wd1.myworkdayjobs.com/Essentia_Health/job/Duluth-MN/Audiologist---Duluth--MN---Causal-Hours_R073130-1/apply",
+   "originalURL": "audiologist-casual-duluth-mn/job/D19E373243D36147B58E180357BE5CFB",
+   "lang": "en",
+   "availableLanguages": [
+    "en"
+   ],
+   "commuteTimeDuration": 0,
+   "customFields": [
+    {
+     "cfKey": "cf_job_level",
+     "value": "Clinical - 5 (C5)",
+     "key": "Job Level"
+    },
+    {
+     "cfKey": "cf_credential_status",
+     "value": "Credentialed Practitioner",
+     "key": "Credential Status"
+    },
+    {
+     "cfKey": "cf_job_family",
+     "value": "Audiology",
+     "key": "Job Family"
+    },
+    {
+     "cfKey": "cf_work_shift",
+     "value": "Day Rotation (United States of America)",
+     "key": "Work Shift"
+    },
+    {
+     "cfKey": "cf_job_family_group",
+     "value": "Patient Care Professional",
+     "key": "Job Family Group"
+    },
+    {
+     "cfKey": "cf_shift_rotation",
+     "value": "Day Rotation (United States of America)",
+     "key": "Shift Rotation"
+    },
+    {
+     "cfKey": "cf_shift_start",
+     "key": "Shift Start"
+    },
+    {
+     "cfKey": "cf_shift_end",
+     "key": "Shift End"
+    },
+    {
+     "cfKey": "cf_hours_per_pay_period",
+     "key": "Hours Per Pay Period"
+    },
+    {
+     "cfKey": "cf_job_location",
+     "value": "Building F - Duluth Clinic - 3rd Street",
+     "key": "Job Location"
+    },
+    {
+     "cfKey": "cf_compensation_range",
+     "value": "$47.59 - $66.63 / hour",
+     "key": "Compensation Range"
+    },
+    {
+     "cfKey": "cf_union",
+     "key": "Union"
+    },
+    {
+     "cfKey": "cf_FTE",
+     "value": "0.2",
+     "key": "FTE"
+    },
+    {
+     "cfKey": "cf_weekends",
+     "key": "Weekends"
+    },
+    {
+     "cfKey": "cf_callObligations",
+     "key": "Call Obligations"
+    },
+    {
+     "cfKey": "cf_SignOnBonus",
+     "key": "Sign on Bonus"
+    },
+    {
+     "cfKey": "cf_Benefits",
+     "value": "Employee Benefits at Essentia Health:\nAt Essentia Health, we’re committed to supporting your well-being, growth, and work-life balance. Our comprehensive benefits include medical, dental, vision, life, and disability insurance, along with supplemental options to fit your needs. We offer a 401(k) plan with employer contributions to help you plan for the future, and we invest in your professional development through training, tuition reimbursement, and educational programs. To help you thrive both at work and at home, we provide flexible scheduling, generous time off, and wellness resources focused on your physical, mental, and emotional health. Please note that benefit eligibility may vary. For full details, refer to your benefit summary or contact our HR Service Center at (218) 576-0000.",
+     "key": "Benefits"
+    },
+    {
+     "cfKey": "cf_internal",
+     "value": "No",
+     "key": "Internal"
+    }
+   ],
+   "facilityName": "Audiology",
+   "jobCardExtraFields": []
+  },
+  {
+   "sourceID": "8c51d1f88a95bb19be3b77edccead38a",
+   "uniqueID": "3748002B890CADE74CFF62C34B5FAFD5",
+   "requisitionID": "R085186",
+   "reference": "R085186",
+   "title": "Audiology Assistant (1.0 FTE)",
+   "description": "<div class='description'><h3>Job Description:</h3>Assists in planning, organizing and implementing the activities occurring at the scheduling desk by performing clerical, receptionist and computer duties. Position is also responsible for monitoring and updating the point of service data collections, demographics and billing information. Provides limited direct patient care and also performs identified procedures for which competencies have been demonstrated. Will also assist, trouble shoot, maintain, and repair hearing aids. Work Experience:Minimum 2 years of administrative office experience.</div><div class='requirements'><h3>Education Qualifications:</h3><p>No educational requirement.</p></div>",
+   "companyID": "scrape-prod-58433",
+   "companyName": "Essentia Health - Career Site Only",
+   "locations": [
+    {
+     "zipCode": "55744",
+     "locationID": "GRANDRAPID",
+     "locationName": "Essentia Grand Rapids Clinic",
+     "streetAddress": "1542 Golf Course Rd",
+     "city": "Grand Rapids",
+     "state": "Minnesota",
+     "stateAbbr": "MN",
+     "address1": "",
+     "address2": "",
+     "country": "United States",
+     "countryAbbr": "US",
+     "latitude": 47.2201197,
+     "longitude": -93.5526843,
+     "locationText": "1542 Golf Course Rd, Grand Rapids, Minnesota",
+     "locationParsedText": "1542 Golf Course Rd, Grand Rapids, MN 55744, United States",
+     "isRemote": false,
+     "postalCode": "",
+     "distance": -1,
+     "sublocality": "",
+     "cityState": "Grand Rapids, Minnesota",
+     "cityStateAbbr": "Grand Rapids, MN"
+    }
+   ],
+   "isRemote": false,
+   "employmentType": [
+    "Full Time"
+   ],
+   "employmentStatus": [],
+   "postingType": "1",
+   "isInternal": "false",
+   "applyURL": "https://essentiahealth.wd1.myworkdayjobs.com/Essentia_Health/job/Grand-Rapids-MN/Audiology-Assistant--10-FTE-_R085186/apply",
+   "originalURL": "audiology-assistant-1-0-fte/job/3748002B890CADE74CFF62C34B5FAFD5",
+   "lang": "en",
+   "availableLanguages": [
+    "en"
+   ],
+   "commuteTimeDuration": 0,
+   "customFields": [
+    {
+     "cfKey": "cf_job_level",
+     "value": "Support - 2 (S2)",
+     "key": "Job Level"
+    },
+    {
+     "cfKey": "cf_credential_status",
+     "value": "Non Credentialed",
+     "key": "Credential Status"
+    },
+    {
+     "cfKey": "cf_job_family",
+     "value": "Patient Care Technician",
+     "key": "Job Family"
+    },
+    {
+     "cfKey": "cf_work_shift",
+     "value": "Day Rotation (United States of America)",
+     "key": "Work Shift"
+    },
+    {
+     "cfKey": "cf_job_family_group",
+     "value": "Patient Care Support",
+     "key": "Job Family Group"
+    },
+    {
+     "cfKey": "cf_shift_rotation",
+     "value": "Day Rotation (United States of America)",
+     "key": "Shift Rotation"
+    },
+    {
+     "cfKey": "cf_shift_start",
+     "value": "0800 (Flexible start time from 0730 to 0830)",
+     "key": "Shift Start"
+    },
+    {
+     "cfKey": "cf_shift_end",
+     "value": "1630",
+     "key": "Shift End"
+    },
+    {
+     "cfKey": "cf_hours_per_pay_period",
+     "value": "80",
+     "key": "Hours Per Pay Period"
+    },
+    {
+     "cfKey": "cf_job_location",
+     "value": "Essentia Grand Rapids Clinic",
+     "key": "Job Location"
+    },
+    {
+     "cfKey": "cf_compensation_range",
+     "value": "$17.63 - $26.45 / hour",
+     "key": "Compensation Range"
+    },
+    {
+     "cfKey": "cf_union",
+     "key": "Union"
+    },
+    {
+     "cfKey": "cf_FTE",
+     "value": "1",
+     "key": "FTE"
+    },
+    {
+     "cfKey": "cf_weekends",
+     "value": "no weekends",
+     "key": "Weekends"
+    },
+    {
+     "cfKey": "cf_callObligations",
+     "key": "Call Obligations"
+    },
+    {
+     "cfKey": "cf_SignOnBonus",
+     "key": "Sign on Bonus"
+    },
+    {
+     "cfKey": "cf_Benefits",
+     "value": "Employee Benefits at Essentia Health:\nAt Essentia Health, we’re committed to supporting your well-being, growth, and work-life balance. Our comprehensive benefits include medical, dental, vision, life, and disability insurance, along with supplemental options to fit your needs. We offer a 401(k) plan with employer contributions to help you plan for the future, and we invest in your professional development through training, tuition reimbursement, and educational programs. To help you thrive both at work and at home, we provide flexible scheduling, generous time off, and wellness resources focused on your physical, mental, and emotional health. Please note that benefit eligibility may vary. For full details, refer to your benefit summary or contact our HR Service Center at (218) 576-0000.",
+     "key": "Benefits"
+    },
+    {
+     "cfKey": "cf_internal",
+     "value": "No",
+     "key": "Internal"
+    }
+   ],
+   "facilityName": "Patient Care Technician",
+   "jobCardExtraFields": []
+  },
+  {
+   "sourceID": "909e93487807f4eb93ea811044035a15",
+   "uniqueID": "77AE21E3DAB1818CABDD6CCC1C2E7B4D",
+   "requisitionID": "R084954",
+   "reference": "R084954",
+   "title": "Behavioral Health Tech 0.6 FTE Acute Care",
+   "description": "<div class='requirements'><h3>Education Qualifications:</h3><p>This position assists with assessment, planning, implementation and evaluation of selected technical aspects of patient care under direct supervision of the Charge RN, Assistant Head Nurse, Nurse Manager and/or the Director, to meet the requirements of the Joint Commission and other applicable federal, state and local regulatory or accrediting agencies as well as meeting the goals and mission of the department. Provides direct and indirect care for adolescent to geriatric patients to aid meeting the patients’ needs as directed. Provides patients with activity opportunities appropriate to their ages and abilities and related to their plan for care, either individually and/or in group settings.</p><br /><p>Educational Requirements:</p><br /><ul><li>1 year experience in working with persons with mental health symptoms or related applicable experience OR Degree in social services related field OR Certified Peer Support Specialist in Minnesota or Wisconsin</li></ul><br /><p>Preferred Qualifications:</p><ul><li>Must have healthcare and direct patient care experience</li></ul></div><div class='extended_description'><h3>Licensure/Certification Qualifications:</h3><p>Certification/Licensure Requirements:</p><ul><li><span>Basic Cardiac Life Support (BCLS) certification within 1 month of hire. (This does not apply to department 2010-2194290 AMBERWING - AMB)</span></li></ul></div>",
+   "companyID": "scrape-prod-58433",
+   "companyName": "Essentia Health - Career Site Only",
+   "locations": [
+    {
+     "zipCode": "55792",
+     "locationID": "VIRG HOSP",
+     "locationName": "Essentia Virginia Hospital",
+     "streetAddress": "901 9th St N",
+     "city": "Virginia",
+     "state": "Minnesota",
+     "stateAbbr": "MN",
+     "address1": "",
+     "address2": "",
+     "country": "United States",
+     "countryAbbr": "US",
+     "latitude": 47.5313685,
+     "longitude": -92.5487024,
+     "locationText": "901 9th St N, Virginia, Minnesota",
+     "locationParsedText": "901 9th St N, Virginia, MN 55792, United States",
+     "isRemote": false,
+     "postalCode": "",
+     "distance": -1,
+     "sublocality": "",
+     "cityState": "Virginia, Minnesota",
+     "cityStateAbbr": "Virginia, MN"
+    }
+   ],
+   "isRemote": false,
+   "employmentType": [
+    "Part Time"
+   ],
+   "employmentStatus": [],
+   "postingType": "1",
+   "isInternal": "false",
+   "applyURL": "https://essentiahealth.wd1.myworkdayjobs.com/Essentia_Health/job/Virginia-MN/Behavioral-Health-Tech-06-FTE-Acute-Care_R084954-1/apply",
+   "originalURL": "behavioral-health-tech-0-6-fte-acute-care/job/77AE21E3DAB1818CABDD6CCC1C2E7B4D",
+   "lang": "en",
+   "availableLanguages": [
+    "en"
+   ],
+   "commuteTimeDuration": 0,
+   "customFields": [
+    {
+     "cfKey": "cf_job_level",
+     "value": "Clinical - 2 (C2)",
+     "key": "Job Level"
+    },
+    {
+     "cfKey": "cf_credential_status",
+     "value": "Non Credentialed",
+     "key": "Credential Status"
+    },
+    {
+     "cfKey": "cf_job_family",
+     "value": "Behavioral Health Technician",
+     "key": "Job Family"
+    },
+    {
+     "cfKey": "cf_work_shift",
+     "value": "Day/Eve Rotation (United States of America)",
+     "key": "Work Shift"
+    },
+    {
+     "cfKey": "cf_job_family_group",
+     "value": "Patient Care Support",
+     "key": "Job Family Group"
+    },
+    {
+     "cfKey": "cf_shift_rotation",
+     "value": "Day/Eve Rotation (United States of America)",
+     "key": "Shift Rotation"
+    },
+    {
+     "cfKey": "cf_shift_start",
+     "value": "0700/1500",
+     "key": "Shift Start"
+    },
+    {
+     "cfKey": "cf_shift_end",
+     "value": "1530/2330",
+     "key": "Shift End"
+    },
+    {
+     "cfKey": "cf_hours_per_pay_period",
+     "value": "48",
+     "key": "Hours Per Pay Period"
+    },
+    {
+     "cfKey": "cf_job_location",
+     "value": "Essentia Virginia Hospital",
+     "key": "Job Location"
+    },
+    {
+     "cfKey": "cf_compensation_range",
+     "value": "$20.77 - $27.16 / hour",
+     "key": "Compensation Range"
+    },
+    {
+     "cfKey": "cf_union",
+     "value": "Assoc Of Diagnostic Imaging Techs (ADIT)",
+     "key": "Union"
+    },
+    {
+     "cfKey": "cf_FTE",
+     "value": "0.6",
+     "key": "FTE"
+    },
+    {
+     "cfKey": "cf_weekends",
+     "value": "Yes every other",
+     "key": "Weekends"
+    },
+    {
+     "cfKey": "cf_callObligations",
+     "key": "Call Obligations"
+    },
+    {
+     "cfKey": "cf_SignOnBonus",
+     "key": "Sign on Bonus"
+    },
+    {
+     "cfKey": "cf_Benefits",
+     "value": "Employee Benefits at Essentia Health:\nAt Essentia Health, we’re committed to supporting your well-being, growth, and work-life balance. Our comprehensive benefits include medical, dental, vision, life, and disability insurance, along with supplemental options to fit your needs. We offer a 401(k) plan with employer contributions to help you plan for the future, and we invest in your professional development through training, tuition reimbursement, and educational programs. To help you thrive both at work and at home, we provide flexible scheduling, generous time off, and wellness resources focused on your physical, mental, and emotional health. Please note that benefit eligibility may vary. For full details, refer to your benefit summary or contact our HR Service Center at (218) 576-0000.",
+     "key": "Benefits"
+    },
+    {
+     "cfKey": "cf_internal",
+     "value": "No",
+     "key": "Internal"
+    }
+   ],
+   "facilityName": "Behavioral Health Technician",
+   "jobCardExtraFields": []
+  },
+  {
+   "sourceID": "7cc0aaffa969939bcfad40f9485fb9f9",
+   "uniqueID": "E43C86CB7E3EDCDBEEB00DC35DF7FE62",
+   "requisitionID": "R083380",
+   "reference": "R083380",
+   "title": "Behavioral Health Technician - Night Shift",
+   "description": "<div class='description'><h3>Job Description:</h3>Become part of Essentia’s accomplished team in Brainerd and Baxter, Minnesota, where 465 lakes provide endless options for water sports and recreation. These cities, 125 miles north of Minneapolis, are at the heart of the Brainerd Lakes Area, one of the state’s top vacation destinations.</div><div class='requirements'><h3>Education Qualifications:</h3><ul><li>No educational requirements.<br /><br /></li></ul><p><span style=\"color:#4a4a4a\"><b><u><span style=\"font-size:inherit\">What You'll Do:</span></u></b></span></p><p>This position supports patient care by assisting with assessment, planning, implementation, and evaluation of technical tasks under the supervision of nursing leadership, ensuring compliance with regulatory standards and alignment with departmental goals and mission. This role delivers direct and indirect care to pre-adolescents through geriatric patients, offering age-appropriate activities aligned with their care plans, either individually or in group settings. Key responsibilities include:</p><ul><li><span style=\"color:#4a4a4a\"><span style=\"font-size:inherit\">Assist with the assessment, planning, implementation, and evaluation of patient care under the direct supervision of nursing leadership</span></span></li><li><span style=\"color:#4a4a4a\"><span style=\"font-size:inherit\">Support both direct and indirect care for patients ranging from adolescents to geriatrics</span></span></li><li><span style=\"color:#4a4a4a\"><span style=\"font-size:inherit\">Ensure patient care practices meet Joint Commission standards and other regulatory guidelines</span></span></li><li><span style=\"color:#4a4a4a\"><span style=\"font-size:inherit\">Collaborate with the care team to help meet departmental goals and the organization’s mission</span></span></li><li><span style=\"color:#4a4a4a\"><span style=\"font-size:inherit\">Facilitate age-appropriate individual and group activities aligned with each patient’s care plan</span></span></li><li><span style=\"color:#4a4a4a\"><span style=\"font-size:inherit\">Promote a supportive and safe environment that addresses each patient’s physical, emotional, and social needs</span></span></li></ul><br /><p><span style=\"color:#4a4a4a\"><b><u><span style=\"font-size:inherit\">This position MUST be able to work the following:</span></u></b></span></p><ul><li><span style=\"color:#4a4a4a\"><span style=\"font-size:inherit\">60 hours per pay period</span></span></li><li><span style=\"color:#4a4a4a\"><span style=\"font-size:inherit\">Rotating 12 Hour Shifts</span></span></li><li><span style=\"color:#4a4a4a\"><span style=\"font-size:inherit\">Night Shift: 7:00PM - 7:30AM</span></span></li></ul></div><div class='extended_description'><h3>Licensure/Certification Qualifications:</h3><ul><li>Basic Cardiac Life Support (BCLS) certification within 1 month of hire. </li></ul><ul><li>In accordance with Minnesota Rules 245G.11 subdivision 1; all employees must be free of chemical use problems for at least one year immediately preceding their hiring and must sign a statement attesting to that fact. Chemical use problems are defined as: receiving treatment for substance use within the period specified for the position in the staff qualification requirements, including medication-assisted treatment; substance use or mental health disorders that have negatively impacted the staff member’s job performance; substance use or mental health disorders that affect the credibility of treatment services with clients, referral sources, or other members of the community; and symptoms of intoxication or withdrawal on the job.</li></ul><br /></div>",
+   "companyID": "scrape-prod-58433",
+   "companyName": "Essentia Health - Career Site Only",
+   "locations": [
+    {
+     "zipCode": "56401",
+     "locationID": "ST. JOSEPH",
+     "locationName": "St Josephs Medical Center",
+     "streetAddress": "523 N 3rd St",
+     "city": "Brainerd",
+     "state": "Minnesota",
+     "stateAbbr": "MN",
+     "address1": "",
+     "address2": "",
+     "country": "United States",
+     "countryAbbr": "US",
+     "latitude": 46.3620481,
+     "longitude": -94.2058274,
+     "locationText": "523 N 3rd St, Brainerd, Minnesota",
+     "locationParsedText": "523 N 3rd St, Brainerd, MN 56401, United States",
+     "isRemote": false,
+     "postalCode": "",
+     "distance": -1,
+     "sublocality": "",
+     "cityState": "Brainerd, Minnesota",
+     "cityStateAbbr": "Brainerd, MN"
+    }
+   ],
+   "isRemote": false,
+   "employmentType": [
+    "Part Time"
+   ],
+   "employmentStatus": [],
+   "postingType": "1",
+   "isInternal": "false",
+   "applyURL": "https://essentiahealth.wd1.myworkdayjobs.com/Essentia_Health/job/Brainerd-MN/Behavioral-Health-Technician---Night-Shift_R083380/apply",
+   "originalURL": "behavioral-health-technician-night-shift/job/E43C86CB7E3EDCDBEEB00DC35DF7FE62",
+   "lang": "en",
+   "availableLanguages": [
+    "en"
+   ],
+   "commuteTimeDuration": 0,
+   "customFields": [
+    {
+     "cfKey": "cf_job_level",
+     "value": "Clinical - 2 (C2)",
+     "key": "Job Level"
+    },
+    {
+     "cfKey": "cf_credential_status",
+     "value": "Non Credentialed",
+     "key": "Credential Status"
+    },
+    {
+     "cfKey": "cf_job_family",
+     "value": "Behavioral Health Technician",
+     "key": "Job Family"
+    },
+    {
+     "cfKey": "cf_work_shift",
+     "value": "Permanent Night Rotation (United States of America)",
+     "key": "Work Shift"
+    },
+    {
+     "cfKey": "cf_job_family_group",
+     "value": "Patient Care Support",
+     "key": "Job Family Group"
+    },
+    {
+     "cfKey": "cf_shift_rotation",
+     "value": "Permanent Night Rotation (United States of America)",
+     "key": "Shift Rotation"
+    },
+    {
+     "cfKey": "cf_shift_start",
+     "value": "7:00 pm",
+     "key": "Shift Start"
+    },
+    {
+     "cfKey": "cf_shift_end",
+     "value": "7:30 am",
+     "key": "Shift End"
+    },
+    {
+     "cfKey": "cf_hours_per_pay_period",
+     "value": "60",
+     "key": "Hours Per Pay Period"
+    },
+    {
+     "cfKey": "cf_job_location",
+     "value": "St Josephs Medical Center",
+     "key": "Job Location"
+    },
+    {
+     "cfKey": "cf_compensation_range",
+     "value": "$17.63 - $26.45 / hour",
+     "key": "Compensation Range"
+    },
+    {
+     "cfKey": "cf_union",
+     "key": "Union"
+    },
+    {
+     "cfKey": "cf_FTE",
+     "value": "0.75",
+     "key": "FTE"
+    },
+    {
+     "cfKey": "cf_weekends",
+     "value": "Yes",
+     "key": "Weekends"
+    },
+    {
+     "cfKey": "cf_callObligations",
+     "key": "Call Obligations"
+    },
+    {
+     "cfKey": "cf_SignOnBonus",
+     "value": "N/A",
+     "key": "Sign on Bonus"
+    },
+    {
+     "cfKey": "cf_Benefits",
+     "value": "Employee Benefits at Essentia Health:\nAt Essentia Health, we’re committed to supporting your well-being, growth, and work-life balance. Our comprehensive benefits include medical, dental, vision, life, and disability insurance, along with supplemental options to fit your needs. We offer a 401(k) plan with employer contributions to help you plan for the future, and we invest in your professional development through training, tuition reimbursement, and educational programs. To help you thrive both at work and at home, we provide flexible scheduling, generous time off, and wellness resources focused on your physical, mental, and emotional health. Please note that benefit eligibility may vary. For full details, refer to your benefit summary or contact our HR Service Center at (218) 576-0000.",
+     "key": "Benefits"
+    },
+    {
+     "cfKey": "cf_internal",
+     "value": "No",
+     "key": "Internal"
+    }
+   ],
+   "facilityName": "Behavioral Health Technician",
+   "jobCardExtraFields": []
+  }
+ ]
+}

@@ -1,0 +1,2379 @@
+{
+ "request": {
+  "method": "POST",
+  "url": "https://www.trugreenjobs.com/api/get-jobs?page_number=1",
+  "body": {
+   "disable_switch_search_mode": false,
+   "site_available_languages": [
+    "en"
+   ]
+  },
+  "referer": "https://www.trugreenjobs.com/jobs"
+ },
+ "retrieved": "2026-11-17",
+ "totalJob": 507,
+ "facets": [
+  {
+   "alias": "Category",
+   "field": "category",
+   "facet_field_keyvalue": [
+    {
+     "original_value": "Call Center Sales",
+     "custom_value": "Call Center Sales",
+     "doc_count": 7
+    },
+    {
+     "original_value": "Corporate",
+     "custom_value": "Corporate",
+     "doc_count": 16
+    },
+    {
+     "original_value": "Customer Service",
+     "custom_value": "Customer Service",
+     "doc_count": 30
+    },
+    {
+     "original_value": "Field Operations",
+     "custom_value": "Field Operations",
+     "doc_count": 340
+    },
+    {
+     "original_value": "Sales",
+     "custom_value": "Sales",
+     "doc_count": 114
+    }
+   ]
+  },
+  {
+   "alias": "Country",
+   "field": "country",
+   "facet_field_keyvalue": [
+    {
+     "original_value": "Canada",
+     "custom_value": "Canada",
+     "doc_count": 3
+    },
+    {
+     "original_value": "United States",
+     "custom_value": "United States",
+     "doc_count": 504
+    }
+   ]
+  },
+  {
+   "alias": "State",
+   "field": "state",
+   "facet_field_keyvalue": [
+    {
+     "original_value": "Alabama",
+     "custom_value": "Alabama",
+     "doc_count": 17
+    },
+    {
+     "original_value": "Arkansas",
+     "custom_value": "Arkansas",
+     "doc_count": 7
+    },
+    {
+     "original_value": "California",
+     "custom_value": "California",
+     "doc_count": 12
+    },
+    {
+     "original_value": "Colorado",
+     "custom_value": "Colorado",
+     "doc_count": 6
+    },
+    {
+     "original_value": "Connecticut",
+     "custom_value": "Connecticut",
+     "doc_count": 4
+    },
+    {
+     "original_value": "Delaware",
+     "custom_value": "Delaware",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Florida",
+     "custom_value": "Florida",
+     "doc_count": 64
+    },
+    {
+     "original_value": "Georgia",
+     "custom_value": "Georgia",
+     "doc_count": 34
+    },
+    {
+     "original_value": "Idaho",
+     "custom_value": "Idaho",
+     "doc_count": 4
+    },
+    {
+     "original_value": "Illinois",
+     "custom_value": "Illinois",
+     "doc_count": 19
+    },
+    {
+     "original_value": "Indiana",
+     "custom_value": "Indiana",
+     "doc_count": 13
+    },
+    {
+     "original_value": "Iowa",
+     "custom_value": "Iowa",
+     "doc_count": 8
+    },
+    {
+     "original_value": "Kansas",
+     "custom_value": "Kansas",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Kentucky",
+     "custom_value": "Kentucky",
+     "doc_count": 5
+    },
+    {
+     "original_value": "Maine",
+     "custom_value": "Maine",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Maryland",
+     "custom_value": "Maryland",
+     "doc_count": 6
+    },
+    {
+     "original_value": "Massachusetts",
+     "custom_value": "Massachusetts",
+     "doc_count": 11
+    },
+    {
+     "original_value": "Michigan",
+     "custom_value": "Michigan",
+     "doc_count": 18
+    },
+    {
+     "original_value": "Minnesota",
+     "custom_value": "Minnesota",
+     "doc_count": 12
+    },
+    {
+     "original_value": "Mississippi",
+     "custom_value": "Mississippi",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Missouri",
+     "custom_value": "Missouri",
+     "doc_count": 10
+    },
+    {
+     "original_value": "Nebraska",
+     "custom_value": "Nebraska",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Nevada",
+     "custom_value": "Nevada",
+     "doc_count": 4
+    },
+    {
+     "original_value": "New Hampshire",
+     "custom_value": "New Hampshire",
+     "doc_count": 2
+    },
+    {
+     "original_value": "New Jersey",
+     "custom_value": "New Jersey",
+     "doc_count": 11
+    },
+    {
+     "original_value": "New Mexico",
+     "custom_value": "New Mexico",
+     "doc_count": 3
+    },
+    {
+     "original_value": "New York",
+     "custom_value": "New York",
+     "doc_count": 12
+    },
+    {
+     "original_value": "North Carolina",
+     "custom_value": "North Carolina",
+     "doc_count": 20
+    },
+    {
+     "original_value": "Ohio",
+     "custom_value": "Ohio",
+     "doc_count": 22
+    },
+    {
+     "original_value": "Oklahoma",
+     "custom_value": "Oklahoma",
+     "doc_count": 12
+    },
+    {
+     "original_value": "Ontario",
+     "custom_value": "Ontario",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Oregon",
+     "custom_value": "Oregon",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Pennsylvania",
+     "custom_value": "Pennsylvania",
+     "doc_count": 17
+    },
+    {
+     "original_value": "Rhode Island",
+     "custom_value": "Rhode Island",
+     "doc_count": 1
+    },
+    {
+     "original_value": "South Carolina",
+     "custom_value": "South Carolina",
+     "doc_count": 13
+    },
+    {
+     "original_value": "South Dakota",
+     "custom_value": "South Dakota",
+     "doc_count": 4
+    },
+    {
+     "original_value": "Tennessee",
+     "custom_value": "Tennessee",
+     "doc_count": 14
+    },
+    {
+     "original_value": "Texas",
+     "custom_value": "Texas",
+     "doc_count": 66
+    },
+    {
+     "original_value": "Utah",
+     "custom_value": "Utah",
+     "doc_count": 4
+    },
+    {
+     "original_value": "Vermont",
+     "custom_value": "Vermont",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Virginia",
+     "custom_value": "Virginia",
+     "doc_count": 12
+    },
+    {
+     "original_value": "Washington",
+     "custom_value": "Washington",
+     "doc_count": 13
+    },
+    {
+     "original_value": "West Virginia",
+     "custom_value": "West Virginia",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Wisconsin",
+     "custom_value": "Wisconsin",
+     "doc_count": 7
+    },
+    {
+     "original_value": "Wyoming",
+     "custom_value": "Wyoming",
+     "doc_count": 1
+    }
+   ]
+  },
+  {
+   "alias": "City",
+   "field": "city",
+   "facet_field_keyvalue": [
+    {
+     "original_value": "Abilene",
+     "custom_value": "Abilene",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Acworth",
+     "custom_value": "Acworth",
+     "doc_count": 4
+    },
+    {
+     "original_value": "Albany",
+     "custom_value": "Albany",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Albuquerque",
+     "custom_value": "Albuquerque",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Alcoa",
+     "custom_value": "Alcoa",
+     "doc_count": 1
+    },
+    {
+     "original_value": "ALLENTOWN",
+     "custom_value": "ALLENTOWN",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Allison Park",
+     "custom_value": "Allison Park",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Amarillo",
+     "custom_value": "Amarillo",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Amherst",
+     "custom_value": "Amherst",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Anaheim",
+     "custom_value": "Anaheim",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Andover",
+     "custom_value": "Andover",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Ankeny",
+     "custom_value": "Ankeny",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Appleton",
+     "custom_value": "Appleton",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Ashland",
+     "custom_value": "Ashland",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Austell",
+     "custom_value": "Austell",
+     "doc_count": 4
+    },
+    {
+     "original_value": "Baltimore",
+     "custom_value": "Baltimore",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Barrie",
+     "custom_value": "Barrie",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Bartlett",
+     "custom_value": "Bartlett",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Bellingham",
+     "custom_value": "Bellingham",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Birmingham",
+     "custom_value": "Birmingham",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Bowling Green,",
+     "custom_value": "Bowling Green,",
+     "doc_count": 1
+    },
+    {
+     "original_value": "BROADWAY",
+     "custom_value": "BROADWAY",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Broken Arrow",
+     "custom_value": "Broken Arrow",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Brooksville",
+     "custom_value": "Brooksville",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Brunswick",
+     "custom_value": "Brunswick",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Burnsville",
+     "custom_value": "Burnsville",
+     "doc_count": 3
+    },
+    {
+     "original_value": "CANDLER",
+     "custom_value": "CANDLER",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Carpentersville",
+     "custom_value": "Carpentersville",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Carrollton",
+     "custom_value": "Carrollton",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Cary",
+     "custom_value": "Cary",
+     "doc_count": 3
+    },
+    {
+     "original_value": "CASTLE HAYNE",
+     "custom_value": "CASTLE HAYNE",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Cedar Falls",
+     "custom_value": "Cedar Falls",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Cedar Rapids",
+     "custom_value": "Cedar Rapids",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Champaign",
+     "custom_value": "Champaign",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Charlotte",
+     "custom_value": "Charlotte",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Charlottesville",
+     "custom_value": "Charlottesville",
+     "doc_count": 1
+    },
+    {
+     "original_value": "CHATTANOOGA",
+     "custom_value": "CHATTANOOGA",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Chelmsford",
+     "custom_value": "Chelmsford",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Cheyenne",
+     "custom_value": "Cheyenne",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Chicopee",
+     "custom_value": "Chicopee",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Chubbuck",
+     "custom_value": "Chubbuck",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Clarion",
+     "custom_value": "Clarion",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Collinsville",
+     "custom_value": "Collinsville",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Colorado Springs",
+     "custom_value": "Colorado Springs",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Columbia",
+     "custom_value": "Columbia",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Columbus",
+     "custom_value": "Columbus",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Concord",
+     "custom_value": "Concord",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Crestwood",
+     "custom_value": "Crestwood",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Cumming",
+     "custom_value": "Cumming",
+     "doc_count": 4
+    },
+    {
+     "original_value": "Dallas",
+     "custom_value": "Dallas",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Danbury",
+     "custom_value": "Danbury",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Davenport",
+     "custom_value": "Davenport",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Daytona Beach",
+     "custom_value": "Daytona Beach",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Dothan",
+     "custom_value": "Dothan",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Dubuque",
+     "custom_value": "Dubuque",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Dulles",
+     "custom_value": "Dulles",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Eau Claire",
+     "custom_value": "Eau Claire",
+     "doc_count": 1
+    },
+    {
+     "original_value": "EL PASO",
+     "custom_value": "EL PASO",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Elyria",
+     "custom_value": "Elyria",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Endicott",
+     "custom_value": "Endicott",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Erie",
+     "custom_value": "Erie",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Evansville",
+     "custom_value": "Evansville",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Fairfield",
+     "custom_value": "Fairfield",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Farmingdale",
+     "custom_value": "Farmingdale",
+     "doc_count": 1
+    },
+    {
+     "original_value": "FAYETTEVILLE",
+     "custom_value": "FAYETTEVILLE",
+     "doc_count": 3
+    },
+    {
+     "original_value": "FENTON",
+     "custom_value": "FENTON",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Fishers",
+     "custom_value": "Fishers",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Flint",
+     "custom_value": "Flint",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Florence",
+     "custom_value": "Florence",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Fort Lauderdale",
+     "custom_value": "Fort Lauderdale",
+     "doc_count": 3
+    },
+    {
+     "original_value": "FORT MYERS",
+     "custom_value": "FORT MYERS",
+     "doc_count": 5
+    },
+    {
+     "original_value": "Fort Smith",
+     "custom_value": "Fort Smith",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Fort Walton Beach",
+     "custom_value": "Fort Walton Beach",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Fort Wayne",
+     "custom_value": "Fort Wayne",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Franklin",
+     "custom_value": "Franklin",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Freeland",
+     "custom_value": "Freeland",
+     "doc_count": 1
+    },
+    {
+     "original_value": "FRUITLAND PARK",
+     "custom_value": "FRUITLAND PARK",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Gaithersburg",
+     "custom_value": "Gaithersburg",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Glenarm",
+     "custom_value": "Glenarm",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Grand Haven",
+     "custom_value": "Grand Haven",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Grand Junction",
+     "custom_value": "Grand Junction",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Grand Prairie",
+     "custom_value": "Grand Prairie",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Grandville",
+     "custom_value": "Grandville",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Greensboro",
+     "custom_value": "Greensboro",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Greenville",
+     "custom_value": "Greenville",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Groveport",
+     "custom_value": "Groveport",
+     "doc_count": 2
+    },
+    {
+     "original_value": "HAGERSTOWN",
+     "custom_value": "HAGERSTOWN",
+     "doc_count": 1
+    },
+    {
+     "original_value": "HARRINGTON",
+     "custom_value": "HARRINGTON",
+     "doc_count": 1
+    },
+    {
+     "original_value": "HAVANA",
+     "custom_value": "HAVANA",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Henderson",
+     "custom_value": "Henderson",
+     "doc_count": 2
+    },
+    {
+     "original_value": "HICKORY HILLS",
+     "custom_value": "HICKORY HILLS",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Hilliard",
+     "custom_value": "Hilliard",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Houston",
+     "custom_value": "Houston",
+     "doc_count": 8
+    },
+    {
+     "original_value": "Huntsville",
+     "custom_value": "Huntsville",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Indian Trail",
+     "custom_value": "Indian Trail",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Indianapolis",
+     "custom_value": "Indianapolis",
+     "doc_count": 4
+    },
+    {
+     "original_value": "Irmo",
+     "custom_value": "Irmo",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Irwindale",
+     "custom_value": "Irwindale",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Jackson",
+     "custom_value": "Jackson",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Jacksonville",
+     "custom_value": "Jacksonville",
+     "doc_count": 4
+    },
+    {
+     "original_value": "JOHNSTOWN",
+     "custom_value": "JOHNSTOWN",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Joplin",
+     "custom_value": "Joplin",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Kimberly",
+     "custom_value": "Kimberly",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Kingsport",
+     "custom_value": "Kingsport",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Lafayette",
+     "custom_value": "Lafayette",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Lake Forest",
+     "custom_value": "Lake Forest",
+     "doc_count": 1
+    },
+    {
+     "original_value": "LAKE OSWEGO",
+     "custom_value": "LAKE OSWEGO",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Lake Wales",
+     "custom_value": "Lake Wales",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Lansing",
+     "custom_value": "Lansing",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Lawton",
+     "custom_value": "Lawton",
+     "doc_count": 4
+    },
+    {
+     "original_value": "LEAGUE CITY",
+     "custom_value": "LEAGUE CITY",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Lees Summit",
+     "custom_value": "Lees Summit",
+     "doc_count": 2
+    },
+    {
+     "original_value": "LEWIS CENTER",
+     "custom_value": "LEWIS CENTER",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Lewisville",
+     "custom_value": "Lewisville",
+     "doc_count": 7
+    },
+    {
+     "original_value": "LEXINGTON",
+     "custom_value": "LEXINGTON",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Lexington",
+     "custom_value": "Lexington",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Lima",
+     "custom_value": "Lima",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Lincoln",
+     "custom_value": "Lincoln",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Lititz",
+     "custom_value": "Lititz",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Little Rock",
+     "custom_value": "Little Rock",
+     "doc_count": 1
+    },
+    {
+     "original_value": "LITTLETON",
+     "custom_value": "LITTLETON",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Loganville",
+     "custom_value": "Loganville",
+     "doc_count": 3
+    },
+    {
+     "original_value": "LONDONDERRY",
+     "custom_value": "LONDONDERRY",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Lorton",
+     "custom_value": "Lorton",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Louisville",
+     "custom_value": "Louisville",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Loveland",
+     "custom_value": "Loveland",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Lowell",
+     "custom_value": "Lowell",
+     "doc_count": 4
+    },
+    {
+     "original_value": "Macomb",
+     "custom_value": "Macomb",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Macon",
+     "custom_value": "Macon",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Madison",
+     "custom_value": "Madison",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Malvern",
+     "custom_value": "Malvern",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Mankato",
+     "custom_value": "Mankato",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Maple Grove",
+     "custom_value": "Maple Grove",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Marysville",
+     "custom_value": "Marysville",
+     "doc_count": 1
+    },
+    {
+     "original_value": "McDonough",
+     "custom_value": "McDonough",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Melbourne",
+     "custom_value": "Melbourne",
+     "doc_count": 4
+    },
+    {
+     "original_value": "Memphis",
+     "custom_value": "Memphis",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Mentor",
+     "custom_value": "Mentor",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Meridian",
+     "custom_value": "Meridian",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Merrillville",
+     "custom_value": "Merrillville",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Middletown",
+     "custom_value": "Middletown",
+     "doc_count": 1
+    },
+    {
+     "original_value": "MILL HALL",
+     "custom_value": "MILL HALL",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Milwaukee",
+     "custom_value": "Milwaukee",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Mineola",
+     "custom_value": "Mineola",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Minnetonka",
+     "custom_value": "Minnetonka",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Mississauga",
+     "custom_value": "Mississauga",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Monroeville",
+     "custom_value": "Monroeville",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Montgomery",
+     "custom_value": "Montgomery",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Mooresville",
+     "custom_value": "Mooresville",
+     "doc_count": 1
+    },
+    {
+     "original_value": "MORRISVILLE",
+     "custom_value": "MORRISVILLE",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Myrtle Beach",
+     "custom_value": "Myrtle Beach",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Nashville",
+     "custom_value": "Nashville",
+     "doc_count": 8
+    },
+    {
+     "original_value": "Newport News",
+     "custom_value": "Newport News",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Norcross",
+     "custom_value": "Norcross",
+     "doc_count": 3
+    },
+    {
+     "original_value": "North Augusta",
+     "custom_value": "North Augusta",
+     "doc_count": 4
+    },
+    {
+     "original_value": "North Canton",
+     "custom_value": "North Canton",
+     "doc_count": 1
+    },
+    {
+     "original_value": "NORTH CHARLESTON",
+     "custom_value": "NORTH CHARLESTON",
+     "doc_count": 3
+    },
+    {
+     "original_value": "OCALA",
+     "custom_value": "OCALA",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Odessa",
+     "custom_value": "Odessa",
+     "doc_count": 5
+    },
+    {
+     "original_value": "Ogden",
+     "custom_value": "Ogden",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Oklahoma City",
+     "custom_value": "Oklahoma City",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Oldsmar",
+     "custom_value": "Oldsmar",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Omaha",
+     "custom_value": "Omaha",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Opelika",
+     "custom_value": "Opelika",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Orchard Park",
+     "custom_value": "Orchard Park",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Orlando",
+     "custom_value": "Orlando",
+     "doc_count": 5
+    },
+    {
+     "original_value": "OSCODA",
+     "custom_value": "OSCODA",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Park Ridge",
+     "custom_value": "Park Ridge",
+     "doc_count": 1
+    },
+    {
+     "original_value": "PASCO",
+     "custom_value": "PASCO",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Pensacola",
+     "custom_value": "Pensacola",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Peoria",
+     "custom_value": "Peoria",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Perrysburg",
+     "custom_value": "Perrysburg",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Pittsburgh",
+     "custom_value": "Pittsburgh",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Plainfield",
+     "custom_value": "Plainfield",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Plano",
+     "custom_value": "Plano",
+     "doc_count": 5
+    },
+    {
+     "original_value": "Plant City",
+     "custom_value": "Plant City",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Plymouth",
+     "custom_value": "Plymouth",
+     "doc_count": 1
+    },
+    {
+     "original_value": "POLAND",
+     "custom_value": "POLAND",
+     "doc_count": 1
+    },
+    {
+     "original_value": "POMPANO BEACH",
+     "custom_value": "POMPANO BEACH",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Port St. Lucie",
+     "custom_value": "Port St. Lucie",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Portage",
+     "custom_value": "Portage",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Puyallup",
+     "custom_value": "Puyallup",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Randolph",
+     "custom_value": "Randolph",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Rapid City",
+     "custom_value": "Rapid City",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Redmond",
+     "custom_value": "Redmond",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Richland Hills",
+     "custom_value": "Richland Hills",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Richmond",
+     "custom_value": "Richmond",
+     "doc_count": 1
+    },
+    {
+     "original_value": "RICHMOND HILL",
+     "custom_value": "RICHMOND HILL",
+     "doc_count": 3
+    },
+    {
+     "original_value": "RIVERSIDE",
+     "custom_value": "RIVERSIDE",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Rochelle",
+     "custom_value": "Rochelle",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Rochester",
+     "custom_value": "Rochester",
+     "doc_count": 2
+    },
+    {
+     "original_value": "ROCHESTER HILLS",
+     "custom_value": "ROCHESTER HILLS",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Rockford",
+     "custom_value": "Rockford",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Rocky Hill",
+     "custom_value": "Rocky Hill",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Round Rock",
+     "custom_value": "Round Rock",
+     "doc_count": 4
+    },
+    {
+     "original_value": "Runnemede",
+     "custom_value": "Runnemede",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Sacramento",
+     "custom_value": "Sacramento",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Salem",
+     "custom_value": "Salem",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Salt Lake City",
+     "custom_value": "Salt Lake City",
+     "doc_count": 1
+    },
+    {
+     "original_value": "San Antonio",
+     "custom_value": "San Antonio",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Sarasota",
+     "custom_value": "Sarasota",
+     "doc_count": 4
+    },
+    {
+     "original_value": "Scott Depot",
+     "custom_value": "Scott Depot",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Shawnee",
+     "custom_value": "Shawnee",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Sioux Falls",
+     "custom_value": "Sioux Falls",
+     "doc_count": 2
+    },
+    {
+     "original_value": "SOUTH BEND",
+     "custom_value": "SOUTH BEND",
+     "doc_count": 2
+    },
+    {
+     "original_value": "South Burlington",
+     "custom_value": "South Burlington",
+     "doc_count": 1
+    },
+    {
+     "original_value": "South Dennis",
+     "custom_value": "South Dennis",
+     "doc_count": 2
+    },
+    {
+     "original_value": "South Plainfield",
+     "custom_value": "South Plainfield",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Sparks",
+     "custom_value": "Sparks",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Spokane",
+     "custom_value": "Spokane",
+     "doc_count": 4
+    },
+    {
+     "original_value": "Springboro",
+     "custom_value": "Springboro",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Springfield",
+     "custom_value": "Springfield",
+     "doc_count": 1
+    },
+    {
+     "original_value": "St. Charles",
+     "custom_value": "St. Charles",
+     "doc_count": 3
+    },
+    {
+     "original_value": "STERLING",
+     "custom_value": "STERLING",
+     "doc_count": 1
+    },
+    {
+     "original_value": "STEVENS POINT",
+     "custom_value": "STEVENS POINT",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Stillwater",
+     "custom_value": "Stillwater",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Sugarland",
+     "custom_value": "Sugarland",
+     "doc_count": 4
+    },
+    {
+     "original_value": "Suwanee",
+     "custom_value": "Suwanee",
+     "doc_count": 4
+    },
+    {
+     "original_value": "Syracuse",
+     "custom_value": "Syracuse",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Tampa",
+     "custom_value": "Tampa",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Taylor",
+     "custom_value": "Taylor",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Temple",
+     "custom_value": "Temple",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Theodore",
+     "custom_value": "Theodore",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Thomasville",
+     "custom_value": "Thomasville",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Topeka",
+     "custom_value": "Topeka",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Tupelo",
+     "custom_value": "Tupelo",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Tuscumbia",
+     "custom_value": "Tuscumbia",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Tyler",
+     "custom_value": "Tyler",
+     "doc_count": 4
+    },
+    {
+     "original_value": "Upper Marlboro",
+     "custom_value": "Upper Marlboro",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Upper Saddle River",
+     "custom_value": "Upper Saddle River",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Vadnais Heights",
+     "custom_value": "Vadnais Heights",
+     "doc_count": 3
+    },
+    {
+     "original_value": "VANDALIA",
+     "custom_value": "VANDALIA",
+     "doc_count": 2
+    },
+    {
+     "original_value": "VERO BEACH",
+     "custom_value": "VERO BEACH",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Virginia Beach",
+     "custom_value": "Virginia Beach",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Walton Hills",
+     "custom_value": "Walton Hills",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Warminster",
+     "custom_value": "Warminster",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Warwick",
+     "custom_value": "Warwick",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Waterford Twp",
+     "custom_value": "Waterford Twp",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Waukesha",
+     "custom_value": "Waukesha",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Wayne",
+     "custom_value": "Wayne",
+     "doc_count": 2
+    },
+    {
+     "original_value": "WEST CARROLLTON",
+     "custom_value": "WEST CARROLLTON",
+     "doc_count": 1
+    },
+    {
+     "original_value": "West Chicago",
+     "custom_value": "West Chicago",
+     "doc_count": 2
+    },
+    {
+     "original_value": "West Deptford",
+     "custom_value": "West Deptford",
+     "doc_count": 1
+    },
+    {
+     "original_value": "WEST JORDAN",
+     "custom_value": "WEST JORDAN",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Westbrook",
+     "custom_value": "Westbrook",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Wheat Ridge",
+     "custom_value": "Wheat Ridge",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Wichita",
+     "custom_value": "Wichita",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Wilkes Barre",
+     "custom_value": "Wilkes Barre",
+     "doc_count": 1
+    },
+    {
+     "original_value": "WILLIAMSBURG",
+     "custom_value": "WILLIAMSBURG",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Wilmington",
+     "custom_value": "Wilmington",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Windsor",
+     "custom_value": "Windsor",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Wixom",
+     "custom_value": "Wixom",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Woodridge",
+     "custom_value": "Woodridge",
+     "doc_count": 3
+    },
+    {
+     "original_value": "YAPHANK",
+     "custom_value": "YAPHANK",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Ypsilanti",
+     "custom_value": "Ypsilanti",
+     "doc_count": 1
+    }
+   ]
+  },
+  {
+   "alias": "Is Remote",
+   "field": "is_remote",
+   "facet_field_keyvalue": [
+    {
+     "original_value": "false",
+     "custom_value": "No",
+     "doc_count": 507
+    }
+   ]
+  }
+ ],
+ "jobs": [
+  {
+   "sourceID": "84e90536decbadff879933a70676718f",
+   "uniqueID": "PDX_TR_7BD3EFB4-BDA1-4FEA-845A-4BDF34FD9B73_23228894",
+   "requisitionID": "R35983",
+   "reference": "P1-7375133-0",
+   "title": "Assistant General Counsel- Employment",
+   "description": "<div class='description'>102121<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>701 Cool Springs Blvd, Franklin, Tennessee 37067<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><i>TruGreen <span>accepts applications on an ongoing basis.</span></i></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><h2><b><u>Job Description</u></b></h2><p><span>This role will provide </span>legal counsel and <span>advice</span> on employment related matters. Also, will handle most litigation matters (employment-related and others) for the Company.</p><p></p><p><b>Responsibilities</b></p><ul><li><p><span>Represents</span> and defends the company against <span>all</span> types of <span>claims</span> <span>(i.e.,</span> auto liability, EEO, <span>administrative</span> <span>complaints</span> and <span>lawsuits). </span></p></li><li><p><span>Analyzes</span> claims to determine <span>risk</span> of <span>liability</span> and damages to <span>the</span> company. <span>Reviews</span> <span>business</span> <span>practices</span> and makes recommendations to mitigate legal <span>risk.</span></p></li><li><p>Assists with<span> preparation of discovery, including interrogatories, </span><span>document</span> preparation<span>, and related motion practice.</span></p></li><li><p><span>Develops</span> and maintains a <span>process</span> to <span>ensure</span> compliance with wage and <span>hour</span> regulations.</p></li><li><p><span>Researches</span> and <span>documents</span> <span>prevailing</span> wage requirements and concerns.</p></li><li><p><span>Oversees</span> <span>an</span> ADA compliance program and<span> leave management </span><span>processes,</span> <span>provides</span> <span>guidance</span> on accommodation <span>requests,</span> and <span>develops</span> and <span>implements</span> <span>training</span> materials and on-going communication.</p></li><li><p>Provides advice and support to Human Resources and other business stakeholders on employment law matters.</p></li><li><p><span>Researches</span> legal issues and maintains an awareness of <span>current</span> federal and state laws and <span>regulations</span> governing <span>disability</span> and <span>leaves</span> of absence.</p></li></ul><p></p><p><b>Competencies</b></p><ul><li><p><b>Customer Focus</b> – Building strong customer relationships and delivering customer-centric solutions.</p></li><li><p><b>Drives Results</b> – Consistently achieving results, even under tough circumstances.</p></li><li><p><b>Situational Adaptability</b> – Adapting approach and demeanor in real time to match the shifting demands of different situations.</p></li><li><p><b>Values Differences</b> – Recognizing the value that different perspectives and cultures bring to an organization.</p></li><li><p><b>Optimizes Work Processes</b> – Knowing the most effective and efficient processes to get things done, with a focus on continuous improvement.</p></li></ul><p></p><p><b>Education and Experience Requirements</b></p><ul><li><p><span>Juris</span> Doctorate degree and admission to <span>practice</span> <span>in</span> at <span>least</span> one state <span>required,</span> with admission to <span>the</span> <span>Tennessee</span> Bar required <span>within</span> a <span>reasonable</span> period</p></li><li><p><span>5-10</span> <span>years</span> of <span>experience</span> <span>practicing</span> <span>law</span> required</p></li><li><p>Some exposure to ADA, FMLA, and wage and <span>hour</span> issues <span>required</span></p></li><li><p>Familiarity with alternative <span>dispute</span> resolution programs <span>required</span></p></li><li><p>First Chair litigation and litigation management experience <span>required</span></p></li><li><p><span>Experience</span> <span>conducting</span> investigations and managing <span>e-discovery</span> <span>required</span></p></li></ul><p></p><p><b>Knowledge, Skills, and Abilities</b></p><ul><li><p><span>Knowledge</span> of <span>federal,</span> state and <span>local</span> employment-related <span>laws</span> and <span>regulations</span> <span>(e.g.,</span> ADA, <span>EEO,</span> FLSA)</p></li><li><p><span>Knowledge</span> of alternative <span>dispute</span> resolution <span>programs</span> and best <span>practices</span></p></li><li><p><span>Drafting of civil pleadings and motions.  Writing sample required</span></p></li><li><p><span>Executive</span> presence and relationship management skills</p></li><li><p><span>Influencing</span> and negotiation <span>skills</span></p></li><li><p><span>Coaching</span> and <span>counseling</span> <span>skills</span></p></li><li><p><span>Leadership</span> and <span>project</span> management <span>skills</span></p></li><li><p><span>Accuracy</span> and attention to <span>detail</span> with qualitative and <span>quantitative</span> data</p></li><li><p><span>Quantitative</span> and qualitative analytical <span>skills</span></p></li><li><p>Excellent verbal and written communication <span>skills,</span> <span>including</span> <span>presentations</span></p></li></ul><p></p><p><b>Physical Demands & Working Conditions</b></p><p></p><p>The physical demands described here are representative of those that must be met by an employee to successfully perform the essential functions of this job. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions.</p><p></p><p><b>Regularly required to:</b></p><ul><li><p>Sit, stand and walk</p></li><li><p>Use hands and arms to handle, feel or reach</p></li><li><p>Speak and hear</p></li><li><p>Use close vision abilities</p></li></ul><p></p><p><b>Occasionally required to:</b></p><ul><li><p>Lift or move up to 25 lbs</p></li><li><p>Stoop, kneel, crouch or crawl</p></li></ul><p></p><p>The work environment characteristics described here are representative of those an employee encounters while performing the essential functions of this job.</p><ul><li><p><b>Noise level</b> - Low to moderate</p></li><li><p><b>Adverse Conditions</b> - Minimal</p></li></ul><h1></h1><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>Ability to speak, read and write fluently in English is required. </span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>You MUST BE physically located in the United States while performing this job.</span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><i>TruGreen is proud to affirm our commitment to hiring veterans. We recognize and appreciate the exceptional skills, dedication, and leadership that veterans bring to the workforce. By fostering an inclusive and diverse environment, we aim to leverage the unique experiences of veterans, creating a richer, more dynamic workplace.</i></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><h1><b><u>Pay Ranges</u></b></h1>$114,013.00 - $190,020.00<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>This range is based on the qualifications necessary for the position, including experience, training, and other considerations permitted by law. Factors that may be used when making an offer may include a candidate’s skills, experience, and geographic location, the expected quality and quantity of work, and internal pay alignment, as needed. Most candidates will start in the bottom half of the pay range. The upper end of the range will generally be reserved for candidates with extensive experience. An employee’s pay history will not be a contributing factor where prohibited by local law. In addition to monetary compensation, we offer benefits, including <span><span><span><span><span><span><span><span class=\"WCO0\">Medical/Dental/Vision</span></span></span></span></span></span></span></span></span> insurance and Company-matching 401(k) in addition to other programs and perks.</p><p style=\"text-align:inherit\"></p><p><span>TruGreen is committed to Diversity and Inclusion. We encourage diverse candidates to apply to this position.</span><br /><span> </span><br /><span>We are an Equal Opportunity/Affirmative Action Employer - Minorities/Females/Protected Veterans/Individuals with Disabilities. To learn more, please visit<span> </span></span><a href=\"https://www.trugreenjobs.com/eeo-is-the-law\" target=\"_blank\">EEOC/EEO | TruGreen (trugreenjobs.com</a><span>).</span><br /> </p><p><span> </span><br /><span>California Residents: When you express interest in or apply for a job with TruGreen Limited Partnership, we collect personal information about you, potentially including personal identifiers, contact information, protected classifications, pre-hire information, professional or employment-related information, education history, and/or medical information, for the following business purposes: to comply with state and federal law and regulations requiring employers to maintain certain records; to evaluate your job application and candidacy for employment; and to obtain and verify background checks (including criminal and motor vehicle records), pre-employment drug testing, and references.</span></p><p></p><p></p><p><span>Massachusetts Residents: It is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability.</span></p><p><br /><span> </span><br /><span>TruGreen performs pre-employment testing.</span><br /><span> </span><br /><span>To view our disclaimer,<span> </span></span><a href=\"https://www.trugreenjobs.com/us/en/disclaimer\" target=\"_blank\">https://trugreenjobs.com/us/en/disclaimer</a></p></div>",
+   "companyID": "PIJ-api.paradox.ai-15147-142797-53834",
+   "companyName": "api.paradox.ai-TR",
+   "brandName": "TruGreen",
+   "locations": [
+    {
+     "zipCode": "37067",
+     "locationID": "23228894",
+     "locationName": "Nashville TN (HQ)",
+     "streetAddress": "701 Cool Springs Blvd",
+     "city": "Nashville",
+     "state": "Tennessee",
+     "stateAbbr": "TN",
+     "address1": "",
+     "address2": "",
+     "country": "United States",
+     "countryAbbr": "US",
+     "latitude": 35.946301,
+     "longitude": -86.8085062,
+     "locationText": "701 Cool Springs Blvd, Nashville TN 37067, United States",
+     "locationParsedText": "701 Cool Springs Blvd, Nashville TN 37067, United States",
+     "isRemote": false,
+     "postalCode": "",
+     "distance": -1,
+     "sublocality": "",
+     "cityState": "Nashville, Tennessee",
+     "cityStateAbbr": "Nashville, TN"
+    }
+   ],
+   "isRemote": false,
+   "employmentType": [
+    "Full Time"
+   ],
+   "employmentStatus": [],
+   "postingType": "1",
+   "isInternal": "false",
+   "applyURL": "https://trugreen.wd1.myworkdayjobs.com/USExternalCareers/job/Nashville-TN-37201/Assistant-General-Counsel--Employment_R35983",
+   "originalURL": "assistant-general-counsel-employment/job/P1-7375133-0",
+   "lang": "en",
+   "availableLanguages": [
+    "en"
+   ],
+   "commuteTimeDuration": 0,
+   "customFields": [
+    {
+     "cfKey": "cf_questionnaire",
+     "value": "QUESTIONNAIRE-3-371",
+     "key": "CF Primary External Questionnaire"
+    },
+    {
+     "cfKey": "cf_requisition_status",
+     "value": "OPEN",
+     "key": "CF Requisition Status"
+    },
+    {
+     "cfKey": "cf_job_external",
+     "value": "1",
+     "key": "CF Job Posted Externally"
+    },
+    {
+     "cfKey": "cf_wd_apply_url",
+     "value": "https://trugreen.wd1.myworkdayjobs.com/USExternalCareers/job/Nashville-TN-37201/Assistant-General-Counsel--Employment_R35983",
+     "key": "CF Workday Apply URL"
+    },
+    {
+     "cfKey": "cf_disable_override_apply_url",
+     "value": "1",
+     "key": "cf_disable_override_apply_url"
+    },
+    {
+     "cfKey": "cf_shorten_job_id",
+     "value": "P1-7375133-0",
+     "key": "cf_shorten_job_id"
+    }
+   ],
+   "facilityName": "",
+   "jobCardExtraFields": []
+  },
+  {
+   "sourceID": "dfce7106cee9d0fb62a0b3bcc25779cb",
+   "uniqueID": "PDX_TR_7518E18B-BCF8-4795-A1E1-9950EDC59AA4_22547291",
+   "requisitionID": "R35974",
+   "reference": "P1-7354100-0",
+   "title": "BUSINESS DEVELOPMENT REP - B2B",
+   "description": "<div class='description'>2385 Matheson Blvd East, Mississauga, Ontario L4W 5B3<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><h2><u><b>Job Description</b></u></h2><h1><b>TruGreen is committed to providing personalized attention for our associates. We focus on developing our people by building proud, dynamic teams while helping associates reach their personal and professional goals. We continuously strive to make TruGreen an employer of choice and \"a great place to work!\"</b></h1><h1> </h1><h1><b><u>Position Overview</u></b></h1><h1><b>Generates sales revenue by prospecting and adding new program commercial customers, as well as cross selling and up selling current customers. This role often involves prospecting, negotiation, and building relationships with clients to achieve sales targets. All ‘Hunters’ should apply!</b></h1><p> </p><h1><b>The essential duties and responsibilities are listed below. Other duties may be assigned.</b></h1><p> </p><h1><b>Key Responsibilities:</b></h1><p><b>Prospecting and Lead Generation</b>: Identifying potential clients and businesses through research, networking, and other strategies.  Business to Business.</p><p><b>Needs Assessment</b>: Understanding the specific requirements of each client to provide tailored solutions.</p><p><b>Sales Proposals</b>: Presenting products or services to potential clients and developing customized proposals.</p><p><b>Negotiation and Closing Deals</b>: Negotiating terms of sale and contracts with clients.</p><p><b>Building Relationships:</b> Maintaining ongoing relationships with clients to ensure their satisfaction and provide ongoing support.</p><p><b>Achieving Sales Targets</b>: Driving revenue growth by closing sales and exceeding targets.</p><p> </p><p><u>Education and Experience Requirements</u></p><p>Associate's degree (B.A.) or equivalent from two-year college or technical school, or two to three years related experience in lawn/horticulture agronomic field and/or training, or equivalent combination of education and experience.</p><p><b>MUST HAVE SALES EXPERIENCE, MINIMUM 2 YEARS.</b></p><p> </p><p><b><u>Knowledge, Skills and Abilities</u></b></p><p>To perform this job successfully, an individual must be able to perform each essential duty satisfactorily.  The requirements listed below are representative of the knowledge, skill, and/or ability required.  Reasonable accommodation may be made to enable individuals with disabilities to perform the essential functions.</p><ul><li style=\"color:#3b3b3b !important\">Ability to read, analyze, and interpret general business periodicals, professional journals, technical procedures, or governmental regulations. </li><li style=\"color:#3b3b3b !important\">Ability to write reports, business correspondence, and procedure manuals. </li><li style=\"color:#3b3b3b !important\">Ability to effectively present information and  respond to questions from groups of managers, customers, and the general public.</li><li style=\"color:#3b3b3b !important\">Ability to calculate figures and amounts such as discounts, interest, commissions, proportions, percentages, area, circumference, and volume.</li><li style=\"color:#3b3b3b !important\">Ability to solve practical problems and deal with a variety of customer service situations. </li><li style=\"color:#3b3b3b !important\">Ability to interpret a variety of instructions furnished in written, oral, diagram, or schedule form. </li></ul><p><b><u>Other Skills and Abilities</u></b></p><p>Adaptability                                                                Analytical</p><p>Customer relations                                                    Extensive local travel</p><p>Oral and written communications                           Follow-up</p><p>Listening                                                                     Persuasiveness</p><p>Problem solving                                                         Time management</p><p>Organization                                                               Self-motivator</p><p> </p><p><b><u>Physical Demands and Working Conditions      </u></b></p><p>The physical demands described here are representative of those that must be met by an employee to successfully perform the essential functions of this job.  Reasonable accommodation may be made to enable individuals with disabilities to perform the essential functions.</p><ul><li style=\"color:#3b3b3b !important\">While performing the duties of this job, the employee is regularly required to walk, sit, and talk or hear.  The employee is frequently required to stand, use hands to finger, handle, or feel objects, tools, or controls.  The employee is frequently required to reach with hands and arms. </li><li style=\"color:#3b3b3b !important\"> Specific vision abilities required by this job include close vision, distance vision, color vision, peripheral vision, depth perception, and the ability to adjust focus. </li></ul><p>The work environment characteristics described here are representative of those an employee encounters while performing the essential functions of this job.  Reasonable accommodation may be made to enable individuals with disabilities to perform the essential functions.</p><ul><li style=\"color:#3b3b3b !important\">While performing the duties of this job, the employee occasionally works in outside weather conditions. </li><li style=\"color:#3b3b3b !important\"> The noise level in the work environment is usually moderate.</li></ul><p> </p><p> </p><p><b><u>Disclaimer</u></b><br />The above statements are intended to describe the general nature and level of work being performed by associates assigned to this classification. They are not to be construed as an exhaustive list of all responsibilities, duties, and skills required of personnel so classified. All personnel may be required to perform duties outside of their normal responsibilities from time to time, as needed.</p><h1> </h1><p> </p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p></div>",
+   "companyID": "PIJ-api.paradox.ai-15147-142797-53834",
+   "companyName": "api.paradox.ai-TR",
+   "brandName": "TruGreen",
+   "locations": [
+    {
+     "zipCode": "L4W 5B3",
+     "locationID": "22547291",
+     "locationName": "Toronto ON West Branch",
+     "streetAddress": "2385 Matheson Blvd East",
+     "city": "Mississauga",
+     "state": "Ontario",
+     "stateAbbr": "ON",
+     "address1": "",
+     "address2": "",
+     "country": "Canada",
+     "countryAbbr": "CA",
+     "latitude": 43.6565301,
+     "longitude": -79.6046148,
+     "locationText": "2385 Matheson Blvd East, Mississauga ON L4W 5B3, Canada",
+     "locationParsedText": "2385 Matheson Blvd East, Mississauga ON L4W 5B3, Canada",
+     "isRemote": false,
+     "postalCode": "",
+     "distance": -1,
+     "sublocality": "",
+     "cityState": "Mississauga, Ontario",
+     "cityStateAbbr": "Mississauga, ON"
+    }
+   ],
+   "isRemote": false,
+   "employmentType": [
+    "Full Time"
+   ],
+   "employmentStatus": [],
+   "postingType": "1",
+   "isInternal": "false",
+   "applyURL": "https://olivia.paradox.ai/co/TruGreen6/Job?job_id=R35974_1",
+   "originalURL": "business-development-rep-b2b/job/P1-7354100-0",
+   "lang": "en",
+   "availableLanguages": [
+    "en"
+   ],
+   "commuteTimeDuration": 0,
+   "customFields": [
+    {
+     "cfKey": "cf_questionnaire",
+     "value": "QUESTIONNAIRE-3-363",
+     "key": "CF Primary External Questionnaire"
+    },
+    {
+     "cfKey": "cf_requisition_status",
+     "value": "OPEN",
+     "key": "CF Requisition Status"
+    },
+    {
+     "cfKey": "cf_job_external",
+     "value": "1",
+     "key": "CF Job Posted Externally"
+    },
+    {
+     "cfKey": "cf_shorten_job_id",
+     "value": "P1-7354100-0",
+     "key": "cf_shorten_job_id"
+    }
+   ],
+   "facilityName": "",
+   "jobCardExtraFields": []
+  },
+  {
+   "sourceID": "0725d061aa9c05e94725d1f2151e221c",
+   "uniqueID": "PDX_TR_D3EE073D-2F20-48E7-89CC-6BC0630897FC_22547533",
+   "requisitionID": "R35912",
+   "reference": "P1-6642960-0",
+   "title": "Branch Operations Manager",
+   "description": "<div class='description'>110 Shortcut Rd, North Augusta, South Carolina 29860<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><i>TruGreen <span>accepts applications on an ongoing basis.</span></i></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><h1><b><u>Job Description</u></b></h1><p> </p><p> </p><p>A Branch Operations Manager <span>oversees the daily operations of a branch, ensuring efficiency, customer satisfaction, and regulatory compliance. They are responsible for managing staff, implementing operational policies, and achieving performance goals. Their role also includes monitoring performance metrics, identifying areas for improvement, and contributing to the overall success of the branch and the organization. </span></p><p></p><p><b>Core Responsibilities:</b></p><ul><li><b>Operational Management</b>: <span>Overseeing daily branch execution and operations, ensuring timely and quality service delivery. </span>Ensures that a safe workplace is provided for all associates by ongoing training and adherence to company policies. Prepares composite reports from individual reports of subordinates. Translate district-level goals into daily priorities at the branch level, ensuring alignment and focus. Supervise technician teams and handle local issue resolution. Lead daily huddles to surface field-level issues and reinforce coaching provided by District Manager​</li><li><b>Staff Management</b>: <span>Managing and leading branch staff, including hiring, training, performance evaluations, and development. </span>Recruits, interviews and selects personnel needed to efficiently staff the service function. Evaluates performance, makes salary recommendations, and administers disciplinary actions consistent with company policy. Plan and conduct new hire and on-going training for service personnel in customer service skills, technical skills, safety policies, and procedures.</li><li><b>Customer Service</b>: Serve as the face of the branch for customer e<span>nsuring high levels of customer satisfaction through efficient service delivery and addressing customer inquiries and issues.</span> Ensures branch-level processes enable positive customer relationships, and that employees engaging with customers are doing so in an appropriate way from a communication and content standpoint. Coaches and develops lawn specialists and trainees. Works with other managers to identify ways to reduce customer cancellations. Sets customer context for the team and assists the team in preparing required materials and presentations for interactions with the customer team</li><li><b>Compliance</b>: <span>Ensuring adherence to company policies, as well as federal, state, and local regulations.</span> Monitors and ensures proper licensing of production staff.</li><li><b>Financial Management</b>: <span>Managing budgets, forecasts, and financial performance metrics for the branch.</span> </li><li><b>Performance Analysis</b>: <span>Analyzing operational data to identify trends, challenges, and opportunities for improvement.</span> </li><li><b>Strategic Implementation</b>: <span>Developing and implementing operational strategies to drive efficiency and optimize branch performance.</span> </li><li><b>Team Leadership</b>: <span>Fostering a positive branch culture, promoting employee engagement, and driving team success. </span>Monitors and positively impacts Associate Engagement and Culture Initiatives</li><li><b>Process Improvement</b>: <span>Identifying and recommending process improvements to enhance efficiency and profitability. </span>Examines associate work for accuracy, neatness, and conformance to best practices as well as company policies and procedures.</li></ul><p></p><p><b>Competencies:</b></p><ul><li><p><b>Leadership and Management:</b> Strong leadership skills to effectively manage and motivate a team. </p></li><li><p><b>Operational Expertise:</b> A thorough understanding of branch operations and business processes. </p></li><li><p><b>Customer Service:</b> Excellent customer service skills and a commitment to providing a positive customer experience. </p></li><li><p><b>Communication Skills:</b> Strong verbal and written communication skills. </p></li><li><p><b>Analytical Skills:</b> Ability to analyze data, identify trends, and make data-driven decisions. </p></li><li><p><b>Financial Acumen:</b> Understanding of financial management principles and budgeting. </p></li><li><p><b>Problem-Solving:</b> Ability to identify and resolve operational issues and challenges. </p></li><li><p><b>Compliance Knowledge:</b> Familiarity with relevant regulations and compliance requirements. </p></li><li><p><b>Adaptability:</b> Ability to adapt to changing business needs and implement new strategies. </p></li></ul><p></p><p><b><i>Education and Experience Requirements</i></b></p><ul><li><p>Associate’s degree in a business-related discipline and two (2) or more years of related experience in lawn/horticulture/agronomy/lawn care services required, or an equivalent combination of education and experience.</p></li><li><p>2+ years of supervisory management experience required.</p></li><li><p>Valid, permanent driver’s license from state of residence.</p></li><li><p>Must be 21 years of age by date of hire.</p></li></ul><p></p><p><b><i>Success Factors</i></b></p><p><b>Leadership and Team Management:</b></p><ul><li><p>Guiding, mentoring, and inspiring the branch associates and Service Managers to achieve goals and foster a culture of success is crucial. Recruiting talented individuals, fostering collaboration, and promoting a positive work environment.</p></li></ul><p><b>Operational Excellence:</b></p><ul><li><p>Identify and eliminate inefficiencies and bottlenecks in workflows to improve productivity and quality. Utilizing systems and tools to optimize operations and track performance. Ensure adherence to company policies, industry regulations, and identifying and mitigating potential risks. </p></li></ul><p><b>Customer Service Focus:</b></p><ul><li><p>Ensure that our associates/managers provide a positive customer experience, promptly resolving issues, building strong relationships, and driving customer retention. Understanding customer needs by using resource generated feedback to personalize service and product offerings,. </p></li></ul><p><b>Strategic Thinking and Decision Making:</b></p><ul><li><p>Set clear objectives for associates/managers by defining measurable goals for the branch and aligning them with the company's overall strategy. Analyze operational and financial data to identify trends, opportunities for improvement, and inform strategic decisions. Being able to respond to changes in the market, industry and/or customers and overcoming challenges. </p></li></ul><p><b>Communication and Interpersonal Skills:</b></p><ul><li><p>Effectively conveying objectives and strategies, providing feedback, and creating a collaborative and inclusive work environment. Address conflicts promptly and professionally to maintain positive relationships and a healthy work environment. Foster strong relationships with associates, ops leadership, and customers. </p></li></ul><p><br /><b><i>Key Metrics</i></b></p><ul><li><p><span>Service completion rate</span>​</p></li><li><p><span>On-time service rate</span>​</p></li><li><p><span>Branch NPS</span>​</p></li><li><p><span>Daily route efficiency</span>​</p></li><li><p><span>Safety and compliance metrics</span></p></li></ul><p></p><p><b><i>Financial Targets</i></b></p><ul><li><p><span>Meet daily revenue goals</span>​</p></li><li><p><span>Minimize service rework</span>​</p></li><li><p><span>Reduce overtime </span>​</p></li><li><p><span>Daily productivity metrics (e.g., stops/hour)</span></p></li></ul><p></p><p><b><i>Key Capabilities</i></b></p><p><b><u>Individual</u></b></p><ul><li><p><span>Team management and scheduling optimization</span>​</p></li><li><p><span>Frontline leadership</span>​</p></li><li><p><span>Service quality control</span>​</p></li><li><p><span>Issue resolution</span></p></li></ul><p></p><p><b><u>Team</u></b></p><ul><li><p><span>Tight coordination across technicians, scheduling, and customer service to deliver consistent outcomes </span>​</p></li><li><p><span>Customer interaction and service delivery discipline</span>​</p></li><li><p><span>Service quality and punctuality</span></p></li></ul><p></p><p><b><i>Decision Rights</i></b></p><p><b><u>Owns</u></b></p><ul><li><p>Daily schedules, technician dispatching, local team assignments​</p></li><li><p>Technician supervision​</p></li><li><p>Minor purchases</p></li></ul><p></p><p><b><u>Influences</u></b></p><ul><li><p>Branch hiring recommendations​</p></li><li><p>Input on customer satisfaction programs​</p></li><li><p>Local marketing activities and process improvements</p></li></ul><p> </p><p> </p><p style=\"text-align:left\"><span>Ability to speak, read and write fluently in English is required. </span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>You MUST BE physically located in the United States while performing this job.</span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><i>TruGreen is proud to affirm our commitment to hiring veterans. We recognize and appreciate the exceptional skills, dedication, and leadership that veterans bring to the workforce. By fostering an inclusive and diverse environment, we aim to leverage the unique experiences of veterans, creating a richer, more dynamic workplace.</i></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><h1><b><u>Pay Ranges</u></b></h1><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>This range is based on the qualifications necessary for the position, including experience, training, and other considerations permitted by law. Factors that may be used when making an offer may include a candidate’s skills, experience, and geographic location, the expected quality and quantity of work, and internal pay alignment, as needed. Most candidates will start in the bottom half of the pay range. The upper end of the range will generally be reserved for candidates with extensive experience. An employee’s pay history will not be a contributing factor where prohibited by local law. In addition to monetary compensation, we offer benefits, including <span><span><span><span><span><span><span><span class=\"WCO0\">Medical/Dental/Vision</span></span></span></span></span></span></span></span></span> insurance and Company-matching 401(k) in addition to other programs and perks.</p><p style=\"text-align:inherit\"></p><p><span>TruGreen is committed to Diversity and Inclusion. We encourage diverse candidates to apply to this position.</span><br /><span> </span><br /><span>We are an Equal Opportunity/Affirmative Action Employer - Minorities/Females/Protected Veterans/Individuals with Disabilities. To learn more, please visit<span> </span></span><a href=\"https://www.trugreenjobs.com/eeo-is-the-law\" target=\"_blank\">EEOC/EEO | TruGreen (trugreenjobs.com</a><span>).</span><br /> </p><p><span> </span><br /><span>California Residents: When you express interest in or apply for a job with TruGreen Limited Partnership, we collect personal information about you, potentially including personal identifiers, contact information, protected classifications, pre-hire information, professional or employment-related information, education history, and/or medical information, for the following business purposes: to comply with state and federal law and regulations requiring employers to maintain certain records; to evaluate your job application and candidacy for employment; and to obtain and verify background checks (including criminal and motor vehicle records), pre-employment drug testing, and references.</span></p><p></p><p></p><p><span>Massachusetts Residents: It is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability.</span></p><p><br /><span> </span><br /><span>TruGreen performs pre-employment testing.</span><br /><span> </span><br /><span>To view our disclaimer,<span> </span></span><a href=\"https://www.trugreenjobs.com/us/en/disclaimer\" target=\"_blank\">https://trugreenjobs.com/us/en/disclaimer</a></p></div>",
+   "companyID": "PIJ-api.paradox.ai-15147-142797-53834",
+   "companyName": "api.paradox.ai-TR",
+   "brandName": "TruGreen",
+   "locations": [
+    {
+     "zipCode": "29860",
+     "locationID": "22547533",
+     "locationName": "Augusta SC Branch",
+     "streetAddress": "110 Shortcut Rd",
+     "city": "North Augusta",
+     "state": "South Carolina",
+     "stateAbbr": "SC",
+     "address1": "",
+     "address2": "",
+     "country": "United States",
+     "countryAbbr": "US",
+     "latitude": 33.6039533,
+     "longitude": -81.9377122,
+     "locationText": "110 Shortcut Rd, North Augusta SC 29860, United States",
+     "locationParsedText": "110 Shortcut Rd, North Augusta SC 29860, United States",
+     "isRemote": false,
+     "postalCode": "",
+     "distance": -1,
+     "sublocality": "",
+     "cityState": "North Augusta, South Carolina",
+     "cityStateAbbr": "North Augusta, SC"
+    }
+   ],
+   "isRemote": false,
+   "employmentType": [
+    "Full Time"
+   ],
+   "employmentStatus": [],
+   "postingType": "1",
+   "isInternal": "false",
+   "applyURL": "https://trugreen.wd1.myworkdayjobs.com/USExternalCareers/job/North-Augusta-SC-29860/Branch-Operations-Manager_R35912",
+   "originalURL": "branch-operations-manager/job/P1-6642960-0",
+   "lang": "en",
+   "availableLanguages": [
+    "en"
+   ],
+   "commuteTimeDuration": 0,
+   "customFields": [
+    {
+     "cfKey": "cf_questionnaire",
+     "value": "QUESTIONNAIRE-3-611",
+     "key": "CF Primary External Questionnaire"
+    },
+    {
+     "cfKey": "cf_requisition_status",
+     "value": "OPEN",
+     "key": "CF Requisition Status"
+    },
+    {
+     "cfKey": "cf_job_external",
+     "value": "1",
+     "key": "CF Job Posted Externally"
+    },
+    {
+     "cfKey": "cf_wd_apply_url",
+     "value": "https://trugreen.wd1.myworkdayjobs.com/USExternalCareers/job/North-Augusta-SC-29860/Branch-Operations-Manager_R35912",
+     "key": "CF Workday Apply URL"
+    },
+    {
+     "cfKey": "cf_disable_override_apply_url",
+     "value": "1",
+     "key": "cf_disable_override_apply_url"
+    },
+    {
+     "cfKey": "cf_shorten_job_id",
+     "value": "P1-6642960-0",
+     "key": "cf_shorten_job_id"
+    }
+   ],
+   "facilityName": "",
+   "jobCardExtraFields": []
+  },
+  {
+   "sourceID": "470912ed212c6e0769467626a2774825",
+   "uniqueID": "PDX_TR_1913DAFA-69BE-4FCA-9D68-9DE1808DE99B_22547415",
+   "requisitionID": "R37606",
+   "reference": "P1-7618707-0",
+   "title": "Branch Sales Manager",
+   "description": "<div class='description'>31 Wells Street, Salem, Virginia 24153<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><i>TruGreen <span>accepts applications on an ongoing basis.</span></i></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><h1><b><u>Job Description</u></b></h1><p> </p><p> </p><p>Experienced and results-driven Branch Sales Managers lead and enhance all sales activities within their assigned TruGreen branch(es). The ideal candidate will play a pivotal role in staffing and guiding a high-performance sales team to increase sales volume, maximize profits, and uphold their TruGreen Commitment. This position involves devising strategic plans to expand our customer base within the local marketing area.</p><p></p><p><b>Responsibilities</b></p><ul><li><p><b>Strategic Sales Planning:</b> Develop comprehensive sales plans and forecasts at the branch level. Maintain rigorous control over sales outcomes to ensure the attainment of sales objectives within budgetary constraints.</p></li><li><p><b>Marketing Program Execution:</b> Collaborate in the execution of various marketing programs, such as door-to-door, direct mail, inside, and outside marketing, to drive profit growth and the expansion of TruGreen's services. Share valuable local market insights and customer feedback with the TruGreen Marketing team.</p></li><li><p><b>Lead Generation:</b> Compile lists of potential customers to generate sales leads. Utilize information from direct mail campaigns, advertisements, community events, trade shows, business seminars, and other sources. Additionally, provide support in closing sales as required.</p></li><li><p><b>Customer Satisfaction:</b> Address customer complaints related to sales and service. Analyze and manage new sale cancellation requests to proactively retain customers.</p></li><li><p><b>Training and Development:</b> Organize and conduct ongoing training for sales personnel, focusing on customer service skills, effective selling techniques, and adherence to safety policies and procedures.</p></li><li><p><b>Workflow Management:</b> Establish and oversee work procedures, create work schedules, and facilitate workflow to optimize efficiency. Monitor and report on the hourly, daily, and weekly sales performance of each team member.</p></li><li><p><b>Performance Standards:</b> Develop, implement, and maintain performance standards, measurements, and corrective strategies to ensure the realization of approved plans and objectives within the sales organization.</p></li><li><p><b>Staffing and HR Management:</b> Lead the recruiting, interviewing, and staffing of 10 or more peak reps. Evaluate staff performance, provide salary recommendations, and enforce disciplinary actions in accordance with company policies.</p></li></ul><p></p><p><b>Education and Experience Requirements</b></p><ul><li><p>Bachelor's degree or 2 - 3 years of related experience in the lawn/horticulture agronomic field required, or an equivalent combination of education and experience.</p></li><li><p>Proven experience in sales.</p></li><li><p>Strong leadership and team management skills.</p></li><li><p>Excellent communication and interpersonal abilities.</p></li><li><p>Strategic thinking and problem-solving skills.</p></li><li><p>Proficiency in using sales analytics and CRM tools.</p></li><li><p>Ability to travel to all Door to Door routes within the market.</p></li></ul><p></p><p><b>Knowledge, Skills, and Abilities</b></p><ul><li><p>Demonstrated knowledge of the organization, products, and/or services</p></li><li><p>Strong understanding of customer and market dynamics and requirements</p></li><li><p>Proven leadership and ability to drive sales teams</p></li><li><p>Ability to calculate figures and amounts such as discounts, interest, commissions, percentages, and  volume</p></li><li><p>Ability to write reports, business correspondence, and procedure manuals; ability to effectively present information and respond to questions from groups of managers, specialists, customers, and the general public</p></li><li><p>Ability to define customer problems, collect data, establish facts, and draw valid conclusions</p></li><li><p>Ability to interpret a variety of instructions furnished in written, oral, diagram, or schedule form</p></li><li><p>Other required knowledge skills and abilities include but are not limited to: Attention to Detail, Organizational skills, Adaptability, and Flexibility.</p></li><li><p>Computer skills with Microsoft Office applications (Word, Excel, Outlook, PowerPoint)</p></li></ul><p></p><p><b>Physical Demands & Working Conditions</b><br /> </p><p>The physical demands described here are representative of those that must be met by an employee to successfully perform the essential functions of this job. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions.</p><p></p><p>Regularly required to:</p><ul><li><p>Sit, stand, and walk</p></li><li><p>Use hands and arms to handle, feel, or reach</p></li><li><p>Speak and hear</p></li><li><p>Use close vision abilities</p></li></ul><p></p><p>Occasionally required to:</p><ul><li><p>Lift or move up to 25 lbs.</p></li><li><p>Stoop, kneel, crouch, or crawl</p></li></ul><p></p><p>The work environment characteristics described here are representative of those an employee encounters while performing the essential functions of this job.</p><p></p><p>Noise level:</p><ul><li><p>Low to moderate<br /> </p></li></ul><p>Adverse Conditions:</p><ul><li><p>Minimal</p></li></ul><p></p><p> </p><p> </p><p style=\"text-align:left\"><span>Ability to speak, read and write fluently in English is required. </span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>You MUST BE physically located in the United States while performing this job.</span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><i>TruGreen is proud to affirm our commitment to hiring veterans. We recognize and appreciate the exceptional skills, dedication, and leadership that veterans bring to the workforce. By fostering an inclusive and diverse environment, we aim to leverage the unique experiences of veterans, creating a richer, more dynamic workplace.</i></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><h1><b><u>Pay Ranges</u></b></h1>$60,940.00 - $78,351.00<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>This range is based on the qualifications necessary for the position, including experience, training, and other considerations permitted by law. Factors that may be used when making an offer may include a candidate’s skills, experience, and geographic location, the expected quality and quantity of work, and internal pay alignment, as needed. Most candidates will start in the bottom half of the pay range. The upper end of the range will generally be reserved for candidates with extensive experience. An employee’s pay history will not be a contributing factor where prohibited by local law. In addition to monetary compensation, we offer benefits, including <span><span><span><span><span><span><span><span class=\"WCO0\">Medical/Dental/Vision</span></span></span></span></span></span></span></span></span> insurance and Company-matching 401(k) in addition to other programs and perks.</p><p style=\"text-align:inherit\"></p><p><span>TruGreen is committed to Diversity and Inclusion. We encourage diverse candidates to apply to this position.</span><br /><span> </span><br /><span>We are an Equal Opportunity/Affirmative Action Employer - Minorities/Females/Protected Veterans/Individuals with Disabilities. To learn more, please visit<span> </span></span><a href=\"https://www.trugreenjobs.com/eeo-is-the-law\" target=\"_blank\">EEOC/EEO | TruGreen (trugreenjobs.com</a><span>).</span><br /> </p><p><span> </span><br /><span>California Residents: When you express interest in or apply for a job with TruGreen Limited Partnership, we collect personal information about you, potentially including personal identifiers, contact information, protected classifications, pre-hire information, professional or employment-related information, education history, and/or medical information, for the following business purposes: to comply with state and federal law and regulations requiring employers to maintain certain records; to evaluate your job application and candidacy for employment; and to obtain and verify background checks (including criminal and motor vehicle records), pre-employment drug testing, and references.</span></p><p></p><p></p><p><span>Massachusetts Residents: It is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability.</span></p><p><br /><span> </span><br /><span>TruGreen performs pre-employment testing.</span><br /><span> </span><br /><span>To view our disclaimer,<span> </span></span><a href=\"https://www.trugreenjobs.com/us/en/disclaimer\" target=\"_blank\">https://trugreenjobs.com/us/en/disclaimer</a></p></div>",
+   "companyID": "PIJ-api.paradox.ai-15147-142797-53834",
+   "companyName": "api.paradox.ai-TR",
+   "brandName": "TruGreen",
+   "locations": [
+    {
+     "zipCode": "24153",
+     "locationID": "22547415",
+     "locationName": "Roanoke VA Branch",
+     "streetAddress": "31 Wells Street",
+     "city": "Salem",
+     "state": "Virginia",
+     "stateAbbr": "VA",
+     "address1": "",
+     "address2": "",
+     "country": "United States",
+     "countryAbbr": "US",
+     "latitude": 37.2887612,
+     "longitude": -80.077202,
+     "locationText": "31 Wells Street, Salem VA 24153, United States",
+     "locationParsedText": "31 Wells Street, Salem VA 24153, United States",
+     "isRemote": false,
+     "postalCode": "",
+     "distance": -1,
+     "sublocality": "",
+     "cityState": "Salem, Virginia",
+     "cityStateAbbr": "Salem, VA"
+    }
+   ],
+   "isRemote": false,
+   "employmentType": [
+    "Full Time"
+   ],
+   "employmentStatus": [],
+   "postingType": "1",
+   "isInternal": "false",
+   "applyURL": "https://olivia.paradox.ai/co/TruGreen6/Job?job_id=R37606_1",
+   "originalURL": "branch-sales-manager/job/P1-7618707-0",
+   "lang": "en",
+   "availableLanguages": [
+    "en"
+   ],
+   "commuteTimeDuration": 0,
+   "customFields": [
+    {
+     "cfKey": "cf_questionnaire",
+     "value": "QUESTIONNAIRE-3-591",
+     "key": "CF Primary External Questionnaire"
+    },
+    {
+     "cfKey": "cf_requisition_status",
+     "value": "OPEN",
+     "key": "CF Requisition Status"
+    },
+    {
+     "cfKey": "cf_job_external",
+     "value": "1",
+     "key": "CF Job Posted Externally"
+    },
+    {
+     "cfKey": "cf_wd_apply_url",
+     "value": "https://trugreen.wd1.myworkdayjobs.com/USExternalCareers/job/Salem-VA-24153/Branch-Sales-Manager_R37606",
+     "key": "CF Workday Apply URL"
+    },
+    {
+     "cfKey": "cf_shorten_job_id",
+     "value": "P1-7618707-0",
+     "key": "cf_shorten_job_id"
+    }
+   ],
+   "facilityName": "",
+   "jobCardExtraFields": []
+  },
+  {
+   "sourceID": "257be7b41f56740a5051b08457c99feb",
+   "uniqueID": "PDX_TR_1B756197-694A-4BC6-A3BB-F7000768D189_22547289",
+   "requisitionID": "R35929",
+   "reference": "P1-7066092-0",
+   "title": "Branch Sales Manager",
+   "description": "<div class='description'>15 Churchill Drive, Barrie, Ontario L4N 8Z5<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><h2><u><b>Job Description</b></u></h2><p><span style=\"color:#000000\">Experienced and results-driven Branch Sales Managers lead and enhance all sales activities within their assigned TruGreen branch(es). The ideal candidate will play a pivotal role in staffing and guiding a high-performance sales team to increase sales volume, maximize profits, and uphold their TruGreen Commitment. This position involves devising strategic plans to expand our customer base within the local marketing area. </span>We continuously strive to make TruGreen an employer of choice and \"a great place to work!\"</p><br /><p><b>Position Overview</b></p><br /><p>Responsible for overall success and management of the marketing function in a lawn care branch.  Plans, directs, and coordinates marketing activities of TruGreen services.  </p><br /><p><span style=\"color:#000000\"><b>Responsibilities</b></span></p><ul><li><span style=\"color:#000000\"><b>Strategic Sales Planning:</b> Develop comprehensive sales plans and forecasts at the branch level. Maintain rigorous control over sales outcomes to ensure the attainment of sales objectives within budgetary constraints.</span></li><li><span style=\"color:#000000\"><b>Marketing Program Execution:</b> Collaborate in the execution of various marketing programs, such as door-to-door, direct mail, inside, and outside marketing, to drive profit growth and the expansion of TruGreen's services. Share valuable local market insights and customer feedback with the TruGreen Marketing team.</span></li><li><span style=\"color:#000000\"><b>Lead Generation:</b> Compile lists of potential customers to generate sales leads. Utilize information from direct mail campaigns, advertisements, community events, trade shows, business seminars, and other sources. Additionally, provide support in closing sales as required.</span></li><li><span style=\"color:#000000\"><b>Customer Satisfaction:</b> Address customer complaints related to sales and service. Analyze and manage new sale cancellation requests to proactively retain customers.</span></li><li><span style=\"color:#000000\"><b>Training and Development:</b> Organize and conduct ongoing training for sales personnel, focusing on customer service skills, effective selling techniques, and adherence to safety policies and procedures.</span></li><li><span style=\"color:#000000\"><b>Workflow Management:</b> Establish and oversee work procedures, create work schedules, and facilitate workflow to optimize efficiency. Monitor and report on the hourly, daily, and weekly sales performance of each team member.</span></li><li><span style=\"color:#000000\"><b>Performance Standards:</b> Develop, implement, and maintain performance standards, measurements, and corrective strategies to ensure the realization of approved plans and objectives within the sales organization.</span></li><li><span style=\"color:#000000\"><b>Staffing and HR Management:</b> Lead the recruiting, interviewing, and staffing of 10 or more peak reps. Evaluate staff performance, provide salary recommendations, and enforce disciplinary actions in accordance with company policies.</span></li></ul><br /><p><b>Qualifications</b></p><br /><p>To perform this job successfully, an individual must be able to perform each essential duty satisfactorily.  The requirements listed below are representative of the knowledge, skill, and/or ability required.  Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions.</p><br /><p><b>Education and  Experience Requirement</b></p><br /><p>Bachelor’s degree (B.A.), or two to three years related experience and/or training, or equivalent combination of education and experience.</p><br /><p><b>Knowledge , Skills and Ability</b></p><ul><li>Ability to read and interpret general business periodicals, professional journals, technical procedures, or governmental regulations.  </li><li>Ability to write reports, business correspondence and procedure manuals.  </li><li>Ability to effectively present information and respond to questions from groups of managers, specialists, customers and the general public.</li><li>Ability to calculate figures and amounts such as discounts, interest, commissions, percentages, and volume.</li><li>Ability to define customer problems, collect data, establish facts, and draw valid conclusions. </li><li>Ability to interpret a variety of instructions furnished in written, oral, diagram, or schedule form. </li></ul><p>                       </p><p><b>Physical Demands and Working Conditions</b></p><br /><p>The physical demands described here are representative of those that must be met by an employee to successfully perform the essential functions of this job.  Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions.</p><ul><li>While performing the duties of this job, the employee is regularly required to talk or hear.  The employee is occasionally required to use hands to finger, handle, or feel objects, tools, or controls.   The employee is occasionally required to  reach with hands and arms.  </li><li>Specific vision abilities required by this job include close vision, distance vision, color vision, peripheral vision, depth perception, and the ability to adjust focus. </li></ul><br /><p>Working Conditions</p><br /><p>The work environment characteristics described here are representative of those an employee encounters while performing the essential functions of this job.  Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions.</p><ul><li>While performing the duties of this job, the employee occasionally works in outside weather conditions</li><li> The noise level in the work environment is usually moderate.</li></ul><br /><p>TruGreen is committed to Diversity and Inclusion.  We encourage diverse candidates to apply to this position.</p><br /><br /><p>TruGreen performs pre-employment testing.</p><br /><p>Disclaimer<br />The above statements are intended to describe the general nature and level of work being performed by associates assigned to this classification. They are not to be construed as an exhaustive list of all responsibilities, duties, and skills required of personnel so classified. All personnel may be required to perform duties outside of their normal responsibilities from time to time, as needed.</p><br /><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p></div>",
+   "companyID": "PIJ-api.paradox.ai-15147-142797-53834",
+   "companyName": "api.paradox.ai-TR",
+   "brandName": "TruGreen",
+   "locations": [
+    {
+     "zipCode": "L4N 8Z5",
+     "locationID": "22547289",
+     "locationName": "Barrie ON Branch",
+     "streetAddress": "15 Churchill Drive",
+     "city": "Barrie",
+     "state": "Ontario",
+     "stateAbbr": "ON",
+     "address1": "",
+     "address2": "",
+     "country": "Canada",
+     "countryAbbr": "CA",
+     "latitude": 44.3445623,
+     "longitude": -79.6713008,
+     "locationText": "15 Churchill Drive, Barrie ON L4N 8Z5, Canada",
+     "locationParsedText": "15 Churchill Drive, Barrie ON L4N 8Z5, Canada",
+     "isRemote": false,
+     "postalCode": "",
+     "distance": -1,
+     "sublocality": "",
+     "cityState": "Barrie, Ontario",
+     "cityStateAbbr": "Barrie, ON"
+    }
+   ],
+   "isRemote": false,
+   "employmentType": [
+    "Full Time"
+   ],
+   "employmentStatus": [],
+   "postingType": "1",
+   "isInternal": "false",
+   "applyURL": "https://olivia.paradox.ai/co/TruGreen6/Job?job_id=R35929_1",
+   "originalURL": "branch-sales-manager/job/P1-7066092-0",
+   "lang": "en",
+   "availableLanguages": [
+    "en"
+   ],
+   "commuteTimeDuration": 0,
+   "customFields": [
+    {
+     "cfKey": "cf_questionnaire",
+     "value": "QUESTIONNAIRE-3-363",
+     "key": "CF Primary External Questionnaire"
+    },
+    {
+     "cfKey": "cf_requisition_status",
+     "value": "OPEN",
+     "key": "CF Requisition Status"
+    },
+    {
+     "cfKey": "cf_job_external",
+     "value": "1",
+     "key": "CF Job Posted Externally"
+    },
+    {
+     "cfKey": "cf_shorten_job_id",
+     "value": "P1-7066092-0",
+     "key": "cf_shorten_job_id"
+    }
+   ],
+   "facilityName": "",
+   "jobCardExtraFields": []
+  },
+  {
+   "sourceID": "a4040ded42881573b85a1ab7b3967df8",
+   "uniqueID": "PDX_TR_210296D3-C5B9-4F5F-AA33-95317E90E569_22547485",
+   "requisitionID": "R37608",
+   "reference": "P1-7618708-0",
+   "title": "Branch Sales Manager",
+   "description": "<div class='description'>3015 McCain Ave, Erie, Pennsylvania 16510<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><i>TruGreen <span>accepts applications on an ongoing basis.</span></i></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><h1><b><u>Job Description</u></b></h1><p> </p><p> </p><p>Experienced and results-driven Branch Sales Managers lead and enhance all sales activities within their assigned TruGreen branch(es). The ideal candidate will play a pivotal role in staffing and guiding a high-performance sales team to increase sales volume, maximize profits, and uphold their TruGreen Commitment. This position involves devising strategic plans to expand our customer base within the local marketing area.</p><p></p><p><b>Responsibilities</b></p><ul><li><p><b>Strategic Sales Planning:</b> Develop comprehensive sales plans and forecasts at the branch level. Maintain rigorous control over sales outcomes to ensure the attainment of sales objectives within budgetary constraints.</p></li><li><p><b>Marketing Program Execution:</b> Collaborate in the execution of various marketing programs, such as door-to-door, direct mail, inside, and outside marketing, to drive profit growth and the expansion of TruGreen's services. Share valuable local market insights and customer feedback with the TruGreen Marketing team.</p></li><li><p><b>Lead Generation:</b> Compile lists of potential customers to generate sales leads. Utilize information from direct mail campaigns, advertisements, community events, trade shows, business seminars, and other sources. Additionally, provide support in closing sales as required.</p></li><li><p><b>Customer Satisfaction:</b> Address customer complaints related to sales and service. Analyze and manage new sale cancellation requests to proactively retain customers.</p></li><li><p><b>Training and Development:</b> Organize and conduct ongoing training for sales personnel, focusing on customer service skills, effective selling techniques, and adherence to safety policies and procedures.</p></li><li><p><b>Workflow Management:</b> Establish and oversee work procedures, create work schedules, and facilitate workflow to optimize efficiency. Monitor and report on the hourly, daily, and weekly sales performance of each team member.</p></li><li><p><b>Performance Standards:</b> Develop, implement, and maintain performance standards, measurements, and corrective strategies to ensure the realization of approved plans and objectives within the sales organization.</p></li><li><p><b>Staffing and HR Management:</b> Lead the recruiting, interviewing, and staffing of 10 or more peak reps. Evaluate staff performance, provide salary recommendations, and enforce disciplinary actions in accordance with company policies.</p></li></ul><p></p><p><b>Education and Experience Requirements</b></p><ul><li><p>Bachelor's degree or 2 - 3 years of related experience in the lawn/horticulture agronomic field required, or an equivalent combination of education and experience.</p></li><li><p>Proven experience in sales.</p></li><li><p>Strong leadership and team management skills.</p></li><li><p>Excellent communication and interpersonal abilities.</p></li><li><p>Strategic thinking and problem-solving skills.</p></li><li><p>Proficiency in using sales analytics and CRM tools.</p></li><li><p>Ability to travel to all Door to Door routes within the market.</p></li></ul><p></p><p><b>Knowledge, Skills, and Abilities</b></p><ul><li><p>Demonstrated knowledge of the organization, products, and/or services</p></li><li><p>Strong understanding of customer and market dynamics and requirements</p></li><li><p>Proven leadership and ability to drive sales teams</p></li><li><p>Ability to calculate figures and amounts such as discounts, interest, commissions, percentages, and  volume</p></li><li><p>Ability to write reports, business correspondence, and procedure manuals; ability to effectively present information and respond to questions from groups of managers, specialists, customers, and the general public</p></li><li><p>Ability to define customer problems, collect data, establish facts, and draw valid conclusions</p></li><li><p>Ability to interpret a variety of instructions furnished in written, oral, diagram, or schedule form</p></li><li><p>Other required knowledge skills and abilities include but are not limited to: Attention to Detail, Organizational skills, Adaptability, and Flexibility.</p></li><li><p>Computer skills with Microsoft Office applications (Word, Excel, Outlook, PowerPoint)</p></li></ul><p></p><p><b>Physical Demands & Working Conditions</b><br /> </p><p>The physical demands described here are representative of those that must be met by an employee to successfully perform the essential functions of this job. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions.</p><p></p><p>Regularly required to:</p><ul><li><p>Sit, stand, and walk</p></li><li><p>Use hands and arms to handle, feel, or reach</p></li><li><p>Speak and hear</p></li><li><p>Use close vision abilities</p></li></ul><p></p><p>Occasionally required to:</p><ul><li><p>Lift or move up to 25 lbs.</p></li><li><p>Stoop, kneel, crouch, or crawl</p></li></ul><p></p><p>The work environment characteristics described here are representative of those an employee encounters while performing the essential functions of this job.</p><p></p><p>Noise level:</p><ul><li><p>Low to moderate<br /> </p></li></ul><p>Adverse Conditions:</p><ul><li><p>Minimal</p></li></ul><p></p><p> </p><p> </p><p style=\"text-align:left\"><span>Ability to speak, read and write fluently in English is required. </span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>You MUST BE physically located in the United States while performing this job.</span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><i>TruGreen is proud to affirm our commitment to hiring veterans. We recognize and appreciate the exceptional skills, dedication, and leadership that veterans bring to the workforce. By fostering an inclusive and diverse environment, we aim to leverage the unique experiences of veterans, creating a richer, more dynamic workplace.</i></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><h1><b><u>Pay Ranges</u></b></h1>$57,732.00 - $74,227.00<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>This range is based on the qualifications necessary for the position, including experience, training, and other considerations permitted by law. Factors that may be used when making an offer may include a candidate’s skills, experience, and geographic location, the expected quality and quantity of work, and internal pay alignment, as needed. Most candidates will start in the bottom half of the pay range. The upper end of the range will generally be reserved for candidates with extensive experience. An employee’s pay history will not be a contributing factor where prohibited by local law. In addition to monetary compensation, we offer benefits, including <span><span><span><span><span><span><span><span class=\"WCO0\">Medical/Dental/Vision</span></span></span></span></span></span></span></span></span> insurance and Company-matching 401(k) in addition to other programs and perks.</p><p style=\"text-align:inherit\"></p><p><span>TruGreen is committed to Diversity and Inclusion. We encourage diverse candidates to apply to this position.</span><br /><span> </span><br /><span>We are an Equal Opportunity/Affirmative Action Employer - Minorities/Females/Protected Veterans/Individuals with Disabilities. To learn more, please visit<span> </span></span><a href=\"https://www.trugreenjobs.com/eeo-is-the-law\" target=\"_blank\">EEOC/EEO | TruGreen (trugreenjobs.com</a><span>).</span><br /> </p><p><span> </span><br /><span>California Residents: When you express interest in or apply for a job with TruGreen Limited Partnership, we collect personal information about you, potentially including personal identifiers, contact information, protected classifications, pre-hire information, professional or employment-related information, education history, and/or medical information, for the following business purposes: to comply with state and federal law and regulations requiring employers to maintain certain records; to evaluate your job application and candidacy for employment; and to obtain and verify background checks (including criminal and motor vehicle records), pre-employment drug testing, and references.</span></p><p></p><p></p><p><span>Massachusetts Residents: It is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability.</span></p><p><br /><span> </span><br /><span>TruGreen performs pre-employment testing.</span><br /><span> </span><br /><span>To view our disclaimer,<span> </span></span><a href=\"https://www.trugreenjobs.com/us/en/disclaimer\" target=\"_blank\">https://trugreenjobs.com/us/en/disclaimer</a></p></div>",
+   "companyID": "PIJ-api.paradox.ai-15147-142797-53834",
+   "companyName": "api.paradox.ai-TR",
+   "brandName": "TruGreen",
+   "locations": [
+    {
+     "zipCode": "16510",
+     "locationID": "22547485",
+     "locationName": "Erie PA Satellite",
+     "streetAddress": "3015 McCain Ave",
+     "city": "Erie",
+     "state": "Pennsylvania",
+     "stateAbbr": "PA",
+     "address1": "",
+     "address2": "",
+     "country": "United States",
+     "countryAbbr": "US",
+     "latitude": 42.1247995,
+     "longitude": -80.0258653,
+     "locationText": "3015 McCain Ave, Erie PA 16510, United States",
+     "locationParsedText": "3015 McCain Ave, Erie PA 16510, United States",
+     "isRemote": false,
+     "postalCode": "",
+     "distance": -1,
+     "sublocality": "",
+     "cityState": "Erie, Pennsylvania",
+     "cityStateAbbr": "Erie, PA"
+    }
+   ],
+   "isRemote": false,
+   "employmentType": [
+    "Full Time"
+   ],
+   "employmentStatus": [],
+   "postingType": "1",
+   "isInternal": "false",
+   "applyURL": "https://olivia.paradox.ai/co/TruGreen6/Job?job_id=R37608_1",
+   "originalURL": "branch-sales-manager/job/P1-7618708-0",
+   "lang": "en",
+   "availableLanguages": [
+    "en"
+   ],
+   "commuteTimeDuration": 0,
+   "customFields": [
+    {
+     "cfKey": "cf_questionnaire",
+     "value": "QUESTIONNAIRE-3-591",
+     "key": "CF Primary External Questionnaire"
+    },
+    {
+     "cfKey": "cf_requisition_status",
+     "value": "OPEN",
+     "key": "CF Requisition Status"
+    },
+    {
+     "cfKey": "cf_job_external",
+     "value": "1",
+     "key": "CF Job Posted Externally"
+    },
+    {
+     "cfKey": "cf_wd_apply_url",
+     "value": "https://trugreen.wd1.myworkdayjobs.com/USExternalCareers/job/Erie-PA-16510/Branch-Sales-Manager_R37608",
+     "key": "CF Workday Apply URL"
+    },
+    {
+     "cfKey": "cf_shorten_job_id",
+     "value": "P1-7618708-0",
+     "key": "cf_shorten_job_id"
+    }
+   ],
+   "facilityName": "",
+   "jobCardExtraFields": []
+  },
+  {
+   "sourceID": "1a518720f50e35b885036008fd2c4fbf",
+   "uniqueID": "PDX_TR_5132ED7F-9F09-4829-8285-12AA6E7A1E7F_22547487",
+   "requisitionID": "R37599",
+   "reference": "P1-7608957-0",
+   "title": "Branch Sales Manager",
+   "description": "<div class='description'>764 Roble Rd, Allentown, Pennsylvania 18109<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><i>TruGreen <span>accepts applications on an ongoing basis.</span></i></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><h1><b><u>Job Description</u></b></h1><p> </p><p> </p><p>Experienced and results-driven Branch Sales Managers lead and enhance all sales activities within their assigned TruGreen branch(es). The ideal candidate will play a pivotal role in staffing and guiding a high-performance sales team to increase sales volume, maximize profits, and uphold their TruGreen Commitment. This position involves devising strategic plans to expand our customer base within the local marketing area.</p><p></p><p><b>Responsibilities</b></p><ul><li><p><b>Strategic Sales Planning:</b> Develop comprehensive sales plans and forecasts at the branch level. Maintain rigorous control over sales outcomes to ensure the attainment of sales objectives within budgetary constraints.</p></li><li><p><b>Marketing Program Execution:</b> Collaborate in the execution of various marketing programs, such as door-to-door, direct mail, inside, and outside marketing, to drive profit growth and the expansion of TruGreen's services. Share valuable local market insights and customer feedback with the TruGreen Marketing team.</p></li><li><p><b>Lead Generation:</b> Compile lists of potential customers to generate sales leads. Utilize information from direct mail campaigns, advertisements, community events, trade shows, business seminars, and other sources. Additionally, provide support in closing sales as required.</p></li><li><p><b>Customer Satisfaction:</b> Address customer complaints related to sales and service. Analyze and manage new sale cancellation requests to proactively retain customers.</p></li><li><p><b>Training and Development:</b> Organize and conduct ongoing training for sales personnel, focusing on customer service skills, effective selling techniques, and adherence to safety policies and procedures.</p></li><li><p><b>Workflow Management:</b> Establish and oversee work procedures, create work schedules, and facilitate workflow to optimize efficiency. Monitor and report on the hourly, daily, and weekly sales performance of each team member.</p></li><li><p><b>Performance Standards:</b> Develop, implement, and maintain performance standards, measurements, and corrective strategies to ensure the realization of approved plans and objectives within the sales organization.</p></li><li><p><b>Staffing and HR Management:</b> Lead the recruiting, interviewing, and staffing of 10 or more peak reps. Evaluate staff performance, provide salary recommendations, and enforce disciplinary actions in accordance with company policies.</p></li></ul><p></p><p><b>Education and Experience Requirements</b></p><ul><li><p>Bachelor's degree or 2 - 3 years of related experience in the lawn/horticulture agronomic field required, or an equivalent combination of education and experience.</p></li><li><p>Proven experience in sales.</p></li><li><p>Strong leadership and team management skills.</p></li><li><p>Excellent communication and interpersonal abilities.</p></li><li><p>Strategic thinking and problem-solving skills.</p></li><li><p>Proficiency in using sales analytics and CRM tools.</p></li><li><p>Ability to travel to all Door to Door routes within the market.</p></li></ul><p></p><p><b>Knowledge, Skills, and Abilities</b></p><ul><li><p>Demonstrated knowledge of the organization, products, and/or services</p></li><li><p>Strong understanding of customer and market dynamics and requirements</p></li><li><p>Proven leadership and ability to drive sales teams</p></li><li><p>Ability to calculate figures and amounts such as discounts, interest, commissions, percentages, and  volume</p></li><li><p>Ability to write reports, business correspondence, and procedure manuals; ability to effectively present information and respond to questions from groups of managers, specialists, customers, and the general public</p></li><li><p>Ability to define customer problems, collect data, establish facts, and draw valid conclusions</p></li><li><p>Ability to interpret a variety of instructions furnished in written, oral, diagram, or schedule form</p></li><li><p>Other required knowledge skills and abilities include but are not limited to: Attention to Detail, Organizational skills, Adaptability, and Flexibility.</p></li><li><p>Computer skills with Microsoft Office applications (Word, Excel, Outlook, PowerPoint)</p></li></ul><p></p><p><b>Physical Demands & Working Conditions</b><br /> </p><p>The physical demands described here are representative of those that must be met by an employee to successfully perform the essential functions of this job. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions.</p><p></p><p>Regularly required to:</p><ul><li><p>Sit, stand, and walk</p></li><li><p>Use hands and arms to handle, feel, or reach</p></li><li><p>Speak and hear</p></li><li><p>Use close vision abilities</p></li></ul><p></p><p>Occasionally required to:</p><ul><li><p>Lift or move up to 25 lbs.</p></li><li><p>Stoop, kneel, crouch, or crawl</p></li></ul><p></p><p>The work environment characteristics described here are representative of those an employee encounters while performing the essential functions of this job.</p><p></p><p>Noise level:</p><ul><li><p>Low to moderate<br /> </p></li></ul><p>Adverse Conditions:</p><ul><li><p>Minimal</p></li></ul><p></p><p> </p><p> </p><p style=\"text-align:left\"><span>Ability to speak, read and write fluently in English is required. </span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>You MUST BE physically located in the United States while performing this job.</span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><i>TruGreen is proud to affirm our commitment to hiring veterans. We recognize and appreciate the exceptional skills, dedication, and leadership that veterans bring to the workforce. By fostering an inclusive and diverse environment, we aim to leverage the unique experiences of veterans, creating a richer, more dynamic workplace.</i></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><h1><b><u>Pay Ranges</u></b></h1>$64,147.00 - $82,474.00<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>This range is based on the qualifications necessary for the position, including experience, training, and other considerations permitted by law. Factors that may be used when making an offer may include a candidate’s skills, experience, and geographic location, the expected quality and quantity of work, and internal pay alignment, as needed. Most candidates will start in the bottom half of the pay range. The upper end of the range will generally be reserved for candidates with extensive experience. An employee’s pay history will not be a contributing factor where prohibited by local law. In addition to monetary compensation, we offer benefits, including <span><span><span><span><span><span><span><span class=\"WCO0\">Medical/Dental/Vision</span></span></span></span></span></span></span></span></span> insurance and Company-matching 401(k) in addition to other programs and perks.</p><p style=\"text-align:inherit\"></p><p><span>TruGreen is committed to Diversity and Inclusion. We encourage diverse candidates to apply to this position.</span><br /><span> </span><br /><span>We are an Equal Opportunity/Affirmative Action Employer - Minorities/Females/Protected Veterans/Individuals with Disabilities. To learn more, please visit<span> </span></span><a href=\"https://www.trugreenjobs.com/eeo-is-the-law\" target=\"_blank\">EEOC/EEO | TruGreen (trugreenjobs.com</a><span>).</span><br /> </p><p><span> </span><br /><span>California Residents: When you express interest in or apply for a job with TruGreen Limited Partnership, we collect personal information about you, potentially including personal identifiers, contact information, protected classifications, pre-hire information, professional or employment-related information, education history, and/or medical information, for the following business purposes: to comply with state and federal law and regulations requiring employers to maintain certain records; to evaluate your job application and candidacy for employment; and to obtain and verify background checks (including criminal and motor vehicle records), pre-employment drug testing, and references.</span></p><p></p><p></p><p><span>Massachusetts Residents: It is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability.</span></p><p><br /><span> </span><br /><span>TruGreen performs pre-employment testing.</span><br /><span> </span><br /><span>To view our disclaimer,<span> </span></span><a href=\"https://www.trugreenjobs.com/us/en/disclaimer\" target=\"_blank\">https://trugreenjobs.com/us/en/disclaimer</a></p></div>",
+   "companyID": "PIJ-api.paradox.ai-15147-142797-53834",
+   "companyName": "api.paradox.ai-TR",
+   "brandName": "TruGreen",
+   "locations": [
+    {
+     "zipCode": "18109",
+     "locationID": "22547487",
+     "locationName": "Allentown PA Branch",
+     "streetAddress": "764 Roble Rd",
+     "city": "ALLENTOWN",
+     "state": "Pennsylvania",
+     "stateAbbr": "PA",
+     "address1": "",
+     "address2": "",
+     "country": "United States",
+     "countryAbbr": "US",
+     "latitude": 40.6366073,
+     "longitude": -75.4556815,
+     "locationText": "764 Roble Rd, ALLENTOWN PA 18109, United States",
+     "locationParsedText": "764 Roble Rd, ALLENTOWN PA 18109, United States",
+     "isRemote": false,
+     "postalCode": "",
+     "distance": -1,
+     "sublocality": "",
+     "cityState": "ALLENTOWN, Pennsylvania",
+     "cityStateAbbr": "ALLENTOWN, PA"
+    }
+   ],
+   "isRemote": false,
+   "employmentType": [
+    "Full Time"
+   ],
+   "employmentStatus": [],
+   "postingType": "1",
+   "isInternal": "false",
+   "applyURL": "https://olivia.paradox.ai/co/TruGreen6/Job?job_id=R37599_1",
+   "originalURL": "branch-sales-manager/job/P1-7608957-0",
+   "lang": "en",
+   "availableLanguages": [
+    "en"
+   ],
+   "commuteTimeDuration": 0,
+   "customFields": [
+    {
+     "cfKey": "cf_questionnaire",
+     "value": "QUESTIONNAIRE-3-591",
+     "key": "CF Primary External Questionnaire"
+    },
+    {
+     "cfKey": "cf_requisition_status",
+     "value": "OPEN",
+     "key": "CF Requisition Status"
+    },
+    {
+     "cfKey": "cf_job_external",
+     "value": "1",
+     "key": "CF Job Posted Externally"
+    },
+    {
+     "cfKey": "cf_wd_apply_url",
+     "value": "https://trugreen.wd1.myworkdayjobs.com/USExternalCareers/job/Allentown-PA-18109/Branch-Sales-Manager_R37599",
+     "key": "CF Workday Apply URL"
+    },
+    {
+     "cfKey": "cf_shorten_job_id",
+     "value": "P1-7608957-0",
+     "key": "cf_shorten_job_id"
+    }
+   ],
+   "facilityName": "",
+   "jobCardExtraFields": []
+  },
+  {
+   "sourceID": "3dea3b8b5bb457d9aab64a652f84170e",
+   "uniqueID": "PDX_TR_68EBBE46-C9B0-4A58-A368-7E1353861409_22547341",
+   "requisitionID": "R35949",
+   "reference": "P1-7059830-0",
+   "title": "Branch Sales Manager",
+   "description": "<div class='description'>606 S Lincoln St, Lowell, Arkansas 72745<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><i>TruGreen <span>accepts applications on an ongoing basis.</span></i></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><h1><b><u>Job Description</u></b></h1><p> </p><p> </p><p>Experienced and results-driven Branch Sales Managers lead and enhance all sales activities within their assigned TruGreen branch(es). The ideal candidate will play a pivotal role in staffing and guiding a high-performance sales team to increase sales volume, maximize profits, and uphold their TruGreen Commitment. This position involves devising strategic plans to expand our customer base within the local marketing area.</p><p></p><p><b>Responsibilities</b></p><ul><li><p><b>Strategic Sales Planning:</b> Develop comprehensive sales plans and forecasts at the branch level. Maintain rigorous control over sales outcomes to ensure the attainment of sales objectives within budgetary constraints.</p></li><li><p><b>Marketing Program Execution:</b> Collaborate in the execution of various marketing programs, such as door-to-door, direct mail, inside, and outside marketing, to drive profit growth and the expansion of TruGreen's services. Share valuable local market insights and customer feedback with the TruGreen Marketing team.</p></li><li><p><b>Lead Generation:</b> Compile lists of potential customers to generate sales leads. Utilize information from direct mail campaigns, advertisements, community events, trade shows, business seminars, and other sources. Additionally, provide support in closing sales as required.</p></li><li><p><b>Customer Satisfaction:</b> Address customer complaints related to sales and service. Analyze and manage new sale cancellation requests to proactively retain customers.</p></li><li><p><b>Training and Development:</b> Organize and conduct ongoing training for sales personnel, focusing on customer service skills, effective selling techniques, and adherence to safety policies and procedures.</p></li><li><p><b>Workflow Management:</b> Establish and oversee work procedures, create work schedules, and facilitate workflow to optimize efficiency. Monitor and report on the hourly, daily, and weekly sales performance of each team member.</p></li><li><p><b>Performance Standards:</b> Develop, implement, and maintain performance standards, measurements, and corrective strategies to ensure the realization of approved plans and objectives within the sales organization.</p></li><li><p><b>Staffing and HR Management:</b> Lead the recruiting, interviewing, and staffing of 10 or more peak reps. Evaluate staff performance, provide salary recommendations, and enforce disciplinary actions in accordance with company policies.</p></li></ul><p></p><p><b>Education and Experience Requirements</b></p><ul><li><p>Bachelor's degree or 2 - 3 years of related experience in the lawn/horticulture agronomic field required, or an equivalent combination of education and experience.</p></li><li><p>Proven experience in sales.</p></li><li><p>Strong leadership and team management skills.</p></li><li><p>Excellent communication and interpersonal abilities.</p></li><li><p>Strategic thinking and problem-solving skills.</p></li><li><p>Proficiency in using sales analytics and CRM tools.</p></li><li><p>Ability to travel to all Door to Door routes within the market.</p></li></ul><p></p><p><b>Knowledge, Skills, and Abilities</b></p><ul><li><p>Demonstrated knowledge of the organization, products, and/or services</p></li><li><p>Strong understanding of customer and market dynamics and requirements</p></li><li><p>Proven leadership and ability to drive sales teams</p></li><li><p>Ability to calculate figures and amounts such as discounts, interest, commissions, percentages, and  volume</p></li><li><p>Ability to write reports, business correspondence, and procedure manuals; ability to effectively present information and respond to questions from groups of managers, specialists, customers, and the general public</p></li><li><p>Ability to define customer problems, collect data, establish facts, and draw valid conclusions</p></li><li><p>Ability to interpret a variety of instructions furnished in written, oral, diagram, or schedule form</p></li><li><p>Other required knowledge skills and abilities include but are not limited to: Attention to Detail, Organizational skills, Adaptability, and Flexibility.</p></li><li><p>Computer skills with Microsoft Office applications (Word, Excel, Outlook, PowerPoint)</p></li></ul><p></p><p><b>Physical Demands & Working Conditions</b><br /> </p><p>The physical demands described here are representative of those that must be met by an employee to successfully perform the essential functions of this job. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions.</p><p></p><p>Regularly required to:</p><ul><li><p>Sit, stand, and walk</p></li><li><p>Use hands and arms to handle, feel, or reach</p></li><li><p>Speak and hear</p></li><li><p>Use close vision abilities</p></li></ul><p></p><p>Occasionally required to:</p><ul><li><p>Lift or move up to 25 lbs.</p></li><li><p>Stoop, kneel, crouch, or crawl</p></li></ul><p></p><p>The work environment characteristics described here are representative of those an employee encounters while performing the essential functions of this job.</p><p></p><p>Noise level:</p><ul><li><p>Low to moderate<br /> </p></li></ul><p>Adverse Conditions:</p><ul><li><p>Minimal</p></li></ul><p></p><p> </p><p> </p><p style=\"text-align:left\"><span>Ability to speak, read and write fluently in English is required. </span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>You MUST BE physically located in the United States while performing this job.</span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><i>TruGreen is proud to affirm our commitment to hiring veterans. We recognize and appreciate the exceptional skills, dedication, and leadership that veterans bring to the workforce. By fostering an inclusive and diverse environment, we aim to leverage the unique experiences of veterans, creating a richer, more dynamic workplace.</i></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><h1><b><u>Pay Ranges</u></b></h1><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>This range is based on the qualifications necessary for the position, including experience, training, and other considerations permitted by law. Factors that may be used when making an offer may include a candidate’s skills, experience, and geographic location, the expected quality and quantity of work, and internal pay alignment, as needed. Most candidates will start in the bottom half of the pay range. The upper end of the range will generally be reserved for candidates with extensive experience. An employee’s pay history will not be a contributing factor where prohibited by local law. In addition to monetary compensation, we offer benefits, including <span><span><span><span><span><span><span><span class=\"WCO0\">Medical/Dental/Vision</span></span></span></span></span></span></span></span></span> insurance and Company-matching 401(k) in addition to other programs and perks.</p><p style=\"text-align:inherit\"></p><p><span>TruGreen is committed to Diversity and Inclusion. We encourage diverse candidates to apply to this position.</span><br /><span> </span><br /><span>We are an Equal Opportunity/Affirmative Action Employer - Minorities/Females/Protected Veterans/Individuals with Disabilities. To learn more, please visit<span> </span></span><a href=\"https://www.trugreenjobs.com/eeo-is-the-law\" target=\"_blank\">EEOC/EEO | TruGreen (trugreenjobs.com</a><span>).</span><br /> </p><p><span> </span><br /><span>California Residents: When you express interest in or apply for a job with TruGreen Limited Partnership, we collect personal information about you, potentially including personal identifiers, contact information, protected classifications, pre-hire information, professional or employment-related information, education history, and/or medical information, for the following business purposes: to comply with state and federal law and regulations requiring employers to maintain certain records; to evaluate your job application and candidacy for employment; and to obtain and verify background checks (including criminal and motor vehicle records), pre-employment drug testing, and references.</span></p><p></p><p></p><p><span>Massachusetts Residents: It is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability.</span></p><p><br /><span> </span><br /><span>TruGreen performs pre-employment testing.</span><br /><span> </span><br /><span>To view our disclaimer,<span> </span></span><a href=\"https://www.trugreenjobs.com/us/en/disclaimer\" target=\"_blank\">https://trugreenjobs.com/us/en/disclaimer</a></p></div>",
+   "companyID": "PIJ-api.paradox.ai-15147-142797-53834",
+   "companyName": "api.paradox.ai-TR",
+   "brandName": "TruGreen",
+   "locations": [
+    {
+     "zipCode": "72745",
+     "locationID": "22547341",
+     "locationName": "Rogers AR Branch",
+     "streetAddress": "606 S Lincoln St",
+     "city": "Lowell",
+     "state": "Arkansas",
+     "stateAbbr": "AR",
+     "address1": "",
+     "address2": "",
+     "country": "United States",
+     "countryAbbr": "US",
+     "latitude": 36.2440078,
+     "longitude": -94.1332074,
+     "locationText": "606 S Lincoln St, Lowell AR 72745, United States",
+     "locationParsedText": "606 S Lincoln St, Lowell AR 72745, United States",
+     "isRemote": false,
+     "postalCode": "",
+     "distance": -1,
+     "sublocality": "",
+     "cityState": "Lowell, Arkansas",
+     "cityStateAbbr": "Lowell, AR"
+    }
+   ],
+   "isRemote": false,
+   "employmentType": [
+    "Full Time"
+   ],
+   "employmentStatus": [],
+   "postingType": "1",
+   "isInternal": "false",
+   "applyURL": "https://olivia.paradox.ai/co/TruGreen6/Job?job_id=R35949_1",
+   "originalURL": "branch-sales-manager/job/P1-7059830-0",
+   "lang": "en",
+   "availableLanguages": [
+    "en"
+   ],
+   "commuteTimeDuration": 0,
+   "customFields": [
+    {
+     "cfKey": "cf_questionnaire",
+     "value": "QUESTIONNAIRE-3-591",
+     "key": "CF Primary External Questionnaire"
+    },
+    {
+     "cfKey": "cf_requisition_status",
+     "value": "OPEN",
+     "key": "CF Requisition Status"
+    },
+    {
+     "cfKey": "cf_job_external",
+     "value": "1",
+     "key": "CF Job Posted Externally"
+    },
+    {
+     "cfKey": "cf_wd_apply_url",
+     "value": "https://trugreen.wd1.myworkdayjobs.com/USExternalCareers/job/Lowell-AR-72745/Branch-Sales-Manager_R35949",
+     "key": "CF Workday Apply URL"
+    },
+    {
+     "cfKey": "cf_shorten_job_id",
+     "value": "P1-7059830-0",
+     "key": "cf_shorten_job_id"
+    }
+   ],
+   "facilityName": "",
+   "jobCardExtraFields": []
+  },
+  {
+   "sourceID": "5d9cb94058450da2a385a96636c8d62f",
+   "uniqueID": "PDX_TR_7195A58F-550C-4DD4-A3DA-34144810F7EF_22547599",
+   "requisitionID": "R37607",
+   "reference": "P1-7618711-0",
+   "title": "Branch Sales Manager",
+   "description": "<div class='description'>145 Brooks Cove Road, Candler, North Carolina 28715<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><i>TruGreen <span>accepts applications on an ongoing basis.</span></i></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><h1><b><u>Job Description</u></b></h1><p> </p><p> </p><p>Experienced and results-driven Branch Sales Managers lead and enhance all sales activities within their assigned TruGreen branch(es). The ideal candidate will play a pivotal role in staffing and guiding a high-performance sales team to increase sales volume, maximize profits, and uphold their TruGreen Commitment. This position involves devising strategic plans to expand our customer base within the local marketing area.</p><p></p><p><b>Responsibilities</b></p><ul><li><p><b>Strategic Sales Planning:</b> Develop comprehensive sales plans and forecasts at the branch level. Maintain rigorous control over sales outcomes to ensure the attainment of sales objectives within budgetary constraints.</p></li><li><p><b>Marketing Program Execution:</b> Collaborate in the execution of various marketing programs, such as door-to-door, direct mail, inside, and outside marketing, to drive profit growth and the expansion of TruGreen's services. Share valuable local market insights and customer feedback with the TruGreen Marketing team.</p></li><li><p><b>Lead Generation:</b> Compile lists of potential customers to generate sales leads. Utilize information from direct mail campaigns, advertisements, community events, trade shows, business seminars, and other sources. Additionally, provide support in closing sales as required.</p></li><li><p><b>Customer Satisfaction:</b> Address customer complaints related to sales and service. Analyze and manage new sale cancellation requests to proactively retain customers.</p></li><li><p><b>Training and Development:</b> Organize and conduct ongoing training for sales personnel, focusing on customer service skills, effective selling techniques, and adherence to safety policies and procedures.</p></li><li><p><b>Workflow Management:</b> Establish and oversee work procedures, create work schedules, and facilitate workflow to optimize efficiency. Monitor and report on the hourly, daily, and weekly sales performance of each team member.</p></li><li><p><b>Performance Standards:</b> Develop, implement, and maintain performance standards, measurements, and corrective strategies to ensure the realization of approved plans and objectives within the sales organization.</p></li><li><p><b>Staffing and HR Management:</b> Lead the recruiting, interviewing, and staffing of 10 or more peak reps. Evaluate staff performance, provide salary recommendations, and enforce disciplinary actions in accordance with company policies.</p></li></ul><p></p><p><b>Education and Experience Requirements</b></p><ul><li><p>Bachelor's degree or 2 - 3 years of related experience in the lawn/horticulture agronomic field required, or an equivalent combination of education and experience.</p></li><li><p>Proven experience in sales.</p></li><li><p>Strong leadership and team management skills.</p></li><li><p>Excellent communication and interpersonal abilities.</p></li><li><p>Strategic thinking and problem-solving skills.</p></li><li><p>Proficiency in using sales analytics and CRM tools.</p></li><li><p>Ability to travel to all Door to Door routes within the market.</p></li></ul><p></p><p><b>Knowledge, Skills, and Abilities</b></p><ul><li><p>Demonstrated knowledge of the organization, products, and/or services</p></li><li><p>Strong understanding of customer and market dynamics and requirements</p></li><li><p>Proven leadership and ability to drive sales teams</p></li><li><p>Ability to calculate figures and amounts such as discounts, interest, commissions, percentages, and  volume</p></li><li><p>Ability to write reports, business correspondence, and procedure manuals; ability to effectively present information and respond to questions from groups of managers, specialists, customers, and the general public</p></li><li><p>Ability to define customer problems, collect data, establish facts, and draw valid conclusions</p></li><li><p>Ability to interpret a variety of instructions furnished in written, oral, diagram, or schedule form</p></li><li><p>Other required knowledge skills and abilities include but are not limited to: Attention to Detail, Organizational skills, Adaptability, and Flexibility.</p></li><li><p>Computer skills with Microsoft Office applications (Word, Excel, Outlook, PowerPoint)</p></li></ul><p></p><p><b>Physical Demands & Working Conditions</b><br /> </p><p>The physical demands described here are representative of those that must be met by an employee to successfully perform the essential functions of this job. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions.</p><p></p><p>Regularly required to:</p><ul><li><p>Sit, stand, and walk</p></li><li><p>Use hands and arms to handle, feel, or reach</p></li><li><p>Speak and hear</p></li><li><p>Use close vision abilities</p></li></ul><p></p><p>Occasionally required to:</p><ul><li><p>Lift or move up to 25 lbs.</p></li><li><p>Stoop, kneel, crouch, or crawl</p></li></ul><p></p><p>The work environment characteristics described here are representative of those an employee encounters while performing the essential functions of this job.</p><p></p><p>Noise level:</p><ul><li><p>Low to moderate<br /> </p></li></ul><p>Adverse Conditions:</p><ul><li><p>Minimal</p></li></ul><p></p><p> </p><p> </p><p style=\"text-align:left\"><span>Ability to speak, read and write fluently in English is required. </span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>You MUST BE physically located in the United States while performing this job.</span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><i>TruGreen is proud to affirm our commitment to hiring veterans. We recognize and appreciate the exceptional skills, dedication, and leadership that veterans bring to the workforce. By fostering an inclusive and diverse environment, we aim to leverage the unique experiences of veterans, creating a richer, more dynamic workplace.</i></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><h1><b><u>Pay Ranges</u></b></h1>$57,732.00 - $74,227.00<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>This range is based on the qualifications necessary for the position, including experience, training, and other considerations permitted by law. Factors that may be used when making an offer may include a candidate’s skills, experience, and geographic location, the expected quality and quantity of work, and internal pay alignment, as needed. Most candidates will start in the bottom half of the pay range. The upper end of the range will generally be reserved for candidates with extensive experience. An employee’s pay history will not be a contributing factor where prohibited by local law. In addition to monetary compensation, we offer benefits, including <span><span><span><span><span><span><span><span class=\"WCO0\">Medical/Dental/Vision</span></span></span></span></span></span></span></span></span> insurance and Company-matching 401(k) in addition to other programs and perks.</p><p style=\"text-align:inherit\"></p><p><span>TruGreen is committed to Diversity and Inclusion. We encourage diverse candidates to apply to this position.</span><br /><span> </span><br /><span>We are an Equal Opportunity/Affirmative Action Employer - Minorities/Females/Protected Veterans/Individuals with Disabilities. To learn more, please visit<span> </span></span><a href=\"https://www.trugreenjobs.com/eeo-is-the-law\" target=\"_blank\">EEOC/EEO | TruGreen (trugreenjobs.com</a><span>).</span><br /> </p><p><span> </span><br /><span>California Residents: When you express interest in or apply for a job with TruGreen Limited Partnership, we collect personal information about you, potentially including personal identifiers, contact information, protected classifications, pre-hire information, professional or employment-related information, education history, and/or medical information, for the following business purposes: to comply with state and federal law and regulations requiring employers to maintain certain records; to evaluate your job application and candidacy for employment; and to obtain and verify background checks (including criminal and motor vehicle records), pre-employment drug testing, and references.</span></p><p></p><p></p><p><span>Massachusetts Residents: It is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability.</span></p><p><br /><span> </span><br /><span>TruGreen performs pre-employment testing.</span><br /><span> </span><br /><span>To view our disclaimer,<span> </span></span><a href=\"https://www.trugreenjobs.com/us/en/disclaimer\" target=\"_blank\">https://trugreenjobs.com/us/en/disclaimer</a></p></div>",
+   "companyID": "PIJ-api.paradox.ai-15147-142797-53834",
+   "companyName": "api.paradox.ai-TR",
+   "brandName": "TruGreen",
+   "locations": [
+    {
+     "zipCode": "28715",
+     "locationID": "22547599",
+     "locationName": "Asheville NC Satellite",
+     "streetAddress": "145 Brooks Cove Road",
+     "city": "CANDLER",
+     "state": "North Carolina",
+     "stateAbbr": "NC",
+     "address1": "",
+     "address2": "",
+     "country": "United States",
+     "countryAbbr": "US",
+     "latitude": 35.5718679,
+     "longitude": -82.6955081,
+     "locationText": "145 Brooks Cove Road, CANDLER NC 28715, United States",
+     "locationParsedText": "145 Brooks Cove Road, CANDLER NC 28715, United States",
+     "isRemote": false,
+     "postalCode": "",
+     "distance": -1,
+     "sublocality": "",
+     "cityState": "CANDLER, North Carolina",
+     "cityStateAbbr": "CANDLER, NC"
+    }
+   ],
+   "isRemote": false,
+   "employmentType": [
+    "Full Time"
+   ],
+   "employmentStatus": [],
+   "postingType": "1",
+   "isInternal": "false",
+   "applyURL": "https://olivia.paradox.ai/co/TruGreen6/Job?job_id=R37607_1",
+   "originalURL": "branch-sales-manager/job/P1-7618711-0",
+   "lang": "en",
+   "availableLanguages": [
+    "en"
+   ],
+   "commuteTimeDuration": 0,
+   "customFields": [
+    {
+     "cfKey": "cf_questionnaire",
+     "value": "QUESTIONNAIRE-3-591",
+     "key": "CF Primary External Questionnaire"
+    },
+    {
+     "cfKey": "cf_requisition_status",
+     "value": "OPEN",
+     "key": "CF Requisition Status"
+    },
+    {
+     "cfKey": "cf_job_external",
+     "value": "1",
+     "key": "CF Job Posted Externally"
+    },
+    {
+     "cfKey": "cf_wd_apply_url",
+     "value": "https://trugreen.wd1.myworkdayjobs.com/USExternalCareers/job/Asheville-NC-28715/Branch-Sales-Manager_R37607-1",
+     "key": "CF Workday Apply URL"
+    },
+    {
+     "cfKey": "cf_shorten_job_id",
+     "value": "P1-7618711-0",
+     "key": "cf_shorten_job_id"
+    }
+   ],
+   "facilityName": "",
+   "jobCardExtraFields": []
+  },
+  {
+   "sourceID": "5453c36ef4d06bb297775e442f7dbb08",
+   "uniqueID": "PDX_TR_91BA671A-31F9-4051-8750-FB4B475DBDBE_22547495",
+   "requisitionID": "R37637",
+   "reference": "P1-7670179-0",
+   "title": "Branch Sales Manager",
+   "description": "<div class='description'>4240 Centerville Road, Vadnais Heights, Minnesota 55127<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><i>TruGreen <span>accepts applications on an ongoing basis.</span></i></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><h1><b><u>Job Description</u></b></h1><p> </p><p> </p><p>Experienced and results-driven Branch Sales Managers lead and enhance all sales activities within their assigned TruGreen branch(es). The ideal candidate will play a pivotal role in staffing and guiding a high-performance sales team to increase sales volume, maximize profits, and uphold their TruGreen Commitment. This position involves devising strategic plans to expand our customer base within the local marketing area.</p><p></p><p><b>Responsibilities</b></p><ul><li><p><b>Strategic Sales Planning:</b> Develop comprehensive sales plans and forecasts at the branch level. Maintain rigorous control over sales outcomes to ensure the attainment of sales objectives within budgetary constraints.</p></li><li><p><b>Marketing Program Execution:</b> Collaborate in the execution of various marketing programs, such as door-to-door, direct mail, inside, and outside marketing, to drive profit growth and the expansion of TruGreen's services. Share valuable local market insights and customer feedback with the TruGreen Marketing team.</p></li><li><p><b>Lead Generation:</b> Compile lists of potential customers to generate sales leads. Utilize information from direct mail campaigns, advertisements, community events, trade shows, business seminars, and other sources. Additionally, provide support in closing sales as required.</p></li><li><p><b>Customer Satisfaction:</b> Address customer complaints related to sales and service. Analyze and manage new sale cancellation requests to proactively retain customers.</p></li><li><p><b>Training and Development:</b> Organize and conduct ongoing training for sales personnel, focusing on customer service skills, effective selling techniques, and adherence to safety policies and procedures.</p></li><li><p><b>Workflow Management:</b> Establish and oversee work procedures, create work schedules, and facilitate workflow to optimize efficiency. Monitor and report on the hourly, daily, and weekly sales performance of each team member.</p></li><li><p><b>Performance Standards:</b> Develop, implement, and maintain performance standards, measurements, and corrective strategies to ensure the realization of approved plans and objectives within the sales organization.</p></li><li><p><b>Staffing and HR Management:</b> Lead the recruiting, interviewing, and staffing of 10 or more peak reps. Evaluate staff performance, provide salary recommendations, and enforce disciplinary actions in accordance with company policies.</p></li></ul><p></p><p><b>Education and Experience Requirements</b></p><ul><li><p>Bachelor's degree or 2 - 3 years of related experience in the lawn/horticulture agronomic field required, or an equivalent combination of education and experience.</p></li><li><p>Proven experience in sales.</p></li><li><p>Strong leadership and team management skills.</p></li><li><p>Excellent communication and interpersonal abilities.</p></li><li><p>Strategic thinking and problem-solving skills.</p></li><li><p>Proficiency in using sales analytics and CRM tools.</p></li><li><p>Ability to travel to all Door to Door routes within the market.</p></li></ul><p></p><p><b>Knowledge, Skills, and Abilities</b></p><ul><li><p>Demonstrated knowledge of the organization, products, and/or services</p></li><li><p>Strong understanding of customer and market dynamics and requirements</p></li><li><p>Proven leadership and ability to drive sales teams</p></li><li><p>Ability to calculate figures and amounts such as discounts, interest, commissions, percentages, and  volume</p></li><li><p>Ability to write reports, business correspondence, and procedure manuals; ability to effectively present information and respond to questions from groups of managers, specialists, customers, and the general public</p></li><li><p>Ability to define customer problems, collect data, establish facts, and draw valid conclusions</p></li><li><p>Ability to interpret a variety of instructions furnished in written, oral, diagram, or schedule form</p></li><li><p>Other required knowledge skills and abilities include but are not limited to: Attention to Detail, Organizational skills, Adaptability, and Flexibility.</p></li><li><p>Computer skills with Microsoft Office applications (Word, Excel, Outlook, PowerPoint)</p></li></ul><p></p><p><b>Physical Demands & Working Conditions</b><br /> </p><p>The physical demands described here are representative of those that must be met by an employee to successfully perform the essential functions of this job. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions.</p><p></p><p>Regularly required to:</p><ul><li><p>Sit, stand, and walk</p></li><li><p>Use hands and arms to handle, feel, or reach</p></li><li><p>Speak and hear</p></li><li><p>Use close vision abilities</p></li></ul><p></p><p>Occasionally required to:</p><ul><li><p>Lift or move up to 25 lbs.</p></li><li><p>Stoop, kneel, crouch, or crawl</p></li></ul><p></p><p>The work environment characteristics described here are representative of those an employee encounters while performing the essential functions of this job.</p><p></p><p>Noise level:</p><ul><li><p>Low to moderate<br /> </p></li></ul><p>Adverse Conditions:</p><ul><li><p>Minimal</p></li></ul><p></p><p> </p><p> </p><p style=\"text-align:left\"><span>Ability to speak, read and write fluently in English is required. </span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>You MUST BE physically located in the United States while performing this job.</span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><i>TruGreen is proud to affirm our commitment to hiring veterans. We recognize and appreciate the exceptional skills, dedication, and leadership that veterans bring to the workforce. By fostering an inclusive and diverse environment, we aim to leverage the unique experiences of veterans, creating a richer, more dynamic workplace.</i></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><h1><b><u>Pay Ranges</u></b></h1>$67,355.00 - $86,598.00<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>This range is based on the qualifications necessary for the position, including experience, training, and other considerations permitted by law. Factors that may be used when making an offer may include a candidate’s skills, experience, and geographic location, the expected quality and quantity of work, and internal pay alignment, as needed. Most candidates will start in the bottom half of the pay range. The upper end of the range will generally be reserved for candidates with extensive experience. An employee’s pay history will not be a contributing factor where prohibited by local law. In addition to monetary compensation, we offer benefits, including <span><span><span><span><span><span><span><span class=\"WCO0\">Medical/Dental/Vision</span></span></span></span></span></span></span></span></span> insurance and Company-matching 401(k) in addition to other programs and perks.</p><p style=\"text-align:inherit\"></p><p><span>TruGreen is committed to Diversity and Inclusion. We encourage diverse candidates to apply to this position.</span><br /><span> </span><br /><span>We are an Equal Opportunity/Affirmative Action Employer - Minorities/Females/Protected Veterans/Individuals with Disabilities. To learn more, please visit<span> </span></span><a href=\"https://www.trugreenjobs.com/eeo-is-the-law\" target=\"_blank\">EEOC/EEO | TruGreen (trugreenjobs.com</a><span>).</span><br /> </p><p><span> </span><br /><span>California Residents: When you express interest in or apply for a job with TruGreen Limited Partnership, we collect personal information about you, potentially including personal identifiers, contact information, protected classifications, pre-hire information, professional or employment-related information, education history, and/or medical information, for the following business purposes: to comply with state and federal law and regulations requiring employers to maintain certain records; to evaluate your job application and candidacy for employment; and to obtain and verify background checks (including criminal and motor vehicle records), pre-employment drug testing, and references.</span></p><p></p><p></p><p><span>Massachusetts Residents: It is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability.</span></p><p><br /><span> </span><br /><span>TruGreen performs pre-employment testing.</span><br /><span> </span><br /><span>To view our disclaimer,<span> </span></span><a href=\"https://www.trugreenjobs.com/us/en/disclaimer\" target=\"_blank\">https://trugreenjobs.com/us/en/disclaimer</a></p></div>",
+   "companyID": "PIJ-api.paradox.ai-15147-142797-53834",
+   "companyName": "api.paradox.ai-TR",
+   "brandName": "TruGreen",
+   "locations": [
+    {
+     "zipCode": "55127",
+     "locationID": "22547495",
+     "locationName": "Maplewood MN Branch",
+     "streetAddress": "4240 Centerville Road",
+     "city": "Vadnais Heights",
+     "state": "Minnesota",
+     "stateAbbr": "MN",
+     "address1": "",
+     "address2": "",
+     "country": "United States",
+     "countryAbbr": "US",
+     "latitude": 45.0697187,
+     "longitude": -93.0552865,
+     "locationText": "4240 Centerville Road, Vadnais Heights MN 55127, United States",
+     "locationParsedText": "4240 Centerville Road, Vadnais Heights MN 55127, United States",
+     "isRemote": false,
+     "postalCode": "",
+     "distance": -1,
+     "sublocality": "",
+     "cityState": "Vadnais Heights, Minnesota",
+     "cityStateAbbr": "Vadnais Heights, MN"
+    }
+   ],
+   "isRemote": false,
+   "employmentType": [
+    "Full Time"
+   ],
+   "employmentStatus": [],
+   "postingType": "1",
+   "isInternal": "false",
+   "applyURL": "https://olivia.paradox.ai/co/TruGreen6/Job?job_id=R37637_1",
+   "originalURL": "branch-sales-manager/job/P1-7670179-0",
+   "lang": "en",
+   "availableLanguages": [
+    "en"
+   ],
+   "commuteTimeDuration": 0,
+   "customFields": [
+    {
+     "cfKey": "cf_questionnaire",
+     "value": "QUESTIONNAIRE-3-591",
+     "key": "CF Primary External Questionnaire"
+    },
+    {
+     "cfKey": "cf_requisition_status",
+     "value": "OPEN",
+     "key": "CF Requisition Status"
+    },
+    {
+     "cfKey": "cf_job_external",
+     "value": "1",
+     "key": "CF Job Posted Externally"
+    },
+    {
+     "cfKey": "cf_wd_apply_url",
+     "value": "https://trugreen.wd1.myworkdayjobs.com/USExternalCareers/job/Vadnais-Heights-MN-55127/Branch-Sales-Manager_R37637",
+     "key": "CF Workday Apply URL"
+    },
+    {
+     "cfKey": "cf_shorten_job_id",
+     "value": "P1-7670179-0",
+     "key": "cf_shorten_job_id"
+    }
+   ],
+   "facilityName": "",
+   "jobCardExtraFields": []
+  }
+ ]
+}

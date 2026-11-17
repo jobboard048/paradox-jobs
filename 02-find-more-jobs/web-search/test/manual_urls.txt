@@ -1,0 +1,7 @@
+# Paste here the URLs (or just the hostnames) from the result pages of your own browser, one per line.
+# A line starting with # names the query the following URLs come from, for example:
+# inurl:"/job/P1-"
+# https://jobs.example.com/cashier/job/P1-123456-1
+# site:recruiting.com -site:www.recruiting.com
+# https://example.recruiting.com/
+# Then run: node 02-find-more-jobs/web-search/web_search.mjs --from-file manual_urls.txt

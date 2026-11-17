@@ -1,0 +1,3 @@
+# Result URLs collected on 2026-11-16 by browser_search.mjs (visible Chrome, Google)
+# CAPTCHA or "unusual traffic" page at query "inurl:"/job/P1-"", page 1 (https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D): stopped
+# inurl:"/job/P1-"

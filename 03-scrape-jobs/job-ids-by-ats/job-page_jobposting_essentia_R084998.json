@@ -1,0 +1,40 @@
+{
+ "page": "https://www.essentiacareers.org/2027-summer-student-nurse-internship-program-detroit-lakes/job/0A9D0825F498F4AD391A96F0A707FAF6",
+ "retrieved": "2026-11-17",
+ "jobPosting": {
+  "@context": "https://schema.org",
+  "@type": "JobPosting",
+  "url": "https://www.essentiacareers.org/2027-summer-student-nurse-internship-program-detroit-lakes/job/0A9D0825F498F4AD391A96F0A707FAF6",
+  "directApply": false,
+  "title": "2027 Summer Student Nurse Internship Program - Detroit Lakes",
+  "description": "<div class='description'><h3>Job Description:</h3>Spend Summer 2027 at Essentia Health – Detroit Lakes as a Student Nurse Intern.As a Student Nurse Intern, you will work under direct supervision, providing essential support in both routine and technical aspects of nursing care for patients of all ages.</div><div class='requirements'><h3>Education Qualifications:</h3><p><b>Key Responsibilities:</b></p><br /><ul><li>Assist with patient care activities while adhering to best practices and protocols.</li><li>Collaborate with nursing staff to ensure compliance with the Joint Commission and other relevant federal, state, and local regulations.</li><li>Help maintain a safe and healing environment for patients and families.</li></ul><p> </p><p><b>Wage: $22/per Hour</b></p><p><b>Internship Dates: June 7th-August 13th, 2027</b></p><p> </p><p><b>Units Available for Student Nurse Interns:</b></p><ul><li>ICU</li><li>BirthCenter</li><li>Med/Surg</li><li>Emergency</li><li>Surgical Services</li><li>Critical Access Locations<ul><li>Fosston</li><li>Ada</li><li>Graceville</li></ul></li></ul><br /><p>*Unit availability may vary.</p><br /><p><b>Apply Online and Please Attach the Following:</b></p><ul><li>Resume</li><li>Cover Letter outlining your top 3 units of choice</li><li>Unofficial Transcripts</li><li></li></ul><p><b>**Application Deadline December 13th, 2026**</b></p><p> </p><p> </p><p><b>Requirements:</b></p><br /><ul><li>Current enrollment in an accredited nursing program (BSN or ADN)</li><li>Completion of junior year of a Bachelor’s Nursing Program or 2 clinical semesters of an Associates Nursing Program, graduating no later than May 2028 following the internship </li><li>Enrollment and active participation in an approved <b><u>internship co-operative course</u></b> at an accredited nursing school in the state of employment for the summer semester</li><li>Must be able to commit to 30-36 hours/week</li><li>Students with full/part-time summer class loads will have adjusted hour requirements and must be able to commit to 32 hours every two weeks</li></ul></div><div class='extended_description'><h3>Licensure/Certification Qualifications:</h3><br /><ul><li>Basic Cardiac Life Support (BCLS) certification within 1 month of hire  </li><li>BCLS certifications through Red Cross must be renewed through the American Heart Association if continuing as a senior nurse intern  </li><li>This certification must not expire during the internship. </li></ul><br /><p>*<b>Summer Interns could continue their internship during the school in a PRN capacity as Senior Intern (space may be limited)</b>*</p><br /><p><i>**Please also note, this is a temporary status position and is not eligible for benefits**</i></p></div>",
+  "identifier": {
+   "@type": "PropertyValue",
+   "name": "Essentia Health",
+   "value": "R084998"
+  },
+  "datePosted": "2026-10-29T18:02:49.154199+00:00",
+  "employmentType": [
+   "PART_TIME"
+  ],
+  "hiringOrganization": {
+   "@type": "Organization",
+   "name": "Essentia Health",
+   "sameAs": "https://www.essentiahealth.org/",
+   "logo": "https://dokumfe7mps0i.cloudfront.net/oms/000000/image/2024/6/MY0P6_essenita-google-1x-1/essenita-google-1x-1_-1x-1.jpg"
+  },
+  "jobLocation": [
+   {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "streetAddress": "1027 Washington Ave",
+     "addressLocality": "Detroit Lakes",
+     "addressRegion": "MN",
+     "postalCode": "56501",
+     "addressCountry": "US"
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,41 @@
+A. crt.sh: 4205 certificates, 284 sub-domains, 12 client tenants
+┌─────────┬──────────────┬───────────────┐
+│ (index) │ tenant       │ nb_subdomains │
+├─────────┼──────────────┼───────────────┤
+│ 0       │ 'lowes'      │ 20            │
+│ 1       │ 'fedex'      │ 19            │
+│ 2       │ 'darden'     │ 13            │
+│ 3       │ 'lockheed'   │ 10            │
+│ 4       │ 'aramark'    │ 10            │
+│ 5       │ 'unilever'   │ 10            │
+│ 6       │ 'advantage'  │ 9             │
+│ 7       │ 'sodexo'     │ 6             │
+│ 8       │ 'regis'      │ 6             │
+│ 9       │ 'birddoghr'  │ 4             │
+│ 10      │ 'prudential' │ 2             │
+│ 11      │ 'pepsi'      │ 2             │
+└─────────┴──────────────┴───────────────┘
+
+B. DNS: 5/18 domains point to Paradox
+┌─────────┬──────────────────────────────────┬────────────────────────────────────────────────────┬─────────────────────────┐
+│ (index) │ domain                           │ cname                                              │ platform                │
+├─────────┼──────────────────────────────────┼────────────────────────────────────────────────────┼─────────────────────────┤
+│ 0       │ 'jobs.mchire.com'                │ ''                                                 │ 'no CNAME (A record)'   │
+│ 1       │ 'careers.fedex.com'              │ 'fedex.sites.paradox.ai'                           │ 'Paradox (career site)' │
+│ 2       │ 'jobs.us.sodexo.com'             │ 'jobs-us-sodexo-com.sites.sodexo.paradox.ai'       │ 'Paradox (career site)' │
+│ 3       │ 'careers.regiscorp.com'          │ 'regiscorporatecareersite7.sites.regis.paradox.ai' │ 'Paradox (career site)' │
+│ 4       │ 'jobs.supercuts.com'             │ 'supercutscareersite8.sites.regis.paradox.ai'      │ 'Paradox (career site)' │
+│ 5       │ 'jobs.smartstyle.com'            │ 'smartstylecareersite9.sites.regis.paradox.ai'     │ 'Paradox (career site)' │
+│ 6       │ 'talent.lowes.com'               │ 'lowes.phenompeople.com'                           │ 'Phenom'                │
+│ 7       │ 'careers.unilever.com'           │ 'careers-unilever-com.talentbrew.com'              │ 'TalentBrew (Radancy)'  │
+│ 8       │ 'www.pepsicojobs.com'            │ 'www.pepsicojobs.com.jibeapply.com'                │ 'Jibe (iCIMS)'          │
+│ 9       │ 'jobs.olivegarden.com'           │ 'nascareers-aeezckg8buaac0ct.z01.azurefd.net'      │ 'Azure (own site)'      │
+│ 10      │ 'jobs.longhornsteakhouse.com'    │ 'nascareers-aeezckg8buaac0ct.z01.azurefd.net'      │ 'Azure (own site)'      │
+│ 11      │ 'www.lockheedmartinjobs.com'     │ 'www-lockheedmartin1.ref.external.lmco.com'        │ 'other (own site)'      │
+│ 12      │ 'careers.prudential.com'         │ 'web.prudential.com'                               │ 'other (own site)'      │
+│ 13      │ 'careers.advantagesolutions.net' │ 'gj8ucjo5r4hb.wpeproxy.com'                        │ 'WordPress (WP Engine)' │
+│ 14      │ 'jobs.birddoghr.com'             │ 'bdhr-prod-jobboards.trafficmanager.net'           │ 'Azure (own site)'      │
+│ 15      │ 'careers.greatwolf.com'          │ ''                                                 │ 'no CNAME (A record)'   │
+│ 16      │ 'jobs.chipotle.com'              │ 'jobs-chipotle-com.talentbrew.com'                 │ 'TalentBrew (Radancy)'  │
+│ 17      │ 'careers.paradox.ai'             │ ''                                                 │ 'no CNAME (A record)'   │
+└─────────┴──────────────────────────────────┴────────────────────────────────────────────────────┴─────────────────────────┘

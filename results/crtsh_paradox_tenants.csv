@@ -1,0 +1,13 @@
+﻿tenant,nb_subdomains,examples
+"lowes","20","api-k8s.lowes.paradox.ai api-k8s.lowes.stg.paradox.ai chrome.lowes.paradox.ai chrome.lowes.proxy.paradox.ai chrome.lowesstg.paradox.ai chrome.lowesstg.proxy.paradox.ai"
+"fedex","19","api-k8s.fedex.paradox.ai api-k8s.fedex.stg.paradox.ai chrome.fedex.paradox.ai chrome.fedex.proxy.paradox.ai chrome.fedex.stg.paradox.ai chrome.fedexstg.paradox.ai"
+"darden","13","api-k8s.darden.paradox.ai chrome.darden.paradox.ai chrome.darden.proxy.paradox.ai chromecf.darden.paradox.ai darden.paradox.ai darden.proxy.paradox.ai"
+"lockheed","10","api-k8s.lockheed.paradox.ai chrome.lockheed.paradox.ai chrome.lockheed.proxy.paradox.ai chromecf.lockheed.paradox.ai job.lockheed.paradox.ai lockheed.paradox.ai"
+"aramark","10","api-k8s.aramark.paradox.ai aramark.paradox.ai aramark.proxy.paradox.ai aramarkapi.paradox.ai aramarkchrome.paradox.ai aramarkstatus.paradox.ai"
+"unilever","10","api-k8s.unilever.paradox.ai chrome.unilever.paradox.ai chrome.unilever.proxy.paradox.ai chromecf.unilever.paradox.ai job.unilever.paradox.ai unilever.paradox.ai"
+"advantage","9","advantage.paradox.ai advantage.proxy.paradox.ai advantageapi.paradox.ai advantagedemo.paradox.ai advantagestatus.paradox.ai api-k8s.advantage.paradox.ai"
+"sodexo","6","api-k8s.sodexo.paradox.ai api.sodexo.paradox.ai job.sodexo.paradox.ai sodexo.paradox.ai sodexo.proxy.paradox.ai sodexostatus.paradox.ai"
+"regis","6","api-k8s.regis.paradox.ai job.regis.paradox.ai regis.paradox.ai regis.proxy.paradox.ai regisapi.paradox.ai regisstatus.paradox.ai"
+"birddoghr","4","birddoghr.paradox.ai birddoghrapi.paradox.ai birddoghrdemo.paradox.ai birddoghrstatus.paradox.ai"
+"prudential","2","prudential-prod.paradox.ai prudential.paradox.ai"
+"pepsi","2","pepsi.paradox.ai pepsiapi.paradox.ai"

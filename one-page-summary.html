@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Paradox jobs: methodology and results</title>
+<style>
+  @page { size: A4; margin: 11mm 12mm; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: "Segoe UI", Calibri, Arial, sans-serif; font-size: 8.1pt; line-height: 1.3; color: #1d2433; }
+  h1 { font-size: 15.5pt; margin: 0 0 1mm; color: #14213d; letter-spacing: -0.2px; }
+  .sub { color: #5a6475; margin: 0 0 3mm; font-size: 8.2pt; }
+  .q { border-left: 2.5px solid #c9a227; padding: 1.2mm 2.5mm; background: #faf7ec; font-style: italic; margin-bottom: 3mm; font-size: 8pt; }
+  .kpis { display: grid; grid-template-columns: repeat(4, 1fr); gap: 2.5mm; margin-bottom: 3.5mm; }
+  .kpi { background: #14213d; color: #fff; border-radius: 2mm; padding: 1.4mm 3mm; }
+  .kpi b { display: block; font-size: 13.5pt; line-height: 1.1; }
+  .kpi span { font-size: 7.6pt; opacity: .85; }
+  .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 5mm; }
+  h2 { font-size: 9.6pt; color: #14213d; margin: 0 0 1.5mm; padding-bottom: .8mm; border-bottom: 1px solid #d4d9e2; text-transform: uppercase; letter-spacing: .4px; }
+  section { margin-bottom: 2.4mm; }
+  .step { margin-bottom: 2.2mm; }
+  .step .t { font-weight: 700; color: #14213d; }
+  .step .n { display: inline-block; background: #c9a227; color: #fff; font-weight: 700; border-radius: 1mm; padding: 0 1.3mm; margin-right: 1mm; font-size: 7.6pt; }
+  .step .r { color: #2f6b3a; font-weight: 600; }
+  ul { margin: .6mm 0 0; padding-left: 4mm; }
+  li { margin-bottom: .5mm; }
+  code { font-family: Consolas, "Courier New", monospace; font-size: 7.5pt; background: #eef1f5; padding: 0 .7mm; border-radius: .6mm; }
+  table { width: 100%; border-collapse: collapse; font-size: 7.9pt; margin-bottom: 1.2mm; }
+  th { text-align: left; background: #eef1f5; color: #14213d; font-weight: 700; padding: .9mm 1.4mm; }
+  td { padding: .7mm 1.4mm; border-bottom: 1px solid #e6e9ee; }
+  td.num, th.num { text-align: right; white-space: nowrap; }
+  tr.tot td { font-weight: 700; border-top: 1.5px solid #14213d; border-bottom: none; }
+  .note { color: #5a6475; font-size: 7.6pt; }
+  .foot { margin-top: 2mm; padding-top: 1.5mm; border-top: 1px solid #d4d9e2; color: #5a6475; font-size: 7.4pt; }
+</style>
+</head>
+<body>
+
+<h1>Scraping the jobs Paradox hosts: methodology and results</h1>
+<p class="sub">Work of 10 to 17 November 2026. Job counts are the <code>totalJob</code> each career site announced when opened once in a normal browser.</p>
+
+<div class="q">"You want to scrape all the jobs from paradox.ai. How would you do it? Give me a list of all the jobs you found. How would you check that those jobs expire? How would you ensure you're not scraping the same jobs twice?"</div>
+
+<div class="kpis">
+  <div class="kpi"><b>80</b><span>companies</span></div>
+  <div class="kpi"><b>96</b><span>Paradox career sites</span></div>
+  <div class="kpi"><b>231,904</b><span>jobs listed</span></div>
+  <div class="kpi"><b>1</b><span>API shared by every site</span></div>
+</div>
+
+<div class="cols">
+<div>
+  <section>
+    <h2>Methodology, in four steps</h2>
+
+    <div class="step"><span class="n">01</span><span class="t">Initial assessment: what to scrape</span>
+      <ul>
+        <li><code>paradox.ai/careers</code> is a 404 and Paradox's own openings are on Workday (which acquired Paradox in 2025). The jobs that matter are those <b>Paradox hosts for its clients</b>.</li>
+        <li>Opened known clients in a browser and listed Paradox's fingerprints: DNS alias to <code>*.sites.paradox.ai</code>, <code>POST /api/get-jobs</code>, <code>PDX_…</code> job ids, <code>P1-…</code> Job IDs, apply links on <code>olivia.paradox.ai/co/…</code>.</li>
+        <li>Checked 6 early cases (Flynn, Checkers, Chipotle…), the <b>66 official case studies</b>, and a public source (McHire, McDonald's). Only full Paradox career sites share one API.</li>
+      </ul>
+      <span class="r">→ 14 companies, 23 sites, 131,751 jobs</span></div>
+
+    <div class="step"><span class="n">02</span><span class="t">Find more career sites (Paradox publishes no client list)</span>
+      <ul>
+        <li><b>crt.sh</b> (Certificate Transparency logs): <code>*.paradox.ai</code> revealed 12 clients with their own instance (FedEx); <code>*.recruiting.com</code> gave 234 names, 15 still pointing to Paradox.</li>
+        <li><b>Passive DNS, reverse CNAME</b> (WhoisXML): every name ever seen as an alias of <code>*.sites.paradox.ai</code>: 72 names, 55 new sites with jobs.</li>
+        <li><b>Web search</b> (Google via Bright Data), 3 searches: <code>site:recruiting.com -site:www.recruiting.com</code> (4 new sites), <code>"inurl:/job/P1-"</code> in quotes (3 new), <code>inurl:/job/P1- -site:recruiting.com</code> (run twice, no Paradox site found).</li>
+        <li>Every candidate verified by DNS, then one page view reading <code>get-jobs</code>.</li>
+      </ul>
+      <span class="r">→ 66 companies, 73 sites, 100,153 jobs</span></div>
+
+    <div class="step"><span class="n">03</span><span class="t">How to scrape the jobs (tested in a browser)</span>
+      <ul>
+        <li>From the listing page: <code>POST /api/get-jobs?page_number=N&amp;page_size=20</code> returns JSON with title, location, description, apply link, ids and <code>totalJob</code> (20 per page tested on Saxton's site, 10 by default). Page 1 also works through the API.</li>
+        <li>The listing page must be the <code>Referer</code> (from a job page the API answers 0 jobs); some sites need the languages <code>["en"]</code> only.</li>
+        <li>The job page adds the only missing field, <code>datePosted</code> (JSON-LD). On McHire the API stops at 10,000 jobs; a state filter gets under it (other large sites not tested).</li>
+      </ul></div>
+
+    <div class="step"><span class="n">04</span><span class="t">Consolidate the list</span>: the 80 companies with their sites, jobs, ATS and discovery method; one record per job (example records in JSON and CSV).</div>
+  </section>
+
+  <section>
+    <h2>Limits</h2>
+    <ul>
+      <li>From a script, Paradox sites answer <b>403</b> (AWS WAF token). All counts come from a few normal browser requests per site; no protection, CAPTCHA or cookie was bypassed or reused.</li>
+      <li><b>Free tools only</b>: crt.sh (free, but large searches time out) and WhoisXML's free trial credits (a few queries). Paid or more reliable tools (Cert Spotter, Censys, full passive DNS plans) would likely find many more sites.</li>
+      <li>Totals are announced, not downloaded. Not exhaustive: each discovery method misses sites, and some edge cases were not covered.</li>
+    </ul>
+  </section>
+</div>
+
+<div>
+  <section>
+    <h2>Results: where the jobs were found</h2>
+    <table>
+      <tr><th>Step / method</th><th class="num">Sites</th><th class="num">Jobs</th></tr>
+      <tr><td>01: case studies, company links, DNS, public source</td><td class="num">23</td><td class="num">131,751</td></tr>
+      <tr><td>02: crt.sh on <code>*.paradox.ai</code> (FedEx)</td><td class="num">1</td><td class="num">4,681</td></tr>
+      <tr><td>02: crt.sh on <code>*.recruiting.com</code></td><td class="num">10</td><td class="num">1,967</td></tr>
+      <tr><td>02: passive DNS on <code>*.sites.paradox.ai</code></td><td class="num">55</td><td class="num">91,177</td></tr>
+      <tr><td>02: web search (Bright Data)</td><td class="num">7</td><td class="num">2,328</td></tr>
+      <tr class="tot"><td>Total</td><td class="num">96</td><td class="num">231,904</td></tr>
+    </table>
+    <p class="note"><b>Largest:</b> McDonald's 54,601 · Marriott 30,969 · Dunkin' 23,394 · Sonic 16,957.</p>
+  </section>
+
+  <section>
+    <h2>One Paradox site, many ATS</h2>
+    <p style="margin:0 0 1mm">A Paradox career site <b>displays</b> the jobs, but the application can go to another ATS: <code>get-jobs</code> returns them all.</p>
+    <table>
+      <tr><th>Applications go to</th><th class="num">Companies</th><th class="num">Jobs</th></tr>
+      <tr><td>Paradox only</td><td class="num">32</td><td class="num">95,458</td></tr>
+      <tr><td>Paradox and other ATS on the same site</td><td class="num">10</td><td class="num">54,394</td></tr>
+      <tr><td>Other ATS only</td><td class="num">35</td><td class="num">75,798</td></tr>
+      <tr><td>No apply link in the data</td><td class="num">3</td><td class="num">6,254</td></tr>
+    </table>
+    <ul>
+      <li>Other ATS seen: Workday (17 companies), SuccessFactors, Oracle, UltiPro, ADP, SmartRecruiters, Cornerstone… The <b>apply link's host</b> tells which one handles each job.</li>
+      <li>The reverse too: Checkers, Chipotle, 7-Eleven send jobs to Paradox from their own sites.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>How to know a job expired</h2>
+    <p class="note" style="margin:0 0 .5mm">Proposed approach, not yet tested over repeated crawls.</p>
+    <ul>
+      <li>No end date was found (no <code>validThrough</code>), so expiry would come from <b>absence</b>: missing from <b>several complete crawls in a row</b> (e.g. 2, to be tuned to the crawl frequency) → expired; reactivated if it comes back.</li>
+    </ul>
+    <table style="margin-top:1mm">
+      <tr><th style="width:56%">What to track</th><th>Why</th></tr>
+      <tr><td><code>first_seen</code>, <code>last_seen</code>, misses, status</td><td>new jobs, expiry, safety net</td></tr>
+      <tr><td>content hash, <code>updated_at</code></td><td>edited jobs</td></tr>
+      <tr><td>status history</td><td>every open and closed period</td></tr>
+      <tr><td>crawl log per site</td><td>"job closed" vs "crawl failed"</td></tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>How to avoid scraping the same job twice</h2>
+    <ul>
+      <li>Use <b><code>uniqueID</code></b> as the first check: it is enough within a site.</li>
+      <li>Across sites, where <code>uniqueID</code> can change format, match on <b><code>requisitionID</code></b>, or <b><code>reference</code></b> when it is missing (to be confirmed).</li>
+      <li>Pair it with the <b>ATS</b> read from the apply link; a <b>content hash</b> only flags possible reposts (to be confirmed).</li>
+    </ul>
+  </section>
+
+</div>
+</div>
+
+<div class="foot">Repository: <b>01-initial-assessment</b> · <b>02-find-more-jobs</b> · <b>03-scrape-jobs</b> (API, ids, example records) · <b>04-total-companies</b> (full list of the 80 companies).</div>
+
+</body>
+</html>

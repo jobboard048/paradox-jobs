@@ -1,0 +1,583 @@
+{
+ "query": "*.sites.paradox.ai",
+ "date": "2026-11-16",
+ "result": [
+  {
+   "value": "bluecrossblueshieldarizona285.sites.paradox.ai",
+   "wildcard": false,
+   "active": false,
+   "name": "jobs.azblue.com",
+   "first_seen": 1744421658,
+   "last_visit": 1790226639
+  },
+  {
+   "value": "careers-arbys-com.sites.paradox.ai",
+   "wildcard": false,
+   "active": false,
+   "name": "careers.arbys.com",
+   "first_seen": 1759507455,
+   "last_visit": 1791108575
+  },
+  {
+   "value": "careers-bakkavor-com.sites.paradox.ai",
+   "wildcard": false,
+   "active": true,
+   "name": "careers.bakkavor.com",
+   "first_seen": 1759670828,
+   "last_visit": 1789419571
+  },
+  {
+   "value": "careers-baskinrobbins-com.sites.paradox.ai",
+   "wildcard": false,
+   "active": false,
+   "name": "careers.baskinrobbins.com",
+   "first_seen": 1759318489,
+   "last_visit": 1789987253
+  },
+  {
+   "value": "careers-bathandbodyworks-com.sites.paradox.ai",
+   "wildcard": false,
+   "active": false,
+   "name": "careers.bathandbodyworks.com",
+   "first_seen": 1759262373,
+   "last_visit": 1791313400
+  },
+  {
+   "value": "careers-buffalowildwings-com.sites.paradox.ai",
+   "wildcard": false,
+   "active": true,
+   "name": "careers.buffalowildwings.com",
+   "first_seen": 1759245400,
+   "last_visit": 1792461224
+  },
+  {
+   "value": "careers-carmax-com.sites.paradox.ai",
+   "wildcard": false,
+   "active": false,
+   "name": "careers.carmax.com",
+   "first_seen": 1744447839,
+   "last_visit": 1790467343
+  },
+  {
+   "value": "careers-compass-usa-com.sites.paradox.ai",
+   "wildcard": false,
+   "active": false,
+   "name": "careers.compass-usa.com",
+   "first_seen": 1763060420,
+   "last_visit": 1790680846
+  },
+  {
+   "value": "careers-compass-usa-com.sites.paradox.ai",
+   "wildcard": false,
+   "active": false,
+   "name": "careers.compassgroupcareers.com",
+   "first_seen": 1759320925,
+   "last_visit": 1793805110
+  },
+  {
+   "value": "careers-compass-usa-com.sites.paradox.ai",
+   "wildcard": false,
+   "active": false,
+   "name": "trabajos.compassgroupcareers.com",
+   "first_seen": 1759561960,
+   "last_visit": 1793439730
+  },
+  {
+   "value": "careers-dunkindonuts-com.sites.paradox.ai",
+   "wildcard": false,
+   "active": false,
+   "name": "careers.dunkindonuts.com",
+   "first_seen": 1759405706,
+   "last_visit": 1791329040
+  },
+  {
+   "value": "careers-highmarkhealth-org.sites.paradox.ai",
+   "wildcard": false,
+   "active": false,
+   "name": "careers.highmarkhealth.org",
+   "first_seen": 1764861400,
+   "last_visit": 1793801335
+  },
+  {
+   "value": "careers-intactfc-com.sites.paradox.ai",
+   "wildcard": false,
+   "active": false,
+   "name": "careers.intactfc.com",
+   "first_seen": 1759277106,
+   "last_visit": 1794802813
+  },
+  {
+   "value": "careers-ips-us.sites.paradox.ai",
+   "wildcard": null,
+   "active": false,
+   "name": "careers.ips.us",
+   "first_seen": 1768249328,
+   "last_visit": 1790118803
+  },
+  {
+   "value": "careers-jimmyjohns-com.sites.paradox.ai",
+   "wildcard": false,
+   "active": false,
+   "name": "careers.jimmyjohns.com",
+   "first_seen": 1759882409,
+   "last_visit": 1791286026
+  },
+  {
+   "value": "careers-kbs-services-com.sites.paradox.ai",
+   "wildcard": false,
+   "active": false,
+   "name": "careers.kbs-services.com",
+   "first_seen": 1763278891,
+   "last_visit": 1789983489
+  },
+  {
+   "value": "careers-nordstrom-com.sites.paradox.ai",
+   "wildcard": false,
+   "active": false,
+   "name": "careers.nordstrom.com",
+   "first_seen": 1759505534,
+   "last_visit": 1794696967
+  },
+  {
+   "value": "careers-pilotcompany-com.sites.paradox.ai",
+   "wildcard": false,
+   "active": false,
+   "name": "careers.pilotcompany.com",
+   "first_seen": 1778965934,
+   "last_visit": 1791082971
+  },
+  {
+   "value": "careers-playstation-com.sites.paradox.ai",
+   "wildcard": false,
+   "active": false,
+   "name": "careers.playstation.com",
+   "first_seen": 1764470155,
+   "last_visit": 1792645396
+  },
+  {
+   "value": "careers-sonicdrivein-com.sites.paradox.ai",
+   "wildcard": false,
+   "active": true,
+   "name": "careers.sonicdrivein.com",
+   "first_seen": 1759314674,
+   "last_visit": 1793093009
+  },
+  {
+   "value": "careers-sunbeltrentals-com.sites.paradox.ai",
+   "wildcard": false,
+   "active": false,
+   "name": "careers.sunbeltrentals.com",
+   "first_seen": 1744418586,
+   "last_visit": 1789523953
+  },
+  {
+   "value": "careers-thecampbellscompany-com.sites.paradox.ai",
+   "wildcard": false,
+   "active": true,
+   "name": "careers.thecampbellscompany.com",
+   "first_seen": 1760759177,
+   "last_visit": 1791192288
+  },
+  {
+   "value": "careers-tiaa-org.sites.paradox.ai",
+   "wildcard": false,
+   "active": true,
+   "name": "careers.in.tiaa.org",
+   "first_seen": 1760326902,
+   "last_visit": 1790621511
+  },
+  {
+   "value": "careers-tiaa-org.sites.paradox.ai",
+   "wildcard": false,
+   "active": false,
+   "name": "careers.nuveen.com",
+   "first_seen": 1759770034,
+   "last_visit": 1791092396
+  },
+  {
+   "value": "careers-tiaa-org.sites.paradox.ai",
+   "wildcard": false,
+   "active": false,
+   "name": "careers.tiaa.org",
+   "first_seen": 1759948857,
+   "last_visit": 1788493844
+  },
+  {
+   "value": "carters517.sites.paradox.ai",
+   "wildcard": false,
+   "active": false,
+   "name": "careers.carters.com",
+   "first_seen": 1759242983,
+   "last_visit": 1791075940
+  },
+  {
+   "value": "communityhealthchoice375.sites.paradox.ai",
+   "wildcard": false,
+   "active": true,
+   "name": "jobs.communityhealthchoice.org",
+   "first_seen": 1744438880,
+   "last_visit": 1787807094
+  },
+  {
+   "value": "dryerventwizardaneighborlycompany455.sites.paradox.ai",
+   "wildcard": false,
+   "active": true,
+   "name": "jobs.dryerventwizard.com",
+   "first_seen": 1759256969,
+   "last_visit": 1791896421
+  },
+  {
+   "value": "easternnewmexicomedicalcenter624.sites.paradox.ai",
+   "wildcard": false,
+   "active": true,
+   "name": "jobs.enmmc.com",
+   "first_seen": 1744462334,
+   "last_visit": 1792801825
+  },
+  {
+   "value": "eldersjouney176.sites.paradox.ai",
+   "wildcard": false,
+   "active": false,
+   "name": "jobs.eldersjourney.org",
+   "first_seen": 1759253339,
+   "last_visit": 1794736748
+  },
+  {
+   "value": "fedex.sites.paradox.ai",
+   "wildcard": false,
+   "active": false,
+   "name": "careers.fedex.com",
+   "first_seen": 1759290654,
+   "last_visit": 1794297838
+  },
+  {
+   "value": "forkscommunityhospital291.sites.paradox.ai",
+   "wildcard": false,
+   "active": true,
+   "name": "jobs.forkshospital.org",
+   "first_seen": 1759330663,
+   "last_visit": 1793268780
+  },
+  {
+   "value": "hoodz367.sites.paradox.ai",
+   "wildcard": false,
+   "active": true,
+   "name": "careers.hoodzinternational.com",
+   "first_seen": 1760017031,
+   "last_visit": 1792645146
+  },
+  {
+   "value": "jobs-cityofdelawareoh-gov.sites.paradox.ai",
+   "wildcard": false,
+   "active": false,
+   "name": "jobs.cityofdelawareoh.gov",
+   "first_seen": 1780995348,
+   "last_visit": 1786900444
+  },
+  {
+   "value": "jobs-copenhagenliving-com.sites.paradox.ai",
+   "wildcard": false,
+   "active": true,
+   "name": "jobs.copenhagenliving.com",
+   "first_seen": 1759398900,
+   "last_visit": 1794049721
+  },
+  {
+   "value": "jobs-drvitenas-com.sites.paradox.ai",
+   "wildcard": false,
+   "active": true,
+   "name": "jobs.drvitenas.com",
+   "first_seen": 1760723826,
+   "last_visit": 1790509912
+  },
+  {
+   "value": "jobs-kenvue-com.sites.paradox.ai",
+   "wildcard": null,
+   "active": false,
+   "name": "jobs.kenvue.com",
+   "first_seen": 1794302613,
+   "last_visit": 1794644019
+  },
+  {
+   "value": "jobs-loves-com.sites.paradox.ai",
+   "wildcard": false,
+   "active": false,
+   "name": "jobs.loves.com",
+   "first_seen": 1763717871,
+   "last_visit": 1791216595
+  },
+  {
+   "value": "jobs-wickhosp-com.sites.paradox.ai",
+   "wildcard": false,
+   "active": true,
+   "name": "jobs.wickhosp.com",
+   "first_seen": 1759285819,
+   "last_visit": 1787044679
+  },
+  {
+   "value": "laurensinstituteforeducation369.sites.paradox.ai",
+   "wildcard": false,
+   "active": true,
+   "name": "jobs.laurensinstitute.org",
+   "first_seen": 1761925549,
+   "last_visit": 1788965509
+  },
+  {
+   "value": "lawnprideaneighborlycompany458.sites.paradox.ai",
+   "wildcard": false,
+   "active": true,
+   "name": "jobs.lawnpride.com",
+   "first_seen": 1760530512,
+   "last_visit": 1788163229
+  },
+  {
+   "value": "miiamo551.sites.paradox.ai",
+   "wildcard": false,
+   "active": true,
+   "name": "jobs.miiamo.com",
+   "first_seen": 1759800757,
+   "last_visit": 1792763227
+  },
+  {
+   "value": "mollymaidspanish483.sites.paradox.ai",
+   "wildcard": false,
+   "active": true,
+   "name": "trabajos.mollymaid.com",
+   "first_seen": 1760145480,
+   "last_visit": 1793200630
+  },
+  {
+   "value": "monarchcasinoresortinc461.sites.paradox.ai",
+   "wildcard": false,
+   "active": false,
+   "name": "jobs.monarchblackhawk.com",
+   "first_seen": 1759356245,
+   "last_visit": 1789756441
+  },
+  {
+   "value": "mrelectric476.sites.paradox.ai",
+   "wildcard": false,
+   "active": true,
+   "name": "jobs.mrelectric.com",
+   "first_seen": 1760018653,
+   "last_visit": 1788268070
+  },
+  {
+   "value": "northcountryhealthcare416.sites.paradox.ai",
+   "wildcard": false,
+   "active": true,
+   "name": "careers.northcountryhealth.org",
+   "first_seen": 1760614102,
+   "last_visit": 1788050067
+  },
+  {
+   "value": "pilotflyingj627.sites.paradox.ai",
+   "wildcard": false,
+   "active": false,
+   "name": "jobs.pilotflyingj.com",
+   "first_seen": 1759319818,
+   "last_visit": 1790727332
+  },
+  {
+   "value": "pilotflyingjcanada629.sites.paradox.ai",
+   "wildcard": false,
+   "active": false,
+   "name": "cajobs.pilotflyingj.com",
+   "first_seen": 1759678098,
+   "last_visit": 1788610981
+  },
+  {
+   "value": "rainbowrestoration472.sites.paradox.ai",
+   "wildcard": false,
+   "active": true,
+   "name": "jobs.rainbowrestores.com",
+   "first_seen": 1759302460,
+   "last_visit": 1787462851
+  },
+  {
+   "value": "rainbowrestorationcanada497.sites.paradox.ai",
+   "wildcard": false,
+   "active": true,
+   "name": "canadianjobs.rainbowrestores.com",
+   "first_seen": 1761690840,
+   "last_visit": 1787452670
+  },
+  {
+   "value": "raisingcanes652.sites.paradox.ai",
+   "wildcard": false,
+   "active": false,
+   "name": "jobs.raisingcanes.com",
+   "first_seen": 1759582974,
+   "last_visit": 1793806640
+  },
+  {
+   "value": "retailcareers-pandoragroup-com.sites.paradox.ai",
+   "wildcard": false,
+   "active": true,
+   "name": "retailcareers.pandoragroup.com",
+   "first_seen": 1759845270,
+   "last_visit": 1790151658
+  },
+  {
+   "value": "safelite735.sites.paradox.ai",
+   "wildcard": false,
+   "active": false,
+   "name": "careers.safelite.com",
+   "first_seen": 1772449955,
+   "last_visit": 1787418569
+  },
+  {
+   "value": "sonifi616.sites.paradox.ai",
+   "wildcard": false,
+   "active": true,
+   "name": "jobs.sonifisolutions.com",
+   "first_seen": 1759856681,
+   "last_visit": 1792677424
+  },
+  {
+   "value": "southeastalaskaregionalhealthconsortium925.sites.paradox.ai",
+   "wildcard": false,
+   "active": true,
+   "name": "careers.searhc.org",
+   "first_seen": 1793819137,
+   "last_visit": 1793819137
+  },
+  {
+   "value": "stmadeleinesophiescenter386.sites.paradox.ai",
+   "wildcard": false,
+   "active": true,
+   "name": "stmadeleinesophies.recruiting.com",
+   "first_seen": 1760677417,
+   "last_visit": 1793676381
+  },
+  {
+   "value": "stryker.sites.paradox.ai",
+   "wildcard": false,
+   "active": true,
+   "name": "careers.stryker.com",
+   "first_seen": 1759382219,
+   "last_visit": 1793323642
+  },
+  {
+   "value": "ucsandiegoucsandiegohealth600.sites.paradox.ai",
+   "wildcard": false,
+   "active": false,
+   "name": "employment.ucsd.edu",
+   "first_seen": 1759286600,
+   "last_visit": 1793811821
+  },
+  {
+   "value": "vialto932.sites.paradox.ai",
+   "wildcard": false,
+   "active": false,
+   "name": "careers.vialto.com",
+   "first_seen": 1760091740,
+   "last_visit": 1794606600
+  },
+  {
+   "value": "victra622.sites.paradox.ai",
+   "wildcard": false,
+   "active": false,
+   "name": "careers.victra.com",
+   "first_seen": 1759562882,
+   "last_visit": 1790502326
+  },
+  {
+   "value": "viocshell618.sites.paradox.ai",
+   "wildcard": false,
+   "active": false,
+   "name": "jobs.vioc.com",
+   "first_seen": 1759335308,
+   "last_visit": 1792043153
+  },
+  {
+   "value": "washingtonelementaryschooldistrict596.sites.paradox.ai",
+   "wildcard": false,
+   "active": true,
+   "name": "jobs.wesdschools.org",
+   "first_seen": 1759533765,
+   "last_visit": 1793070666
+  },
+  {
+   "value": "westlaketalent-com.sites.paradox.ai",
+   "wildcard": false,
+   "active": true,
+   "name": "www.westlaketalent.com",
+   "first_seen": 1745232410,
+   "last_visit": 1793816426
+  },
+  {
+   "value": "wgu903.sites.paradox.ai",
+   "wildcard": false,
+   "active": false,
+   "name": "jobs.wgu.edu",
+   "first_seen": 1785486561,
+   "last_visit": 1790189871
+  },
+  {
+   "value": "wocssunsetkailanai526.sites.paradox.ai",
+   "wildcard": false,
+   "active": true,
+   "name": "internalwocssunsetlanaikai.recruiting.com",
+   "first_seen": 1760299430,
+   "last_visit": 1787878698
+  },
+  {
+   "value": "wocswendys532.sites.paradox.ai",
+   "wildcard": false,
+   "active": true,
+   "name": "internalwocswendys.recruiting.com",
+   "first_seen": 1759876995,
+   "last_visit": 1786943831
+  },
+  {
+   "value": "workatgila-com.sites.paradox.ai",
+   "wildcard": false,
+   "active": true,
+   "name": "jobs.playatgila.com",
+   "first_seen": 1759836638,
+   "last_visit": 1794573902
+  },
+  {
+   "value": "www-avisbudgetgroup-jobs.sites.paradox.ai",
+   "wildcard": false,
+   "active": false,
+   "name": "www.avisbudgetgroup.jobs",
+   "first_seen": 1759387108,
+   "last_visit": 1792518189
+  },
+  {
+   "value": "www-flynnplanetfitnessjobs-com.sites.paradox.ai",
+   "wildcard": false,
+   "active": true,
+   "name": "www.flynnplanetfitnessjobs.com",
+   "first_seen": 1769074211,
+   "last_visit": 1790864964
+  },
+  {
+   "value": "www-workwithmckibbon-com.sites.paradox.ai",
+   "wildcard": false,
+   "active": true,
+   "name": "www.workwithmckibbon.com",
+   "first_seen": 1762180316,
+   "last_visit": 1793927324
+  },
+  {
+   "value": "xcelenergy488.sites.paradox.ai",
+   "wildcard": false,
+   "active": false,
+   "name": "jobs.xcelenergy.com",
+   "first_seen": 1759775055,
+   "last_visit": 1791418607
+  },
+  {
+   "value": "ymcaofgreaterlongbeach393.sites.paradox.ai",
+   "wildcard": false,
+   "active": true,
+   "name": "lbymca.recruiting.com",
+   "first_seen": 1759271145,
+   "last_visit": 1794785095
+  }
+ ],
+ "size": 72
+}

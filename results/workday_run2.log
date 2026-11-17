@@ -1,0 +1,20 @@
+List: 6 job(s) announced, total = 6
+Crawl complete: {
+  found: 6,
+  new: 0,
+  updated: 6,
+  duplicatesInCrawl: 0,
+  missed: 0,
+  expired: 0,
+  reactivated: 0
+}
+┌─────────┬──────────────┬───────────────────────────────────────────────────────────┬────────────────────┬──────────────┬──────────┐
+│ (index) │ id           │ title                                                     │ location           │ posted       │ status   │
+├─────────┼──────────────┼───────────────────────────────────────────────────────────┼────────────────────┼──────────────┼──────────┤
+│ 0       │ 'JR-0110944' │ 'Digital Project Consultant'                              │ 'GBR, Remote'      │ '2026-11-11' │ 'active' │
+│ 1       │ 'JR-0108605' │ 'Senior Software Development Engineer - Da Nang (Paradox' │ 'VNM.Da Nang'      │ '2026-10-12' │ 'active' │
+│ 2       │ 'JR-0110312' │ 'Sr Associate Paradox Technical Support Engineer'         │ 'IND.Pune'         │ '2026-10-08' │ 'active' │
+│ 3       │ 'JR-0107197' │ 'LLM Engineer - Paradox'                                  │ 'Israel, Tel Aviv' │ '2026-09-23' │ 'active' │
+│ 4       │ 'JR-0108727' │ 'Senior AI Engineer - Da Nang (Paradox)'                  │ 'VNM.Da Nang'      │ '2026-08-10' │ 'active' │
+│ 5       │ 'JR-0107621' │ 'Senior Software Development Engineer (Back-end) - Parad' │ 'VNM.Da Nang'      │ '2026-06-30' │ 'active' │
+└─────────┴──────────────┴───────────────────────────────────────────────────────────┴────────────────────┴──────────────┴──────────┘

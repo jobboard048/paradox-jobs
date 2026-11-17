@@ -1,0 +1,37 @@
+{
+ "page": "https://saxtonjobs.recruiting.com/restaurant-assistant-manager/job/P1-1861219-0",
+ "retrieved": "2026-11-16",
+ "jobPosting": {
+  "@context": "https://schema.org",
+  "@type": "JobPosting",
+  "url": "https://saxtonjobs.recruiting.com/restaurant-assistant-manager/job/P1-1861219-0",
+  "directApply": true,
+  "title": "Restaurant Assistant Manager",
+  "description": "<p><strong>Restaurant Assistant Manager</strong></p><p><strong>&nbsp;</strong></p><p>Looking for a career where you can expand your knowledge in the restaurant industry with opportunity for management and leadership growth? At McAlister’s Deli, we want to hire, work with, and develop the best restaurant managers and leaders! Our Restaurant&nbsp;Managers&nbsp;are at the Assistant Manager level&nbsp;and&nbsp;are food service experts, leaders who manage&nbsp;their team, and are on the front lines&nbsp;instructing, guiding, and developing&nbsp;each team member to provide every guest with an exceptional experience.</p><p><strong>&nbsp;</strong></p><p><strong>Our Mission:</strong>&nbsp;Put people at the heart of everything you do</p><p>&nbsp;</p><p><strong>Our Values:</strong>&nbsp;Genuine Hospitality, Employee Development, Growth and Profitability, Community Involvement, Operational Excellence, Products and Safety</p><p><br></p><p><strong>Annual Salary:</strong> $40,000.00 - $60,000.00 / per year</p><p>&nbsp;</p><p><strong>Requirements</strong></p><ul><li>One year of management related experience</li><li>Open&nbsp;availability (50 hours/week)&nbsp;with ability to work opening, mid, and closing shifts</li></ul><p><strong>&nbsp;</strong></p><p><strong>Responsibilities</strong></p><ul><li>Hiring, training and development&nbsp;of team members</li><li>Running successful shifts&nbsp;in the front of house dining&nbsp;room&nbsp;and back of house kitchen&nbsp;</li><li>Building our business through&nbsp;our core value of Genuine Hospitality</li><li>Expense supervision when it comes to labor, food and product orders</li><li>Interact with guests and&nbsp;ensure&nbsp;their experience in our restaurant&nbsp;is&nbsp;one-of-a-kind</li></ul><p><strong>&nbsp;</strong></p><p><strong>Benefits&nbsp;&amp; Perks</strong></p><ul><li>Performance-based pay</li><li>Same day pay&nbsp;available&nbsp;with Instant</li><li>Performance-based&nbsp;monthly&nbsp;bonus program&nbsp;(approximately&nbsp;10-15% of base&nbsp;pay)</li><li>Paid time&nbsp;off&nbsp;(PTO)</li><li>Medical, dental and vision insurance</li><li>Voluntary accident and critical illness insurance</li><li>Tuition Reimbursement Program</li><li>Pet Insurance</li><li>Long and short-term disability – 100% employer paid!</li><li>Basic life and AD&amp;D insurance – 100% employer paid!</li><li>Additional voluntary life insurance</li><li>Health &amp; dependent care flexible spending accounts</li><li>Identity theft protection &amp; emergency travel assistance</li><li>401(k)&nbsp;Plan&nbsp;with employer match!</li><li>Free meals</li><li>And who doesn’t love Perks!&nbsp;&nbsp;Work for us and&nbsp;receive exclusive discounts on sporting events, movie tickets, concerts, theater, hotels, rental cars, and theme park tickets nationwide.&nbsp;&nbsp;The list goes on!</li></ul><p>&nbsp;</p><p><strong>Work Environment</strong></p><ul><li>We’re a no grease zone!&nbsp;&nbsp;You won’t go home smelling like an old French fry.&nbsp;&nbsp;Our work environment is clean and safe.&nbsp;&nbsp;No char broilers, fryers, or flattop grills</li><li>No late nights.&nbsp;&nbsp;All our restaurants are closed by 10:00 p.m.</li><li>No alcohol. Smoke free environment</li><li>Heavy lunch time business</li></ul><p><br></p><p><em>TSG Restaurants provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state or local laws.</em></p>",
+  "identifier": {
+   "@type": "PropertyValue",
+   "name": "Job ID",
+   "value": "P1-1861219-0"
+  },
+  "datePosted": "2026-11-10T05:59:21.471590+00:00",
+  "hiringOrganization": {
+   "@type": "Organization",
+   "name": "McAlisters Deli - The Saxton Group",
+   "sameAs": "https://www.saxtongroup.com/",
+   "logo": "https://dokumfe7mps0i.cloudfront.net/oms/3438/image/2025/8/P6G06_google/google.jpg"
+  },
+  "jobLocation": [
+   {
+    "@type": "Place",
+    "address": {
+     "@type": "PostalAddress",
+     "streetAddress": "2401 12th Avenue Northwest Suite 104-A",
+     "addressLocality": "Ardmore",
+     "addressRegion": "OK",
+     "postalCode": "73401",
+     "addressCountry": "US"
+    }
+   }
+  ]
+ }
+}

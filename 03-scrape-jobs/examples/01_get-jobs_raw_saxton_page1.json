@@ -1,0 +1,1398 @@
+{
+ "request": {
+  "method": "POST",
+  "url": "https://saxtonjobs.recruiting.com/api/get-jobs?page_number=1",
+  "body": {
+   "disable_switch_search_mode": false,
+   "site_available_languages": [
+    "en"
+   ]
+  },
+  "referer": "https://saxtonjobs.recruiting.com/"
+ },
+ "retrieved": "2026-11-16",
+ "totalJob": 197,
+ "facets": [
+  {
+   "alias": "Category",
+   "field": "category",
+   "facet_field_keyvalue": [
+    {
+     "original_value": "Management",
+     "custom_value": "Management",
+     "doc_count": 118
+    },
+    {
+     "original_value": "Team Member",
+     "custom_value": "Team Member",
+     "doc_count": 79
+    }
+   ]
+  },
+  {
+   "alias": "State",
+   "field": "state",
+   "facet_field_keyvalue": [
+    {
+     "original_value": "Kansas",
+     "custom_value": "Kansas",
+     "doc_count": 8
+    },
+    {
+     "original_value": "Oklahoma",
+     "custom_value": "Oklahoma",
+     "doc_count": 47
+    },
+    {
+     "original_value": "Texas",
+     "custom_value": "Texas",
+     "doc_count": 142
+    }
+   ]
+  },
+  {
+   "alias": "City",
+   "field": "city",
+   "facet_field_keyvalue": [
+    {
+     "original_value": "Ardmore",
+     "custom_value": "Ardmore",
+     "doc_count": 3
+    },
+    {
+     "original_value": "ARLINGTON",
+     "custom_value": "ARLINGTON",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Athens",
+     "custom_value": "Athens",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Bartlesville",
+     "custom_value": "Bartlesville",
+     "doc_count": 2
+    },
+    {
+     "original_value": "BROKEN ARROW",
+     "custom_value": "BROKEN ARROW",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Burleson",
+     "custom_value": "Burleson",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Carrollton",
+     "custom_value": "Carrollton",
+     "doc_count": 3
+    },
+    {
+     "original_value": "CEDAR HILL",
+     "custom_value": "CEDAR HILL",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Chickasha",
+     "custom_value": "Chickasha",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Cleburne",
+     "custom_value": "Cleburne",
+     "doc_count": 3
+    },
+    {
+     "original_value": "COLLEGE STATION",
+     "custom_value": "COLLEGE STATION",
+     "doc_count": 2
+    },
+    {
+     "original_value": "College Station",
+     "custom_value": "College Station",
+     "doc_count": 2
+    },
+    {
+     "original_value": "COPPERAS COVE",
+     "custom_value": "COPPERAS COVE",
+     "doc_count": 3
+    },
+    {
+     "original_value": "DALLAS",
+     "custom_value": "DALLAS",
+     "doc_count": 11
+    },
+    {
+     "original_value": "DENTON",
+     "custom_value": "DENTON",
+     "doc_count": 6
+    },
+    {
+     "original_value": "Derby",
+     "custom_value": "Derby",
+     "doc_count": 2
+    },
+    {
+     "original_value": "EDMOND",
+     "custom_value": "EDMOND",
+     "doc_count": 2
+    },
+    {
+     "original_value": "ENID",
+     "custom_value": "ENID",
+     "doc_count": 2
+    },
+    {
+     "original_value": "FORT WORTH",
+     "custom_value": "FORT WORTH",
+     "doc_count": 6
+    },
+    {
+     "original_value": "FRISCO",
+     "custom_value": "FRISCO",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Granbury",
+     "custom_value": "Granbury",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Greenville",
+     "custom_value": "Greenville",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Highland Village",
+     "custom_value": "Highland Village",
+     "doc_count": 3
+    },
+    {
+     "original_value": "IRVING",
+     "custom_value": "IRVING",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Keller",
+     "custom_value": "Keller",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Killeen",
+     "custom_value": "Killeen",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Lake Worth",
+     "custom_value": "Lake Worth",
+     "doc_count": 3
+    },
+    {
+     "original_value": "LAWTON",
+     "custom_value": "LAWTON",
+     "doc_count": 3
+    },
+    {
+     "original_value": "LEWISVILLE",
+     "custom_value": "LEWISVILLE",
+     "doc_count": 3
+    },
+    {
+     "original_value": "LONGVIEW",
+     "custom_value": "LONGVIEW",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Lufkin",
+     "custom_value": "Lufkin",
+     "doc_count": 2
+    },
+    {
+     "original_value": "MANSFIELD",
+     "custom_value": "MANSFIELD",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Mcalester",
+     "custom_value": "Mcalester",
+     "doc_count": 2
+    },
+    {
+     "original_value": "MCKINNEY",
+     "custom_value": "MCKINNEY",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Mesquite",
+     "custom_value": "Mesquite",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Midwest City",
+     "custom_value": "Midwest City",
+     "doc_count": 1
+    },
+    {
+     "original_value": "MOORE",
+     "custom_value": "MOORE",
+     "doc_count": 3
+    },
+    {
+     "original_value": "MUSKOGEE",
+     "custom_value": "MUSKOGEE",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Nacogdoches",
+     "custom_value": "Nacogdoches",
+     "doc_count": 2
+    },
+    {
+     "original_value": "NORMAN",
+     "custom_value": "NORMAN",
+     "doc_count": 3
+    },
+    {
+     "original_value": "North Richland Hills",
+     "custom_value": "North Richland Hills",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Oklahoma City",
+     "custom_value": "Oklahoma City",
+     "doc_count": 4
+    },
+    {
+     "original_value": "OKLAHOMA CITY",
+     "custom_value": "OKLAHOMA CITY",
+     "doc_count": 2
+    },
+    {
+     "original_value": "OWASSO",
+     "custom_value": "OWASSO",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Palestine",
+     "custom_value": "Palestine",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Paris",
+     "custom_value": "Paris",
+     "doc_count": 3
+    },
+    {
+     "original_value": "PLANO",
+     "custom_value": "PLANO",
+     "doc_count": 5
+    },
+    {
+     "original_value": "Rowlett",
+     "custom_value": "Rowlett",
+     "doc_count": 3
+    },
+    {
+     "original_value": "SALINA",
+     "custom_value": "SALINA",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Shawnee",
+     "custom_value": "Shawnee",
+     "doc_count": 2
+    },
+    {
+     "original_value": "SHERMAN",
+     "custom_value": "SHERMAN",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Southlake",
+     "custom_value": "Southlake",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Stephenville",
+     "custom_value": "Stephenville",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Stillwater",
+     "custom_value": "Stillwater",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Sulphur Springs",
+     "custom_value": "Sulphur Springs",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Temple",
+     "custom_value": "Temple",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Terrell",
+     "custom_value": "Terrell",
+     "doc_count": 2
+    },
+    {
+     "original_value": "TEXARKANA",
+     "custom_value": "TEXARKANA",
+     "doc_count": 2
+    },
+    {
+     "original_value": "TULSA",
+     "custom_value": "TULSA",
+     "doc_count": 6
+    },
+    {
+     "original_value": "TYLER",
+     "custom_value": "TYLER",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Tyler",
+     "custom_value": "Tyler",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Waco",
+     "custom_value": "Waco",
+     "doc_count": 6
+    },
+    {
+     "original_value": "Waxahachie",
+     "custom_value": "Waxahachie",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Weatherford",
+     "custom_value": "Weatherford",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Wichita",
+     "custom_value": "Wichita",
+     "doc_count": 4
+    },
+    {
+     "original_value": "Wichita Falls",
+     "custom_value": "Wichita Falls",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Wylie",
+     "custom_value": "Wylie",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Yukon",
+     "custom_value": "Yukon",
+     "doc_count": 1
+    }
+   ]
+  },
+  {
+   "alias": "Location Name",
+   "field": "location_name",
+   "facet_field_keyvalue": [
+    {
+     "original_value": "Addison\t(538)",
+     "custom_value": "Addison\t(538)",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Ardmore (729)",
+     "custom_value": "Ardmore (729)",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Arlington (524)",
+     "custom_value": "Arlington (524)",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Athens (515)",
+     "custom_value": "Athens (515)",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Bartlesville (716)",
+     "custom_value": "Bartlesville (716)",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Broken Arrow (714)",
+     "custom_value": "Broken Arrow (714)",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Burleson (553)",
+     "custom_value": "Burleson (553)",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Camp Bowie\t(539)",
+     "custom_value": "Camp Bowie\t(539)",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Carrollton (532)",
+     "custom_value": "Carrollton (532)",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Cedar Hill (558)",
+     "custom_value": "Cedar Hill (558)",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Chickasha (734)",
+     "custom_value": "Chickasha (734)",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Cleburne (563)",
+     "custom_value": "Cleburne (563)",
+     "doc_count": 3
+    },
+    {
+     "original_value": "College Station (516)",
+     "custom_value": "College Station (516)",
+     "doc_count": 2
+    },
+    {
+     "original_value": "College Station South (568)",
+     "custom_value": "College Station South (568)",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Copperas Cove (554)",
+     "custom_value": "Copperas Cove (554)",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Denton (535)",
+     "custom_value": "Denton (535)",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Denton University Dr.\t(556)",
+     "custom_value": "Denton University Dr.\t(556)",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Derby, KS (422)",
+     "custom_value": "Derby, KS (422)",
+     "doc_count": 2
+    },
+    {
+     "original_value": "East Plano (536)",
+     "custom_value": "East Plano (536)",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Edmond (713)",
+     "custom_value": "Edmond (713)",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Enid (727)",
+     "custom_value": "Enid (727)",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Frisco (551)",
+     "custom_value": "Frisco (551)",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Granbury (564)",
+     "custom_value": "Granbury (564)",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Greenville (573)",
+     "custom_value": "Greenville (573)",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Heritage Trace (544)",
+     "custom_value": "Heritage Trace (544)",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Highland Village (534)",
+     "custom_value": "Highland Village (534)",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Irving (542)",
+     "custom_value": "Irving (542)",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Keller (574)",
+     "custom_value": "Keller (574)",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Killeen (517)",
+     "custom_value": "Killeen (517)",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Lake Highlands (559)",
+     "custom_value": "Lake Highlands (559)",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Lake Worth (550)",
+     "custom_value": "Lake Worth (550)",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Lawton (725)",
+     "custom_value": "Lawton (725)",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Lemmon (565)",
+     "custom_value": "Lemmon (565)",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Lewisville (557)",
+     "custom_value": "Lewisville (557)",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Longview (511)",
+     "custom_value": "Longview (511)",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Lufkin (561)",
+     "custom_value": "Lufkin (561)",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Mansfield (562)",
+     "custom_value": "Mansfield (562)",
+     "doc_count": 3
+    },
+    {
+     "original_value": "McAlester (733)",
+     "custom_value": "McAlester (733)",
+     "doc_count": 2
+    },
+    {
+     "original_value": "McKinney (533)",
+     "custom_value": "McKinney (533)",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Mesquite (545)",
+     "custom_value": "Mesquite (545)",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Midwest City (724)",
+     "custom_value": "Midwest City (724)",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Moore (717)",
+     "custom_value": "Moore (717)",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Muskogee (732)",
+     "custom_value": "Muskogee (732)",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Nacogdoches (567)",
+     "custom_value": "Nacogdoches (567)",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Norman Town Center\t(728)",
+     "custom_value": "Norman Town Center\t(728)",
+     "doc_count": 3
+    },
+    {
+     "original_value": "North Richland Hills (522)",
+     "custom_value": "North Richland Hills (522)",
+     "doc_count": 3
+    },
+    {
+     "original_value": "NW Highway\t(540)",
+     "custom_value": "NW Highway\t(540)",
+     "doc_count": 3
+    },
+    {
+     "original_value": "OKC Memorial (722)",
+     "custom_value": "OKC Memorial (722)",
+     "doc_count": 2
+    },
+    {
+     "original_value": "OKC NW Expressway (731)",
+     "custom_value": "OKC NW Expressway (731)",
+     "doc_count": 1
+    },
+    {
+     "original_value": "OKC Western (723)",
+     "custom_value": "OKC Western (723)",
+     "doc_count": 2
+    },
+    {
+     "original_value": "OKC Westgate (730)",
+     "custom_value": "OKC Westgate (730)",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Owasso (712)",
+     "custom_value": "Owasso (712)",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Palestine (575)",
+     "custom_value": "Palestine (575)",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Paris (572)",
+     "custom_value": "Paris (572)",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Plano Preston Rd\t(547)",
+     "custom_value": "Plano Preston Rd\t(547)",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Rowlett (530)",
+     "custom_value": "Rowlett (530)",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Salina (421)",
+     "custom_value": "Salina (421)",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Shawnee OK (720)",
+     "custom_value": "Shawnee OK (720)",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Sherman (541)",
+     "custom_value": "Sherman (541)",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Southlake (520)",
+     "custom_value": "Southlake (520)",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Stephenville (570)",
+     "custom_value": "Stephenville (570)",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Stillwater (711)",
+     "custom_value": "Stillwater (711)",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Sulphur Springs (566)",
+     "custom_value": "Sulphur Springs (566)",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Temple (513)",
+     "custom_value": "Temple (513)",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Terrell (571)",
+     "custom_value": "Terrell (571)",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Texarkana (531)",
+     "custom_value": "Texarkana (531)",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Tulsa 21st (719)",
+     "custom_value": "Tulsa 21st (719)",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Tulsa 81st (718)",
+     "custom_value": "Tulsa 81st (718)",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Tulsa 91st (715)",
+     "custom_value": "Tulsa 91st (715)",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Tyler (510)",
+     "custom_value": "Tyler (510)",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Tyler OJ (569)",
+     "custom_value": "Tyler OJ (569)",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Waco Drive (521)",
+     "custom_value": "Waco Drive (521)",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Waco Hewitt (512)",
+     "custom_value": "Waco Hewitt (512)",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Waxahachie (552)",
+     "custom_value": "Waxahachie (552)",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Weatherford (527)",
+     "custom_value": "Weatherford (527)",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Wichita Falls (518)",
+     "custom_value": "Wichita Falls (518)",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Wichita Greenwich (411)",
+     "custom_value": "Wichita Greenwich (411)",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Wichita Maple (410)",
+     "custom_value": "Wichita Maple (410)",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Wylie (560)",
+     "custom_value": "Wylie (560)",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Yukon (726)",
+     "custom_value": "Yukon (726)",
+     "doc_count": 1
+    }
+   ]
+  }
+ ],
+ "jobs": [
+  {
+   "sourceID": "5c6c289f6d40a6e10ce5573d8d38129a",
+   "uniqueID": "PDX_MDTSG_528BF0A8-423A-4849-8C95-7F88417BC3C3_21807534",
+   "reference": "P1-1861219-0",
+   "title": "Restaurant Assistant Manager",
+   "description": "<p><strong>Restaurant Assistant Manager</strong></p><p><strong>&nbsp;</strong></p><p>Looking for a career where you can expand your knowledge in the restaurant industry with opportunity for management and leadership growth? At McAlister’s Deli, we want to hire, work with, and develop the best restaurant managers and leaders! Our Restaurant&nbsp;Managers&nbsp;are at the Assistant Manager level&nbsp;and&nbsp;are food service experts, leaders who manage&nbsp;their team, and are on the front lines&nbsp;instructing, guiding, and developing&nbsp;each team member to provide every guest with an exceptional experience.</p><p><strong>&nbsp;</strong></p><p><strong>Our Mission:</strong>&nbsp;Put people at the heart of everything you do</p><p>&nbsp;</p><p><strong>Our Values:</strong>&nbsp;Genuine Hospitality, Employee Development, Growth and Profitability, Community Involvement, Operational Excellence, Products and Safety</p><p><br></p><p><strong>Annual Salary:</strong> $40,000.00 - $60,000.00 / per year</p><p>&nbsp;</p><p><strong>Requirements</strong></p><ul><li>One year of management related experience</li><li>Open&nbsp;availability (50 hours/week)&nbsp;with ability to work opening, mid, and closing shifts</li></ul><p><strong>&nbsp;</strong></p><p><strong>Responsibilities</strong></p><ul><li>Hiring, training and development&nbsp;of team members</li><li>Running successful shifts&nbsp;in the front of house dining&nbsp;room&nbsp;and back of house kitchen&nbsp;</li><li>Building our business through&nbsp;our core value of Genuine Hospitality</li><li>Expense supervision when it comes to labor, food and product orders</li><li>Interact with guests and&nbsp;ensure&nbsp;their experience in our restaurant&nbsp;is&nbsp;one-of-a-kind</li></ul><p><strong>&nbsp;</strong></p><p><strong>Benefits&nbsp;&amp; Perks</strong></p><ul><li>Performance-based pay</li><li>Same day pay&nbsp;available&nbsp;with Instant</li><li>Performance-based&nbsp;monthly&nbsp;bonus program&nbsp;(approximately&nbsp;10-15% of base&nbsp;pay)</li><li>Paid time&nbsp;off&nbsp;(PTO)</li><li>Medical, dental and vision insurance</li><li>Voluntary accident and critical illness insurance</li><li>Tuition Reimbursement Program</li><li>Pet Insurance</li><li>Long and short-term disability – 100% employer paid!</li><li>Basic life and AD&amp;D insurance – 100% employer paid!</li><li>Additional voluntary life insurance</li><li>Health &amp; dependent care flexible spending accounts</li><li>Identity theft protection &amp; emergency travel assistance</li><li>401(k)&nbsp;Plan&nbsp;with employer match!</li><li>Free meals</li><li>And who doesn’t love Perks!&nbsp;&nbsp;Work for us and&nbsp;receive exclusive discounts on sporting events, movie tickets, concerts, theater, hotels, rental cars, and theme park tickets nationwide.&nbsp;&nbsp;The list goes on!</li></ul><p>&nbsp;</p><p><strong>Work Environment</strong></p><ul><li>We’re a no grease zone!&nbsp;&nbsp;You won’t go home smelling like an old French fry.&nbsp;&nbsp;Our work environment is clean and safe.&nbsp;&nbsp;No char broilers, fryers, or flattop grills</li><li>No late nights.&nbsp;&nbsp;All our restaurants are closed by 10:00 p.m.</li><li>No alcohol. Smoke free environment</li><li>Heavy lunch time business</li></ul><p><br></p><p><em>TSG Restaurants provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state or local laws.</em></p>",
+   "companyID": "paradox-api.paradox.ai-3438",
+   "companyName": "paradox-api.paradox.ai-McAlisters Deli",
+   "accountName": "TSG Restaurants - McAlister's Deli Franchisee",
+   "locations": [
+    {
+     "zipCode": "73401",
+     "locationID": "21807534",
+     "locationName": "Ardmore (729)",
+     "streetAddress": "2401 12th Avenue Northwest Suite 104-A",
+     "city": "Ardmore",
+     "state": "Oklahoma",
+     "stateAbbr": "OK",
+     "address1": "2401 12th Avenue Northwest",
+     "address2": "Suite 104-A",
+     "country": "United States",
+     "countryAbbr": "US",
+     "latitude": 34.1879224,
+     "longitude": -97.1565527,
+     "locationText": "2401 12th Avenue Northwest, Suite 104-A, Ardmore OK 73401, United States",
+     "locationParsedText": "2401 12th Avenue Northwest, Ardmore, OK 73401, United States",
+     "isRemote": false,
+     "postalCode": "",
+     "distance": -1,
+     "sublocality": "",
+     "cityState": "Ardmore, Oklahoma",
+     "cityStateAbbr": "Ardmore, OK"
+    }
+   ],
+   "isRemote": false,
+   "employmentType": [],
+   "employmentStatus": [],
+   "postingType": "1",
+   "isInternal": "false",
+   "applyURL": "https://olivia.paradox.ai/co/McAlistersDeliTSGRestaurants/Job?job_id=PDX_MDTSG_528BF0A8-423A-4849-8C95-7F88417BC3C3_21807534",
+   "originalURL": "restaurant-assistant-manager/job/P1-1861219-0",
+   "lang": "en",
+   "availableLanguages": [
+    "en"
+   ],
+   "commuteTimeDuration": 0,
+   "customFields": [
+    {
+     "cfKey": "cf_shorten_job_id",
+     "value": "P1-1861219-0"
+    },
+    {
+     "cfKey": "cf_job_openings",
+     "value": "0"
+    }
+   ],
+   "facilityName": "",
+   "jobCardExtraFields": []
+  },
+  {
+   "sourceID": "9b45d93d99ac9553ae0ea6bf7e6ae69c",
+   "uniqueID": "PDX_MDTSG_528BF0A8-423A-4849-8C95-7F88417BC3C3_21807535",
+   "reference": "P1-1861221-0",
+   "title": "Restaurant Assistant Manager",
+   "description": "<p><strong>Restaurant Assistant Manager</strong></p><p><strong>&nbsp;</strong></p><p>Looking for a career where you can expand your knowledge in the restaurant industry with opportunity for management and leadership growth? At McAlister’s Deli, we want to hire, work with, and develop the best restaurant managers and leaders! Our Restaurant&nbsp;Managers&nbsp;are at the Assistant Manager level&nbsp;and&nbsp;are food service experts, leaders who manage&nbsp;their team, and are on the front lines&nbsp;instructing, guiding, and developing&nbsp;each team member to provide every guest with an exceptional experience.</p><p><strong>&nbsp;</strong></p><p><strong>Our Mission:</strong>&nbsp;Put people at the heart of everything you do</p><p>&nbsp;</p><p><strong>Our Values:</strong>&nbsp;Genuine Hospitality, Employee Development, Growth and Profitability, Community Involvement, Operational Excellence, Products and Safety</p><p><br></p><p><strong>Annual Salary:</strong> $40,000.00 - $60,000.00 / per year</p><p>&nbsp;</p><p><strong>Requirements</strong></p><ul><li>One year of management related experience</li><li>Open&nbsp;availability (50 hours/week)&nbsp;with ability to work opening, mid, and closing shifts</li></ul><p><strong>&nbsp;</strong></p><p><strong>Responsibilities</strong></p><ul><li>Hiring, training and development&nbsp;of team members</li><li>Running successful shifts&nbsp;in the front of house dining&nbsp;room&nbsp;and back of house kitchen&nbsp;</li><li>Building our business through&nbsp;our core value of Genuine Hospitality</li><li>Expense supervision when it comes to labor, food and product orders</li><li>Interact with guests and&nbsp;ensure&nbsp;their experience in our restaurant&nbsp;is&nbsp;one-of-a-kind</li></ul><p><strong>&nbsp;</strong></p><p><strong>Benefits&nbsp;&amp; Perks</strong></p><ul><li>Performance-based pay</li><li>Same day pay&nbsp;available&nbsp;with Instant</li><li>Performance-based&nbsp;monthly&nbsp;bonus program&nbsp;(approximately&nbsp;10-15% of base&nbsp;pay)</li><li>Paid time&nbsp;off&nbsp;(PTO)</li><li>Medical, dental and vision insurance</li><li>Voluntary accident and critical illness insurance</li><li>Tuition Reimbursement Program</li><li>Pet Insurance</li><li>Long and short-term disability – 100% employer paid!</li><li>Basic life and AD&amp;D insurance – 100% employer paid!</li><li>Additional voluntary life insurance</li><li>Health &amp; dependent care flexible spending accounts</li><li>Identity theft protection &amp; emergency travel assistance</li><li>401(k)&nbsp;Plan&nbsp;with employer match!</li><li>Free meals</li><li>And who doesn’t love Perks!&nbsp;&nbsp;Work for us and&nbsp;receive exclusive discounts on sporting events, movie tickets, concerts, theater, hotels, rental cars, and theme park tickets nationwide.&nbsp;&nbsp;The list goes on!</li></ul><p>&nbsp;</p><p><strong>Work Environment</strong></p><ul><li>We’re a no grease zone!&nbsp;&nbsp;You won’t go home smelling like an old French fry.&nbsp;&nbsp;Our work environment is clean and safe.&nbsp;&nbsp;No char broilers, fryers, or flattop grills</li><li>No late nights.&nbsp;&nbsp;All our restaurants are closed by 10:00 p.m.</li><li>No alcohol. Smoke free environment</li><li>Heavy lunch time business</li></ul><p><br></p><p><em>TSG Restaurants provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state or local laws.</em></p>",
+   "companyID": "paradox-api.paradox.ai-3438",
+   "companyName": "paradox-api.paradox.ai-McAlisters Deli",
+   "accountName": "TSG Restaurants - McAlister's Deli Franchisee",
+   "locations": [
+    {
+     "zipCode": "73069",
+     "locationID": "21807535",
+     "locationName": "Norman Town Center\t(728)",
+     "streetAddress": "1924 24th Avenue Northwest Suite H-1",
+     "city": "NORMAN",
+     "state": "Oklahoma",
+     "stateAbbr": "OK",
+     "address1": "1924 24th Avenue Northwest",
+     "address2": "Suite H-1",
+     "country": "United States",
+     "countryAbbr": "US",
+     "latitude": 35.2416911,
+     "longitude": -97.4829185,
+     "locationText": "1924 24th Avenue Northwest, Suite H-1, NORMAN OK 73069, United States",
+     "locationParsedText": "1924 24th Avenue Northwest, NORMAN, OK 73069, United States",
+     "isRemote": false,
+     "postalCode": "",
+     "distance": -1,
+     "sublocality": "",
+     "cityState": "NORMAN, Oklahoma",
+     "cityStateAbbr": "NORMAN, OK"
+    }
+   ],
+   "isRemote": false,
+   "employmentType": [],
+   "employmentStatus": [],
+   "postingType": "1",
+   "isInternal": "false",
+   "applyURL": "https://olivia.paradox.ai/co/McAlistersDeliTSGRestaurants/Job?job_id=PDX_MDTSG_528BF0A8-423A-4849-8C95-7F88417BC3C3_21807535",
+   "originalURL": "restaurant-assistant-manager/job/P1-1861221-0",
+   "lang": "en",
+   "availableLanguages": [
+    "en"
+   ],
+   "commuteTimeDuration": 0,
+   "customFields": [
+    {
+     "cfKey": "cf_shorten_job_id",
+     "value": "P1-1861221-0"
+    },
+    {
+     "cfKey": "cf_job_openings",
+     "value": "0"
+    }
+   ],
+   "facilityName": "",
+   "jobCardExtraFields": []
+  },
+  {
+   "sourceID": "3cc08484caf5085a53bfdd0cd71f352a",
+   "uniqueID": "PDX_MDTSG_528BF0A8-423A-4849-8C95-7F88417BC3C3_21807545",
+   "reference": "P1-1861215-0",
+   "title": "Restaurant Assistant Manager",
+   "description": "<p><strong>Restaurant Assistant Manager</strong></p><p><strong>&nbsp;</strong></p><p>Looking for a career where you can expand your knowledge in the restaurant industry with opportunity for management and leadership growth? At McAlister’s Deli, we want to hire, work with, and develop the best restaurant managers and leaders! Our Restaurant&nbsp;Managers&nbsp;are at the Assistant Manager level&nbsp;and&nbsp;are food service experts, leaders who manage&nbsp;their team, and are on the front lines&nbsp;instructing, guiding, and developing&nbsp;each team member to provide every guest with an exceptional experience.</p><p><strong>&nbsp;</strong></p><p><strong>Our Mission:</strong>&nbsp;Put people at the heart of everything you do</p><p>&nbsp;</p><p><strong>Our Values:</strong>&nbsp;Genuine Hospitality, Employee Development, Growth and Profitability, Community Involvement, Operational Excellence, Products and Safety</p><p><br></p><p><strong>Annual Salary:</strong> $40,000.00 - $60,000.00 / per year</p><p>&nbsp;</p><p><strong>Requirements</strong></p><ul><li>One year of management related experience</li><li>Open&nbsp;availability (50 hours/week)&nbsp;with ability to work opening, mid, and closing shifts</li></ul><p><strong>&nbsp;</strong></p><p><strong>Responsibilities</strong></p><ul><li>Hiring, training and development&nbsp;of team members</li><li>Running successful shifts&nbsp;in the front of house dining&nbsp;room&nbsp;and back of house kitchen&nbsp;</li><li>Building our business through&nbsp;our core value of Genuine Hospitality</li><li>Expense supervision when it comes to labor, food and product orders</li><li>Interact with guests and&nbsp;ensure&nbsp;their experience in our restaurant&nbsp;is&nbsp;one-of-a-kind</li></ul><p><strong>&nbsp;</strong></p><p><strong>Benefits&nbsp;&amp; Perks</strong></p><ul><li>Performance-based pay</li><li>Same day pay&nbsp;available&nbsp;with Instant</li><li>Performance-based&nbsp;monthly&nbsp;bonus program&nbsp;(approximately&nbsp;10-15% of base&nbsp;pay)</li><li>Paid time&nbsp;off&nbsp;(PTO)</li><li>Medical, dental and vision insurance</li><li>Voluntary accident and critical illness insurance</li><li>Tuition Reimbursement Program</li><li>Pet Insurance</li><li>Long and short-term disability – 100% employer paid!</li><li>Basic life and AD&amp;D insurance – 100% employer paid!</li><li>Additional voluntary life insurance</li><li>Health &amp; dependent care flexible spending accounts</li><li>Identity theft protection &amp; emergency travel assistance</li><li>401(k)&nbsp;Plan&nbsp;with employer match!</li><li>Free meals</li><li>And who doesn’t love Perks!&nbsp;&nbsp;Work for us and&nbsp;receive exclusive discounts on sporting events, movie tickets, concerts, theater, hotels, rental cars, and theme park tickets nationwide.&nbsp;&nbsp;The list goes on!</li></ul><p>&nbsp;</p><p><strong>Work Environment</strong></p><ul><li>We’re a no grease zone!&nbsp;&nbsp;You won’t go home smelling like an old French fry.&nbsp;&nbsp;Our work environment is clean and safe.&nbsp;&nbsp;No char broilers, fryers, or flattop grills</li><li>No late nights.&nbsp;&nbsp;All our restaurants are closed by 10:00 p.m.</li><li>No alcohol. Smoke free environment</li><li>Heavy lunch time business</li></ul><p><br></p><p><em>TSG Restaurants provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state or local laws.</em></p>",
+   "companyID": "paradox-api.paradox.ai-3438",
+   "companyName": "paradox-api.paradox.ai-McAlisters Deli",
+   "accountName": "TSG Restaurants - McAlister's Deli Franchisee",
+   "locations": [
+    {
+     "zipCode": "73505",
+     "locationID": "21807545",
+     "locationName": "Lawton (725)",
+     "streetAddress": "2910 Northwest Cache Road",
+     "city": "LAWTON",
+     "state": "Oklahoma",
+     "stateAbbr": "OK",
+     "address1": "2910 Northwest Cache Road",
+     "address2": "",
+     "country": "United States",
+     "countryAbbr": "US",
+     "latitude": 34.6230515,
+     "longitude": -98.4298603,
+     "locationText": "2910 Northwest Cache Road, LAWTON OK 73505, United States",
+     "locationParsedText": "2910 Northwest Cache Road, LAWTON, OK 73505, United States",
+     "isRemote": false,
+     "postalCode": "",
+     "distance": -1,
+     "sublocality": "",
+     "cityState": "LAWTON, Oklahoma",
+     "cityStateAbbr": "LAWTON, OK"
+    }
+   ],
+   "isRemote": false,
+   "employmentType": [],
+   "employmentStatus": [],
+   "postingType": "1",
+   "isInternal": "false",
+   "applyURL": "https://olivia.paradox.ai/co/McAlistersDeliTSGRestaurants/Job?job_id=PDX_MDTSG_528BF0A8-423A-4849-8C95-7F88417BC3C3_21807545",
+   "originalURL": "restaurant-assistant-manager/job/P1-1861215-0",
+   "lang": "en",
+   "availableLanguages": [
+    "en"
+   ],
+   "commuteTimeDuration": 0,
+   "customFields": [
+    {
+     "cfKey": "cf_shorten_job_id",
+     "value": "P1-1861215-0"
+    },
+    {
+     "cfKey": "cf_job_openings",
+     "value": "0"
+    }
+   ],
+   "facilityName": "",
+   "jobCardExtraFields": []
+  },
+  {
+   "sourceID": "d4c4c62bf7f7e672c91f0dbee59f17a3",
+   "uniqueID": "PDX_MDTSG_528BF0A8-423A-4849-8C95-7F88417BC3C3_21807579",
+   "reference": "P1-1861216-0",
+   "title": "Restaurant Assistant Manager",
+   "description": "<p><strong>Restaurant Assistant Manager</strong></p><p><strong>&nbsp;</strong></p><p>Looking for a career where you can expand your knowledge in the restaurant industry with opportunity for management and leadership growth? At McAlister’s Deli, we want to hire, work with, and develop the best restaurant managers and leaders! Our Restaurant&nbsp;Managers&nbsp;are at the Assistant Manager level&nbsp;and&nbsp;are food service experts, leaders who manage&nbsp;their team, and are on the front lines&nbsp;instructing, guiding, and developing&nbsp;each team member to provide every guest with an exceptional experience.</p><p><strong>&nbsp;</strong></p><p><strong>Our Mission:</strong>&nbsp;Put people at the heart of everything you do</p><p>&nbsp;</p><p><strong>Our Values:</strong>&nbsp;Genuine Hospitality, Employee Development, Growth and Profitability, Community Involvement, Operational Excellence, Products and Safety</p><p><br></p><p><strong>Annual Salary:</strong> $40,000.00 - $60,000.00 / per year</p><p>&nbsp;</p><p><strong>Requirements</strong></p><ul><li>One year of management related experience</li><li>Open&nbsp;availability (50 hours/week)&nbsp;with ability to work opening, mid, and closing shifts</li></ul><p><strong>&nbsp;</strong></p><p><strong>Responsibilities</strong></p><ul><li>Hiring, training and development&nbsp;of team members</li><li>Running successful shifts&nbsp;in the front of house dining&nbsp;room&nbsp;and back of house kitchen&nbsp;</li><li>Building our business through&nbsp;our core value of Genuine Hospitality</li><li>Expense supervision when it comes to labor, food and product orders</li><li>Interact with guests and&nbsp;ensure&nbsp;their experience in our restaurant&nbsp;is&nbsp;one-of-a-kind</li></ul><p><strong>&nbsp;</strong></p><p><strong>Benefits&nbsp;&amp; Perks</strong></p><ul><li>Performance-based pay</li><li>Same day pay&nbsp;available&nbsp;with Instant</li><li>Performance-based&nbsp;monthly&nbsp;bonus program&nbsp;(approximately&nbsp;10-15% of base&nbsp;pay)</li><li>Paid time&nbsp;off&nbsp;(PTO)</li><li>Medical, dental and vision insurance</li><li>Voluntary accident and critical illness insurance</li><li>Tuition Reimbursement Program</li><li>Pet Insurance</li><li>Long and short-term disability – 100% employer paid!</li><li>Basic life and AD&amp;D insurance – 100% employer paid!</li><li>Additional voluntary life insurance</li><li>Health &amp; dependent care flexible spending accounts</li><li>Identity theft protection &amp; emergency travel assistance</li><li>401(k)&nbsp;Plan&nbsp;with employer match!</li><li>Free meals</li><li>And who doesn’t love Perks!&nbsp;&nbsp;Work for us and&nbsp;receive exclusive discounts on sporting events, movie tickets, concerts, theater, hotels, rental cars, and theme park tickets nationwide.&nbsp;&nbsp;The list goes on!</li></ul><p>&nbsp;</p><p><strong>Work Environment</strong></p><ul><li>We’re a no grease zone!&nbsp;&nbsp;You won’t go home smelling like an old French fry.&nbsp;&nbsp;Our work environment is clean and safe.&nbsp;&nbsp;No char broilers, fryers, or flattop grills</li><li>No late nights.&nbsp;&nbsp;All our restaurants are closed by 10:00 p.m.</li><li>No alcohol. Smoke free environment</li><li>Heavy lunch time business</li></ul><p><br></p><p><em>TSG Restaurants provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state or local laws.</em></p>",
+   "companyID": "paradox-api.paradox.ai-3438",
+   "companyName": "paradox-api.paradox.ai-McAlisters Deli",
+   "accountName": "TSG Restaurants - McAlister's Deli Franchisee",
+   "locations": [
+    {
+     "zipCode": "73160",
+     "locationID": "21807579",
+     "locationName": "Moore (717)",
+     "streetAddress": "931 Southwest 25th Street",
+     "city": "MOORE",
+     "state": "Oklahoma",
+     "stateAbbr": "OK",
+     "address1": "931 Southwest 25th Street",
+     "address2": "",
+     "country": "United States",
+     "countryAbbr": "US",
+     "latitude": 35.3163426,
+     "longitude": -97.4933825,
+     "locationText": "931 Southwest 25th Street, MOORE OK 73160, United States",
+     "locationParsedText": "931 Southwest 25th Street, MOORE, OK 73160, United States",
+     "isRemote": false,
+     "postalCode": "",
+     "distance": -1,
+     "sublocality": "",
+     "cityState": "MOORE, Oklahoma",
+     "cityStateAbbr": "MOORE, OK"
+    }
+   ],
+   "isRemote": false,
+   "employmentType": [],
+   "employmentStatus": [],
+   "postingType": "1",
+   "isInternal": "false",
+   "applyURL": "https://olivia.paradox.ai/co/McAlistersDeliTSGRestaurants/Job?job_id=PDX_MDTSG_528BF0A8-423A-4849-8C95-7F88417BC3C3_21807579",
+   "originalURL": "restaurant-assistant-manager/job/P1-1861216-0",
+   "lang": "en",
+   "availableLanguages": [
+    "en"
+   ],
+   "commuteTimeDuration": 0,
+   "customFields": [
+    {
+     "cfKey": "cf_shorten_job_id",
+     "value": "P1-1861216-0"
+    },
+    {
+     "cfKey": "cf_job_openings",
+     "value": "0"
+    }
+   ],
+   "facilityName": "",
+   "jobCardExtraFields": []
+  },
+  {
+   "sourceID": "a216140ac6158337ae5b14ec2b8fe0a2",
+   "uniqueID": "PDX_MDTSG_528BF0A8-423A-4849-8C95-7F88417BC3C3_23242446",
+   "reference": "P1-2161831-0",
+   "title": "Restaurant Assistant Manager",
+   "description": "<p><strong>Restaurant Assistant Manager</strong></p><p><strong>&nbsp;</strong></p><p>Looking for a career where you can expand your knowledge in the restaurant industry with opportunity for management and leadership growth? At McAlister’s Deli, we want to hire, work with, and develop the best restaurant managers and leaders! Our Restaurant&nbsp;Managers&nbsp;are at the Assistant Manager level&nbsp;and&nbsp;are food service experts, leaders who manage&nbsp;their team, and are on the front lines&nbsp;instructing, guiding, and developing&nbsp;each team member to provide every guest with an exceptional experience.</p><p><strong>&nbsp;</strong></p><p><strong>Our Mission:</strong>&nbsp;Put people at the heart of everything you do</p><p>&nbsp;</p><p><strong>Our Values:</strong>&nbsp;Genuine Hospitality, Employee Development, Growth and Profitability, Community Involvement, Operational Excellence, Products and Safety</p><p><br></p><p><strong>Annual Salary:</strong> $40,000.00 - $60,000.00 / per year</p><p>&nbsp;</p><p><strong>Requirements</strong></p><ul><li>One year of management related experience</li><li>Open&nbsp;availability (50 hours/week)&nbsp;with ability to work opening, mid, and closing shifts</li></ul><p><strong>&nbsp;</strong></p><p><strong>Responsibilities</strong></p><ul><li>Hiring, training and development&nbsp;of team members</li><li>Running successful shifts&nbsp;in the front of house dining&nbsp;room&nbsp;and back of house kitchen&nbsp;</li><li>Building our business through&nbsp;our core value of Genuine Hospitality</li><li>Expense supervision when it comes to labor, food and product orders</li><li>Interact with guests and&nbsp;ensure&nbsp;their experience in our restaurant&nbsp;is&nbsp;one-of-a-kind</li></ul><p><strong>&nbsp;</strong></p><p><strong>Benefits&nbsp;&amp; Perks</strong></p><ul><li>Performance-based pay</li><li>Same day pay&nbsp;available&nbsp;with Instant</li><li>Performance-based&nbsp;monthly&nbsp;bonus program&nbsp;(approximately&nbsp;10-15% of base&nbsp;pay)</li><li>Paid time&nbsp;off&nbsp;(PTO)</li><li>Medical, dental and vision insurance</li><li>Voluntary accident and critical illness insurance</li><li>Tuition Reimbursement Program</li><li>Pet Insurance</li><li>Long and short-term disability – 100% employer paid!</li><li>Basic life and AD&amp;D insurance – 100% employer paid!</li><li>Additional voluntary life insurance</li><li>Health &amp; dependent care flexible spending accounts</li><li>Identity theft protection &amp; emergency travel assistance</li><li>401(k)&nbsp;Plan&nbsp;with employer match!</li><li>Free meals</li><li>And who doesn’t love Perks!&nbsp;&nbsp;Work for us and&nbsp;receive exclusive discounts on sporting events, movie tickets, concerts, theater, hotels, rental cars, and theme park tickets nationwide.&nbsp;&nbsp;The list goes on!</li></ul><p>&nbsp;</p><p><strong>Work Environment</strong></p><ul><li>We’re a no grease zone!&nbsp;&nbsp;You won’t go home smelling like an old French fry.&nbsp;&nbsp;Our work environment is clean and safe.&nbsp;&nbsp;No char broilers, fryers, or flattop grills</li><li>No late nights.&nbsp;&nbsp;All our restaurants are closed by 10:00 p.m.</li><li>No alcohol. Smoke free environment</li><li>Heavy lunch time business</li></ul><p><br></p><p><em>TSG Restaurants provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state or local laws.</em></p>",
+   "companyID": "paradox-api.paradox.ai-3438",
+   "companyName": "paradox-api.paradox.ai-McAlisters Deli",
+   "accountName": "TSG Restaurants - McAlister's Deli Franchisee",
+   "locations": [
+    {
+     "zipCode": "73018",
+     "locationID": "23242446",
+     "locationName": "Chickasha (734)",
+     "streetAddress": "2121 S 4th St.",
+     "city": "Chickasha",
+     "state": "Oklahoma",
+     "stateAbbr": "OK",
+     "address1": "2121 S 4th St.",
+     "address2": "",
+     "country": "United States",
+     "countryAbbr": "US",
+     "latitude": 35.0284584,
+     "longitude": -97.9341221,
+     "locationText": "2121 S 4th St., Chickasha OK 73018, United States",
+     "locationParsedText": "2121 S 4th St., Chickasha, OK 73018, United States",
+     "isRemote": false,
+     "postalCode": "",
+     "distance": -1,
+     "sublocality": "",
+     "cityState": "Chickasha, Oklahoma",
+     "cityStateAbbr": "Chickasha, OK"
+    }
+   ],
+   "isRemote": false,
+   "employmentType": [],
+   "employmentStatus": [],
+   "postingType": "1",
+   "isInternal": "false",
+   "applyURL": "https://olivia.paradox.ai/co/McAlistersDeliTSGRestaurants/Job?job_id=PDX_MDTSG_528BF0A8-423A-4849-8C95-7F88417BC3C3_23242446",
+   "originalURL": "restaurant-assistant-manager/job/P1-2161831-0",
+   "lang": "en",
+   "availableLanguages": [
+    "en"
+   ],
+   "commuteTimeDuration": 0,
+   "customFields": [
+    {
+     "cfKey": "cf_shorten_job_id",
+     "value": "P1-2161831-0"
+    },
+    {
+     "cfKey": "cf_job_openings",
+     "value": "0"
+    }
+   ],
+   "facilityName": "",
+   "jobCardExtraFields": []
+  },
+  {
+   "sourceID": "d50311d8df35a02381cb1232898055d5",
+   "uniqueID": "PDX_MDTSG_617AC62A-F06C-44A9-99A5-424618E9A191_21807237",
+   "reference": "P1-1861240-0",
+   "title": "Restaurant Assistant Manager",
+   "description": "<p><strong>Restaurant Assistant Manager</strong></p><p><strong>&nbsp;</strong></p><p>Looking for a career where you can expand your knowledge in the restaurant industry with opportunity for management and leadership growth? At McAlister’s Deli, we want to hire, work with, and develop the best restaurant managers and leaders! Our Restaurant&nbsp;Managers&nbsp;are at the Assistant Manager level&nbsp;and&nbsp;are food service experts, leaders who manage&nbsp;their team, and are on the front lines&nbsp;instructing, guiding, and developing&nbsp;each team member to provide every guest with an exceptional experience.</p><p><strong>&nbsp;</strong></p><p><strong>Our Mission:</strong>&nbsp;Put people at the heart of everything you do</p><p>&nbsp;</p><p><strong>Our Values:</strong>&nbsp;Genuine Hospitality, Employee Development, Growth and Profitability, Community Involvement, Operational Excellence, Products and Safety</p><p><br></p><p><strong>Annual Salary:</strong> $40,000.00 - $60,000.00 / per year</p><p>&nbsp;</p><p><strong>Requirements</strong></p><ul><li>One year of management related experience</li><li>Open&nbsp;availability (50 hours/week)&nbsp;with ability to work opening, mid, and closing shifts</li></ul><p><strong>&nbsp;</strong></p><p><strong>Responsibilities</strong></p><ul><li>Hiring, training and development&nbsp;of team members</li><li>Running successful shifts&nbsp;in the front of house dining&nbsp;room&nbsp;and back of house kitchen&nbsp;</li><li>Building our business through&nbsp;our core value of Genuine Hospitality</li><li>Expense supervision when it comes to labor, food and product orders</li><li>Interact with guests and&nbsp;ensure&nbsp;their experience in our restaurant&nbsp;is&nbsp;one-of-a-kind</li></ul><p><strong>&nbsp;</strong></p><p><strong>Benefits&nbsp;&amp; Perks</strong></p><ul><li>Performance-based pay</li><li>Same day pay&nbsp;available&nbsp;with Instant</li><li>Performance-based&nbsp;monthly&nbsp;bonus program&nbsp;(approximately&nbsp;10-15% of base&nbsp;pay)</li><li>Paid time&nbsp;off&nbsp;(PTO)</li><li>Medical, dental and vision insurance</li><li>Voluntary accident and critical illness insurance</li><li>Tuition Reimbursement Program</li><li>Pet Insurance</li><li>Long and short-term disability – 100% employer paid!</li><li>Basic life and AD&amp;D insurance – 100% employer paid!</li><li>Additional voluntary life insurance</li><li>Health &amp; dependent care flexible spending accounts</li><li>Identity theft protection &amp; emergency travel assistance</li><li>401(k)&nbsp;Plan&nbsp;with employer match!</li><li>Free meals</li><li>And who doesn’t love Perks!&nbsp;&nbsp;Work for us and&nbsp;receive exclusive discounts on sporting events, movie tickets, concerts, theater, hotels, rental cars, and theme park tickets nationwide.&nbsp;&nbsp;The list goes on!</li></ul><p>&nbsp;</p><p><strong>Work Environment</strong></p><ul><li>We’re a no grease zone!&nbsp;&nbsp;You won’t go home smelling like an old French fry.&nbsp;&nbsp;Our work environment is clean and safe.&nbsp;&nbsp;No char broilers, fryers, or flattop grills</li><li>No late nights.&nbsp;&nbsp;All our restaurants are closed by 10:00 p.m.</li><li>No alcohol. Smoke free environment</li><li>Heavy lunch time business</li></ul><p><br></p><p><em>TSG Restaurants provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state or local laws.</em></p>",
+   "companyID": "paradox-api.paradox.ai-3438",
+   "companyName": "paradox-api.paradox.ai-McAlisters Deli",
+   "accountName": "TSG Restaurants - McAlister's Deli Franchisee",
+   "locations": [
+    {
+     "zipCode": "76116",
+     "locationID": "21807237",
+     "locationName": "Camp Bowie\t(539)",
+     "streetAddress": "6333 Camp Bowie Boulevard Suite 244",
+     "city": "FORT WORTH",
+     "state": "Texas",
+     "stateAbbr": "TX",
+     "address1": "6333 Camp Bowie Boulevard",
+     "address2": "Suite 244",
+     "country": "United States",
+     "countryAbbr": "US",
+     "latitude": 32.7265724,
+     "longitude": -97.4191453,
+     "locationText": "6333 Camp Bowie Boulevard, Suite 244, FORT WORTH TX 76116, United States",
+     "locationParsedText": "6333 Camp Bowie Boulevard, FORT WORTH, TX 76116, United States",
+     "isRemote": false,
+     "postalCode": "",
+     "distance": -1,
+     "sublocality": "",
+     "cityState": "FORT WORTH, Texas",
+     "cityStateAbbr": "FORT WORTH, TX"
+    }
+   ],
+   "isRemote": false,
+   "employmentType": [],
+   "employmentStatus": [],
+   "postingType": "1",
+   "isInternal": "false",
+   "applyURL": "https://olivia.paradox.ai/co/McAlistersDeliTSGRestaurants/Job?job_id=PDX_MDTSG_617AC62A-F06C-44A9-99A5-424618E9A191_21807237",
+   "originalURL": "restaurant-assistant-manager/job/P1-1861240-0",
+   "lang": "en",
+   "availableLanguages": [
+    "en"
+   ],
+   "commuteTimeDuration": 0,
+   "customFields": [
+    {
+     "cfKey": "cf_shorten_job_id",
+     "value": "P1-1861240-0"
+    },
+    {
+     "cfKey": "cf_job_openings",
+     "value": "0"
+    }
+   ],
+   "facilityName": "",
+   "jobCardExtraFields": []
+  },
+  {
+   "sourceID": "67fb598339f6437efc68920860c786b0",
+   "uniqueID": "PDX_MDTSG_617AC62A-F06C-44A9-99A5-424618E9A191_21807554",
+   "reference": "P1-1861236-0",
+   "title": "Restaurant Assistant Manager",
+   "description": "<p><strong>Restaurant Assistant Manager</strong></p><p><strong>&nbsp;</strong></p><p>Looking for a career where you can expand your knowledge in the restaurant industry with opportunity for management and leadership growth? At McAlister’s Deli, we want to hire, work with, and develop the best restaurant managers and leaders! Our Restaurant&nbsp;Managers&nbsp;are at the Assistant Manager level&nbsp;and&nbsp;are food service experts, leaders who manage&nbsp;their team, and are on the front lines&nbsp;instructing, guiding, and developing&nbsp;each team member to provide every guest with an exceptional experience.</p><p><strong>&nbsp;</strong></p><p><strong>Our Mission:</strong>&nbsp;Put people at the heart of everything you do</p><p>&nbsp;</p><p><strong>Our Values:</strong>&nbsp;Genuine Hospitality, Employee Development, Growth and Profitability, Community Involvement, Operational Excellence, Products and Safety</p><p><br></p><p><strong>Annual Salary:</strong> $40,000.00 - $60,000.00 / per year</p><p>&nbsp;</p><p><strong>Requirements</strong></p><ul><li>One year of management related experience</li><li>Open&nbsp;availability (50 hours/week)&nbsp;with ability to work opening, mid, and closing shifts</li></ul><p><strong>&nbsp;</strong></p><p><strong>Responsibilities</strong></p><ul><li>Hiring, training and development&nbsp;of team members</li><li>Running successful shifts&nbsp;in the front of house dining&nbsp;room&nbsp;and back of house kitchen&nbsp;</li><li>Building our business through&nbsp;our core value of Genuine Hospitality</li><li>Expense supervision when it comes to labor, food and product orders</li><li>Interact with guests and&nbsp;ensure&nbsp;their experience in our restaurant&nbsp;is&nbsp;one-of-a-kind</li></ul><p><strong>&nbsp;</strong></p><p><strong>Benefits&nbsp;&amp; Perks</strong></p><ul><li>Performance-based pay</li><li>Same day pay&nbsp;available&nbsp;with Instant</li><li>Performance-based&nbsp;monthly&nbsp;bonus program&nbsp;(approximately&nbsp;10-15% of base&nbsp;pay)</li><li>Paid time&nbsp;off&nbsp;(PTO)</li><li>Medical, dental and vision insurance</li><li>Voluntary accident and critical illness insurance</li><li>Tuition Reimbursement Program</li><li>Pet Insurance</li><li>Long and short-term disability – 100% employer paid!</li><li>Basic life and AD&amp;D insurance – 100% employer paid!</li><li>Additional voluntary life insurance</li><li>Health &amp; dependent care flexible spending accounts</li><li>Identity theft protection &amp; emergency travel assistance</li><li>401(k)&nbsp;Plan&nbsp;with employer match!</li><li>Free meals</li><li>And who doesn’t love Perks!&nbsp;&nbsp;Work for us and&nbsp;receive exclusive discounts on sporting events, movie tickets, concerts, theater, hotels, rental cars, and theme park tickets nationwide.&nbsp;&nbsp;The list goes on!</li></ul><p>&nbsp;</p><p><strong>Work Environment</strong></p><ul><li>We’re a no grease zone!&nbsp;&nbsp;You won’t go home smelling like an old French fry.&nbsp;&nbsp;Our work environment is clean and safe.&nbsp;&nbsp;No char broilers, fryers, or flattop grills</li><li>No late nights.&nbsp;&nbsp;All our restaurants are closed by 10:00 p.m.</li><li>No alcohol. Smoke free environment</li><li>Heavy lunch time business</li></ul><p><br></p><p><em>TSG Restaurants provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state or local laws.</em></p>",
+   "companyID": "paradox-api.paradox.ai-3438",
+   "companyName": "paradox-api.paradox.ai-McAlisters Deli",
+   "accountName": "TSG Restaurants - McAlister's Deli Franchisee",
+   "locations": [
+    {
+     "zipCode": "76244",
+     "locationID": "21807554",
+     "locationName": "Heritage Trace (544)",
+     "streetAddress": "9604 North Riverside Drive Suite 100",
+     "city": "FORT WORTH",
+     "state": "Texas",
+     "stateAbbr": "TX",
+     "address1": "9604 North Riverside Drive",
+     "address2": "Suite 100",
+     "country": "United States",
+     "countryAbbr": "US",
+     "latitude": 32.9144563,
+     "longitude": -97.3065197,
+     "locationText": "9604 North Riverside Drive, Suite 100, FORT WORTH TX 76244, United States",
+     "locationParsedText": "9604 North Riverside Drive, FORT WORTH, TX 76244, United States",
+     "isRemote": false,
+     "postalCode": "",
+     "distance": -1,
+     "sublocality": "",
+     "cityState": "FORT WORTH, Texas",
+     "cityStateAbbr": "FORT WORTH, TX"
+    }
+   ],
+   "isRemote": false,
+   "employmentType": [],
+   "employmentStatus": [],
+   "postingType": "1",
+   "isInternal": "false",
+   "applyURL": "https://olivia.paradox.ai/co/McAlistersDeliTSGRestaurants/Job?job_id=PDX_MDTSG_617AC62A-F06C-44A9-99A5-424618E9A191_21807554",
+   "originalURL": "restaurant-assistant-manager/job/P1-1861236-0",
+   "lang": "en",
+   "availableLanguages": [
+    "en"
+   ],
+   "commuteTimeDuration": 0,
+   "customFields": [
+    {
+     "cfKey": "cf_shorten_job_id",
+     "value": "P1-1861236-0"
+    },
+    {
+     "cfKey": "cf_job_openings",
+     "value": "0"
+    }
+   ],
+   "facilityName": "",
+   "jobCardExtraFields": []
+  },
+  {
+   "sourceID": "c5aeb30e50afbf2d769facf6d8164e4e",
+   "uniqueID": "PDX_MDTSG_617AC62A-F06C-44A9-99A5-424618E9A191_21807567",
+   "reference": "P1-1861239-0",
+   "title": "Restaurant Assistant Manager",
+   "description": "<p><strong>Restaurant Assistant Manager</strong></p><p><strong>&nbsp;</strong></p><p>Looking for a career where you can expand your knowledge in the restaurant industry with opportunity for management and leadership growth? At McAlister’s Deli, we want to hire, work with, and develop the best restaurant managers and leaders! Our Restaurant&nbsp;Managers&nbsp;are at the Assistant Manager level&nbsp;and&nbsp;are food service experts, leaders who manage&nbsp;their team, and are on the front lines&nbsp;instructing, guiding, and developing&nbsp;each team member to provide every guest with an exceptional experience.</p><p><strong>&nbsp;</strong></p><p><strong>Our Mission:</strong>&nbsp;Put people at the heart of everything you do</p><p>&nbsp;</p><p><strong>Our Values:</strong>&nbsp;Genuine Hospitality, Employee Development, Growth and Profitability, Community Involvement, Operational Excellence, Products and Safety</p><p><br></p><p><strong>Annual Salary:</strong> $40,000.00 - $60,000.00 / per year</p><p>&nbsp;</p><p><strong>Requirements</strong></p><ul><li>One year of management related experience</li><li>Open&nbsp;availability (50 hours/week)&nbsp;with ability to work opening, mid, and closing shifts</li></ul><p><strong>&nbsp;</strong></p><p><strong>Responsibilities</strong></p><ul><li>Hiring, training and development&nbsp;of team members</li><li>Running successful shifts&nbsp;in the front of house dining&nbsp;room&nbsp;and back of house kitchen&nbsp;</li><li>Building our business through&nbsp;our core value of Genuine Hospitality</li><li>Expense supervision when it comes to labor, food and product orders</li><li>Interact with guests and&nbsp;ensure&nbsp;their experience in our restaurant&nbsp;is&nbsp;one-of-a-kind</li></ul><p><strong>&nbsp;</strong></p><p><strong>Benefits&nbsp;&amp; Perks</strong></p><ul><li>Performance-based pay</li><li>Same day pay&nbsp;available&nbsp;with Instant</li><li>Performance-based&nbsp;monthly&nbsp;bonus program&nbsp;(approximately&nbsp;10-15% of base&nbsp;pay)</li><li>Paid time&nbsp;off&nbsp;(PTO)</li><li>Medical, dental and vision insurance</li><li>Voluntary accident and critical illness insurance</li><li>Tuition Reimbursement Program</li><li>Pet Insurance</li><li>Long and short-term disability – 100% employer paid!</li><li>Basic life and AD&amp;D insurance – 100% employer paid!</li><li>Additional voluntary life insurance</li><li>Health &amp; dependent care flexible spending accounts</li><li>Identity theft protection &amp; emergency travel assistance</li><li>401(k)&nbsp;Plan&nbsp;with employer match!</li><li>Free meals</li><li>And who doesn’t love Perks!&nbsp;&nbsp;Work for us and&nbsp;receive exclusive discounts on sporting events, movie tickets, concerts, theater, hotels, rental cars, and theme park tickets nationwide.&nbsp;&nbsp;The list goes on!</li></ul><p>&nbsp;</p><p><strong>Work Environment</strong></p><ul><li>We’re a no grease zone!&nbsp;&nbsp;You won’t go home smelling like an old French fry.&nbsp;&nbsp;Our work environment is clean and safe.&nbsp;&nbsp;No char broilers, fryers, or flattop grills</li><li>No late nights.&nbsp;&nbsp;All our restaurants are closed by 10:00 p.m.</li><li>No alcohol. Smoke free environment</li><li>Heavy lunch time business</li></ul><p><br></p><p><em>TSG Restaurants provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state or local laws.</em></p>",
+   "companyID": "paradox-api.paradox.ai-3438",
+   "companyName": "paradox-api.paradox.ai-McAlisters Deli",
+   "accountName": "TSG Restaurants - McAlister's Deli Franchisee",
+   "locations": [
+    {
+     "zipCode": "76135",
+     "locationID": "21807567",
+     "locationName": "Lake Worth (550)",
+     "streetAddress": "6014 Azle Avenue Suite 300",
+     "city": "Lake Worth",
+     "state": "Texas",
+     "stateAbbr": "TX",
+     "address1": "6014 Azle Avenue",
+     "address2": "Suite 300",
+     "country": "United States",
+     "countryAbbr": "US",
+     "latitude": 32.8148215,
+     "longitude": -97.4138443,
+     "locationText": "6014 Azle Avenue, Suite 300, Lake Worth TX 76135, United States",
+     "locationParsedText": "6014 Azle Avenue, Lake Worth, TX 76135, United States",
+     "isRemote": false,
+     "postalCode": "",
+     "distance": -1,
+     "sublocality": "",
+     "cityState": "Lake Worth, Texas",
+     "cityStateAbbr": "Lake Worth, TX"
+    }
+   ],
+   "isRemote": false,
+   "employmentType": [],
+   "employmentStatus": [],
+   "postingType": "1",
+   "isInternal": "false",
+   "applyURL": "https://olivia.paradox.ai/co/McAlistersDeliTSGRestaurants/Job?job_id=PDX_MDTSG_617AC62A-F06C-44A9-99A5-424618E9A191_21807567",
+   "originalURL": "restaurant-assistant-manager/job/P1-1861239-0",
+   "lang": "en",
+   "availableLanguages": [
+    "en"
+   ],
+   "commuteTimeDuration": 0,
+   "customFields": [
+    {
+     "cfKey": "cf_shorten_job_id",
+     "value": "P1-1861239-0"
+    },
+    {
+     "cfKey": "cf_job_openings",
+     "value": "0"
+    }
+   ],
+   "facilityName": "",
+   "jobCardExtraFields": []
+  },
+  {
+   "sourceID": "2c3c85847b4d6c05785b5acea389fa11",
+   "uniqueID": "PDX_MDTSG_617AC62A-F06C-44A9-99A5-424618E9A191_21807575",
+   "reference": "P1-1861233-0",
+   "title": "Restaurant Assistant Manager",
+   "description": "<p><strong>Restaurant Assistant Manager</strong></p><p><strong>&nbsp;</strong></p><p>Looking for a career where you can expand your knowledge in the restaurant industry with opportunity for management and leadership growth? At McAlister’s Deli, we want to hire, work with, and develop the best restaurant managers and leaders! Our Restaurant&nbsp;Managers&nbsp;are at the Assistant Manager level&nbsp;and&nbsp;are food service experts, leaders who manage&nbsp;their team, and are on the front lines&nbsp;instructing, guiding, and developing&nbsp;each team member to provide every guest with an exceptional experience.</p><p><strong>&nbsp;</strong></p><p><strong>Our Mission:</strong>&nbsp;Put people at the heart of everything you do</p><p>&nbsp;</p><p><strong>Our Values:</strong>&nbsp;Genuine Hospitality, Employee Development, Growth and Profitability, Community Involvement, Operational Excellence, Products and Safety</p><p><br></p><p><strong>Annual Salary:</strong> $40,000.00 - $60,000.00 / per year</p><p>&nbsp;</p><p><strong>Requirements</strong></p><ul><li>One year of management related experience</li><li>Open&nbsp;availability (50 hours/week)&nbsp;with ability to work opening, mid, and closing shifts</li></ul><p><strong>&nbsp;</strong></p><p><strong>Responsibilities</strong></p><ul><li>Hiring, training and development&nbsp;of team members</li><li>Running successful shifts&nbsp;in the front of house dining&nbsp;room&nbsp;and back of house kitchen&nbsp;</li><li>Building our business through&nbsp;our core value of Genuine Hospitality</li><li>Expense supervision when it comes to labor, food and product orders</li><li>Interact with guests and&nbsp;ensure&nbsp;their experience in our restaurant&nbsp;is&nbsp;one-of-a-kind</li></ul><p><strong>&nbsp;</strong></p><p><strong>Benefits&nbsp;&amp; Perks</strong></p><ul><li>Performance-based pay</li><li>Same day pay&nbsp;available&nbsp;with Instant</li><li>Performance-based&nbsp;monthly&nbsp;bonus program&nbsp;(approximately&nbsp;10-15% of base&nbsp;pay)</li><li>Paid time&nbsp;off&nbsp;(PTO)</li><li>Medical, dental and vision insurance</li><li>Voluntary accident and critical illness insurance</li><li>Tuition Reimbursement Program</li><li>Pet Insurance</li><li>Long and short-term disability – 100% employer paid!</li><li>Basic life and AD&amp;D insurance – 100% employer paid!</li><li>Additional voluntary life insurance</li><li>Health &amp; dependent care flexible spending accounts</li><li>Identity theft protection &amp; emergency travel assistance</li><li>401(k)&nbsp;Plan&nbsp;with employer match!</li><li>Free meals</li><li>And who doesn’t love Perks!&nbsp;&nbsp;Work for us and&nbsp;receive exclusive discounts on sporting events, movie tickets, concerts, theater, hotels, rental cars, and theme park tickets nationwide.&nbsp;&nbsp;The list goes on!</li></ul><p>&nbsp;</p><p><strong>Work Environment</strong></p><ul><li>We’re a no grease zone!&nbsp;&nbsp;You won’t go home smelling like an old French fry.&nbsp;&nbsp;Our work environment is clean and safe.&nbsp;&nbsp;No char broilers, fryers, or flattop grills</li><li>No late nights.&nbsp;&nbsp;All our restaurants are closed by 10:00 p.m.</li><li>No alcohol. Smoke free environment</li><li>Heavy lunch time business</li></ul><p><br></p><p><em>TSG Restaurants provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state or local laws.</em></p>",
+   "companyID": "paradox-api.paradox.ai-3438",
+   "companyName": "paradox-api.paradox.ai-McAlisters Deli",
+   "accountName": "TSG Restaurants - McAlister's Deli Franchisee",
+   "locations": [
+    {
+     "zipCode": "76028",
+     "locationID": "21807575",
+     "locationName": "Burleson (553)",
+     "streetAddress": "12770 South Freeway Suite 180",
+     "city": "Burleson",
+     "state": "Texas",
+     "stateAbbr": "TX",
+     "address1": "12770 South Freeway",
+     "address2": "Suite 180",
+     "country": "United States",
+     "countryAbbr": "US",
+     "latitude": 32.5723235,
+     "longitude": -97.3216374,
+     "locationText": "12770 South Freeway, Suite 180, Burleson TX 76028, United States",
+     "locationParsedText": "12770 South Freeway, Burleson, TX 76028, United States",
+     "isRemote": false,
+     "postalCode": "",
+     "distance": -1,
+     "sublocality": "",
+     "cityState": "Burleson, Texas",
+     "cityStateAbbr": "Burleson, TX"
+    }
+   ],
+   "isRemote": false,
+   "employmentType": [],
+   "employmentStatus": [],
+   "postingType": "1",
+   "isInternal": "false",
+   "applyURL": "https://olivia.paradox.ai/co/McAlistersDeliTSGRestaurants/Job?job_id=PDX_MDTSG_617AC62A-F06C-44A9-99A5-424618E9A191_21807575",
+   "originalURL": "restaurant-assistant-manager/job/P1-1861233-0",
+   "lang": "en",
+   "availableLanguages": [
+    "en"
+   ],
+   "commuteTimeDuration": 0,
+   "customFields": [
+    {
+     "cfKey": "cf_shorten_job_id",
+     "value": "P1-1861233-0"
+    },
+    {
+     "cfKey": "cf_job_openings",
+     "value": "0"
+    }
+   ],
+   "facilityName": "",
+   "jobCardExtraFields": []
+  },
+  {
+   "sourceID": "46530cdeb93e5e4a2979da0e2a151925",
+   "uniqueID": "PDX_MDTSG_617AC62A-F06C-44A9-99A5-424618E9A191_21807576",
+   "reference": "P1-1861234-0",
+   "title": "Restaurant Assistant Manager",
+   "description": "<p><strong>Restaurant Assistant Manager</strong></p><p><strong>&nbsp;</strong></p><p>Looking for a career where you can expand your knowledge in the restaurant industry with opportunity for management and leadership growth? At McAlister’s Deli, we want to hire, work with, and develop the best restaurant managers and leaders! Our Restaurant&nbsp;Managers&nbsp;are at the Assistant Manager level&nbsp;and&nbsp;are food service experts, leaders who manage&nbsp;their team, and are on the front lines&nbsp;instructing, guiding, and developing&nbsp;each team member to provide every guest with an exceptional experience.</p><p><strong>&nbsp;</strong></p><p><strong>Our Mission:</strong>&nbsp;Put people at the heart of everything you do</p><p>&nbsp;</p><p><strong>Our Values:</strong>&nbsp;Genuine Hospitality, Employee Development, Growth and Profitability, Community Involvement, Operational Excellence, Products and Safety</p><p><br></p><p><strong>Annual Salary:</strong> $40,000.00 - $60,000.00 / per year</p><p>&nbsp;</p><p><strong>Requirements</strong></p><ul><li>One year of management related experience</li><li>Open&nbsp;availability (50 hours/week)&nbsp;with ability to work opening, mid, and closing shifts</li></ul><p><strong>&nbsp;</strong></p><p><strong>Responsibilities</strong></p><ul><li>Hiring, training and development&nbsp;of team members</li><li>Running successful shifts&nbsp;in the front of house dining&nbsp;room&nbsp;and back of house kitchen&nbsp;</li><li>Building our business through&nbsp;our core value of Genuine Hospitality</li><li>Expense supervision when it comes to labor, food and product orders</li><li>Interact with guests and&nbsp;ensure&nbsp;their experience in our restaurant&nbsp;is&nbsp;one-of-a-kind</li></ul><p><strong>&nbsp;</strong></p><p><strong>Benefits&nbsp;&amp; Perks</strong></p><ul><li>Performance-based pay</li><li>Same day pay&nbsp;available&nbsp;with Instant</li><li>Performance-based&nbsp;monthly&nbsp;bonus program&nbsp;(approximately&nbsp;10-15% of base&nbsp;pay)</li><li>Paid time&nbsp;off&nbsp;(PTO)</li><li>Medical, dental and vision insurance</li><li>Voluntary accident and critical illness insurance</li><li>Tuition Reimbursement Program</li><li>Pet Insurance</li><li>Long and short-term disability – 100% employer paid!</li><li>Basic life and AD&amp;D insurance – 100% employer paid!</li><li>Additional voluntary life insurance</li><li>Health &amp; dependent care flexible spending accounts</li><li>Identity theft protection &amp; emergency travel assistance</li><li>401(k)&nbsp;Plan&nbsp;with employer match!</li><li>Free meals</li><li>And who doesn’t love Perks!&nbsp;&nbsp;Work for us and&nbsp;receive exclusive discounts on sporting events, movie tickets, concerts, theater, hotels, rental cars, and theme park tickets nationwide.&nbsp;&nbsp;The list goes on!</li></ul><p>&nbsp;</p><p><strong>Work Environment</strong></p><ul><li>We’re a no grease zone!&nbsp;&nbsp;You won’t go home smelling like an old French fry.&nbsp;&nbsp;Our work environment is clean and safe.&nbsp;&nbsp;No char broilers, fryers, or flattop grills</li><li>No late nights.&nbsp;&nbsp;All our restaurants are closed by 10:00 p.m.</li><li>No alcohol. Smoke free environment</li><li>Heavy lunch time business</li></ul><p><br></p><p><em>TSG Restaurants provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state or local laws.</em></p>",
+   "companyID": "paradox-api.paradox.ai-3438",
+   "companyName": "paradox-api.paradox.ai-McAlisters Deli",
+   "accountName": "TSG Restaurants - McAlister's Deli Franchisee",
+   "locations": [
+    {
+     "zipCode": "76086",
+     "locationID": "21807576",
+     "locationName": "Weatherford (527)",
+     "streetAddress": "215 Adams Drive Suite 215",
+     "city": "Weatherford",
+     "state": "Texas",
+     "stateAbbr": "TX",
+     "address1": "215 Adams Drive",
+     "address2": "Suite 215",
+     "country": "United States",
+     "countryAbbr": "US",
+     "latitude": 32.7323734,
+     "longitude": -97.7881442,
+     "locationText": "215 Adams Drive, Suite 215, Weatherford TX 76086, United States",
+     "locationParsedText": "215 Adams Drive, Weatherford, TX 76086, United States",
+     "isRemote": false,
+     "postalCode": "",
+     "distance": -1,
+     "sublocality": "",
+     "cityState": "Weatherford, Texas",
+     "cityStateAbbr": "Weatherford, TX"
+    }
+   ],
+   "isRemote": false,
+   "employmentType": [],
+   "employmentStatus": [],
+   "postingType": "1",
+   "isInternal": "false",
+   "applyURL": "https://olivia.paradox.ai/co/McAlistersDeliTSGRestaurants/Job?job_id=PDX_MDTSG_617AC62A-F06C-44A9-99A5-424618E9A191_21807576",
+   "originalURL": "restaurant-assistant-manager/job/P1-1861234-0",
+   "lang": "en",
+   "availableLanguages": [
+    "en"
+   ],
+   "commuteTimeDuration": 0,
+   "customFields": [
+    {
+     "cfKey": "cf_shorten_job_id",
+     "value": "P1-1861234-0"
+    },
+    {
+     "cfKey": "cf_job_openings",
+     "value": "0"
+    }
+   ],
+   "facilityName": "",
+   "jobCardExtraFields": []
+  }
+ ]
+}

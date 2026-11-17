@@ -1,0 +1,2379 @@
+{
+ "request": {
+  "method": "POST",
+  "url": "https://www.trugreenjobs.com/api/get-jobs?page_number=2",
+  "body": {
+   "disable_switch_search_mode": false,
+   "site_available_languages": [
+    "en"
+   ]
+  },
+  "referer": "https://www.trugreenjobs.com/jobs"
+ },
+ "retrieved": "2026-11-17",
+ "totalJob": 507,
+ "facets": [
+  {
+   "alias": "Category",
+   "field": "category",
+   "facet_field_keyvalue": [
+    {
+     "original_value": "Call Center Sales",
+     "custom_value": "Call Center Sales",
+     "doc_count": 7
+    },
+    {
+     "original_value": "Corporate",
+     "custom_value": "Corporate",
+     "doc_count": 16
+    },
+    {
+     "original_value": "Customer Service",
+     "custom_value": "Customer Service",
+     "doc_count": 30
+    },
+    {
+     "original_value": "Field Operations",
+     "custom_value": "Field Operations",
+     "doc_count": 340
+    },
+    {
+     "original_value": "Sales",
+     "custom_value": "Sales",
+     "doc_count": 114
+    }
+   ]
+  },
+  {
+   "alias": "Country",
+   "field": "country",
+   "facet_field_keyvalue": [
+    {
+     "original_value": "Canada",
+     "custom_value": "Canada",
+     "doc_count": 3
+    },
+    {
+     "original_value": "United States",
+     "custom_value": "United States",
+     "doc_count": 504
+    }
+   ]
+  },
+  {
+   "alias": "State",
+   "field": "state",
+   "facet_field_keyvalue": [
+    {
+     "original_value": "Alabama",
+     "custom_value": "Alabama",
+     "doc_count": 17
+    },
+    {
+     "original_value": "Arkansas",
+     "custom_value": "Arkansas",
+     "doc_count": 7
+    },
+    {
+     "original_value": "California",
+     "custom_value": "California",
+     "doc_count": 12
+    },
+    {
+     "original_value": "Colorado",
+     "custom_value": "Colorado",
+     "doc_count": 6
+    },
+    {
+     "original_value": "Connecticut",
+     "custom_value": "Connecticut",
+     "doc_count": 4
+    },
+    {
+     "original_value": "Delaware",
+     "custom_value": "Delaware",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Florida",
+     "custom_value": "Florida",
+     "doc_count": 64
+    },
+    {
+     "original_value": "Georgia",
+     "custom_value": "Georgia",
+     "doc_count": 34
+    },
+    {
+     "original_value": "Idaho",
+     "custom_value": "Idaho",
+     "doc_count": 4
+    },
+    {
+     "original_value": "Illinois",
+     "custom_value": "Illinois",
+     "doc_count": 19
+    },
+    {
+     "original_value": "Indiana",
+     "custom_value": "Indiana",
+     "doc_count": 13
+    },
+    {
+     "original_value": "Iowa",
+     "custom_value": "Iowa",
+     "doc_count": 8
+    },
+    {
+     "original_value": "Kansas",
+     "custom_value": "Kansas",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Kentucky",
+     "custom_value": "Kentucky",
+     "doc_count": 5
+    },
+    {
+     "original_value": "Maine",
+     "custom_value": "Maine",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Maryland",
+     "custom_value": "Maryland",
+     "doc_count": 6
+    },
+    {
+     "original_value": "Massachusetts",
+     "custom_value": "Massachusetts",
+     "doc_count": 11
+    },
+    {
+     "original_value": "Michigan",
+     "custom_value": "Michigan",
+     "doc_count": 18
+    },
+    {
+     "original_value": "Minnesota",
+     "custom_value": "Minnesota",
+     "doc_count": 12
+    },
+    {
+     "original_value": "Mississippi",
+     "custom_value": "Mississippi",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Missouri",
+     "custom_value": "Missouri",
+     "doc_count": 10
+    },
+    {
+     "original_value": "Nebraska",
+     "custom_value": "Nebraska",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Nevada",
+     "custom_value": "Nevada",
+     "doc_count": 4
+    },
+    {
+     "original_value": "New Hampshire",
+     "custom_value": "New Hampshire",
+     "doc_count": 2
+    },
+    {
+     "original_value": "New Jersey",
+     "custom_value": "New Jersey",
+     "doc_count": 11
+    },
+    {
+     "original_value": "New Mexico",
+     "custom_value": "New Mexico",
+     "doc_count": 3
+    },
+    {
+     "original_value": "New York",
+     "custom_value": "New York",
+     "doc_count": 12
+    },
+    {
+     "original_value": "North Carolina",
+     "custom_value": "North Carolina",
+     "doc_count": 20
+    },
+    {
+     "original_value": "Ohio",
+     "custom_value": "Ohio",
+     "doc_count": 22
+    },
+    {
+     "original_value": "Oklahoma",
+     "custom_value": "Oklahoma",
+     "doc_count": 12
+    },
+    {
+     "original_value": "Ontario",
+     "custom_value": "Ontario",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Oregon",
+     "custom_value": "Oregon",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Pennsylvania",
+     "custom_value": "Pennsylvania",
+     "doc_count": 17
+    },
+    {
+     "original_value": "Rhode Island",
+     "custom_value": "Rhode Island",
+     "doc_count": 1
+    },
+    {
+     "original_value": "South Carolina",
+     "custom_value": "South Carolina",
+     "doc_count": 13
+    },
+    {
+     "original_value": "South Dakota",
+     "custom_value": "South Dakota",
+     "doc_count": 4
+    },
+    {
+     "original_value": "Tennessee",
+     "custom_value": "Tennessee",
+     "doc_count": 14
+    },
+    {
+     "original_value": "Texas",
+     "custom_value": "Texas",
+     "doc_count": 66
+    },
+    {
+     "original_value": "Utah",
+     "custom_value": "Utah",
+     "doc_count": 4
+    },
+    {
+     "original_value": "Vermont",
+     "custom_value": "Vermont",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Virginia",
+     "custom_value": "Virginia",
+     "doc_count": 12
+    },
+    {
+     "original_value": "Washington",
+     "custom_value": "Washington",
+     "doc_count": 13
+    },
+    {
+     "original_value": "West Virginia",
+     "custom_value": "West Virginia",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Wisconsin",
+     "custom_value": "Wisconsin",
+     "doc_count": 7
+    },
+    {
+     "original_value": "Wyoming",
+     "custom_value": "Wyoming",
+     "doc_count": 1
+    }
+   ]
+  },
+  {
+   "alias": "City",
+   "field": "city",
+   "facet_field_keyvalue": [
+    {
+     "original_value": "Abilene",
+     "custom_value": "Abilene",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Acworth",
+     "custom_value": "Acworth",
+     "doc_count": 4
+    },
+    {
+     "original_value": "Albany",
+     "custom_value": "Albany",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Albuquerque",
+     "custom_value": "Albuquerque",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Alcoa",
+     "custom_value": "Alcoa",
+     "doc_count": 1
+    },
+    {
+     "original_value": "ALLENTOWN",
+     "custom_value": "ALLENTOWN",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Allison Park",
+     "custom_value": "Allison Park",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Amarillo",
+     "custom_value": "Amarillo",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Amherst",
+     "custom_value": "Amherst",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Anaheim",
+     "custom_value": "Anaheim",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Andover",
+     "custom_value": "Andover",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Ankeny",
+     "custom_value": "Ankeny",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Appleton",
+     "custom_value": "Appleton",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Ashland",
+     "custom_value": "Ashland",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Austell",
+     "custom_value": "Austell",
+     "doc_count": 4
+    },
+    {
+     "original_value": "Baltimore",
+     "custom_value": "Baltimore",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Barrie",
+     "custom_value": "Barrie",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Bartlett",
+     "custom_value": "Bartlett",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Bellingham",
+     "custom_value": "Bellingham",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Birmingham",
+     "custom_value": "Birmingham",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Bowling Green,",
+     "custom_value": "Bowling Green,",
+     "doc_count": 1
+    },
+    {
+     "original_value": "BROADWAY",
+     "custom_value": "BROADWAY",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Broken Arrow",
+     "custom_value": "Broken Arrow",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Brooksville",
+     "custom_value": "Brooksville",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Brunswick",
+     "custom_value": "Brunswick",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Burnsville",
+     "custom_value": "Burnsville",
+     "doc_count": 3
+    },
+    {
+     "original_value": "CANDLER",
+     "custom_value": "CANDLER",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Carpentersville",
+     "custom_value": "Carpentersville",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Carrollton",
+     "custom_value": "Carrollton",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Cary",
+     "custom_value": "Cary",
+     "doc_count": 3
+    },
+    {
+     "original_value": "CASTLE HAYNE",
+     "custom_value": "CASTLE HAYNE",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Cedar Falls",
+     "custom_value": "Cedar Falls",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Cedar Rapids",
+     "custom_value": "Cedar Rapids",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Champaign",
+     "custom_value": "Champaign",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Charlotte",
+     "custom_value": "Charlotte",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Charlottesville",
+     "custom_value": "Charlottesville",
+     "doc_count": 1
+    },
+    {
+     "original_value": "CHATTANOOGA",
+     "custom_value": "CHATTANOOGA",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Chelmsford",
+     "custom_value": "Chelmsford",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Cheyenne",
+     "custom_value": "Cheyenne",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Chicopee",
+     "custom_value": "Chicopee",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Chubbuck",
+     "custom_value": "Chubbuck",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Clarion",
+     "custom_value": "Clarion",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Collinsville",
+     "custom_value": "Collinsville",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Colorado Springs",
+     "custom_value": "Colorado Springs",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Columbia",
+     "custom_value": "Columbia",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Columbus",
+     "custom_value": "Columbus",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Concord",
+     "custom_value": "Concord",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Crestwood",
+     "custom_value": "Crestwood",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Cumming",
+     "custom_value": "Cumming",
+     "doc_count": 4
+    },
+    {
+     "original_value": "Dallas",
+     "custom_value": "Dallas",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Danbury",
+     "custom_value": "Danbury",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Davenport",
+     "custom_value": "Davenport",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Daytona Beach",
+     "custom_value": "Daytona Beach",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Dothan",
+     "custom_value": "Dothan",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Dubuque",
+     "custom_value": "Dubuque",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Dulles",
+     "custom_value": "Dulles",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Eau Claire",
+     "custom_value": "Eau Claire",
+     "doc_count": 1
+    },
+    {
+     "original_value": "EL PASO",
+     "custom_value": "EL PASO",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Elyria",
+     "custom_value": "Elyria",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Endicott",
+     "custom_value": "Endicott",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Erie",
+     "custom_value": "Erie",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Evansville",
+     "custom_value": "Evansville",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Fairfield",
+     "custom_value": "Fairfield",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Farmingdale",
+     "custom_value": "Farmingdale",
+     "doc_count": 1
+    },
+    {
+     "original_value": "FAYETTEVILLE",
+     "custom_value": "FAYETTEVILLE",
+     "doc_count": 3
+    },
+    {
+     "original_value": "FENTON",
+     "custom_value": "FENTON",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Fishers",
+     "custom_value": "Fishers",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Flint",
+     "custom_value": "Flint",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Florence",
+     "custom_value": "Florence",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Fort Lauderdale",
+     "custom_value": "Fort Lauderdale",
+     "doc_count": 3
+    },
+    {
+     "original_value": "FORT MYERS",
+     "custom_value": "FORT MYERS",
+     "doc_count": 5
+    },
+    {
+     "original_value": "Fort Smith",
+     "custom_value": "Fort Smith",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Fort Walton Beach",
+     "custom_value": "Fort Walton Beach",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Fort Wayne",
+     "custom_value": "Fort Wayne",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Franklin",
+     "custom_value": "Franklin",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Freeland",
+     "custom_value": "Freeland",
+     "doc_count": 1
+    },
+    {
+     "original_value": "FRUITLAND PARK",
+     "custom_value": "FRUITLAND PARK",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Gaithersburg",
+     "custom_value": "Gaithersburg",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Glenarm",
+     "custom_value": "Glenarm",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Grand Haven",
+     "custom_value": "Grand Haven",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Grand Junction",
+     "custom_value": "Grand Junction",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Grand Prairie",
+     "custom_value": "Grand Prairie",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Grandville",
+     "custom_value": "Grandville",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Greensboro",
+     "custom_value": "Greensboro",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Greenville",
+     "custom_value": "Greenville",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Groveport",
+     "custom_value": "Groveport",
+     "doc_count": 2
+    },
+    {
+     "original_value": "HAGERSTOWN",
+     "custom_value": "HAGERSTOWN",
+     "doc_count": 1
+    },
+    {
+     "original_value": "HARRINGTON",
+     "custom_value": "HARRINGTON",
+     "doc_count": 1
+    },
+    {
+     "original_value": "HAVANA",
+     "custom_value": "HAVANA",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Henderson",
+     "custom_value": "Henderson",
+     "doc_count": 2
+    },
+    {
+     "original_value": "HICKORY HILLS",
+     "custom_value": "HICKORY HILLS",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Hilliard",
+     "custom_value": "Hilliard",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Houston",
+     "custom_value": "Houston",
+     "doc_count": 8
+    },
+    {
+     "original_value": "Huntsville",
+     "custom_value": "Huntsville",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Indian Trail",
+     "custom_value": "Indian Trail",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Indianapolis",
+     "custom_value": "Indianapolis",
+     "doc_count": 4
+    },
+    {
+     "original_value": "Irmo",
+     "custom_value": "Irmo",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Irwindale",
+     "custom_value": "Irwindale",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Jackson",
+     "custom_value": "Jackson",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Jacksonville",
+     "custom_value": "Jacksonville",
+     "doc_count": 4
+    },
+    {
+     "original_value": "JOHNSTOWN",
+     "custom_value": "JOHNSTOWN",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Joplin",
+     "custom_value": "Joplin",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Kimberly",
+     "custom_value": "Kimberly",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Kingsport",
+     "custom_value": "Kingsport",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Lafayette",
+     "custom_value": "Lafayette",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Lake Forest",
+     "custom_value": "Lake Forest",
+     "doc_count": 1
+    },
+    {
+     "original_value": "LAKE OSWEGO",
+     "custom_value": "LAKE OSWEGO",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Lake Wales",
+     "custom_value": "Lake Wales",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Lansing",
+     "custom_value": "Lansing",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Lawton",
+     "custom_value": "Lawton",
+     "doc_count": 4
+    },
+    {
+     "original_value": "LEAGUE CITY",
+     "custom_value": "LEAGUE CITY",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Lees Summit",
+     "custom_value": "Lees Summit",
+     "doc_count": 2
+    },
+    {
+     "original_value": "LEWIS CENTER",
+     "custom_value": "LEWIS CENTER",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Lewisville",
+     "custom_value": "Lewisville",
+     "doc_count": 7
+    },
+    {
+     "original_value": "LEXINGTON",
+     "custom_value": "LEXINGTON",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Lexington",
+     "custom_value": "Lexington",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Lima",
+     "custom_value": "Lima",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Lincoln",
+     "custom_value": "Lincoln",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Lititz",
+     "custom_value": "Lititz",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Little Rock",
+     "custom_value": "Little Rock",
+     "doc_count": 1
+    },
+    {
+     "original_value": "LITTLETON",
+     "custom_value": "LITTLETON",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Loganville",
+     "custom_value": "Loganville",
+     "doc_count": 3
+    },
+    {
+     "original_value": "LONDONDERRY",
+     "custom_value": "LONDONDERRY",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Lorton",
+     "custom_value": "Lorton",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Louisville",
+     "custom_value": "Louisville",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Loveland",
+     "custom_value": "Loveland",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Lowell",
+     "custom_value": "Lowell",
+     "doc_count": 4
+    },
+    {
+     "original_value": "Macomb",
+     "custom_value": "Macomb",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Macon",
+     "custom_value": "Macon",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Madison",
+     "custom_value": "Madison",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Malvern",
+     "custom_value": "Malvern",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Mankato",
+     "custom_value": "Mankato",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Maple Grove",
+     "custom_value": "Maple Grove",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Marysville",
+     "custom_value": "Marysville",
+     "doc_count": 1
+    },
+    {
+     "original_value": "McDonough",
+     "custom_value": "McDonough",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Melbourne",
+     "custom_value": "Melbourne",
+     "doc_count": 4
+    },
+    {
+     "original_value": "Memphis",
+     "custom_value": "Memphis",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Mentor",
+     "custom_value": "Mentor",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Meridian",
+     "custom_value": "Meridian",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Merrillville",
+     "custom_value": "Merrillville",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Middletown",
+     "custom_value": "Middletown",
+     "doc_count": 1
+    },
+    {
+     "original_value": "MILL HALL",
+     "custom_value": "MILL HALL",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Milwaukee",
+     "custom_value": "Milwaukee",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Mineola",
+     "custom_value": "Mineola",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Minnetonka",
+     "custom_value": "Minnetonka",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Mississauga",
+     "custom_value": "Mississauga",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Monroeville",
+     "custom_value": "Monroeville",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Montgomery",
+     "custom_value": "Montgomery",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Mooresville",
+     "custom_value": "Mooresville",
+     "doc_count": 1
+    },
+    {
+     "original_value": "MORRISVILLE",
+     "custom_value": "MORRISVILLE",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Myrtle Beach",
+     "custom_value": "Myrtle Beach",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Nashville",
+     "custom_value": "Nashville",
+     "doc_count": 8
+    },
+    {
+     "original_value": "Newport News",
+     "custom_value": "Newport News",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Norcross",
+     "custom_value": "Norcross",
+     "doc_count": 3
+    },
+    {
+     "original_value": "North Augusta",
+     "custom_value": "North Augusta",
+     "doc_count": 4
+    },
+    {
+     "original_value": "North Canton",
+     "custom_value": "North Canton",
+     "doc_count": 1
+    },
+    {
+     "original_value": "NORTH CHARLESTON",
+     "custom_value": "NORTH CHARLESTON",
+     "doc_count": 3
+    },
+    {
+     "original_value": "OCALA",
+     "custom_value": "OCALA",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Odessa",
+     "custom_value": "Odessa",
+     "doc_count": 5
+    },
+    {
+     "original_value": "Ogden",
+     "custom_value": "Ogden",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Oklahoma City",
+     "custom_value": "Oklahoma City",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Oldsmar",
+     "custom_value": "Oldsmar",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Omaha",
+     "custom_value": "Omaha",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Opelika",
+     "custom_value": "Opelika",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Orchard Park",
+     "custom_value": "Orchard Park",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Orlando",
+     "custom_value": "Orlando",
+     "doc_count": 5
+    },
+    {
+     "original_value": "OSCODA",
+     "custom_value": "OSCODA",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Park Ridge",
+     "custom_value": "Park Ridge",
+     "doc_count": 1
+    },
+    {
+     "original_value": "PASCO",
+     "custom_value": "PASCO",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Pensacola",
+     "custom_value": "Pensacola",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Peoria",
+     "custom_value": "Peoria",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Perrysburg",
+     "custom_value": "Perrysburg",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Pittsburgh",
+     "custom_value": "Pittsburgh",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Plainfield",
+     "custom_value": "Plainfield",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Plano",
+     "custom_value": "Plano",
+     "doc_count": 5
+    },
+    {
+     "original_value": "Plant City",
+     "custom_value": "Plant City",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Plymouth",
+     "custom_value": "Plymouth",
+     "doc_count": 1
+    },
+    {
+     "original_value": "POLAND",
+     "custom_value": "POLAND",
+     "doc_count": 1
+    },
+    {
+     "original_value": "POMPANO BEACH",
+     "custom_value": "POMPANO BEACH",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Port St. Lucie",
+     "custom_value": "Port St. Lucie",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Portage",
+     "custom_value": "Portage",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Puyallup",
+     "custom_value": "Puyallup",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Randolph",
+     "custom_value": "Randolph",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Rapid City",
+     "custom_value": "Rapid City",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Redmond",
+     "custom_value": "Redmond",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Richland Hills",
+     "custom_value": "Richland Hills",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Richmond",
+     "custom_value": "Richmond",
+     "doc_count": 1
+    },
+    {
+     "original_value": "RICHMOND HILL",
+     "custom_value": "RICHMOND HILL",
+     "doc_count": 3
+    },
+    {
+     "original_value": "RIVERSIDE",
+     "custom_value": "RIVERSIDE",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Rochelle",
+     "custom_value": "Rochelle",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Rochester",
+     "custom_value": "Rochester",
+     "doc_count": 2
+    },
+    {
+     "original_value": "ROCHESTER HILLS",
+     "custom_value": "ROCHESTER HILLS",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Rockford",
+     "custom_value": "Rockford",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Rocky Hill",
+     "custom_value": "Rocky Hill",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Round Rock",
+     "custom_value": "Round Rock",
+     "doc_count": 4
+    },
+    {
+     "original_value": "Runnemede",
+     "custom_value": "Runnemede",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Sacramento",
+     "custom_value": "Sacramento",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Salem",
+     "custom_value": "Salem",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Salt Lake City",
+     "custom_value": "Salt Lake City",
+     "doc_count": 1
+    },
+    {
+     "original_value": "San Antonio",
+     "custom_value": "San Antonio",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Sarasota",
+     "custom_value": "Sarasota",
+     "doc_count": 4
+    },
+    {
+     "original_value": "Scott Depot",
+     "custom_value": "Scott Depot",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Shawnee",
+     "custom_value": "Shawnee",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Sioux Falls",
+     "custom_value": "Sioux Falls",
+     "doc_count": 2
+    },
+    {
+     "original_value": "SOUTH BEND",
+     "custom_value": "SOUTH BEND",
+     "doc_count": 2
+    },
+    {
+     "original_value": "South Burlington",
+     "custom_value": "South Burlington",
+     "doc_count": 1
+    },
+    {
+     "original_value": "South Dennis",
+     "custom_value": "South Dennis",
+     "doc_count": 2
+    },
+    {
+     "original_value": "South Plainfield",
+     "custom_value": "South Plainfield",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Sparks",
+     "custom_value": "Sparks",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Spokane",
+     "custom_value": "Spokane",
+     "doc_count": 4
+    },
+    {
+     "original_value": "Springboro",
+     "custom_value": "Springboro",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Springfield",
+     "custom_value": "Springfield",
+     "doc_count": 1
+    },
+    {
+     "original_value": "St. Charles",
+     "custom_value": "St. Charles",
+     "doc_count": 3
+    },
+    {
+     "original_value": "STERLING",
+     "custom_value": "STERLING",
+     "doc_count": 1
+    },
+    {
+     "original_value": "STEVENS POINT",
+     "custom_value": "STEVENS POINT",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Stillwater",
+     "custom_value": "Stillwater",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Sugarland",
+     "custom_value": "Sugarland",
+     "doc_count": 4
+    },
+    {
+     "original_value": "Suwanee",
+     "custom_value": "Suwanee",
+     "doc_count": 4
+    },
+    {
+     "original_value": "Syracuse",
+     "custom_value": "Syracuse",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Tampa",
+     "custom_value": "Tampa",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Taylor",
+     "custom_value": "Taylor",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Temple",
+     "custom_value": "Temple",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Theodore",
+     "custom_value": "Theodore",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Thomasville",
+     "custom_value": "Thomasville",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Topeka",
+     "custom_value": "Topeka",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Tupelo",
+     "custom_value": "Tupelo",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Tuscumbia",
+     "custom_value": "Tuscumbia",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Tyler",
+     "custom_value": "Tyler",
+     "doc_count": 4
+    },
+    {
+     "original_value": "Upper Marlboro",
+     "custom_value": "Upper Marlboro",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Upper Saddle River",
+     "custom_value": "Upper Saddle River",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Vadnais Heights",
+     "custom_value": "Vadnais Heights",
+     "doc_count": 3
+    },
+    {
+     "original_value": "VANDALIA",
+     "custom_value": "VANDALIA",
+     "doc_count": 2
+    },
+    {
+     "original_value": "VERO BEACH",
+     "custom_value": "VERO BEACH",
+     "doc_count": 3
+    },
+    {
+     "original_value": "Virginia Beach",
+     "custom_value": "Virginia Beach",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Walton Hills",
+     "custom_value": "Walton Hills",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Warminster",
+     "custom_value": "Warminster",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Warwick",
+     "custom_value": "Warwick",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Waterford Twp",
+     "custom_value": "Waterford Twp",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Waukesha",
+     "custom_value": "Waukesha",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Wayne",
+     "custom_value": "Wayne",
+     "doc_count": 2
+    },
+    {
+     "original_value": "WEST CARROLLTON",
+     "custom_value": "WEST CARROLLTON",
+     "doc_count": 1
+    },
+    {
+     "original_value": "West Chicago",
+     "custom_value": "West Chicago",
+     "doc_count": 2
+    },
+    {
+     "original_value": "West Deptford",
+     "custom_value": "West Deptford",
+     "doc_count": 1
+    },
+    {
+     "original_value": "WEST JORDAN",
+     "custom_value": "WEST JORDAN",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Westbrook",
+     "custom_value": "Westbrook",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Wheat Ridge",
+     "custom_value": "Wheat Ridge",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Wichita",
+     "custom_value": "Wichita",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Wilkes Barre",
+     "custom_value": "Wilkes Barre",
+     "doc_count": 1
+    },
+    {
+     "original_value": "WILLIAMSBURG",
+     "custom_value": "WILLIAMSBURG",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Wilmington",
+     "custom_value": "Wilmington",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Windsor",
+     "custom_value": "Windsor",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Wixom",
+     "custom_value": "Wixom",
+     "doc_count": 1
+    },
+    {
+     "original_value": "Woodridge",
+     "custom_value": "Woodridge",
+     "doc_count": 3
+    },
+    {
+     "original_value": "YAPHANK",
+     "custom_value": "YAPHANK",
+     "doc_count": 2
+    },
+    {
+     "original_value": "Ypsilanti",
+     "custom_value": "Ypsilanti",
+     "doc_count": 1
+    }
+   ]
+  },
+  {
+   "alias": "Is Remote",
+   "field": "is_remote",
+   "facet_field_keyvalue": [
+    {
+     "original_value": "false",
+     "custom_value": "No",
+     "doc_count": 507
+    }
+   ]
+  }
+ ],
+ "jobs": [
+  {
+   "sourceID": "da807c4a310db5244807af88a091420e",
+   "uniqueID": "PDX_TR_993F87A7-7E1B-4F8D-8BAB-F0E598E21872_22547558",
+   "requisitionID": "R35893",
+   "reference": "P1-6549990-0",
+   "title": "Branch Sales Manager",
+   "description": "<div class='description'>100290<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>149 River St, Andover, Massachusetts 01810<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><i>TruGreen <span>accepts applications on an ongoing basis.</span></i></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><h2><b><u>Job Description</u></b></h2><p>Experienced and results-driven Branch Sales Managers lead and enhance all sales activities within their assigned TruGreen branch(es). The ideal candidate will play a pivotal role in staffing and guiding a high-performance sales team to increase sales volume, maximize profits, and uphold their TruGreen Commitment. This position involves devising strategic plans to expand our customer base within the local marketing area.</p><p></p><p><b>Responsibilities</b></p><ul><li><p><b>Strategic Sales Planning:</b> Develop comprehensive sales plans and forecasts at the branch level. Maintain rigorous control over sales outcomes to ensure the attainment of sales objectives within budgetary constraints.</p></li><li><p><b>Marketing Program Execution:</b> Collaborate in the execution of various marketing programs, such as door-to-door, direct mail, inside, and outside marketing, to drive profit growth and the expansion of TruGreen's services. Share valuable local market insights and customer feedback with the TruGreen Marketing team.</p></li><li><p><b>Lead Generation:</b> Compile lists of potential customers to generate sales leads. Utilize information from direct mail campaigns, advertisements, community events, trade shows, business seminars, and other sources. Additionally, provide support in closing sales as required.</p></li><li><p><b>Customer Satisfaction:</b> Address customer complaints related to sales and service. Analyze and manage new sale cancellation requests to proactively retain customers.</p></li><li><p><b>Training and Development:</b> Organize and conduct ongoing training for sales personnel, focusing on customer service skills, effective selling techniques, and adherence to safety policies and procedures.</p></li><li><p><b>Workflow Management:</b> Establish and oversee work procedures, create work schedules, and facilitate workflow to optimize efficiency. Monitor and report on the hourly, daily, and weekly sales performance of each team member.</p></li><li><p><b>Performance Standards:</b> Develop, implement, and maintain performance standards, measurements, and corrective strategies to ensure the realization of approved plans and objectives within the sales organization.</p></li><li><p><b>Staffing and HR Management:</b> Lead the recruiting, interviewing, and staffing of 10 or more peak reps. Evaluate staff performance, provide salary recommendations, and enforce disciplinary actions in accordance with company policies.</p></li></ul><p></p><p><b>Education and Experience Requirements</b></p><ul><li><p>Bachelor's degree or 2 - 3 years of related experience in the lawn/horticulture agronomic field required, or an equivalent combination of education and experience.</p></li><li><p>Proven experience in sales.</p></li><li><p>Strong leadership and team management skills.</p></li><li><p>Excellent communication and interpersonal abilities.</p></li><li><p>Strategic thinking and problem-solving skills.</p></li><li><p>Proficiency in using sales analytics and CRM tools.</p></li><li><p>Ability to travel to all Door to Door routes within the market.</p></li></ul><p></p><p><b>Knowledge, Skills, and Abilities</b></p><ul><li><p>Demonstrated knowledge of the organization, products, and/or services</p></li><li><p>Strong understanding of customer and market dynamics and requirements</p></li><li><p>Proven leadership and ability to drive sales teams</p></li><li><p>Ability to calculate figures and amounts such as discounts, interest, commissions, percentages, and  volume</p></li><li><p>Ability to write reports, business correspondence, and procedure manuals; ability to effectively present information and respond to questions from groups of managers, specialists, customers, and the general public</p></li><li><p>Ability to define customer problems, collect data, establish facts, and draw valid conclusions</p></li><li><p>Ability to interpret a variety of instructions furnished in written, oral, diagram, or schedule form</p></li><li><p>Other required knowledge skills and abilities include but are not limited to: Attention to Detail, Organizational skills, Adaptability, and Flexibility.</p></li><li><p>Computer skills with Microsoft Office applications (Word, Excel, Outlook, PowerPoint)</p></li></ul><p></p><p><b>Physical Demands & Working Conditions</b><br /> </p><p>The physical demands described here are representative of those that must be met by an employee to successfully perform the essential functions of this job. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions.</p><p></p><p>Regularly required to:</p><ul><li><p>Sit, stand, and walk</p></li><li><p>Use hands and arms to handle, feel, or reach</p></li><li><p>Speak and hear</p></li><li><p>Use close vision abilities</p></li></ul><p></p><p>Occasionally required to:</p><ul><li><p>Lift or move up to 25 lbs.</p></li><li><p>Stoop, kneel, crouch, or crawl</p></li></ul><p></p><p>The work environment characteristics described here are representative of those an employee encounters while performing the essential functions of this job.</p><p></p><p>Noise level:</p><ul><li><p>Low to moderate<br /> </p></li></ul><p>Adverse Conditions:</p><ul><li><p>Minimal</p></li></ul><p></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>Ability to speak, read and write fluently in English is required. </span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>You MUST BE physically located in the United States while performing this job.</span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><i>TruGreen is proud to affirm our commitment to hiring veterans. We recognize and appreciate the exceptional skills, dedication, and leadership that veterans bring to the workforce. By fostering an inclusive and diverse environment, we aim to leverage the unique experiences of veterans, creating a richer, more dynamic workplace.</i></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><h1><b><u>Pay Ranges</u></b></h1>$60,482.00 - $100,802.00<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>This range is based on the qualifications necessary for the position, including experience, training, and other considerations permitted by law. Factors that may be used when making an offer may include a candidate’s skills, experience, and geographic location, the expected quality and quantity of work, and internal pay alignment, as needed. Most candidates will start in the bottom half of the pay range. The upper end of the range will generally be reserved for candidates with extensive experience. An employee’s pay history will not be a contributing factor where prohibited by local law. In addition to monetary compensation, we offer benefits, including <span><span><span><span><span><span><span><span class=\"WCO0\">Medical/Dental/Vision</span></span></span></span></span></span></span></span></span> insurance and Company-matching 401(k) in addition to other programs and perks.</p><p style=\"text-align:inherit\"></p><p><span>TruGreen is committed to Diversity and Inclusion. We encourage diverse candidates to apply to this position.</span><br /><span> </span><br /><span>We are an Equal Opportunity/Affirmative Action Employer - Minorities/Females/Protected Veterans/Individuals with Disabilities. To learn more, please visit<span> </span></span><a href=\"https://www.trugreenjobs.com/eeo-is-the-law\" target=\"_blank\">EEOC/EEO | TruGreen (trugreenjobs.com</a><span>).</span><br /> </p><p><span> </span><br /><span>California Residents: When you express interest in or apply for a job with TruGreen Limited Partnership, we collect personal information about you, potentially including personal identifiers, contact information, protected classifications, pre-hire information, professional or employment-related information, education history, and/or medical information, for the following business purposes: to comply with state and federal law and regulations requiring employers to maintain certain records; to evaluate your job application and candidacy for employment; and to obtain and verify background checks (including criminal and motor vehicle records), pre-employment drug testing, and references.</span></p><p></p><p></p><p><span>Massachusetts Residents: It is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability.</span></p><p><br /><span> </span><br /><span>TruGreen performs pre-employment testing.</span><br /><span> </span><br /><span>To view our disclaimer,<span> </span></span><a href=\"https://www.trugreenjobs.com/us/en/disclaimer\" target=\"_blank\">https://trugreenjobs.com/us/en/disclaimer</a></p></div>",
+   "companyID": "PIJ-api.paradox.ai-15147-142797-53834",
+   "companyName": "api.paradox.ai-TR",
+   "brandName": "TruGreen",
+   "locations": [
+    {
+     "zipCode": "01810",
+     "locationID": "22547558",
+     "locationName": "Andover MA Branch",
+     "streetAddress": "149 River St",
+     "city": "Andover",
+     "state": "Massachusetts",
+     "stateAbbr": "MA",
+     "address1": "",
+     "address2": "",
+     "country": "United States",
+     "countryAbbr": "US",
+     "latitude": 42.6111664,
+     "longitude": -71.1598919,
+     "locationText": "149 River St, Andover MA 01810, United States",
+     "locationParsedText": "149 River St, Andover MA 01810, United States",
+     "isRemote": false,
+     "postalCode": "",
+     "distance": -1,
+     "sublocality": "",
+     "cityState": "Andover, Massachusetts",
+     "cityStateAbbr": "Andover, MA"
+    }
+   ],
+   "isRemote": false,
+   "employmentType": [
+    "Full Time"
+   ],
+   "employmentStatus": [],
+   "postingType": "1",
+   "isInternal": "false",
+   "applyURL": "https://olivia.paradox.ai/co/TruGreen6/Job?job_id=R35893_1",
+   "originalURL": "branch-sales-manager/job/P1-6549990-0",
+   "lang": "en",
+   "availableLanguages": [
+    "en"
+   ],
+   "commuteTimeDuration": 0,
+   "customFields": [
+    {
+     "cfKey": "cf_questionnaire",
+     "value": "QUESTIONNAIRE-3-591",
+     "key": "CF Primary External Questionnaire"
+    },
+    {
+     "cfKey": "cf_requisition_status",
+     "value": "OPEN",
+     "key": "CF Requisition Status"
+    },
+    {
+     "cfKey": "cf_job_external",
+     "value": "1",
+     "key": "CF Job Posted Externally"
+    },
+    {
+     "cfKey": "cf_wd_apply_url",
+     "value": "https://trugreen.wd1.myworkdayjobs.com/USExternalCareers/job/Andover-MA-01810/Branch-Sales-Manager_R35893",
+     "key": "CF Workday Apply URL"
+    },
+    {
+     "cfKey": "cf_shorten_job_id",
+     "value": "P1-6549990-0",
+     "key": "cf_shorten_job_id"
+    }
+   ],
+   "facilityName": "",
+   "jobCardExtraFields": []
+  },
+  {
+   "sourceID": "5c90cc50df41cbcac062ede864adf688",
+   "uniqueID": "PDX_TR_F895AB84-1601-4782-829D-F01B715FD149_22547453",
+   "requisitionID": "R35942",
+   "reference": "P1-6890093-0",
+   "title": "Branch Sales Manager",
+   "description": "<div class='description'>100290<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>2628 Faudree Rd, Odessa, Texas 79765<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><i>TruGreen <span>accepts applications on an ongoing basis.</span></i></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><h2><b><u>Job Description</u></b></h2><p>Experienced and results-driven Branch Sales Managers lead and enhance all sales activities within their assigned TruGreen branch(es). The ideal candidate will play a pivotal role in staffing and guiding a high-performance sales team to increase sales volume, maximize profits, and uphold their TruGreen Commitment. This position involves devising strategic plans to expand our customer base within the local marketing area.</p><br /><p><b>Responsibilities</b></p><br /><ul><li><b>Strategic Sales Planning:</b> Develop comprehensive sales plans and forecasts at the branch level. Maintain rigorous control over sales outcomes to ensure the attainment of sales objectives within budgetary constraints.</li><li><b>Marketing Program Execution:</b> Collaborate in the execution of various marketing programs, such as door-to-door, direct mail, inside, and outside marketing, to drive profit growth and the expansion of TruGreen's services. Share valuable local market insights and customer feedback with the TruGreen Marketing team.</li><li><b>Lead Generation:</b> Compile lists of potential customers to generate sales leads. Utilize information from direct mail campaigns, advertisements, community events, trade shows, business seminars, and other sources. Additionally, provide support in closing sales as required.</li><li><b>Customer Satisfaction:</b> Address customer complaints related to sales and service. Analyze and manage new sale cancellation requests to proactively retain customers.</li><li><b>Training and Development:</b> Organize and conduct ongoing training for sales personnel, focusing on customer service skills, effective selling techniques, and adherence to safety policies and procedures.</li><li><b>Workflow Management:</b> Establish and oversee work procedures, create work schedules, and facilitate workflow to optimize efficiency. Monitor and report on the hourly, daily, and weekly sales performance of each team member.</li><li><b>Performance Standards:</b> Develop, implement, and maintain performance standards, measurements, and corrective strategies to ensure the realization of approved plans and objectives within the sales organization.</li><li><b>Staffing and HR Management:</b> Lead the recruiting, interviewing, and staffing of 10 or more peak reps. Evaluate staff performance, provide salary recommendations, and enforce disciplinary actions in accordance with company policies.</li></ul><br /><p><b>Education and Experience Requirements</b></p><br /><ul><li>Bachelor's degree or 2 - 3 years of related experience in the lawn/horticulture agronomic field required, or an equivalent combination of education and experience.</li><li>Proven experience in sales.</li><li>Strong leadership and team management skills.</li><li>Excellent communication and interpersonal abilities.</li><li>Strategic thinking and problem-solving skills.</li><li>Proficiency in using sales analytics and CRM tools.</li><li>Ability to travel to all Door to Door routes within the market.</li></ul><br /><p><b>Knowledge, Skills, and Abilities</b></p><br /><ul><li>Demonstrated knowledge of the organization, products, and/or services</li><li>Strong understanding of customer and market dynamics and requirements</li><li>Proven leadership and ability to drive sales teams</li><li>Ability to calculate figures and amounts such as discounts, interest, commissions, percentages, and  volume</li><li>Ability to write reports, business correspondence, and procedure manuals; ability to effectively present information and respond to questions from groups of managers, specialists, customers, and the general public</li><li>Ability to define customer problems, collect data, establish facts, and draw valid conclusions</li><li>Ability to interpret a variety of instructions furnished in written, oral, diagram, or schedule form</li><li>Other required knowledge skills and abilities include but are not limited to: Attention to Detail, Organizational skills, Adaptability, and Flexibility.</li><li>Computer skills with Microsoft Office applications (Word, Excel, Outlook, PowerPoint)</li></ul><br /><p><b>Physical Demands & Working Conditions</b><br /> </p><p>The physical demands described here are representative of those that must be met by an employee to successfully perform the essential functions of this job. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions.</p><br /><p>Regularly required to:</p><ul><li>Sit, stand, and walk</li><li>Use hands and arms to handle, feel, or reach</li><li>Speak and hear</li><li>Use close vision abilities</li></ul><br /><p>Occasionally required to:</p><ul><li>Lift or move up to 25 lbs.</li><li>Stoop, kneel, crouch, or crawl</li></ul><br /><p>The work environment characteristics described here are representative of those an employee encounters while performing the essential functions of this job.</p><br /><p>Noise level:</p><ul><li>Low to moderate<br /> </li></ul><p>Adverse Conditions:</p><ul><li>Minimal</li></ul><br /><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>Ability to speak, read and write fluently in English is required. </span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>You MUST BE physically located in the United States while performing this job.</span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><i>TruGreen is proud to affirm our commitment to hiring veterans. We recognize and appreciate the exceptional skills, dedication, and leadership that veterans bring to the workforce. By fostering an inclusive and diverse environment, we aim to leverage the unique experiences of veterans, creating a richer, more dynamic workplace.</i></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><h1><b><u>Pay Ranges</u></b></h1>$52,234.00 - $87,056.00<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>This range is based on the qualifications necessary for the position, including experience, training, and other considerations permitted by law. Factors that may be used when making an offer may include a candidate’s skills, experience, and geographic location, the expected quality and quantity of work, and internal pay alignment, as needed. Most candidates will start in the bottom half of the pay range. The upper end of the range will generally be reserved for candidates with extensive experience. An employee’s pay history will not be a contributing factor where prohibited by local law. In addition to monetary compensation, we offer benefits, including <span><span><span><span><span><span><span><span class=\"WCO0\">Medical/Dental/Vision</span></span></span></span></span></span></span></span></span> insurance and Company-matching 401(k) in addition to other programs and perks.</p><p style=\"text-align:inherit\"></p><p><span>TruGreen is committed to Diversity and Inclusion. We encourage diverse candidates to apply to this position.</span><br /><span> </span><br /><span>We are an Equal Opportunity/Affirmative Action Employer - Minorities/Females/Protected Veterans/Individuals with Disabilities. To learn more, please visit<span> </span></span><a href=\"https://www.trugreenjobs.com/eeo-is-the-law\" target=\"_blank\">EEOC/EEO | TruGreen (trugreenjobs.com</a><span>).</span><br /> </p><p><span> </span><br /><span>California Residents: When you express interest in or apply for a job with TruGreen Limited Partnership, we collect personal information about you, potentially including personal identifiers, contact information, protected classifications, pre-hire information, professional or employment-related information, education history, and/or medical information, for the following business purposes: to comply with state and federal law and regulations requiring employers to maintain certain records; to evaluate your job application and candidacy for employment; and to obtain and verify background checks (including criminal and motor vehicle records), pre-employment drug testing, and references.</span></p><p></p><p></p><p><span>Massachusetts Residents: It is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability.</span></p><p><br /><span> </span><br /><span>TruGreen performs pre-employment testing.</span><br /><span> </span><br /><span>To view our disclaimer,<span> </span></span><a href=\"https://www.trugreenjobs.com/us/en/disclaimer\" target=\"_blank\">https://trugreenjobs.com/us/en/disclaimer</a></p></div>",
+   "companyID": "PIJ-api.paradox.ai-15147-142797-53834",
+   "companyName": "api.paradox.ai-TR",
+   "brandName": "TruGreen",
+   "locations": [
+    {
+     "zipCode": "79765",
+     "locationID": "22547453",
+     "locationName": "Midland TX Branch",
+     "streetAddress": "2628 Faudree Rd",
+     "city": "Odessa",
+     "state": "Texas",
+     "stateAbbr": "TX",
+     "address1": "",
+     "address2": "",
+     "country": "United States",
+     "countryAbbr": "US",
+     "latitude": 31.8935734,
+     "longitude": -102.2760293,
+     "locationText": "2628 Faudree Rd, Odessa TX 79765, United States",
+     "locationParsedText": "2628 Faudree Rd, Odessa TX 79765, United States",
+     "isRemote": false,
+     "postalCode": "",
+     "distance": -1,
+     "sublocality": "",
+     "cityState": "Odessa, Texas",
+     "cityStateAbbr": "Odessa, TX"
+    }
+   ],
+   "isRemote": false,
+   "employmentType": [
+    "Full Time"
+   ],
+   "employmentStatus": [],
+   "postingType": "1",
+   "isInternal": "false",
+   "applyURL": "https://olivia.paradox.ai/co/TruGreen6/Job?job_id=R35942_1",
+   "originalURL": "branch-sales-manager/job/P1-6890093-0",
+   "lang": "en",
+   "availableLanguages": [
+    "en"
+   ],
+   "commuteTimeDuration": 0,
+   "customFields": [
+    {
+     "cfKey": "cf_questionnaire",
+     "value": "QUESTIONNAIRE-3-591",
+     "key": "CF Primary External Questionnaire"
+    },
+    {
+     "cfKey": "cf_requisition_status",
+     "value": "OPEN",
+     "key": "CF Requisition Status"
+    },
+    {
+     "cfKey": "cf_job_external",
+     "value": "1",
+     "key": "CF Job Posted Externally"
+    },
+    {
+     "cfKey": "cf_wd_apply_url",
+     "value": "https://trugreen.wd1.myworkdayjobs.com/USExternalCareers/job/Odessa-TX-79765/Branch-Sales-Manager_R35942",
+     "key": "CF Workday Apply URL"
+    },
+    {
+     "cfKey": "cf_shorten_job_id",
+     "value": "P1-6890093-0",
+     "key": "cf_shorten_job_id"
+    }
+   ],
+   "facilityName": "",
+   "jobCardExtraFields": []
+  },
+  {
+   "sourceID": "a9234ab05e2b29ff525cd87ba16cbfab",
+   "uniqueID": "PDX_TR_FC4F2639-E76B-4E8B-AF0C-D5438B822559_22547433",
+   "requisitionID": "R35987",
+   "reference": "P1-7420554-0",
+   "title": "Branch Sales Manager",
+   "description": "<div class='description'>100290<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>118 Route 17 North, Upper Saddle River, New Jersey 07458<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><i>TruGreen <span>accepts applications on an ongoing basis.</span></i></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><h2><b><u>Job Description</u></b></h2><p>Experienced and results-driven Branch Sales Managers lead and enhance all sales activities within their assigned TruGreen branch(es). The ideal candidate will play a pivotal role in staffing and guiding a high-performance sales team to increase sales volume, maximize profits, and uphold their TruGreen Commitment. This position involves devising strategic plans to expand our customer base within the local marketing area.</p><p></p><p><b>Responsibilities</b></p><ul><li><p><b>Strategic Sales Planning:</b> Develop comprehensive sales plans and forecasts at the branch level. Maintain rigorous control over sales outcomes to ensure the attainment of sales objectives within budgetary constraints.</p></li><li><p><b>Marketing Program Execution:</b> Collaborate in the execution of various marketing programs, such as door-to-door, direct mail, inside, and outside marketing, to drive profit growth and the expansion of TruGreen's services. Share valuable local market insights and customer feedback with the TruGreen Marketing team.</p></li><li><p><b>Lead Generation:</b> Compile lists of potential customers to generate sales leads. Utilize information from direct mail campaigns, advertisements, community events, trade shows, business seminars, and other sources. Additionally, provide support in closing sales as required.</p></li><li><p><b>Customer Satisfaction:</b> Address customer complaints related to sales and service. Analyze and manage new sale cancellation requests to proactively retain customers.</p></li><li><p><b>Training and Development:</b> Organize and conduct ongoing training for sales personnel, focusing on customer service skills, effective selling techniques, and adherence to safety policies and procedures.</p></li><li><p><b>Workflow Management:</b> Establish and oversee work procedures, create work schedules, and facilitate workflow to optimize efficiency. Monitor and report on the hourly, daily, and weekly sales performance of each team member.</p></li><li><p><b>Performance Standards:</b> Develop, implement, and maintain performance standards, measurements, and corrective strategies to ensure the realization of approved plans and objectives within the sales organization.</p></li><li><p><b>Staffing and HR Management:</b> Lead the recruiting, interviewing, and staffing of 10 or more peak reps. Evaluate staff performance, provide salary recommendations, and enforce disciplinary actions in accordance with company policies.</p></li></ul><p></p><p><b>Education and Experience Requirements</b></p><ul><li><p>Bachelor's degree or 2 - 3 years of related experience in the lawn/horticulture agronomic field required, or an equivalent combination of education and experience.</p></li><li><p>Proven experience in sales.</p></li><li><p>Strong leadership and team management skills.</p></li><li><p>Excellent communication and interpersonal abilities.</p></li><li><p>Strategic thinking and problem-solving skills.</p></li><li><p>Proficiency in using sales analytics and CRM tools.</p></li><li><p>Ability to travel to all Door to Door routes within the market.</p></li></ul><p></p><p><b>Knowledge, Skills, and Abilities</b></p><ul><li><p>Demonstrated knowledge of the organization, products, and/or services</p></li><li><p>Strong understanding of customer and market dynamics and requirements</p></li><li><p>Proven leadership and ability to drive sales teams</p></li><li><p>Ability to calculate figures and amounts such as discounts, interest, commissions, percentages, and  volume</p></li><li><p>Ability to write reports, business correspondence, and procedure manuals; ability to effectively present information and respond to questions from groups of managers, specialists, customers, and the general public</p></li><li><p>Ability to define customer problems, collect data, establish facts, and draw valid conclusions</p></li><li><p>Ability to interpret a variety of instructions furnished in written, oral, diagram, or schedule form</p></li><li><p>Other required knowledge skills and abilities include but are not limited to: Attention to Detail, Organizational skills, Adaptability, and Flexibility.</p></li><li><p>Computer skills with Microsoft Office applications (Word, Excel, Outlook, PowerPoint)</p></li></ul><p></p><p><b>Physical Demands & Working Conditions</b><br /> </p><p>The physical demands described here are representative of those that must be met by an employee to successfully perform the essential functions of this job. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions.</p><p></p><p>Regularly required to:</p><ul><li><p>Sit, stand, and walk</p></li><li><p>Use hands and arms to handle, feel, or reach</p></li><li><p>Speak and hear</p></li><li><p>Use close vision abilities</p></li></ul><p></p><p>Occasionally required to:</p><ul><li><p>Lift or move up to 25 lbs.</p></li><li><p>Stoop, kneel, crouch, or crawl</p></li></ul><p></p><p>The work environment characteristics described here are representative of those an employee encounters while performing the essential functions of this job.</p><p></p><p>Noise level:</p><ul><li><p>Low to moderate<br /> </p></li></ul><p>Adverse Conditions:</p><ul><li><p>Minimal</p></li></ul><p></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>Ability to speak, read and write fluently in English is required. </span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>You MUST BE physically located in the United States while performing this job.</span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><i>TruGreen is proud to affirm our commitment to hiring veterans. We recognize and appreciate the exceptional skills, dedication, and leadership that veterans bring to the workforce. By fostering an inclusive and diverse environment, we aim to leverage the unique experiences of veterans, creating a richer, more dynamic workplace.</i></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><h1><b><u>Pay Ranges</u></b></h1>$63,231.00 - $105,384.00<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>This range is based on the qualifications necessary for the position, including experience, training, and other considerations permitted by law. Factors that may be used when making an offer may include a candidate’s skills, experience, and geographic location, the expected quality and quantity of work, and internal pay alignment, as needed. Most candidates will start in the bottom half of the pay range. The upper end of the range will generally be reserved for candidates with extensive experience. An employee’s pay history will not be a contributing factor where prohibited by local law. In addition to monetary compensation, we offer benefits, including <span><span><span><span><span><span><span><span class=\"WCO0\">Medical/Dental/Vision</span></span></span></span></span></span></span></span></span> insurance and Company-matching 401(k) in addition to other programs and perks.</p><p style=\"text-align:inherit\"></p><p><span>TruGreen is committed to Diversity and Inclusion. We encourage diverse candidates to apply to this position.</span><br /><span> </span><br /><span>We are an Equal Opportunity/Affirmative Action Employer - Minorities/Females/Protected Veterans/Individuals with Disabilities. To learn more, please visit<span> </span></span><a href=\"https://www.trugreenjobs.com/eeo-is-the-law\" target=\"_blank\">EEOC/EEO | TruGreen (trugreenjobs.com</a><span>).</span><br /> </p><p><span> </span><br /><span>California Residents: When you express interest in or apply for a job with TruGreen Limited Partnership, we collect personal information about you, potentially including personal identifiers, contact information, protected classifications, pre-hire information, professional or employment-related information, education history, and/or medical information, for the following business purposes: to comply with state and federal law and regulations requiring employers to maintain certain records; to evaluate your job application and candidacy for employment; and to obtain and verify background checks (including criminal and motor vehicle records), pre-employment drug testing, and references.</span></p><p></p><p></p><p><span>Massachusetts Residents: It is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability.</span></p><p><br /><span> </span><br /><span>TruGreen performs pre-employment testing.</span><br /><span> </span><br /><span>To view our disclaimer,<span> </span></span><a href=\"https://www.trugreenjobs.com/us/en/disclaimer\" target=\"_blank\">https://trugreenjobs.com/us/en/disclaimer</a></p></div>",
+   "companyID": "PIJ-api.paradox.ai-15147-142797-53834",
+   "companyName": "api.paradox.ai-TR",
+   "brandName": "TruGreen",
+   "locations": [
+    {
+     "zipCode": "07458",
+     "locationID": "22547433",
+     "locationName": "Bergen NJ Branch",
+     "streetAddress": "118 Route 17 North",
+     "city": "Upper Saddle River",
+     "state": "New Jersey",
+     "stateAbbr": "NJ",
+     "address1": "",
+     "address2": "",
+     "country": "United States",
+     "countryAbbr": "US",
+     "latitude": 41.0472457,
+     "longitude": -74.1152982,
+     "locationText": "118 Route 17 North, Upper Saddle River NJ 07458, United States",
+     "locationParsedText": "118 Route 17 North, Upper Saddle River NJ 07458, United States",
+     "isRemote": false,
+     "postalCode": "",
+     "distance": -1,
+     "sublocality": "",
+     "cityState": "Upper Saddle River, New Jersey",
+     "cityStateAbbr": "Upper Saddle River, NJ"
+    }
+   ],
+   "isRemote": false,
+   "employmentType": [
+    "Full Time"
+   ],
+   "employmentStatus": [],
+   "postingType": "1",
+   "isInternal": "false",
+   "applyURL": "https://olivia.paradox.ai/co/TruGreen6/Job?job_id=R35987_1",
+   "originalURL": "branch-sales-manager/job/P1-7420554-0",
+   "lang": "en",
+   "availableLanguages": [
+    "en"
+   ],
+   "commuteTimeDuration": 0,
+   "customFields": [
+    {
+     "cfKey": "cf_questionnaire",
+     "value": "QUESTIONNAIRE-3-591",
+     "key": "CF Primary External Questionnaire"
+    },
+    {
+     "cfKey": "cf_requisition_status",
+     "value": "OPEN",
+     "key": "CF Requisition Status"
+    },
+    {
+     "cfKey": "cf_job_external",
+     "value": "1",
+     "key": "CF Job Posted Externally"
+    },
+    {
+     "cfKey": "cf_wd_apply_url",
+     "value": "https://trugreen.wd1.myworkdayjobs.com/USExternalCareers/job/Upper-Saddle-River-NJ-07458/Branch-Sales-Manager_R35987",
+     "key": "CF Workday Apply URL"
+    },
+    {
+     "cfKey": "cf_shorten_job_id",
+     "value": "P1-7420554-0",
+     "key": "cf_shorten_job_id"
+    }
+   ],
+   "facilityName": "",
+   "jobCardExtraFields": []
+  },
+  {
+   "sourceID": "da5d123898cd035a186dab255fd65122",
+   "uniqueID": "PDX_TR_2AE9576B-E8D3-4C0A-A76E-FACC80632B0D_22547455",
+   "requisitionID": "R37619",
+   "reference": "P1-7635729-0",
+   "title": "Business Development Representative",
+   "description": "<div class='description'>2421 Black Gold Court, Houston, Texas 77073<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><i>TruGreen <span>accepts applications on an ongoing basis.</span></i></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><h1><b><u>Job Description</u></b></h1><p> </p><p> </p><p>Professional B2B (business-to-business) sales position responsible for achieving sales goals and executing sales plans within an assigned territory. Generate and secure new sales in a professional environment by calling on and prospecting with property management firms, as well as large corporations and sports related facilities. This role typically achieves and manages a portfolio consisting of local accounts with annual total revenues of $500K or less.</p><p></p><p><b>Responsibilities</b></p><ul><li><p>Achieves sales goals and executes sales plans to small to large businesses such as property managers, school systems, sport facilities, government facilities, restaurant, banks or any company in need of superior lawn care products/services</p></li><li><p>Presents Proposals for lawncare services and programs along with obtaining long term contracts</p></li><li><p>Generates new business to business (B2B) sales revenue by prospecting and adding new commercial customers</p></li><li><p>Negotiates price and design by using company provided guidelines and technology/CRM</p></li><li><p>Generates leads through utilizing a CRM system to manage projects and opportunities, contact information, forecasting reports, etc.</p></li><li><p>Project management duties within branch, including coordinating with local branch management and service team</p></li></ul><p></p><p><b>Competencies</b></p><ul><li><p><b>Customer Focus:</b> Building strong customer relationships and delivering customer-centric solutions.​</p></li><li><p><b>Accountability:</b> Holding self and others accountable to meet commitments.​</p></li><li><p><b>Action Oriented: </b>Taking on new opportunities and tough challenges with a sense of urgency, high energy, and enthusiasm​</p></li><li><p><b>Collaborates:</b>  Building partnerships and working with others to meet shared objectives.​</p></li><li><p><b>Directs Work:</b> Providing direction, delegating, and removing obstacles to get work done.​</p></li><li><p><b>Basic Organization:</b> Demonstrates an efficient and orderly approach to workflow tasks.<br /> </p></li></ul><p><b>Education and Experience Requirements</b></p><ul><li><p>Preferred Bachelor's degree (BS/BA) from a four-year college or university or related work experience.</p></li><li><p>Preferred previous sales experience, proven sales track record, industry or internal company related experience.</p></li><li><p>0 – 1 years of B2B sales experience preferred.</p></li><li><p>Landscaping, lawncare, tree and shrub or pest experience a PLUS.</p></li><li><p>Valid Driver’s License Required.</p></li></ul><p></p><p><b>Knowledge, Skills, and Abilities</b></p><ul><li><p>Knowledge of the organizations products and/or services</p></li><li><p>Demonstrated consultative selling abilities</p></li><li><p>Ability to collaborate and influence internal and external decision makers</p></li><li><p>Ability to complete reports, business correspondence, and procedure manuals</p></li><li><p>General computer knowledge, efficiencies and understanding to include Excel, Word, Power Point, CRM platform, Outlook/Office 365</p></li><li><p>Ability to execute prospecting strategies for discovering and closing new accounts</p></li><li><p>Excellent interpersonal communication skills with internal associates and external customers</p></li></ul><p></p><p><b>Physical Demands & Working Conditions</b><br /> </p><p>The physical demands described here are representative of those that must be met by an employee to successfully perform the essential functions of this job. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions.<br /> </p><p><b>Regularly required to:</b></p><ul><li><p>Sit, stand and walk</p></li><li><p>Use hands and arms to handle, feel or reach</p></li><li><p>Speak and hear</p></li><li><p>Use close vision abilities<br /> </p></li></ul><p><b>Occasionally required to:</b></p><ul><li><p>Lift or move up to 25 lbs</p></li><li><p>Stoop, kneel, crouch or crawl</p></li></ul><p></p><p>The work environment characteristics described here are representative of those an employee encounters while performing the essential functions of this job.<br /> </p><p><b>Noise level</b></p><ul><li><p>Low to moderate<br /> </p></li></ul><p><b>Adverse Conditions</b></p><ul><li><p>Minimal</p></li></ul><div><p></p></div><p> </p><p> </p><p style=\"text-align:left\"><span>Ability to speak, read and write fluently in English is required. </span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>You MUST BE physically located in the United States while performing this job.</span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><i>TruGreen is proud to affirm our commitment to hiring veterans. We recognize and appreciate the exceptional skills, dedication, and leadership that veterans bring to the workforce. By fostering an inclusive and diverse environment, we aim to leverage the unique experiences of veterans, creating a richer, more dynamic workplace.</i></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><h1><b><u>Pay Ranges</u></b></h1>$46,775.00 - $62,811.00<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>This range is based on the qualifications necessary for the position, including experience, training, and other considerations permitted by law. Factors that may be used when making an offer may include a candidate’s skills, experience, and geographic location, the expected quality and quantity of work, and internal pay alignment, as needed. Most candidates will start in the bottom half of the pay range. The upper end of the range will generally be reserved for candidates with extensive experience. An employee’s pay history will not be a contributing factor where prohibited by local law. In addition to monetary compensation, we offer benefits, including <span><span><span><span><span><span><span><span class=\"WCO0\">Medical/Dental/Vision</span></span></span></span></span></span></span></span></span> insurance and Company-matching 401(k) in addition to other programs and perks.</p><p style=\"text-align:inherit\"></p><p><span>TruGreen is committed to Diversity and Inclusion. We encourage diverse candidates to apply to this position.</span><br /><span> </span><br /><span>We are an Equal Opportunity/Affirmative Action Employer - Minorities/Females/Protected Veterans/Individuals with Disabilities. To learn more, please visit<span> </span></span><a href=\"https://www.trugreenjobs.com/eeo-is-the-law\" target=\"_blank\">EEOC/EEO | TruGreen (trugreenjobs.com</a><span>).</span><br /> </p><p><span> </span><br /><span>California Residents: When you express interest in or apply for a job with TruGreen Limited Partnership, we collect personal information about you, potentially including personal identifiers, contact information, protected classifications, pre-hire information, professional or employment-related information, education history, and/or medical information, for the following business purposes: to comply with state and federal law and regulations requiring employers to maintain certain records; to evaluate your job application and candidacy for employment; and to obtain and verify background checks (including criminal and motor vehicle records), pre-employment drug testing, and references.</span></p><p></p><p></p><p><span>Massachusetts Residents: It is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability.</span></p><p><br /><span> </span><br /><span>TruGreen performs pre-employment testing.</span><br /><span> </span><br /><span>To view our disclaimer,<span> </span></span><a href=\"https://www.trugreenjobs.com/us/en/disclaimer\" target=\"_blank\">https://trugreenjobs.com/us/en/disclaimer</a></p></div>",
+   "companyID": "PIJ-api.paradox.ai-15147-142797-53834",
+   "companyName": "api.paradox.ai-TR",
+   "brandName": "TruGreen",
+   "locations": [
+    {
+     "zipCode": "77073",
+     "locationID": "22547455",
+     "locationName": "Spring TX Branch",
+     "streetAddress": "2421 Black Gold Court",
+     "city": "Houston",
+     "state": "Texas",
+     "stateAbbr": "TX",
+     "address1": "",
+     "address2": "",
+     "country": "United States",
+     "countryAbbr": "US",
+     "latitude": 30.0026946,
+     "longitude": -95.389373,
+     "locationText": "2421 Black Gold Court, Houston TX 77073, United States",
+     "locationParsedText": "2421 Black Gold Court, Houston TX 77073, United States",
+     "isRemote": false,
+     "postalCode": "",
+     "distance": -1,
+     "sublocality": "",
+     "cityState": "Houston, Texas",
+     "cityStateAbbr": "Houston, TX"
+    }
+   ],
+   "isRemote": false,
+   "employmentType": [
+    "Full Time"
+   ],
+   "employmentStatus": [],
+   "postingType": "1",
+   "isInternal": "false",
+   "applyURL": "https://olivia.paradox.ai/co/TruGreen6/Job?job_id=R37619_1",
+   "originalURL": "business-development-representative/job/P1-7635729-0",
+   "lang": "en",
+   "availableLanguages": [
+    "en"
+   ],
+   "commuteTimeDuration": 0,
+   "customFields": [
+    {
+     "cfKey": "cf_questionnaire",
+     "value": "QUESTIONNAIRE-3-591",
+     "key": "CF Primary External Questionnaire"
+    },
+    {
+     "cfKey": "cf_requisition_status",
+     "value": "OPEN",
+     "key": "CF Requisition Status"
+    },
+    {
+     "cfKey": "cf_job_external",
+     "value": "1",
+     "key": "CF Job Posted Externally"
+    },
+    {
+     "cfKey": "cf_wd_apply_url",
+     "value": "https://trugreen.wd1.myworkdayjobs.com/USExternalCareers/job/Houston-TX-77073/Business-Development-Representative_R37619",
+     "key": "CF Workday Apply URL"
+    },
+    {
+     "cfKey": "cf_shorten_job_id",
+     "value": "P1-7635729-0",
+     "key": "cf_shorten_job_id"
+    }
+   ],
+   "facilityName": "",
+   "jobCardExtraFields": []
+  },
+  {
+   "sourceID": "a1f90c060358266502b7616f683c5d26",
+   "uniqueID": "PDX_TR_4358224C-A87B-4844-8AFF-3469E821D24B_22547564",
+   "requisitionID": "R37601",
+   "reference": "P1-7618709-0",
+   "title": "Business Development Representative",
+   "description": "<div class='description'>80 Walsh Ct., St. Charles, Missouri 63301<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><i>TruGreen <span>accepts applications on an ongoing basis.</span></i></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><h1><b><u>Job Description</u></b></h1><p> </p><p> </p><p>Professional B2B (business-to-business) sales position responsible for achieving sales goals and executing sales plans within an assigned territory. Generate and secure new sales in a professional environment by calling on and prospecting with property management firms, as well as large corporations and sports related facilities. This role typically achieves and manages a portfolio consisting of local accounts with annual total revenues of $500K or less.</p><p></p><p><b>Responsibilities</b></p><ul><li><p>Achieves sales goals and executes sales plans to small to large businesses such as property managers, school systems, sport facilities, government facilities, restaurant, banks or any company in need of superior lawn care products/services</p></li><li><p>Presents Proposals for lawncare services and programs along with obtaining long term contracts</p></li><li><p>Generates new business to business (B2B) sales revenue by prospecting and adding new commercial customers</p></li><li><p>Negotiates price and design by using company provided guidelines and technology/CRM</p></li><li><p>Generates leads through utilizing a CRM system to manage projects and opportunities, contact information, forecasting reports, etc.</p></li><li><p>Project management duties within branch, including coordinating with local branch management and service team</p></li></ul><p></p><p><b>Competencies</b></p><ul><li><p><b>Customer Focus:</b> Building strong customer relationships and delivering customer-centric solutions.​</p></li><li><p><b>Accountability:</b> Holding self and others accountable to meet commitments.​</p></li><li><p><b>Action Oriented: </b>Taking on new opportunities and tough challenges with a sense of urgency, high energy, and enthusiasm​</p></li><li><p><b>Collaborates:</b>  Building partnerships and working with others to meet shared objectives.​</p></li><li><p><b>Directs Work:</b> Providing direction, delegating, and removing obstacles to get work done.​</p></li><li><p><b>Basic Organization:</b> Demonstrates an efficient and orderly approach to workflow tasks.<br /> </p></li></ul><p><b>Education and Experience Requirements</b></p><ul><li><p>Preferred Bachelor's degree (BS/BA) from a four-year college or university or related work experience.</p></li><li><p>Preferred previous sales experience, proven sales track record, industry or internal company related experience.</p></li><li><p>0 – 1 years of B2B sales experience preferred.</p></li><li><p>Landscaping, lawncare, tree and shrub or pest experience a PLUS.</p></li><li><p>Valid Driver’s License Required.</p></li></ul><p></p><p><b>Knowledge, Skills, and Abilities</b></p><ul><li><p>Knowledge of the organizations products and/or services</p></li><li><p>Demonstrated consultative selling abilities</p></li><li><p>Ability to collaborate and influence internal and external decision makers</p></li><li><p>Ability to complete reports, business correspondence, and procedure manuals</p></li><li><p>General computer knowledge, efficiencies and understanding to include Excel, Word, Power Point, CRM platform, Outlook/Office 365</p></li><li><p>Ability to execute prospecting strategies for discovering and closing new accounts</p></li><li><p>Excellent interpersonal communication skills with internal associates and external customers</p></li></ul><p></p><p><b>Physical Demands & Working Conditions</b><br /> </p><p>The physical demands described here are representative of those that must be met by an employee to successfully perform the essential functions of this job. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions.<br /> </p><p><b>Regularly required to:</b></p><ul><li><p>Sit, stand and walk</p></li><li><p>Use hands and arms to handle, feel or reach</p></li><li><p>Speak and hear</p></li><li><p>Use close vision abilities<br /> </p></li></ul><p><b>Occasionally required to:</b></p><ul><li><p>Lift or move up to 25 lbs</p></li><li><p>Stoop, kneel, crouch or crawl</p></li></ul><p></p><p>The work environment characteristics described here are representative of those an employee encounters while performing the essential functions of this job.<br /> </p><p><b>Noise level</b></p><ul><li><p>Low to moderate<br /> </p></li></ul><p><b>Adverse Conditions</b></p><ul><li><p>Minimal</p></li></ul><div><p></p></div><p> </p><p> </p><p style=\"text-align:left\"><span>Ability to speak, read and write fluently in English is required. </span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>You MUST BE physically located in the United States while performing this job.</span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><i>TruGreen is proud to affirm our commitment to hiring veterans. We recognize and appreciate the exceptional skills, dedication, and leadership that veterans bring to the workforce. By fostering an inclusive and diverse environment, we aim to leverage the unique experiences of veterans, creating a richer, more dynamic workplace.</i></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><h1><b><u>Pay Ranges</u></b></h1>$44,547.00 - $60,775.00<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>This range is based on the qualifications necessary for the position, including experience, training, and other considerations permitted by law. Factors that may be used when making an offer may include a candidate’s skills, experience, and geographic location, the expected quality and quantity of work, and internal pay alignment, as needed. Most candidates will start in the bottom half of the pay range. The upper end of the range will generally be reserved for candidates with extensive experience. An employee’s pay history will not be a contributing factor where prohibited by local law. In addition to monetary compensation, we offer benefits, including <span><span><span><span><span><span><span><span class=\"WCO0\">Medical/Dental/Vision</span></span></span></span></span></span></span></span></span> insurance and Company-matching 401(k) in addition to other programs and perks.</p><p style=\"text-align:inherit\"></p><p><span>TruGreen is committed to Diversity and Inclusion. We encourage diverse candidates to apply to this position.</span><br /><span> </span><br /><span>We are an Equal Opportunity/Affirmative Action Employer - Minorities/Females/Protected Veterans/Individuals with Disabilities. To learn more, please visit<span> </span></span><a href=\"https://www.trugreenjobs.com/eeo-is-the-law\" target=\"_blank\">EEOC/EEO | TruGreen (trugreenjobs.com</a><span>).</span><br /> </p><p><span> </span><br /><span>California Residents: When you express interest in or apply for a job with TruGreen Limited Partnership, we collect personal information about you, potentially including personal identifiers, contact information, protected classifications, pre-hire information, professional or employment-related information, education history, and/or medical information, for the following business purposes: to comply with state and federal law and regulations requiring employers to maintain certain records; to evaluate your job application and candidacy for employment; and to obtain and verify background checks (including criminal and motor vehicle records), pre-employment drug testing, and references.</span></p><p></p><p></p><p><span>Massachusetts Residents: It is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability.</span></p><p><br /><span> </span><br /><span>TruGreen performs pre-employment testing.</span><br /><span> </span><br /><span>To view our disclaimer,<span> </span></span><a href=\"https://www.trugreenjobs.com/us/en/disclaimer\" target=\"_blank\">https://trugreenjobs.com/us/en/disclaimer</a></p></div>",
+   "companyID": "PIJ-api.paradox.ai-15147-142797-53834",
+   "companyName": "api.paradox.ai-TR",
+   "brandName": "TruGreen",
+   "locations": [
+    {
+     "zipCode": "63301",
+     "locationID": "22547564",
+     "locationName": "St Charles MO Branch",
+     "streetAddress": "80 Walsh Ct.",
+     "city": "St. Charles",
+     "state": "Missouri",
+     "stateAbbr": "MO",
+     "address1": "",
+     "address2": "",
+     "country": "United States",
+     "countryAbbr": "US",
+     "latitude": 38.825686,
+     "longitude": -90.4998763,
+     "locationText": "80 Walsh Ct., St. Charles MO 63301, United States",
+     "locationParsedText": "80 Walsh Ct., St. Charles MO 63301, United States",
+     "isRemote": false,
+     "postalCode": "",
+     "distance": -1,
+     "sublocality": "",
+     "cityState": "St. Charles, Missouri",
+     "cityStateAbbr": "St. Charles, MO"
+    }
+   ],
+   "isRemote": false,
+   "employmentType": [
+    "Full Time"
+   ],
+   "employmentStatus": [],
+   "postingType": "1",
+   "isInternal": "false",
+   "applyURL": "https://olivia.paradox.ai/co/TruGreen6/Job?job_id=R37601_1",
+   "originalURL": "business-development-representative/job/P1-7618709-0",
+   "lang": "en",
+   "availableLanguages": [
+    "en"
+   ],
+   "commuteTimeDuration": 0,
+   "customFields": [
+    {
+     "cfKey": "cf_questionnaire",
+     "value": "QUESTIONNAIRE-3-591",
+     "key": "CF Primary External Questionnaire"
+    },
+    {
+     "cfKey": "cf_requisition_status",
+     "value": "OPEN",
+     "key": "CF Requisition Status"
+    },
+    {
+     "cfKey": "cf_job_external",
+     "value": "1",
+     "key": "CF Job Posted Externally"
+    },
+    {
+     "cfKey": "cf_wd_apply_url",
+     "value": "https://trugreen.wd1.myworkdayjobs.com/USExternalCareers/job/St-Charles-MO-63301/Business-Development-Rep_R37601",
+     "key": "CF Workday Apply URL"
+    },
+    {
+     "cfKey": "cf_shorten_job_id",
+     "value": "P1-7618709-0",
+     "key": "cf_shorten_job_id"
+    }
+   ],
+   "facilityName": "",
+   "jobCardExtraFields": []
+  },
+  {
+   "sourceID": "914e875e2c193ab8ba9556aa349d1847",
+   "uniqueID": "PDX_TR_45979499-0C09-459F-AAE6-C0CF54755B25_22547388",
+   "requisitionID": "R37609",
+   "reference": "P1-7618710-0",
+   "title": "Business Development Representative",
+   "description": "<div class='description'>8145 Troon Circle, Austell, Georgia 30168<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><i>TruGreen <span>accepts applications on an ongoing basis.</span></i></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><h1><b><u>Job Description</u></b></h1><p> </p><p> </p><p>Professional B2B (business-to-business) sales position responsible for achieving sales goals and executing sales plans within an assigned territory. Generate and secure new sales in a professional environment by calling on and prospecting with property management firms, as well as large corporations and sports related facilities. This role typically achieves and manages a portfolio consisting of local accounts with annual total revenues of $500K or less.</p><p></p><p><b>Responsibilities</b></p><ul><li><p>Achieves sales goals and executes sales plans to small to large businesses such as property managers, school systems, sport facilities, government facilities, restaurant, banks or any company in need of superior lawn care products/services</p></li><li><p>Presents Proposals for lawncare services and programs along with obtaining long term contracts</p></li><li><p>Generates new business to business (B2B) sales revenue by prospecting and adding new commercial customers</p></li><li><p>Negotiates price and design by using company provided guidelines and technology/CRM</p></li><li><p>Generates leads through utilizing a CRM system to manage projects and opportunities, contact information, forecasting reports, etc.</p></li><li><p>Project management duties within branch, including coordinating with local branch management and service team</p></li></ul><p></p><p><b>Competencies</b></p><ul><li><p><b>Customer Focus:</b> Building strong customer relationships and delivering customer-centric solutions.​</p></li><li><p><b>Accountability:</b> Holding self and others accountable to meet commitments.​</p></li><li><p><b>Action Oriented: </b>Taking on new opportunities and tough challenges with a sense of urgency, high energy, and enthusiasm​</p></li><li><p><b>Collaborates:</b>  Building partnerships and working with others to meet shared objectives.​</p></li><li><p><b>Directs Work:</b> Providing direction, delegating, and removing obstacles to get work done.​</p></li><li><p><b>Basic Organization:</b> Demonstrates an efficient and orderly approach to workflow tasks.<br /> </p></li></ul><p><b>Education and Experience Requirements</b></p><ul><li><p>Preferred Bachelor's degree (BS/BA) from a four-year college or university or related work experience.</p></li><li><p>Preferred previous sales experience, proven sales track record, industry or internal company related experience.</p></li><li><p>0 – 1 years of B2B sales experience preferred.</p></li><li><p>Landscaping, lawncare, tree and shrub or pest experience a PLUS.</p></li><li><p>Valid Driver’s License Required.</p></li></ul><p></p><p><b>Knowledge, Skills, and Abilities</b></p><ul><li><p>Knowledge of the organizations products and/or services</p></li><li><p>Demonstrated consultative selling abilities</p></li><li><p>Ability to collaborate and influence internal and external decision makers</p></li><li><p>Ability to complete reports, business correspondence, and procedure manuals</p></li><li><p>General computer knowledge, efficiencies and understanding to include Excel, Word, Power Point, CRM platform, Outlook/Office 365</p></li><li><p>Ability to execute prospecting strategies for discovering and closing new accounts</p></li><li><p>Excellent interpersonal communication skills with internal associates and external customers</p></li></ul><p></p><p><b>Physical Demands & Working Conditions</b><br /> </p><p>The physical demands described here are representative of those that must be met by an employee to successfully perform the essential functions of this job. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions.<br /> </p><p><b>Regularly required to:</b></p><ul><li><p>Sit, stand and walk</p></li><li><p>Use hands and arms to handle, feel or reach</p></li><li><p>Speak and hear</p></li><li><p>Use close vision abilities<br /> </p></li></ul><p><b>Occasionally required to:</b></p><ul><li><p>Lift or move up to 25 lbs</p></li><li><p>Stoop, kneel, crouch or crawl</p></li></ul><p></p><p>The work environment characteristics described here are representative of those an employee encounters while performing the essential functions of this job.<br /> </p><p><b>Noise level</b></p><ul><li><p>Low to moderate<br /> </p></li></ul><p><b>Adverse Conditions</b></p><ul><li><p>Minimal</p></li></ul><div><p></p></div><p> </p><p> </p><p style=\"text-align:left\"><span>Ability to speak, read and write fluently in English is required. </span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>You MUST BE physically located in the United States while performing this job.</span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><i>TruGreen is proud to affirm our commitment to hiring veterans. We recognize and appreciate the exceptional skills, dedication, and leadership that veterans bring to the workforce. By fostering an inclusive and diverse environment, we aim to leverage the unique experiences of veterans, creating a richer, more dynamic workplace.</i></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><h1><b><u>Pay Ranges</u></b></h1>$44,547.00 - $60,775.00<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>This range is based on the qualifications necessary for the position, including experience, training, and other considerations permitted by law. Factors that may be used when making an offer may include a candidate’s skills, experience, and geographic location, the expected quality and quantity of work, and internal pay alignment, as needed. Most candidates will start in the bottom half of the pay range. The upper end of the range will generally be reserved for candidates with extensive experience. An employee’s pay history will not be a contributing factor where prohibited by local law. In addition to monetary compensation, we offer benefits, including <span><span><span><span><span><span><span><span class=\"WCO0\">Medical/Dental/Vision</span></span></span></span></span></span></span></span></span> insurance and Company-matching 401(k) in addition to other programs and perks.</p><p style=\"text-align:inherit\"></p><p><span>TruGreen is committed to Diversity and Inclusion. We encourage diverse candidates to apply to this position.</span><br /><span> </span><br /><span>We are an Equal Opportunity/Affirmative Action Employer - Minorities/Females/Protected Veterans/Individuals with Disabilities. To learn more, please visit<span> </span></span><a href=\"https://www.trugreenjobs.com/eeo-is-the-law\" target=\"_blank\">EEOC/EEO | TruGreen (trugreenjobs.com</a><span>).</span><br /> </p><p><span> </span><br /><span>California Residents: When you express interest in or apply for a job with TruGreen Limited Partnership, we collect personal information about you, potentially including personal identifiers, contact information, protected classifications, pre-hire information, professional or employment-related information, education history, and/or medical information, for the following business purposes: to comply with state and federal law and regulations requiring employers to maintain certain records; to evaluate your job application and candidacy for employment; and to obtain and verify background checks (including criminal and motor vehicle records), pre-employment drug testing, and references.</span></p><p></p><p></p><p><span>Massachusetts Residents: It is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability.</span></p><p><br /><span> </span><br /><span>TruGreen performs pre-employment testing.</span><br /><span> </span><br /><span>To view our disclaimer,<span> </span></span><a href=\"https://www.trugreenjobs.com/us/en/disclaimer\" target=\"_blank\">https://trugreenjobs.com/us/en/disclaimer</a></p></div>",
+   "companyID": "PIJ-api.paradox.ai-15147-142797-53834",
+   "companyName": "api.paradox.ai-TR",
+   "brandName": "TruGreen",
+   "locations": [
+    {
+     "zipCode": "30168",
+     "locationID": "22547388",
+     "locationName": "Austell GA Branch",
+     "streetAddress": "8145 Troon Circle",
+     "city": "Austell",
+     "state": "Georgia",
+     "stateAbbr": "GA",
+     "address1": "",
+     "address2": "",
+     "country": "United States",
+     "countryAbbr": "US",
+     "latitude": 33.7553615,
+     "longitude": -84.5675663,
+     "locationText": "8145 Troon Circle, Austell GA 30168, United States",
+     "locationParsedText": "8145 Troon Circle, Austell GA 30168, United States",
+     "isRemote": false,
+     "postalCode": "",
+     "distance": -1,
+     "sublocality": "",
+     "cityState": "Austell, Georgia",
+     "cityStateAbbr": "Austell, GA"
+    }
+   ],
+   "isRemote": false,
+   "employmentType": [
+    "Full Time"
+   ],
+   "employmentStatus": [],
+   "postingType": "1",
+   "isInternal": "false",
+   "applyURL": "https://olivia.paradox.ai/co/TruGreen6/Job?job_id=R37609_1",
+   "originalURL": "business-development-representative/job/P1-7618710-0",
+   "lang": "en",
+   "availableLanguages": [
+    "en"
+   ],
+   "commuteTimeDuration": 0,
+   "customFields": [
+    {
+     "cfKey": "cf_questionnaire",
+     "value": "QUESTIONNAIRE-3-591",
+     "key": "CF Primary External Questionnaire"
+    },
+    {
+     "cfKey": "cf_requisition_status",
+     "value": "OPEN",
+     "key": "CF Requisition Status"
+    },
+    {
+     "cfKey": "cf_job_external",
+     "value": "1",
+     "key": "CF Job Posted Externally"
+    },
+    {
+     "cfKey": "cf_wd_apply_url",
+     "value": "https://trugreen.wd1.myworkdayjobs.com/USExternalCareers/job/Austell-GA-30168/Business-Development-Representative_R37609",
+     "key": "CF Workday Apply URL"
+    },
+    {
+     "cfKey": "cf_shorten_job_id",
+     "value": "P1-7618710-0",
+     "key": "cf_shorten_job_id"
+    }
+   ],
+   "facilityName": "",
+   "jobCardExtraFields": []
+  },
+  {
+   "sourceID": "d04e08c128111f80f0beaa62a6868781",
+   "uniqueID": "PDX_TR_461EA0DC-F25A-479A-BE5E-C93842C27F84_22547513",
+   "requisitionID": "R37620",
+   "reference": "P1-7635731-0",
+   "title": "Business Development Representative",
+   "description": "<div class='description'>12860 Jess Pirtle Blvd, Sugarland, Texas 77478<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><i>TruGreen <span>accepts applications on an ongoing basis.</span></i></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><h1><b><u>Job Description</u></b></h1><p> </p><p> </p><p>TruGreen is committed to providing personalized attention for our associates. We focus on developing our people by building proud, dynamic teams while helping associates reach their personal and professional goals. We continuously strive to make TruGreen an employer of choice and \"a great place to work!\"</p><p></p><p><b>Position Overview</b><br /> </p><p>Professional business-to-business (B2B) sales position responsible for achieving sales goals and executing sales plans within an assigned territory. Generates and secures new sales in a professional environment by calling on and prospecting with property management firms, as well as large corporations and sports related facilities. This role typically achieves and manages a portfolio  within a local, one branch territory, consisting of annual total revenues of approximately $500K to $800K.</p><p></p><p><b>Responsibilities</b></p><ul><li><p>Achieves sales goals and executes sales plans to small to large businesses such as property managers, school systems, sport facilities, government facilities, restaurant, banks or any company in need of superior lawn care products/services.</p></li><li><p>Presents proposals for lawncare services and programs along with obtaining long term contracts.</p></li><li><p>Generates new business to business sales revenue by prospecting and adding new commercial customers.</p></li><li><p>Negotiates price and design by using company provided guidelines and technology/CRM.</p></li><li><p>Generates leads through utilizing a CRM system to manage projects and opportunities, contact information, forecasting reports, etc.</p></li><li><p>Project management duties within branch, including coordinating with local branch management and service team.</p></li></ul><p></p><p><b>Competencies</b></p><ul><li><p><b><u>Business Insight</u></b> -  Applying knowledge of business and the marketplace to advance the organization's goals.</p></li><li><p><b><u>Communicates Effectively</u></b> - Developing and delivering multi-mode communications that convey a clear understanding of the needs of different audiences.</p></li><li><p><b><u>Interpersonal Savvy</u></b> -  Relating openly and comfortably with diverse groups of people.</p></li><li><p><b><u>Being Resilient</u></b> – Rebounding from setbacks and adversity when facing difficult situations.</p></li><li><p><b><u>Manages Complexity</u></b> – Making sense of complex, high quantity, and sometimes contradictory information to effectively solve problems.</p></li><li><p><b><u>Customer Focus</u></b> – Building strong customer relationships and delivering customer-centric solutions.</p></li></ul><p></p><p><b>Education and Experience Requirements</b></p><ul><li><p>Preferred Bachelor's degree (BS/BA) from a four-year college or university or related work experience</p></li><li><p>Preferred previous sales experience, proven sales track record, industry or internal company related experience.</p></li><li><p>Previous business-to-business (B2B) sales experience preferred.</p></li><li><p>Landscaping, lawncare, tree and shrub or pest experience a PLUS</p></li><li><p>Valid Driver’s License Required</p></li></ul><p></p><p><b>Knowledge, Skills, and Abilities</b></p><ul><li><p>Knowledge of the organizations products and/or services</p></li><li><p>Demonstrated consultative selling abilities</p></li><li><p>Ability to collaborate and influence internal and external decision makers</p></li><li><p>Ability to complete reports, business correspondence, and procedure manuals</p></li><li><p>General computer knowledge, efficiencies and understanding to include Excel, Word, Power  Point, CRM platform, Outlook/Office 365</p></li><li><p>Ability to execute prospecting strategies for discovering and closing new accounts</p></li><li><p>Excellent interpersonal communication skills with internal associates and external customers</p></li></ul><p></p><p><b>Physical Demands & Working Conditions</b><br /> </p><p>The physical demands described here are representative of those that must be met by an employee to successfully perform the essential functions of this job. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions.<br /> </p><p><b>Regularly required to:</b></p><ul><li><p>Sit, stand and walk</p></li><li><p>Use hands and arms to handle, feel or reach</p></li><li><p>Speak and hear</p></li><li><p>Use close vision abilities</p></li></ul><p></p><p><b>Occasionally required to:</b></p><ul><li><p>Lift or move up to 25 lbs</p></li><li><p>Stoop, kneel, crouch or crawl</p></li></ul><p></p><p>The work environment characteristics described here are representative of those an employee encounters while performing the essential functions of this job.</p><ul><li><p>Noise level: Low to moderate</p></li><li><p>Adverse Conditions: Minimal</p></li></ul><p> </p><p> </p><p style=\"text-align:left\"><span>Ability to speak, read and write fluently in English is required. </span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>You MUST BE physically located in the United States while performing this job.</span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><i>TruGreen is proud to affirm our commitment to hiring veterans. We recognize and appreciate the exceptional skills, dedication, and leadership that veterans bring to the workforce. By fostering an inclusive and diverse environment, we aim to leverage the unique experiences of veterans, creating a richer, more dynamic workplace.</i></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><h1><b><u>Pay Ranges</u></b></h1>$56,128.00 - $72,165.00<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>This range is based on the qualifications necessary for the position, including experience, training, and other considerations permitted by law. Factors that may be used when making an offer may include a candidate’s skills, experience, and geographic location, the expected quality and quantity of work, and internal pay alignment, as needed. Most candidates will start in the bottom half of the pay range. The upper end of the range will generally be reserved for candidates with extensive experience. An employee’s pay history will not be a contributing factor where prohibited by local law. In addition to monetary compensation, we offer benefits, including <span><span><span><span><span><span><span><span class=\"WCO0\">Medical/Dental/Vision</span></span></span></span></span></span></span></span></span> insurance and Company-matching 401(k) in addition to other programs and perks.</p><p style=\"text-align:inherit\"></p><p><span>TruGreen is committed to Diversity and Inclusion. We encourage diverse candidates to apply to this position.</span><br /><span> </span><br /><span>We are an Equal Opportunity/Affirmative Action Employer - Minorities/Females/Protected Veterans/Individuals with Disabilities. To learn more, please visit<span> </span></span><a href=\"https://www.trugreenjobs.com/eeo-is-the-law\" target=\"_blank\">EEOC/EEO | TruGreen (trugreenjobs.com</a><span>).</span><br /> </p><p><span> </span><br /><span>California Residents: When you express interest in or apply for a job with TruGreen Limited Partnership, we collect personal information about you, potentially including personal identifiers, contact information, protected classifications, pre-hire information, professional or employment-related information, education history, and/or medical information, for the following business purposes: to comply with state and federal law and regulations requiring employers to maintain certain records; to evaluate your job application and candidacy for employment; and to obtain and verify background checks (including criminal and motor vehicle records), pre-employment drug testing, and references.</span></p><p></p><p></p><p><span>Massachusetts Residents: It is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability.</span></p><p><br /><span> </span><br /><span>TruGreen performs pre-employment testing.</span><br /><span> </span><br /><span>To view our disclaimer,<span> </span></span><a href=\"https://www.trugreenjobs.com/us/en/disclaimer\" target=\"_blank\">https://trugreenjobs.com/us/en/disclaimer</a></p></div>",
+   "companyID": "PIJ-api.paradox.ai-15147-142797-53834",
+   "companyName": "api.paradox.ai-TR",
+   "brandName": "TruGreen",
+   "locations": [
+    {
+     "zipCode": "77478",
+     "locationID": "22547513",
+     "locationName": "Sugarland TX Branch",
+     "streetAddress": "12860 Jess Pirtle Blvd",
+     "city": "Sugarland",
+     "state": "Texas",
+     "stateAbbr": "TX",
+     "address1": "",
+     "address2": "",
+     "country": "United States",
+     "countryAbbr": "US",
+     "latitude": 29.637755,
+     "longitude": -95.6087646,
+     "locationText": "12860 Jess Pirtle Blvd, Sugarland TX 77478, United States",
+     "locationParsedText": "12860 Jess Pirtle Blvd, Sugarland TX 77478, United States",
+     "isRemote": false,
+     "postalCode": "",
+     "distance": -1,
+     "sublocality": "",
+     "cityState": "Sugarland, Texas",
+     "cityStateAbbr": "Sugarland, TX"
+    }
+   ],
+   "isRemote": false,
+   "employmentType": [
+    "Full Time"
+   ],
+   "employmentStatus": [],
+   "postingType": "1",
+   "isInternal": "false",
+   "applyURL": "https://olivia.paradox.ai/co/TruGreen6/Job?job_id=R37620_1",
+   "originalURL": "business-development-representative/job/P1-7635731-0",
+   "lang": "en",
+   "availableLanguages": [
+    "en"
+   ],
+   "commuteTimeDuration": 0,
+   "customFields": [
+    {
+     "cfKey": "cf_questionnaire",
+     "value": "QUESTIONNAIRE-3-591",
+     "key": "CF Primary External Questionnaire"
+    },
+    {
+     "cfKey": "cf_requisition_status",
+     "value": "OPEN",
+     "key": "CF Requisition Status"
+    },
+    {
+     "cfKey": "cf_job_external",
+     "value": "1",
+     "key": "CF Job Posted Externally"
+    },
+    {
+     "cfKey": "cf_wd_apply_url",
+     "value": "https://trugreen.wd1.myworkdayjobs.com/USExternalCareers/job/Sugarland-TX-77478/Business-Development-Representative_R37620",
+     "key": "CF Workday Apply URL"
+    },
+    {
+     "cfKey": "cf_shorten_job_id",
+     "value": "P1-7635731-0",
+     "key": "cf_shorten_job_id"
+    }
+   ],
+   "facilityName": "",
+   "jobCardExtraFields": []
+  },
+  {
+   "sourceID": "bb590e41fdb3ba6d5f0e25710d15a366",
+   "uniqueID": "PDX_TR_49AFAC4B-A5CA-4030-ACBB-0C340AC85795_22547462",
+   "requisitionID": "R35967",
+   "reference": "P1-7183859-0",
+   "title": "Business Development Representative",
+   "description": "<div class='description'>102171<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>16 Progress Ave, Chelmsford, Massachusetts 01824<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><i>TruGreen <span>accepts applications on an ongoing basis.</span></i></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><h2><b><u>Job Description</u></b></h2><p>Professional B2B (business-to-business) sales position responsible for achieving sales goals and executing sales plans within an assigned territory. Generate and secure new sales in a professional environment by calling on and prospecting with property management firms, as well as large corporations and sports related facilities. This role typically achieves and manages a portfolio consisting of local accounts with annual total revenues of $500K or less.</p><p></p><p><b>Responsibilities</b></p><ul><li><p>Achieves sales goals and executes sales plans to small to large businesses such as property managers, school systems, sport facilities, government facilities, restaurant, banks or any company in need of superior lawn care products/services</p></li><li><p>Presents Proposals for lawncare services and programs along with obtaining long term contracts</p></li><li><p>Generates new business to business (B2B) sales revenue by prospecting and adding new commercial customers</p></li><li><p>Negotiates price and design by using company provided guidelines and technology/CRM</p></li><li><p>Generates leads through utilizing a CRM system to manage projects and opportunities, contact information, forecasting reports, etc.</p></li><li><p>Project management duties within branch, including coordinating with local branch management and service team</p></li></ul><p></p><p><b>Competencies</b></p><ul><li><p><b>Customer Focus:</b> Building strong customer relationships and delivering customer-centric solutions.​</p></li><li><p><b>Accountability:</b> Holding self and others accountable to meet commitments.​</p></li><li><p><b>Action Oriented: </b>Taking on new opportunities and tough challenges with a sense of urgency, high energy, and enthusiasm​</p></li><li><p><b>Collaborates:</b>  Building partnerships and working with others to meet shared objectives.​</p></li><li><p><b>Directs Work:</b> Providing direction, delegating, and removing obstacles to get work done.​</p></li><li><p><b>Basic Organization:</b> Demonstrates an efficient and orderly approach to workflow tasks.<br /> </p></li></ul><p><b>Education and Experience Requirements</b></p><ul><li><p>Preferred Bachelor's degree (BS/BA) from a four-year college or university or related work experience.</p></li><li><p>Preferred previous sales experience, proven sales track record, industry or internal company related experience.</p></li><li><p>0 – 1 years of B2B sales experience preferred.</p></li><li><p>Landscaping, lawncare, tree and shrub or pest experience a PLUS.</p></li><li><p>Valid Driver’s License Required.</p></li></ul><p></p><p><b>Knowledge, Skills, and Abilities</b></p><ul><li><p>Knowledge of the organizations products and/or services</p></li><li><p>Demonstrated consultative selling abilities</p></li><li><p>Ability to collaborate and influence internal and external decision makers</p></li><li><p>Ability to complete reports, business correspondence, and procedure manuals</p></li><li><p>General computer knowledge, efficiencies and understanding to include Excel, Word, Power Point, CRM platform, Outlook/Office 365</p></li><li><p>Ability to execute prospecting strategies for discovering and closing new accounts</p></li><li><p>Excellent interpersonal communication skills with internal associates and external customers</p></li></ul><p></p><p><b>Physical Demands & Working Conditions</b><br /> </p><p>The physical demands described here are representative of those that must be met by an employee to successfully perform the essential functions of this job. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions.<br /> </p><p><b>Regularly required to:</b></p><ul><li><p>Sit, stand and walk</p></li><li><p>Use hands and arms to handle, feel or reach</p></li><li><p>Speak and hear</p></li><li><p>Use close vision abilities<br /> </p></li></ul><p><b>Occasionally required to:</b></p><ul><li><p>Lift or move up to 25 lbs</p></li><li><p>Stoop, kneel, crouch or crawl</p></li></ul><p></p><p>The work environment characteristics described here are representative of those an employee encounters while performing the essential functions of this job.<br /> </p><p><b>Noise level</b></p><ul><li><p>Low to moderate<br /> </p></li></ul><p><b>Adverse Conditions</b></p><ul><li><p>Minimal</p></li></ul><div><p></p></div><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>Ability to speak, read and write fluently in English is required. </span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>You MUST BE physically located in the United States while performing this job.</span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><i>TruGreen is proud to affirm our commitment to hiring veterans. We recognize and appreciate the exceptional skills, dedication, and leadership that veterans bring to the workforce. By fostering an inclusive and diverse environment, we aim to leverage the unique experiences of veterans, creating a richer, more dynamic workplace.</i></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><h1><b><u>Pay Ranges</u></b></h1>$42,002.00 - $75,602.00<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>This range is based on the qualifications necessary for the position, including experience, training, and other considerations permitted by law. Factors that may be used when making an offer may include a candidate’s skills, experience, and geographic location, the expected quality and quantity of work, and internal pay alignment, as needed. Most candidates will start in the bottom half of the pay range. The upper end of the range will generally be reserved for candidates with extensive experience. An employee’s pay history will not be a contributing factor where prohibited by local law. In addition to monetary compensation, we offer benefits, including <span><span><span><span><span><span><span><span class=\"WCO0\">Medical/Dental/Vision</span></span></span></span></span></span></span></span></span> insurance and Company-matching 401(k) in addition to other programs and perks.</p><p style=\"text-align:inherit\"></p><p><span>TruGreen is committed to Diversity and Inclusion. We encourage diverse candidates to apply to this position.</span><br /><span> </span><br /><span>We are an Equal Opportunity/Affirmative Action Employer - Minorities/Females/Protected Veterans/Individuals with Disabilities. To learn more, please visit<span> </span></span><a href=\"https://www.trugreenjobs.com/eeo-is-the-law\" target=\"_blank\">EEOC/EEO | TruGreen (trugreenjobs.com</a><span>).</span><br /> </p><p><span> </span><br /><span>California Residents: When you express interest in or apply for a job with TruGreen Limited Partnership, we collect personal information about you, potentially including personal identifiers, contact information, protected classifications, pre-hire information, professional or employment-related information, education history, and/or medical information, for the following business purposes: to comply with state and federal law and regulations requiring employers to maintain certain records; to evaluate your job application and candidacy for employment; and to obtain and verify background checks (including criminal and motor vehicle records), pre-employment drug testing, and references.</span></p><p></p><p></p><p><span>Massachusetts Residents: It is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability.</span></p><p><br /><span> </span><br /><span>TruGreen performs pre-employment testing.</span><br /><span> </span><br /><span>To view our disclaimer,<span> </span></span><a href=\"https://www.trugreenjobs.com/us/en/disclaimer\" target=\"_blank\">https://trugreenjobs.com/us/en/disclaimer</a></p></div>",
+   "companyID": "PIJ-api.paradox.ai-15147-142797-53834",
+   "companyName": "api.paradox.ai-TR",
+   "brandName": "TruGreen",
+   "locations": [
+    {
+     "zipCode": "01824",
+     "locationID": "22547462",
+     "locationName": "Boston MA North Branch",
+     "streetAddress": "16 Progress Ave",
+     "city": "Chelmsford",
+     "state": "Massachusetts",
+     "stateAbbr": "MA",
+     "address1": "",
+     "address2": "",
+     "country": "United States",
+     "countryAbbr": "US",
+     "latitude": 42.598243,
+     "longitude": -71.3236896,
+     "locationText": "16 Progress Ave, Chelmsford MA 01824, United States",
+     "locationParsedText": "16 Progress Ave, Chelmsford MA 01824, United States",
+     "isRemote": false,
+     "postalCode": "",
+     "distance": -1,
+     "sublocality": "",
+     "cityState": "Chelmsford, Massachusetts",
+     "cityStateAbbr": "Chelmsford, MA"
+    }
+   ],
+   "isRemote": false,
+   "employmentType": [
+    "Full Time"
+   ],
+   "employmentStatus": [],
+   "postingType": "1",
+   "isInternal": "false",
+   "applyURL": "https://olivia.paradox.ai/co/TruGreen6/Job?job_id=R35967_1",
+   "originalURL": "business-development-representative/job/P1-7183859-0",
+   "lang": "en",
+   "availableLanguages": [
+    "en"
+   ],
+   "commuteTimeDuration": 0,
+   "customFields": [
+    {
+     "cfKey": "cf_questionnaire",
+     "value": "QUESTIONNAIRE-3-591",
+     "key": "CF Primary External Questionnaire"
+    },
+    {
+     "cfKey": "cf_requisition_status",
+     "value": "OPEN",
+     "key": "CF Requisition Status"
+    },
+    {
+     "cfKey": "cf_job_external",
+     "value": "1",
+     "key": "CF Job Posted Externally"
+    },
+    {
+     "cfKey": "cf_wd_apply_url",
+     "value": "https://trugreen.wd1.myworkdayjobs.com/USExternalCareers/job/Chelmsford-MA-01824/Business-Development-Representative_R35967",
+     "key": "CF Workday Apply URL"
+    },
+    {
+     "cfKey": "cf_shorten_job_id",
+     "value": "P1-7183859-0",
+     "key": "cf_shorten_job_id"
+    }
+   ],
+   "facilityName": "",
+   "jobCardExtraFields": []
+  },
+  {
+   "sourceID": "4040e221ad2f5b877b46ec10316b554c",
+   "uniqueID": "PDX_TR_596D2D98-56E4-441E-810F-6CD618C2EF64_22547377",
+   "requisitionID": "R35965",
+   "reference": "P1-7183860-0",
+   "title": "Business Development Representative",
+   "description": "<div class='description'>102171<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>5605 Florida Mining Blvd, Jacksonville, Florida 32257<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><i>TruGreen <span>accepts applications on an ongoing basis.</span></i></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><h2><b><u>Job Description</u></b></h2><p>Professional B2B (business-to-business) sales position responsible for achieving sales goals and executing sales plans within an assigned territory. Generate and secure new sales in a professional environment by calling on and prospecting with property management firms, as well as large corporations and sports related facilities. This role typically achieves and manages a portfolio consisting of local accounts with annual total revenues of $500K or less.</p><p></p><p><b>Responsibilities</b></p><ul><li><p>Achieves sales goals and executes sales plans to small to large businesses such as property managers, school systems, sport facilities, government facilities, restaurant, banks or any company in need of superior lawn care products/services</p></li><li><p>Presents Proposals for lawncare services and programs along with obtaining long term contracts</p></li><li><p>Generates new business to business (B2B) sales revenue by prospecting and adding new commercial customers</p></li><li><p>Negotiates price and design by using company provided guidelines and technology/CRM</p></li><li><p>Generates leads through utilizing a CRM system to manage projects and opportunities, contact information, forecasting reports, etc.</p></li><li><p>Project management duties within branch, including coordinating with local branch management and service team</p></li></ul><p></p><p><b>Competencies</b></p><ul><li><p><b>Customer Focus:</b> Building strong customer relationships and delivering customer-centric solutions.​</p></li><li><p><b>Accountability:</b> Holding self and others accountable to meet commitments.​</p></li><li><p><b>Action Oriented: </b>Taking on new opportunities and tough challenges with a sense of urgency, high energy, and enthusiasm​</p></li><li><p><b>Collaborates:</b>  Building partnerships and working with others to meet shared objectives.​</p></li><li><p><b>Directs Work:</b> Providing direction, delegating, and removing obstacles to get work done.​</p></li><li><p><b>Basic Organization:</b> Demonstrates an efficient and orderly approach to workflow tasks.<br /> </p></li></ul><p><b>Education and Experience Requirements</b></p><ul><li><p>Preferred Bachelor's degree (BS/BA) from a four-year college or university or related work experience.</p></li><li><p>Preferred previous sales experience, proven sales track record, industry or internal company related experience.</p></li><li><p>0 – 1 years of B2B sales experience preferred.</p></li><li><p>Landscaping, lawncare, tree and shrub or pest experience a PLUS.</p></li><li><p>Valid Driver’s License Required.</p></li></ul><p></p><p><b>Knowledge, Skills, and Abilities</b></p><ul><li><p>Knowledge of the organizations products and/or services</p></li><li><p>Demonstrated consultative selling abilities</p></li><li><p>Ability to collaborate and influence internal and external decision makers</p></li><li><p>Ability to complete reports, business correspondence, and procedure manuals</p></li><li><p>General computer knowledge, efficiencies and understanding to include Excel, Word, Power Point, CRM platform, Outlook/Office 365</p></li><li><p>Ability to execute prospecting strategies for discovering and closing new accounts</p></li><li><p>Excellent interpersonal communication skills with internal associates and external customers</p></li></ul><p></p><p><b>Physical Demands & Working Conditions</b><br /> </p><p>The physical demands described here are representative of those that must be met by an employee to successfully perform the essential functions of this job. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions.<br /> </p><p><b>Regularly required to:</b></p><ul><li><p>Sit, stand and walk</p></li><li><p>Use hands and arms to handle, feel or reach</p></li><li><p>Speak and hear</p></li><li><p>Use close vision abilities<br /> </p></li></ul><p><b>Occasionally required to:</b></p><ul><li><p>Lift or move up to 25 lbs</p></li><li><p>Stoop, kneel, crouch or crawl</p></li></ul><p></p><p>The work environment characteristics described here are representative of those an employee encounters while performing the essential functions of this job.<br /> </p><p><b>Noise level</b></p><ul><li><p>Low to moderate<br /> </p></li></ul><p><b>Adverse Conditions</b></p><ul><li><p>Minimal</p></li></ul><div><p></p></div><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>Ability to speak, read and write fluently in English is required. </span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>You MUST BE physically located in the United States while performing this job.</span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><i>TruGreen is proud to affirm our commitment to hiring veterans. We recognize and appreciate the exceptional skills, dedication, and leadership that veterans bring to the workforce. By fostering an inclusive and diverse environment, we aim to leverage the unique experiences of veterans, creating a richer, more dynamic workplace.</i></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><h1><b><u>Pay Ranges</u></b></h1>$38,183.00 - $70,639.00<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>This range is based on the qualifications necessary for the position, including experience, training, and other considerations permitted by law. Factors that may be used when making an offer may include a candidate’s skills, experience, and geographic location, the expected quality and quantity of work, and internal pay alignment, as needed. Most candidates will start in the bottom half of the pay range. The upper end of the range will generally be reserved for candidates with extensive experience. An employee’s pay history will not be a contributing factor where prohibited by local law. In addition to monetary compensation, we offer benefits, including <span><span><span><span><span><span><span><span class=\"WCO0\">Medical/Dental/Vision</span></span></span></span></span></span></span></span></span> insurance and Company-matching 401(k) in addition to other programs and perks.</p><p style=\"text-align:inherit\"></p><p><span>TruGreen is committed to Diversity and Inclusion. We encourage diverse candidates to apply to this position.</span><br /><span> </span><br /><span>We are an Equal Opportunity/Affirmative Action Employer - Minorities/Females/Protected Veterans/Individuals with Disabilities. To learn more, please visit<span> </span></span><a href=\"https://www.trugreenjobs.com/eeo-is-the-law\" target=\"_blank\">EEOC/EEO | TruGreen (trugreenjobs.com</a><span>).</span><br /> </p><p><span> </span><br /><span>California Residents: When you express interest in or apply for a job with TruGreen Limited Partnership, we collect personal information about you, potentially including personal identifiers, contact information, protected classifications, pre-hire information, professional or employment-related information, education history, and/or medical information, for the following business purposes: to comply with state and federal law and regulations requiring employers to maintain certain records; to evaluate your job application and candidacy for employment; and to obtain and verify background checks (including criminal and motor vehicle records), pre-employment drug testing, and references.</span></p><p></p><p></p><p><span>Massachusetts Residents: It is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability.</span></p><p><br /><span> </span><br /><span>TruGreen performs pre-employment testing.</span><br /><span> </span><br /><span>To view our disclaimer,<span> </span></span><a href=\"https://www.trugreenjobs.com/us/en/disclaimer\" target=\"_blank\">https://trugreenjobs.com/us/en/disclaimer</a></p></div>",
+   "companyID": "PIJ-api.paradox.ai-15147-142797-53834",
+   "companyName": "api.paradox.ai-TR",
+   "brandName": "TruGreen",
+   "locations": [
+    {
+     "zipCode": "32257",
+     "locationID": "22547377",
+     "locationName": "Jacksonville FL East Branch",
+     "streetAddress": "5605 Florida Mining Blvd",
+     "city": "Jacksonville",
+     "state": "Florida",
+     "stateAbbr": "FL",
+     "address1": "",
+     "address2": "",
+     "country": "United States",
+     "countryAbbr": "US",
+     "latitude": 30.1865869,
+     "longitude": -81.5727138,
+     "locationText": "5605 Florida Mining Blvd, Jacksonville FL 32257, United States",
+     "locationParsedText": "5605 Florida Mining Blvd, Jacksonville FL 32257, United States",
+     "isRemote": false,
+     "postalCode": "",
+     "distance": -1,
+     "sublocality": "",
+     "cityState": "Jacksonville, Florida",
+     "cityStateAbbr": "Jacksonville, FL"
+    }
+   ],
+   "isRemote": false,
+   "employmentType": [
+    "Full Time"
+   ],
+   "employmentStatus": [],
+   "postingType": "1",
+   "isInternal": "false",
+   "applyURL": "https://olivia.paradox.ai/co/TruGreen6/Job?job_id=R35965_1",
+   "originalURL": "business-development-representative/job/P1-7183860-0",
+   "lang": "en",
+   "availableLanguages": [
+    "en"
+   ],
+   "commuteTimeDuration": 0,
+   "customFields": [
+    {
+     "cfKey": "cf_questionnaire",
+     "value": "QUESTIONNAIRE-3-591",
+     "key": "CF Primary External Questionnaire"
+    },
+    {
+     "cfKey": "cf_requisition_status",
+     "value": "OPEN",
+     "key": "CF Requisition Status"
+    },
+    {
+     "cfKey": "cf_job_external",
+     "value": "1",
+     "key": "CF Job Posted Externally"
+    },
+    {
+     "cfKey": "cf_wd_apply_url",
+     "value": "https://trugreen.wd1.myworkdayjobs.com/USExternalCareers/job/Jacksonville-FL-32257/Business-Development-Representative_R35965",
+     "key": "CF Workday Apply URL"
+    },
+    {
+     "cfKey": "cf_shorten_job_id",
+     "value": "P1-7183860-0",
+     "key": "cf_shorten_job_id"
+    }
+   ],
+   "facilityName": "",
+   "jobCardExtraFields": []
+  },
+  {
+   "sourceID": "93b5d9eab47e8c6c58d31a006359c89a",
+   "uniqueID": "PDX_TR_7BD7DCED-98DB-49AB-8189-FA84C60AEC9D_22547562",
+   "requisitionID": "R37603",
+   "reference": "P1-7618712-0",
+   "title": "Business Development Representative",
+   "description": "<div class='description'>22712 Commerce Center Ct, Dulles, Virginia 20166<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><i>TruGreen <span>accepts applications on an ongoing basis.</span></i></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><h1><b><u>Job Description</u></b></h1><p> </p><p> </p><p>Professional B2B (business-to-business) sales position responsible for achieving sales goals and executing sales plans within an assigned territory. Generate and secure new sales in a professional environment by calling on and prospecting with property management firms, as well as large corporations and sports related facilities. This role typically achieves and manages a portfolio consisting of local accounts with annual total revenues of $500K or less.</p><p></p><p><b>Responsibilities</b></p><ul><li><p>Achieves sales goals and executes sales plans to small to large businesses such as property managers, school systems, sport facilities, government facilities, restaurant, banks or any company in need of superior lawn care products/services</p></li><li><p>Presents Proposals for lawncare services and programs along with obtaining long term contracts</p></li><li><p>Generates new business to business (B2B) sales revenue by prospecting and adding new commercial customers</p></li><li><p>Negotiates price and design by using company provided guidelines and technology/CRM</p></li><li><p>Generates leads through utilizing a CRM system to manage projects and opportunities, contact information, forecasting reports, etc.</p></li><li><p>Project management duties within branch, including coordinating with local branch management and service team</p></li></ul><p></p><p><b>Competencies</b></p><ul><li><p><b>Customer Focus:</b> Building strong customer relationships and delivering customer-centric solutions.​</p></li><li><p><b>Accountability:</b> Holding self and others accountable to meet commitments.​</p></li><li><p><b>Action Oriented: </b>Taking on new opportunities and tough challenges with a sense of urgency, high energy, and enthusiasm​</p></li><li><p><b>Collaborates:</b>  Building partnerships and working with others to meet shared objectives.​</p></li><li><p><b>Directs Work:</b> Providing direction, delegating, and removing obstacles to get work done.​</p></li><li><p><b>Basic Organization:</b> Demonstrates an efficient and orderly approach to workflow tasks.<br /> </p></li></ul><p><b>Education and Experience Requirements</b></p><ul><li><p>Preferred Bachelor's degree (BS/BA) from a four-year college or university or related work experience.</p></li><li><p>Preferred previous sales experience, proven sales track record, industry or internal company related experience.</p></li><li><p>0 – 1 years of B2B sales experience preferred.</p></li><li><p>Landscaping, lawncare, tree and shrub or pest experience a PLUS.</p></li><li><p>Valid Driver’s License Required.</p></li></ul><p></p><p><b>Knowledge, Skills, and Abilities</b></p><ul><li><p>Knowledge of the organizations products and/or services</p></li><li><p>Demonstrated consultative selling abilities</p></li><li><p>Ability to collaborate and influence internal and external decision makers</p></li><li><p>Ability to complete reports, business correspondence, and procedure manuals</p></li><li><p>General computer knowledge, efficiencies and understanding to include Excel, Word, Power Point, CRM platform, Outlook/Office 365</p></li><li><p>Ability to execute prospecting strategies for discovering and closing new accounts</p></li><li><p>Excellent interpersonal communication skills with internal associates and external customers</p></li></ul><p></p><p><b>Physical Demands & Working Conditions</b><br /> </p><p>The physical demands described here are representative of those that must be met by an employee to successfully perform the essential functions of this job. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions.<br /> </p><p><b>Regularly required to:</b></p><ul><li><p>Sit, stand and walk</p></li><li><p>Use hands and arms to handle, feel or reach</p></li><li><p>Speak and hear</p></li><li><p>Use close vision abilities<br /> </p></li></ul><p><b>Occasionally required to:</b></p><ul><li><p>Lift or move up to 25 lbs</p></li><li><p>Stoop, kneel, crouch or crawl</p></li></ul><p></p><p>The work environment characteristics described here are representative of those an employee encounters while performing the essential functions of this job.<br /> </p><p><b>Noise level</b></p><ul><li><p>Low to moderate<br /> </p></li></ul><p><b>Adverse Conditions</b></p><ul><li><p>Minimal</p></li></ul><div><p></p></div><p> </p><p> </p><p style=\"text-align:left\"><span>Ability to speak, read and write fluently in English is required. </span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>You MUST BE physically located in the United States while performing this job.</span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><i>TruGreen is proud to affirm our commitment to hiring veterans. We recognize and appreciate the exceptional skills, dedication, and leadership that veterans bring to the workforce. By fostering an inclusive and diverse environment, we aim to leverage the unique experiences of veterans, creating a richer, more dynamic workplace.</i></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><h1><b><u>Pay Ranges</u></b></h1>$49,002.00 - $65,802.00<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>This range is based on the qualifications necessary for the position, including experience, training, and other considerations permitted by law. Factors that may be used when making an offer may include a candidate’s skills, experience, and geographic location, the expected quality and quantity of work, and internal pay alignment, as needed. Most candidates will start in the bottom half of the pay range. The upper end of the range will generally be reserved for candidates with extensive experience. An employee’s pay history will not be a contributing factor where prohibited by local law. In addition to monetary compensation, we offer benefits, including <span><span><span><span><span><span><span><span class=\"WCO0\">Medical/Dental/Vision</span></span></span></span></span></span></span></span></span> insurance and Company-matching 401(k) in addition to other programs and perks.</p><p style=\"text-align:inherit\"></p><p><span>TruGreen is committed to Diversity and Inclusion. We encourage diverse candidates to apply to this position.</span><br /><span> </span><br /><span>We are an Equal Opportunity/Affirmative Action Employer - Minorities/Females/Protected Veterans/Individuals with Disabilities. To learn more, please visit<span> </span></span><a href=\"https://www.trugreenjobs.com/eeo-is-the-law\" target=\"_blank\">EEOC/EEO | TruGreen (trugreenjobs.com</a><span>).</span><br /> </p><p><span> </span><br /><span>California Residents: When you express interest in or apply for a job with TruGreen Limited Partnership, we collect personal information about you, potentially including personal identifiers, contact information, protected classifications, pre-hire information, professional or employment-related information, education history, and/or medical information, for the following business purposes: to comply with state and federal law and regulations requiring employers to maintain certain records; to evaluate your job application and candidacy for employment; and to obtain and verify background checks (including criminal and motor vehicle records), pre-employment drug testing, and references.</span></p><p></p><p></p><p><span>Massachusetts Residents: It is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability.</span></p><p><br /><span> </span><br /><span>TruGreen performs pre-employment testing.</span><br /><span> </span><br /><span>To view our disclaimer,<span> </span></span><a href=\"https://www.trugreenjobs.com/us/en/disclaimer\" target=\"_blank\">https://trugreenjobs.com/us/en/disclaimer</a></p></div>",
+   "companyID": "PIJ-api.paradox.ai-15147-142797-53834",
+   "companyName": "api.paradox.ai-TR",
+   "brandName": "TruGreen",
+   "locations": [
+    {
+     "zipCode": "20166",
+     "locationID": "22547562",
+     "locationName": "Dulles VA Branch",
+     "streetAddress": "22712 Commerce Center Ct",
+     "city": "Dulles",
+     "state": "Virginia",
+     "stateAbbr": "VA",
+     "address1": "",
+     "address2": "",
+     "country": "United States",
+     "countryAbbr": "US",
+     "latitude": 38.9888521,
+     "longitude": -77.4683573,
+     "locationText": "22712 Commerce Center Ct, Dulles VA 20166, United States",
+     "locationParsedText": "22712 Commerce Center Ct, Dulles VA 20166, United States",
+     "isRemote": false,
+     "postalCode": "",
+     "distance": -1,
+     "sublocality": "",
+     "cityState": "Dulles, Virginia",
+     "cityStateAbbr": "Dulles, VA"
+    }
+   ],
+   "isRemote": false,
+   "employmentType": [
+    "Full Time"
+   ],
+   "employmentStatus": [],
+   "postingType": "1",
+   "isInternal": "false",
+   "applyURL": "https://olivia.paradox.ai/co/TruGreen6/Job?job_id=R37603_1",
+   "originalURL": "business-development-representative/job/P1-7618712-0",
+   "lang": "en",
+   "availableLanguages": [
+    "en"
+   ],
+   "commuteTimeDuration": 0,
+   "customFields": [
+    {
+     "cfKey": "cf_questionnaire",
+     "value": "QUESTIONNAIRE-3-591",
+     "key": "CF Primary External Questionnaire"
+    },
+    {
+     "cfKey": "cf_requisition_status",
+     "value": "OPEN",
+     "key": "CF Requisition Status"
+    },
+    {
+     "cfKey": "cf_job_external",
+     "value": "1",
+     "key": "CF Job Posted Externally"
+    },
+    {
+     "cfKey": "cf_wd_apply_url",
+     "value": "https://trugreen.wd1.myworkdayjobs.com/USExternalCareers/job/Dulles-VA-20166/Business-Development-Representative_R37603",
+     "key": "CF Workday Apply URL"
+    },
+    {
+     "cfKey": "cf_shorten_job_id",
+     "value": "P1-7618712-0",
+     "key": "cf_shorten_job_id"
+    }
+   ],
+   "facilityName": "",
+   "jobCardExtraFields": []
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "query": "*.recruiting.com",
+ "field": "domain",
+ "date": "2026-11-16",
+ "result": [
+  {
+   "value": "ghs.googlehosted.com",
+   "wildcard": false,
+   "active": true,
+   "name": "calendar.recruiting.com",
+   "first_seen": 1763314167,
+   "last_visit": 1792000433
+  },
+  {
+   "value": "stmadeleinesophiescenter386.sites.paradox.ai",
+   "wildcard": false,
+   "active": true,
+   "name": "stmadeleinesophies.recruiting.com",
+   "first_seen": 1760677417,
+   "last_visit": 1793676381
+  },
+  {
+   "value": "wocssunsetkailanai526.sites.paradox.ai",
+   "wildcard": false,
+   "active": true,
+   "name": "internalwocssunsetlanaikai.recruiting.com",
+   "first_seen": 1760299430,
+   "last_visit": 1787878698
+  },
+  {
+   "value": "wocswendys532.sites.paradox.ai",
+   "wildcard": false,
+   "active": true,
+   "name": "internalwocswendys.recruiting.com",
+   "first_seen": 1759876995,
+   "last_visit": 1786943831
+  },
+  {
+   "value": "ymcaofgreaterlongbeach393.sites.paradox.ai",
+   "wildcard": false,
+   "active": true,
+   "name": "lbymca.recruiting.com",
+   "first_seen": 1759271145,
+   "last_visit": 1794785095
+  }
+ ],
+ "size": 5
+}

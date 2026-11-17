@@ -1,0 +1,129 @@
+{
+  "jobs": {
+    "JR-0107197": {
+      "id": "JR-0107197",
+      "title": "LLM Engineer - Paradox",
+      "location": "Israel, Tel Aviv",
+      "country": "Israel",
+      "remote": "Flex",
+      "time_type": "Full Time",
+      "posted_on": "2026-09-23",
+      "can_apply": true,
+      "url": "https://workday.wd5.myworkdayjobs.com/Workday/job/Israel-Tel-Aviv/LLM-Engineer_JR-0107197",
+      "first_seen": "2026-11-11T12:59:05.159Z",
+      "last_seen": "2026-11-11T13:05:10.119Z",
+      "miss_count": 0,
+      "status": "active"
+    },
+    "JR-0108727": {
+      "id": "JR-0108727",
+      "title": "Senior AI Engineer - Da Nang (Paradox)",
+      "location": "VNM.Da Nang",
+      "country": "Vietnam",
+      "remote": "Flex",
+      "time_type": "Full Time",
+      "posted_on": "2026-08-10",
+      "can_apply": true,
+      "url": "https://workday.wd5.myworkdayjobs.com/Workday/job/VNMDa-Nang/Senior-AI-Engineer---Da-Nang--Paradox-_JR-0108727",
+      "first_seen": "2026-11-11T12:59:05.159Z",
+      "last_seen": "2026-11-11T13:05:10.119Z",
+      "miss_count": 0,
+      "status": "active"
+    },
+    "JR-0110312": {
+      "id": "JR-0110312",
+      "title": "Sr Associate Paradox Technical Support Engineer",
+      "location": "IND.Pune",
+      "country": "India",
+      "remote": "Flex",
+      "time_type": "Full Time",
+      "posted_on": "2026-10-08",
+      "can_apply": true,
+      "url": "https://workday.wd5.myworkdayjobs.com/Workday/job/INDPune/Sr-Associate-Paradox-Technical-Support-Engineer_JR-0110312",
+      "first_seen": "2026-11-11T12:59:05.159Z",
+      "last_seen": "2026-11-11T13:05:10.119Z",
+      "miss_count": 0,
+      "status": "active"
+    },
+    "JR-0108605": {
+      "id": "JR-0108605",
+      "title": "Senior Software Development Engineer - Da Nang (Paradox)",
+      "location": "VNM.Da Nang",
+      "country": "Vietnam",
+      "remote": "Flex",
+      "time_type": "Full Time",
+      "posted_on": "2026-10-12",
+      "can_apply": true,
+      "url": "https://workday.wd5.myworkdayjobs.com/Workday/job/VNMDa-Nang/Sr-Software-Development-Engineer---Da-Nang--Paradox-_JR-0108605",
+      "first_seen": "2026-11-11T12:59:05.159Z",
+      "last_seen": "2026-11-11T13:05:10.119Z",
+      "miss_count": 0,
+      "status": "active"
+    },
+    "JR-0107621": {
+      "id": "JR-0107621",
+      "title": "Senior Software Development Engineer (Back-end) - Paradox - Da Nang",
+      "location": "VNM.Da Nang",
+      "country": "Vietnam",
+      "remote": "Flex",
+      "time_type": "Full Time",
+      "posted_on": "2026-06-30",
+      "can_apply": true,
+      "url": "https://workday.wd5.myworkdayjobs.com/Workday/job/VNMDa-Nang/Senior-Software-Development-Engineer--Back-end----Paradox---Da-Nang_JR-0107621",
+      "first_seen": "2026-11-11T12:59:05.159Z",
+      "last_seen": "2026-11-11T13:05:10.119Z",
+      "miss_count": 0,
+      "status": "active"
+    },
+    "JR-0110944": {
+      "id": "JR-0110944",
+      "title": "Digital Project Consultant",
+      "location": "GBR, Remote",
+      "country": "",
+      "remote": "Remote",
+      "time_type": "Full Time",
+      "posted_on": "2026-11-11",
+      "can_apply": true,
+      "url": "https://workday.wd5.myworkdayjobs.com/Workday/job/GBR-Remote/Digital-Project-Consultant_JR-0110944-1",
+      "first_seen": "2026-11-11T12:59:05.159Z",
+      "last_seen": "2026-11-11T13:05:10.119Z",
+      "miss_count": 0,
+      "status": "active"
+    }
+  },
+  "crawls": [
+    {
+      "at": "2026-11-11T12:59:05.159Z",
+      "complete": true,
+      "found": 6,
+      "new": 6,
+      "updated": 0,
+      "duplicatesInCrawl": 0,
+      "missed": 0,
+      "expired": 0,
+      "reactivated": 0
+    },
+    {
+      "at": "2026-11-11T12:59:16.124Z",
+      "complete": true,
+      "found": 6,
+      "new": 0,
+      "updated": 6,
+      "duplicatesInCrawl": 0,
+      "missed": 0,
+      "expired": 0,
+      "reactivated": 0
+    },
+    {
+      "at": "2026-11-11T13:05:10.119Z",
+      "complete": true,
+      "found": 6,
+      "new": 0,
+      "updated": 6,
+      "duplicatesInCrawl": 0,
+      "missed": 0,
+      "expired": 0,
+      "reactivated": 0
+    }
+  ]
+}
